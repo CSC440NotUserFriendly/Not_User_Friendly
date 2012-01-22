@@ -3,3 +3,5 @@
 01-22-2011--Brad: Added Documents section with Collateral and deliverables.  Collateral, is simply information found from research.  Deliverables are documents created by us.
 
 01-22-2011--Brad: Created base Eclipse project for our application.  You will import this project directly into Eclipse by going to File->Import Project->GIT then following the instructions.
+
+01-22-2011--Brad: Created basic java files to serve as a template for the parser.  Also created a abstract SMIL object class that must be used for the parser to function properly.
