@@ -1,0 +1,27 @@
+<!-- Example Smil Project for release 1.0 -->
+
+<smil xmlns="http://www.w3.org/ns/SMIL">
+
+<head>
+	<layout>
+   		<root-layout  xml:id="root" title="Sample" width="500" height="500" />
+  	</layout>
+</head>
+<body>
+
+<par xml:id="par1" > 
+     <smilText xml:id="text1" begin="00.00" dur="5s" textAlign="center" top="100" textColor="black" textFontSize="46px" z-index="2">
+      This is funny
+     </smilText>
+     <img xml:id="img1" src="images/internet.jpeg" left="25" top="25" z-index="1" />
+</par>
+
+<seq>
+	<smilText xml:id="text2" textAlign="center" textColor="black" textFontSize="48px" begin="00.06" dur="5s">
+	This is even funnier!
+	</smilText>
+	<img xml:id="img2" src="images/battleshots.jpeg" dur="5s" left="25" top="25" z-index="1" />
+</seq>
+
+</body>
+</smil>

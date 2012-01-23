@@ -5,3 +5,5 @@
 01-22-2012--Brad: Created base Eclipse project for our application.  You will import this project directly into Eclipse by going to File->Import Project->GIT then following the instructions.
 
 01-22-2012--Brad: Created basic java files to serve as a template for the parser.  Also created a abstract SMIL object class that must be used for the parser to function properly.
+
+01-22-2012--Brad: Created a simple SMIL project as a good baseline requirement for our first revision.
