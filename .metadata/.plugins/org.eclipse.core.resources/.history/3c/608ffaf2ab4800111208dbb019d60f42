@@ -1,0 +1,107 @@
+package com.csc440.nuf.parser;
+
+/**
+ * CSC-440 SMIL Project
+ * 01-22-2011
+ * SMILHandler.java
+ * @author Brad Barker
+ * 
+ * This class is the bread and butter of the parser.
+ * It will interpret the XML determining object types and
+ * creating those objects to be added to the data structure.
+ * 
+ */
+
+import org.xml.sax.Attributes;
+import org.xml.sax.helpers.DefaultHandler;
+
+public class SMILHandler extends DefaultHandler {
+
+    static int timer;
+
+    @Override
+    public void startElement(String uri, String localName, String qName, Attributes att) {
+
+
+        System.out.println(timer++ + " " + qName);
+
+        if (qName.equals("root-layout")) {
+            createRootLayout(att);
+        }
+        if (qName.equals("par")) {
+            createParallel(att);
+        }
+        if (qName.equals("seq")) {
+            createSequence(att);
+        }
+        if (qName.equals("smilText")) {
+            createTextObject(att);
+        }
+        if (qName.equals("img")) {
+            createImageObject(att);
+        }
+        if (qName.equals("video")) {
+            createVideoObject(att);
+
+
+        }
+    }
+    //Testing code to print data
+    private void createTextObject(Attributes att) {
+        for(int i=0; i<att.getLength(); i++){
+            System.out.printf("%20s \t %-20s \n",
+                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
+        
+        }
+
+    }
+
+    private void createImageObject(Attributes att) {
+        for(int i=0; i<att.getLength(); i++){
+            System.out.printf("%20s \t %-20s \n",
+                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
+
+        }
+    }
+
+    private void createVideoObject(Attributes att) {
+        for(int i=0; i<att.getLength(); i++){
+            System.out.printf("%20s \t %-20s \n",
+                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
+
+        }
+    }
+
+    private void createAudioObject(Attributes att) {
+        for(int i=0; i<att.getLength(); i++){
+            System.out.printf("%20s \t %-20s \n",
+                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
+
+        }
+    }
+
+    private void createRootLayout(Attributes att) {
+        for(int i=0; i<att.getLength(); i++){
+            System.out.printf("%20s \t %-20s \n",
+                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
+
+        }
+    }
+
+    private void createParallel(Attributes att) {
+        for(int i=0; i<att.getLength(); i++){
+            System.out.printf("%20s \t %-20s \n",
+                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
+
+        }
+    }
+
+    private void createSequence(Attributes att) {
+        for(int i=0; i<att.getLength(); i++){
+            System.out.printf("%20s \t %-20s \n",
+                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
+
+        }
+    }
+}
+

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.xml.sax.Attributes"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="com.csc440.nuf.AbstractSMILObject"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
@@ -9,4 +8,10 @@
 <fullyQualifiedTypeName name="org.xml.sax.XMLReader"/>
 <fullyQualifiedTypeName name="org.xml.sax.InputSource"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="org.xml.sax.Attributes"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.csc440.nuf.WaitingQueue"/>
+<fullyQualifiedTypeName name="com.csc440.nuf.components.SMILLayout"/>
+<fullyQualifiedTypeName name="com.csc440.nuf.components.SMILParallel"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
