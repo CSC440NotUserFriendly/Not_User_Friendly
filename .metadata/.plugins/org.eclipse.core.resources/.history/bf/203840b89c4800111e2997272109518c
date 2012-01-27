@@ -1,0 +1,11 @@
+package com.csc440.nuf;
+
+public class SMILVideo extends AbstractSMILObject {
+
+	@Override
+	public void printData() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

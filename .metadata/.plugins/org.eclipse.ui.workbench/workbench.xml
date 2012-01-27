@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="34" version="2.0">
+<workbench progressCount="36" version="2.0">
 <workbenchAdvisor/>
-<window height="1036" maximized="true" width="1379" x="2560" y="-480">
+<window height="1343" width="1280" x="16" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -39,6 +39,13 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
@@ -55,18 +62,49 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/parser/SMILData.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="292" selectionOffset="32" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractSMILObject.java" partName="AbstractSMILObject.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/AbstractSMILObject.java" title="AbstractSMILObject.java" tooltip="SMILProject/src/com/csc440/nuf/AbstractSMILObject.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractSMILObject.java" partName="AbstractSMILObject.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/AbstractSMILObject.java" title="AbstractSMILObject.java" tooltip="SMILProject/src/com/csc440/nuf/AbstractSMILObject.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/AbstractSMILObject.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="434" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="478" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILWriter.java" partName="SMILWriter.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/parser/SMILWriter.java" title="SMILWriter.java" tooltip="SMILProject/src/com/csc440/nuf/parser/SMILWriter.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/parser/SMILWriter.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="115" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="195" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILImage.java" partName="SMILImage.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/SMILImage.java" title="SMILImage.java" tooltip="SMILProject/src/com/csc440/nuf/SMILImage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/SMILImage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="107" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILVideo.java" partName="SMILVideo.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/SMILVideo.java" title="SMILVideo.java" tooltip="SMILProject/src/com/csc440/nuf/SMILVideo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/SMILVideo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="106" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILText.java" partName="SMILText.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/SMILText.java" title="SMILText.java" tooltip="SMILProject/src/com/csc440/nuf/SMILText.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/SMILText.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="66" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILAudio.java" partName="SMILAudio.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/SMILAudio.java" title="SMILAudio.java" tooltip="SMILProject/src/com/csc440/nuf/SMILAudio.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/SMILAudio.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="94" selectionOffset="25" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILLayout.java" partName="SMILLayout.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/SMILLayout.java" title="SMILLayout.java" tooltip="SMILProject/src/com/csc440/nuf/SMILLayout.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/SMILLayout.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="120" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILParallel.java" partName="SMILParallel.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/SMILParallel.java" title="SMILParallel.java" tooltip="SMILProject/src/com/csc440/nuf/SMILParallel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/SMILParallel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="118" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILSequential.java" partName="SMILSequential.java" path="/Users/Brad/Documents/Not_User_Friendly/SMILProject/src/com/csc440/nuf/SMILSequential.java" title="SMILSequential.java" tooltip="SMILProject/src/com/csc440/nuf/SMILSequential.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SMILProject/src/com/csc440/nuf/SMILSequential.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="124" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (3 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -278,84 +316,18 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/parser/SMILHandler.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/parser/SMILData.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/parser/SMILWriter.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILProjectActivity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/AbstractSMILObject.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/parser/SMILWriter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/AbstractSMILObject.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/parser/SMILData.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILImage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILVideo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILText.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILAudio.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILLayout.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILParallel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SMILProject/src/com/csc440/nuf/SMILSequential.java"/>
 </editors>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="390" y="3"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="477" y="9"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="515" y="9"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="596" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="697" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="SMILWriter.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="SMILParser.java" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="SMILHandler.java" index="1">
-<position info="not_deleted" x="785" y="0"/>
-</item>
-<item historyLabel="SMILData.java" index="2">
-<position info="not_deleted" x="616" y="0"/>
-</item>
-<item historyLabel="SMILWriter.java" index="3">
-<position info="not_deleted" x="166" y="0"/>
-</item>
-<item historyLabel="SMILProjectActivity.java" index="4">
-<position info="not_deleted" x="25" y="395"/>
-</item>
-<item historyLabel="SMILWriter.java" index="3">
-<position info="not_deleted" x="115" y="0"/>
-</item>
-<item historyLabel="SMILData.java" index="2">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="SMILHandler.java" index="1">
-<position info="not_deleted" x="292" y="0"/>
-</item>
-<item historyLabel="SMILData.java" index="2">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="SMILData.java" index="2">
-<position info="not_deleted" x="594" y="0"/>
-</item>
-<item historyLabel="SMILData.java" index="2">
-<position info="not_deleted" x="616" y="0"/>
-</item>
-<item historyLabel="SMILHandler.java" index="1">
-<position info="not_deleted" x="292" y="0"/>
-</item>
-<item historyLabel="SMILWriter.java" index="3">
-<position info="not_deleted" x="115" y="0"/>
-</item>
 <item historyLabel="SMILData.java" index="2">
 <position info="not_deleted" x="616" y="0"/>
 </item>
@@ -407,7 +379,7 @@
 <item historyLabel="SMILWriter.java" index="3">
 <position info="not_deleted" x="115" y="0"/>
 </item>
-<item historyLabel="AbstractSMILObject.java" index="5">
+<item historyLabel="AbstractSMILObject.java" index="4">
 <position info="not_deleted" x="265" y="0"/>
 </item>
 <item historyLabel="SMILData.java" index="2">
@@ -416,20 +388,95 @@
 <item historyLabel="SMILHandler.java" index="1">
 <position info="not_deleted" x="560" y="0"/>
 </item>
-<item historyLabel="AbstractSMILObject.java" index="5">
+<item historyLabel="AbstractSMILObject.java" index="4">
 <position info="not_deleted" x="265" y="0"/>
 </item>
-<item historyLabel="AbstractSMILObject.java" index="5">
+<item historyLabel="AbstractSMILObject.java" index="4">
 <position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="AbstractSMILObject.java" index="5">
+<item historyLabel="AbstractSMILObject.java" index="4">
 <position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="AbstractSMILObject.java" index="5">
+<item historyLabel="AbstractSMILObject.java" index="4">
 <position info="not_deleted" x="696" y="0"/>
 </item>
-<item active="true" historyLabel="AbstractSMILObject.java" index="5">
+<item historyLabel="AbstractSMILObject.java" index="4">
 <position info="not_deleted" x="745" y="0"/>
+</item>
+<item historyLabel="SMILWriter.java" index="5">
+<position info="not_deleted" x="115" y="0"/>
+</item>
+<item historyLabel="AbstractSMILObject.java" index="6">
+<position info="not_deleted" x="478" y="0"/>
+</item>
+<item historyLabel="SMILData.java" index="7">
+<position info="not_deleted" x="32" y="292"/>
+</item>
+<item historyLabel="SMILWriter.java" index="5">
+<position info="not_deleted" x="195" y="0"/>
+</item>
+<item historyLabel="SMILImage.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SMILVideo.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SMILText.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SMILAudio.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SMILLayout.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SMILParallel.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SMILSequential.java" index="14">
+<position info="not_deleted" x="124" y="0"/>
+</item>
+<item historyLabel="SMILData.java" index="7">
+<position info="not_deleted" x="32" y="292"/>
+</item>
+<item historyLabel="SMILAudio.java" index="11">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+<item historyLabel="SMILImage.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SMILAudio.java" index="11">
+<position info="not_deleted" x="25" y="94"/>
+</item>
+<item historyLabel="SMILImage.java" index="8">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="SMILLayout.java" index="12">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+<item historyLabel="SMILParallel.java" index="13">
+<position info="not_deleted" x="122" y="0"/>
+</item>
+<item historyLabel="SMILLayout.java" index="12">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+<item historyLabel="SMILParallel.java" index="13">
+<position info="not_deleted" x="122" y="0"/>
+</item>
+<item historyLabel="SMILLayout.java" index="12">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+<item historyLabel="SMILParallel.java" index="13">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="SMILSequential.java" index="14">
+<position info="not_deleted" x="124" y="0"/>
+</item>
+<item historyLabel="SMILText.java" index="10">
+<position info="not_deleted" x="66" y="0"/>
+</item>
+<item active="true" historyLabel="SMILVideo.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -449,6 +496,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILSequential.java" tooltip="SMILProject/src/com/csc440/nuf/SMILSequential.java">
+<persistable path="/SMILProject/src/com/csc440/nuf/SMILSequential.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILParallel.java" tooltip="SMILProject/src/com/csc440/nuf/SMILParallel.java">
+<persistable path="/SMILProject/src/com/csc440/nuf/SMILParallel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILLayout.java" tooltip="SMILProject/src/com/csc440/nuf/SMILLayout.java">
+<persistable path="/SMILProject/src/com/csc440/nuf/SMILLayout.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILAudio.java" tooltip="SMILProject/src/com/csc440/nuf/SMILAudio.java">
+<persistable path="/SMILProject/src/com/csc440/nuf/SMILAudio.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILText.java" tooltip="SMILProject/src/com/csc440/nuf/SMILText.java">
+<persistable path="/SMILProject/src/com/csc440/nuf/SMILText.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILVideo.java" tooltip="SMILProject/src/com/csc440/nuf/SMILVideo.java">
+<persistable path="/SMILProject/src/com/csc440/nuf/SMILVideo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILImage.java" tooltip="SMILProject/src/com/csc440/nuf/SMILImage.java">
+<persistable path="/SMILProject/src/com/csc440/nuf/SMILImage.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMILWriter.java" tooltip="SMILProject/src/com/csc440/nuf/parser/SMILWriter.java">
 <persistable path="/SMILProject/src/com/csc440/nuf/parser/SMILWriter.java"/>
 </file>
