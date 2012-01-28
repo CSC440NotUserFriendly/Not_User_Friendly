@@ -1,0 +1,116 @@
+package com.csc440.nuf.components;
+
+import org.xml.sax.Attributes;
+
+/**
+ * CSC-440 SMIL Project
+ * 01-26-2011
+ * SMILText.java
+ * @author Brad Barker
+ * 
+ * 
+ */
+
+public class SMILText extends AbstractSMILObject {
+	
+	//If we want to modify text here then we can make this a StringBuilder.
+	private String xmlid;
+	private int duration;
+	private String textAlign;
+	private int topMargin;
+	private int leftMargin;
+	private String textColor;
+	private int textFontSize;
+	private int zIndex;
+	private String text;
+
+	public SMILText(Attributes att) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	@Override
+	public void printData() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	@Override
+	public String toString(){
+		
+		return null;
+	}
+
+	public String getXmlid() {
+		return xmlid;
+	}
+
+	public void setXmlid(String xmlid) {
+		this.xmlid = xmlid;
+	}
+
+	public String getTextAlign() {
+		return textAlign;
+	}
+
+	public void setTextAlign(String textAlign) {
+		this.textAlign = textAlign;
+	}
+
+	public int getDuration() {
+		return duration;
+	}
+
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
+	public int getTopMargin() {
+		return topMargin;
+	}
+
+	public void setTopMargin(int topMargin) {
+		this.topMargin = topMargin;
+	}
+
+	public int getLeftMargin() {
+		return leftMargin;
+	}
+
+	public void setLeftMargin(int leftMargin) {
+		this.leftMargin = leftMargin;
+	}
+
+	public String getTextColor() {
+		return textColor;
+	}
+
+	public void setTextColor(String textColor) {
+		this.textColor = textColor;
+	}
+
+	public int getTextFontSize() {
+		return textFontSize;
+	}
+
+	public void setTextFontSize(int textFontSize) {
+		this.textFontSize = textFontSize;
+	}
+
+	public int getzIndex() {
+		return zIndex;
+	}
+
+	public void setzIndex(int zIndex) {
+		this.zIndex = zIndex;
+	}
+
+
+}

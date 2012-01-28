@@ -1,6 +1,6 @@
 package com.csc440.nuf.components;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 import org.xml.sax.Attributes;
 
@@ -17,10 +17,14 @@ public class SMILParallel extends AbstractSMILObject{
 	
 	//Inheriting startTime & endTime
 	//Keep in mind the end time of one object will be the start of the next!
-	private String xmlid;
-	private ArrayList <AbstractSMILObject> parallelObjects;
+	protected String xmlid;
+	private LinkedList <AbstractSMILObject> parallelObjects;
 	
 	public SMILParallel(Attributes att){
+		super(att);
+		qName = "par";
+		
+		parallelObjects = new LinkedList<AbstractSMILObject>();
 		if(att.getLocalName(0).equals("xml:id"))
             xmlid = att.getValue(att.getLocalName(0));
 	}
@@ -28,13 +32,20 @@ public class SMILParallel extends AbstractSMILObject{
 	public void add(AbstractSMILObject o){
 		
 		//Need to do some sort of time calculations here
-		//Most likely - o.getStartTime(this.startTime);
+		if(parallelObjects.isEmpty()){
+			this.begin = o.begin;
+		}
+		//Sync consecutive objects
+		else{
+			o.begin = this.begin;
+		}
+		
 		parallelObjects.add(o);
 		
 	}
 	
-	public AbstractSMILObject[] get(){
-		return parallelObjects.toArray(null);
+	public LinkedList<AbstractSMILObject> getElements(){
+		return parallelObjects;
 	}
 	
 	public String getXmlid() {
@@ -46,12 +57,13 @@ public class SMILParallel extends AbstractSMILObject{
 	}
 
 	@Override
-	public void printData() {
-		// TODO Auto-generated method stub
+	public String printTag(){
+		StringBuilder output = new StringBuilder(super.printTag() + ">\n");
 		
+		while(!parallelObjects.isEmpty()){
+			output.append(parallelObjects.pop().printTag());
+		}
+		output.append("\n</par>\n");
+		return output.toString();
 	}
-	
-	
-	
-
 }

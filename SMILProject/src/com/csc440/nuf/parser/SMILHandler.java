@@ -20,19 +20,19 @@ import com.csc440.nuf.components.*;
 
 public class SMILHandler extends DefaultHandler {
 
-    private static WaitingQueue wQueue;
-    private static SMILLayout layout;
     private static SMILParallel par; //This holds the current parallel tag while we add to it;
     private static SMILSequential seq; //Same as par
+    private static AbstractSMILObject currentObject;
     
-    //Badda boom problem solved use the endElement method to close out the par / seq sections.
 
+    //This is called on every opening tag.
     @Override
     public void startElement(String uri, String localName, String qName, Attributes att) {
+    	
 
         if (qName.equals("root-layout")) {
         	//Not sure what to do with this yet, it can't go in the queue.
-            layout = new SMILLayout(att);
+            WaitingQueue.setLayout(new SMILLayout(att));
         }
         if (qName.equals("par")) {
         	//Can't add this until all the objects contained within it are added.
@@ -44,18 +44,49 @@ public class SMILHandler extends DefaultHandler {
             seq = new SMILSequential(att);
         }
         if (qName.equals("smilText")) {
-        	add(new SMILText(att));
+        	currentObject = new SMILText(att);
         }
         if (qName.equals("img")) {
-        	add(new SMILImage(att));
+        	currentObject = new SMILImage(att);
         }
         if (qName.equals("video")) {
-        	add(new SMILVideo(att));
+        	currentObject = new SMILVideo(att);
         }
     }
     
+    /*
+     * Kind of retarded but ch.length and length are NOT
+     * the same thing.  length is exactly the length of the visible
+     * text inside the XML tags, ch.length includes extra garbage.
+     * 
+     * This method is for text contained between opening and ending 
+     * XML tags.  Such as: <smilText>ch[]</smilText>
+     * 
+     * Maintains formatting; newlines, spaces, and tabs included
+     * 
+     */
+    @Override
+    public void characters(char[] ch, int start, int length){
+    	
+    	if(currentObject instanceof SMILText){
+    		//Only text up to length not ch.length
+    		((SMILText)currentObject).setText(new String(ch, 0, length));
+    	}
+    }
+    
+    /*
+     * Called at every ending tag.
+     * We have to wait until here to add and "forget" about out objects
+     * so that we have a chance to pick up any information between tags,
+     * such as with the text tag.
+     */
     @Override
     public void endElement(String uri, String localName, String qName){
+    	
+    	if(currentObject != null){
+    		add(currentObject);
+    	}
+    	currentObject = null;
     	
     	//End of the par section
     	if(qName.equals("par")){
@@ -69,7 +100,7 @@ public class SMILHandler extends DefaultHandler {
     	}
 
     }
-    
+    //Simply adds to the Queue but makes sure we're not inside a par/seq section
     public void add(AbstractSMILObject o){
     	if(par != null)
     		par.add(o);
@@ -79,17 +110,5 @@ public class SMILHandler extends DefaultHandler {
     		WaitingQueue.add(o);
     	
     }
-    
-    //Testing code to print data
-    @SuppressWarnings("unused")
-	private void printXMLData(Attributes att) {
-        for(int i=0; i<att.getLength(); i++){
-            System.out.printf("%20s \t %-20s \n",
-                    att.getLocalName(i), att.getValue(att.getLocalName(i)));
-        
-        }
-
-    }
-
 }
 

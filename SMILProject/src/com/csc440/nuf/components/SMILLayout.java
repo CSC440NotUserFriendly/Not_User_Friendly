@@ -33,20 +33,23 @@ public class SMILLayout {
 		
 		for(int i=0; i<att.getLength(); i++){
 			
-			if(att.getLocalName(i).equals("xml:id"))
-                    xmlid = att.getValue(att.getLocalName(i));
+			String localName = att.getLocalName(i);
+			String value = att.getValue(localName);
 			
-			else if(att.getLocalName(i).equals("title"))
-                title = att.getValue(att.getLocalName(i));
+			if(localName.equals("xml:id"))
+                    xmlid = value;
 			
-			else if(att.getLocalName(i).equals("backgroundColor"))
-                backgroundColor = att.getValue(att.getLocalName(i));
+			else if(localName.equals("title"))
+                title = value;
 			
-			else if(att.getLocalName(i).equals("height"))
-                height = Integer.parseInt(att.getValue(att.getLocalName(i)));
+			else if(localName.equals("backgroundColor"))
+                backgroundColor = value;
 			
-			else if(att.getLocalName(i).equals("width")){
-				Integer.parseInt(att.getValue(att.getLocalName(i)));
+			else if(localName.equals("height"))
+                height = getIntValue(value);
+			
+			else if(localName.equals("width")){
+				width = getIntValue(value);
 			}
                    
         }
@@ -82,6 +85,32 @@ public class SMILLayout {
 	}
 	public void setWidth(int width) {
 		this.width = width;
+	}
+	
+	public static int getIntValue(String s){
+		
+		String [] temp = s.split("\\D");
+		
+		if(temp[0].equals("")){
+			return -1; //Invalid field
+		}
+		
+		return	Integer.parseInt(temp[0]);
+		
+	}
+	
+	@Override
+	public String toString(){
+		String s = String.format("%-15s=%10s\n%-15s=%10s\n" +
+				"%-15s=%10s\n%-15s=%10d\n%-15s=%10d",
+				"XML:id", xmlid,
+				"Title", title,
+				"Background", backgroundColor,
+				"Height", height,
+				"Width", width
+				);
+		
+		return s;
 	}
 	
 

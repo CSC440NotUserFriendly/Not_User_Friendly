@@ -1,0 +1,34 @@
+
+import java.io.File;
+
+import com.csc440.nuf.*;
+import com.csc440.nuf.components.*;
+import com.csc440.nuf.parser.SMILParser;
+
+public class main {
+
+	/**
+	 * @param args
+	 */
+	
+	public static void main(String[] args) {
+		WaitingQueue q;
+		
+		SMILParser sp = new SMILParser(new File("../SMILProject/SMILPresentations/SMILSample/sample.smil"));
+		
+		
+		while(!WaitingQueue.isEmpty()){
+			AbstractSMILObject o = WaitingQueue.getNext();
+		
+			System.out.println(o.toString());
+			
+			if(o instanceof SMILParallel){
+				AbstractSMILObject [] ao = ((SMILParallel)o).get();
+				for(int i=0; i<ao.length; i++)
+					System.out.println("\t" + ao[i].toString());
+			}
+		}
+
+	}
+
+}

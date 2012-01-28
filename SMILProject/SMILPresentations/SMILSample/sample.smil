@@ -17,7 +17,7 @@
 </par>
 
 <seq>
-	<smilText xml:id="text2" textAlign="center" textColor="black" textFontSize="48px" begin="00.06" dur="5s">
+	<smilText xml:id="text2" textAlign="center" textColor="black" textFontSize="48px" begin="00.06" dur="10s">
 	This is even funnier!
 	</smilText>
 	<img xml:id="img2" src="images/battleshots.jpeg" dur="5s" left="25" top="25" z-index="1" />

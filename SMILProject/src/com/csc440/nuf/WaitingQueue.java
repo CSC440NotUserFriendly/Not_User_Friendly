@@ -20,17 +20,35 @@ import com.csc440.nuf.components.*;
 public class WaitingQueue {
 	
 	//Used as a Queue.
+	//Remember instanceof when trying to determine what kind of objects these are!
 	private static LinkedList <AbstractSMILObject> objectQ = new LinkedList<AbstractSMILObject>();
+	private static SMILLayout layout;
 	
 	public static void add(AbstractSMILObject smil){
-		
 		objectQ.push(smil);
-		Collections.sort(objectQ);
+	}
+	
+	public static AbstractSMILObject whatsNext(){
+		return objectQ.peek();
 	}
 	
 	public static AbstractSMILObject getNext(){
-		
 		return objectQ.pop();	
+	}
+	public static void prepQ(){
+		Collections.sort(objectQ);
+	}
+	
+	public static boolean isEmpty(){
+		return objectQ.isEmpty();
+	}
+
+	public static SMILLayout getLayout() {
+		return layout;
+	}
+
+	public static void setLayout(SMILLayout layout) {
+		WaitingQueue.layout = layout;
 	}
 
 }
