@@ -1,2 +1,0 @@
-# Module csc440nuf
-# RPC service class, partial path of RPC policy file
