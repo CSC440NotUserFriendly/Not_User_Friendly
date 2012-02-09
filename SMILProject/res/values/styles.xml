@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="scroll">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:layout_below">@+id/actionBar</item>
+	    <item name="android:background">@drawable/scroll_bg</item>
+	    <item name="android:paddingTop">@dimen/scroll_padding</item>
+	    <item name="android:paddingBottom">@dimen/scroll_padding</item>
+	    <item name="android:paddingLeft">@dimen/scroll_padding</item>
+	    <item name="android:paddingRight">@dimen/scroll_padding</item>
+	</style>
+	
+	<style name="scrollitem">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_below">@+id/actionBar</item>
+	    <item name="android:background">@drawable/scrollitem_btn</item>
+	    <item name="android:paddingTop">@dimen/scrollitem_padding</item>
+	    <item name="android:paddingBottom">@dimen/scrollitem_padding</item>
+	    <item name="android:paddingLeft">@dimen/scrollitem_padding</item>
+	    <item name="android:paddingRight">@dimen/scrollitem_padding</item>
+	    <item name="android:layout_marginBottom">@dimen/scrollitem_padding</item>
+	</style>
+</resources>
