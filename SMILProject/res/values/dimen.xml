@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="actionbar_corner_radius">4dip</dimen>
+    <dimen name="scrollitem_radius">15dip</dimen>
+    <dimen name="scrollitem_padding">18dip</dimen>
+    <dimen name="scroll_padding">20dip</dimen>
+    <dimen name="padding_small">10dip</dimen>
+</resources>

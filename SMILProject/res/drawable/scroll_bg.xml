@@ -1,0 +1,10 @@
+<!-- wondering about using RoundRectShape instead of Shape, may try it to see how it looks
+- - http://developer.android.com/reference/android/graphics/drawable/shapes/RoundRectShape.html
+- - but the corner tag inside the shape tag should do what I'm looking for -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@color/scroll_bg_start"
+        android:endColor="@color/scroll_bg_end"
+        android:angle="-90"/>
+</shape>

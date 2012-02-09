@@ -1,0 +1,15 @@
+<resources>
+    <color name="actionbar_separator">#FFFFFF</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_background_start">#7cb5ba</color>
+    <color name="actionbar_background_end">#5a8386</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    <color name="scroll_bg_start">#eff9dd</color>
+    <color name="scroll_bg_end">#c8d5b7</color>
+    <color name="scrollitem_bg_start">#ffffff</color>
+    <color name="scrollitem_bg_end">#e5e5e5</color>
+    <color name="scrollitem_pressed_bg_start">#eaeaea</color>
+    <color name="scrollitem_pressed_bg_end">#bfbfbf</color>
+    <color name="scrollitem_stroke">#919191</color>
+</resources>

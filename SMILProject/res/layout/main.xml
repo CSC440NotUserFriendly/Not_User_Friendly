@@ -1,12 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
-
-    <TextView
+    android:layout_height="fill_parent">
+    
+    <com.csc440.nuf.ActionBar android:id="@+id/actionBar"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
-
-</LinearLayout>
+        android:layout_height="@dimen/actionbar_height"
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentRight="true" />
+    
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/scroll">
+    
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+    android:layout_below="@+id/actionBar">
+     
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    style="@style/scrollitem" android:id="@+id/item1" android:onClick="item1Clicked" android:gravity="center">
+			<ImageView android:id="@+id/item1img" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/ic_home"
+				android:padding="0dip" />
+		    <TextView android:id="@+id/item1Text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:layout_toRightOf="@+id/item1img" android:layout_centerVertical="true"
+		        android:textColor="#000" android:textSize="20dp" android:layout_marginLeft="20dp" android:text="Login   " />
+		</RelativeLayout>
+     
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    style="@style/scrollitem" android:id="@+id/item2" android:onClick="item1Clicked">
+		    <TextView android:id="@+id/item2Text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:textColor="#000" android:textSize="20dp" android:layout_marginLeft="5dp" android:text="Learn More" />
+		</RelativeLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/scrollitem" android:orientation="vertical">
+		    <TextView android:id="@+id/item3Text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:textColor="#000" android:textSize="14dp" android:layout_marginLeft="5dp" android:text="Preview of Message" />
+			<View
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@color/scrollitem_stroke"
+			/>
+		    <TextView android:id="@+id/item3Text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:textColor="#000" android:textSize="14dp" android:layout_marginLeft="5dp" android:text="Preview of Message" />
+			<View
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@color/scrollitem_stroke"
+			/>
+		    <TextView android:id="@+id/item3Text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:textColor="#000" android:textSize="14dp" android:layout_marginLeft="5dp" android:text="Preview of Message" />
+			<View
+			    android:layout_width="fill_parent"
+			    android:layout_height="1dip"
+			    android:background="@color/scrollitem_stroke"
+			/>
+		    <TextView android:id="@+id/item3Text" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:textColor="#000" android:textSize="14dp" android:layout_marginLeft="5dp" android:text="Preview of Message" />
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+	</ScrollView>
+   
+</RelativeLayout>
