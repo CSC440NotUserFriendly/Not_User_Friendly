@@ -98,7 +98,6 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 		return end;
 	}
 	
-	@Override
 	public int compareTo(AbstractSMILObject o){
 		return this.begin - o.begin;
 	}

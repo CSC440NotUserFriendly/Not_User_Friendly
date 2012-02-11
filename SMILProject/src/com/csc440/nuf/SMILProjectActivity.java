@@ -31,9 +31,8 @@ import android.view.View.OnClickListener;
 import android.widget.RelativeLayout;
 
 public class SMILProjectActivity extends Activity {
-    private ActionBar mActionBar;
-    //private LayoutInflator mInflator;
-    private RelativeLayout mLinear;
+    private ActionBar _actionBar;
+    private ScrollItem item1, item2, item3;
     
 	/**The "main" method of an android activity*/
     @Override
@@ -45,21 +44,48 @@ public class SMILProjectActivity extends Activity {
         setContentView(R.layout.main);
 
         
-        mActionBar = (ActionBar) findViewById(R.id.actionBar);
-        mActionBar.setTitle(R.string.app_name);
-        mActionBar.setHomeLogo(R.drawable.ic_launcher);
-        	
-        mLinear = (RelativeLayout) findViewById(R.id.item1);
-        
-        //ScrollItem temp = new ScrollItem(this, null);
-        //mLinear.addView(temp);
-        
-        mActionBar.setHomeListener(new OnClickListener() {
+        _actionBar = (ActionBar) findViewById(R.id.actionBar);
+        _actionBar.setTitle(R.string.app_name);
+        _actionBar.setHomeLogo(R.drawable.ic_launcher);
+
+        item1 = new ScrollItem(findViewById(R.id.item1));
+        item1.setTitle("Compose Message");
+        item1.setIcon(R.drawable.ic_home);
+        item1.setListener(new OnClickListener() {
 			public void onClick(View v) {
 				Intent i = new Intent(SMILProjectActivity.this, PlayerActivity.class);
 				SMILProjectActivity.this.startActivity(i);
 			}
         });
+        
+        item2 = new ScrollItem(findViewById(R.id.item2));
+        item2.setTitle("Compose From Template");
+        item2.setIcon(R.drawable.ic_home);
+        item2.setListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent i = new Intent(SMILProjectActivity.this, PlayerActivity.class);
+				SMILProjectActivity.this.startActivity(i);
+			}
+        });
+        
+        item3 = new ScrollItem(findViewById(R.id.item3));
+        item3.setTitle("View Inbox");
+        item3.setIcon(R.drawable.inbox);
+        item3.setListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent i = new Intent(SMILProjectActivity.this, PlayerActivity.class);
+				SMILProjectActivity.this.startActivity(i);
+			}
+        });
+        
+        /*
+        _actionBar.setHomeListener(new OnClickListener() {
+			public void onClick(View v) {
+				Intent i = new Intent(SMILProjectActivity.this, PlayerActivity.class);
+				SMILProjectActivity.this.startActivity(i);
+			}
+        });
+        */
     }
     
     public void item1Clicked(View v) {

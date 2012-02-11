@@ -38,13 +38,23 @@ public final class R {
         public static final int actionbar_btn=0x7f020001;
         public static final int actionbar_btn_normal=0x7f020002;
         public static final int actionbar_btn_pressed=0x7f020003;
-        public static final int home=0x7f020004;
-        public static final int ic_home=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int scroll_bg=0x7f020007;
-        public static final int scrollitem_bg_normal=0x7f020008;
-        public static final int scrollitem_bg_pressed=0x7f020009;
-        public static final int scrollitem_btn=0x7f02000a;
+        public static final int ic_home=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int inbox=0x7f020006;
+        public static final int pause=0x7f020007;
+        public static final int play=0x7f020008;
+        public static final int scroll_bg=0x7f020009;
+        public static final int scrollitem_bg_normal=0x7f02000a;
+        public static final int scrollitem_bg_pressed=0x7f02000b;
+        public static final int scrollitem_btn=0x7f02000c;
+        public static final int seek_thumb=0x7f02000d;
+        public static final int seekbar_bg=0x7f02000e;
+        public static final int seekbar_progress=0x7f02000f;
+        public static final int seekbar_progress_bg=0x7f020010;
+        public static final int seekbar_thumb_normal=0x7f020011;
+        public static final int seekbar_thumb_pressed=0x7f020012;
+        public static final int stop=0x7f020013;
+        public static final int stripe_bg=0x7f020014;
     }
     public static final class id {
         public static final int actionBar=0x7f080005;
@@ -53,14 +63,20 @@ public final class R {
         public static final int actionbar_item=0x7f080004;
         public static final int actionbar_progress=0x7f080002;
         public static final int actionbar_title=0x7f080003;
+        public static final int canvas=0x7f08000f;
+        public static final int controls=0x7f080009;
+        public static final int icon=0x7f080011;
+        public static final int item=0x7f080010;
         public static final int item1=0x7f080006;
-        public static final int item1Text=0x7f080008;
-        public static final int item1img=0x7f080007;
-        public static final int item2=0x7f080009;
-        public static final int item2Text=0x7f08000a;
-        public static final int item3Text=0x7f08000b;
-        public static final int linear=0x7f08000c;
-        public static final int title=0x7f08000d;
+        public static final int item2=0x7f080007;
+        public static final int item3=0x7f080008;
+        public static final int linear=0x7f080013;
+        public static final int playPause=0x7f08000a;
+        public static final int seekBar=0x7f08000c;
+        public static final int stop=0x7f08000b;
+        public static final int text=0x7f080012;
+        public static final int time=0x7f08000d;
+        public static final int title=0x7f08000e;
     }
     public static final class layout {
         public static final int actionbar=0x7f030000;
