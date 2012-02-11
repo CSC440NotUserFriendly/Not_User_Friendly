@@ -12,7 +12,7 @@ import java.io.*;
  * 
  */
 
-public class SMILWriter{
+public class SMILWriter {
 
 	private static String filename;
 	

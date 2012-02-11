@@ -24,15 +24,15 @@ public class WaitingQueue {
 	private static LinkedList <AbstractSMILObject> objectQ = new LinkedList<AbstractSMILObject>();
 	private static SMILLayout layout;
 	
-	public static void add(AbstractSMILObject smil){
+	public static void push(AbstractSMILObject smil){
 		objectQ.push(smil);
 	}
 	
-	public static AbstractSMILObject whatsNext(){
+	public static AbstractSMILObject peek(){
 		return objectQ.peek();
 	}
 	
-	public static AbstractSMILObject getNext(){
+	public static AbstractSMILObject pop(){
 		return objectQ.pop();	
 	}
 	public static void prepQ(){
@@ -49,6 +49,10 @@ public class WaitingQueue {
 
 	public static void setLayout(SMILLayout layout) {
 		WaitingQueue.layout = layout;
+	}
+	
+	public static int getLength() {
+		return objectQ.getLast().getEndTime();
 	}
 
 }

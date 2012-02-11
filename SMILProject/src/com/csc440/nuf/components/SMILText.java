@@ -37,6 +37,9 @@ public class SMILText extends AbstractSMILObject {
 			if(localName.equals("xml:id"))
 				xmlid = value;
 			
+			else if(localName.equals("text"))
+                text = value;
+			
 			else if(localName.equals("textAlign"))
                 textAlign = value;
 			

@@ -27,6 +27,7 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
     // private ActionBar _actionBar;
     private ImageView _playPause;
     private SeekBar _seekBar;
+    private PlayerCanvas _playerCanvas;
     private boolean playing = true, playingCopy;
 	
 	/**The "main" method of an android activity*/
@@ -44,6 +45,7 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         
         _seekBar = (SeekBar) findViewById(R.id.seekBar);
         _seekBar.setOnSeekBarChangeListener(this);
+        _playerCanvas = (PlayerCanvas) findViewById(R.id.canvas);
         
         
         /*
@@ -56,6 +58,16 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
 			}
         });
         */
+    }
+    
+    protected void onResume() {
+    	super.onResume();
+    	_playerCanvas.play();
+    }
+    
+    protected void onPause() {
+    	super.onResume();
+    	_playerCanvas.pause();
     }
     
 	public void onProgressChanged(SeekBar arg0, int arg1, boolean arg2) {

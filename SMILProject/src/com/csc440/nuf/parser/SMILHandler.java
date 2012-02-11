@@ -90,12 +90,12 @@ public class SMILHandler extends DefaultHandler {
     	
     	//End of the par section
     	if(qName.equals("par")){
-    		WaitingQueue.add(par);
+    		WaitingQueue.push(par);
     		par = null; //Clear it for the next section
     	}
     	
     	if(qName.equals("seq")){
-    		WaitingQueue.add(seq);
+    		WaitingQueue.push(seq);
     		seq = null; //Clear it for the next section
     	}
 
@@ -107,7 +107,7 @@ public class SMILHandler extends DefaultHandler {
     	else if(seq != null)
     		seq.add(o);
     	else
-    		WaitingQueue.add(o);
+    		WaitingQueue.push(o);
     	
     }
 }
