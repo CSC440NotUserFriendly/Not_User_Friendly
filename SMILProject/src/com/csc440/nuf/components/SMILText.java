@@ -24,6 +24,17 @@ public class SMILText extends AbstractSMILObject {
 	protected int textFontSize; //textFontSize
 	protected int zIndex; //z-index
 	private String text; 
+	
+	/* that didn't work out
+	public SMILText(int begin, int end, String text, int textFontSize, String textColor) {
+		super(((Attributes)new java.util.jar.Attributes()));
+		this.begin = begin;
+		this.end = end;
+		this.text = text;
+		this.textFontSize = textFontSize;
+		this.textColor = textColor;
+	}
+	*/
 
 	public SMILText(Attributes att) {
 		super(att); //For setting common elements
