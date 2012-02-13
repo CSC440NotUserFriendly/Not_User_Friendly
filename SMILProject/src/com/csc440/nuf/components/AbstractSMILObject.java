@@ -4,6 +4,8 @@ import java.lang.reflect.Field;
 
 import org.xml.sax.Attributes;
 
+import android.graphics.Canvas;
+
 /**
  * CSC-440 SMIL Project
  * 01-22-2011
@@ -21,6 +23,12 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 	protected int begin;
 	protected int end;
 	protected int dur;
+	
+	public AbstractSMILObject(String qName, int begin, int dur) {
+		this.qName = qName;
+		this.begin = begin;
+		setDuration(dur);
+	}
 	
 	public AbstractSMILObject(Attributes att){
 		for(int i=0; i<att.getLength(); i++){
@@ -145,6 +153,13 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 
 	public void setDuration(int duration) {
 		this.dur = duration;
+		if (duration != 0 && (begin != end || end == 0)) {
+			end = begin + duration;
+		}
+	}
+	
+	public void draw(Canvas canvas) {
+		// implement this later
 	}
 
 }

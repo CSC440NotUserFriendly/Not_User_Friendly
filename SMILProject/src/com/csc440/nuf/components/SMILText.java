@@ -4,6 +4,10 @@ import java.lang.reflect.Field;
 
 import org.xml.sax.Attributes;
 
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+
 /**
  * CSC-440 SMIL Project
  * 01-26-2011
@@ -25,17 +29,24 @@ public class SMILText extends AbstractSMILObject {
 	protected int zIndex; //z-index
 	private String text; 
 	
-	/* that didn't work out
-	public SMILText(int begin, int end, String text, int textFontSize, String textColor) {
-		super(((Attributes)new java.util.jar.Attributes()));
-		this.begin = begin;
-		this.end = end;
+	public SMILText(int begin, int dur, String text, int textFontSize, String textColor) {
+		super(text, begin, dur);
 		this.text = text;
 		this.textFontSize = textFontSize;
 		this.textColor = textColor;
 	}
-	*/
+	
+	public void draw(Canvas canvas) {
+		// implement this later
 
+        Paint white = new Paint();
+        white.setColor(Color.WHITE);
+        Paint red = new Paint();
+        red.setColor(Color.RED);
+        
+		canvas.drawText(text, canvas.getHeight()/2, canvas.getWidth()/2, red);
+	}
+	
 	public SMILText(Attributes att) {
 		super(att); //For setting common elements
 		qName = "smilText";

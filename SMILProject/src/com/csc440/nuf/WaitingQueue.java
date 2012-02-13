@@ -50,9 +50,12 @@ public class WaitingQueue {
 	public static void setLayout(SMILLayout layout) {
 		WaitingQueue.layout = layout;
 	}
-	
-	public static int getLength() {
+
+	public static int getMessageLength() {
 		return objectQ.getLast().getEndTime();
+	}
+	public static int getLength() {
+		return objectQ.size();
 	}
 
 }

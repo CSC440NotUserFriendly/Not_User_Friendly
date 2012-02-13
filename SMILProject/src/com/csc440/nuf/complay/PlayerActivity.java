@@ -21,6 +21,7 @@ import com.csc440.nuf.WaitingQueue;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
@@ -52,25 +53,20 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
          * If we want to demo this in class we need to figure out a way to manually
          * construct things and add them to the queue here. Brad can you look into it? 
          * None of the methods I've tried have worked.
-        Attributes att = new Attributes();
-        att.put(new BasicAttribute("xml:id", 1));
-        att.put("text", "this is some text!");
-        att.put("textAlign", "left");
-        att.put("top", "1");
-        att.put("left", "1");
-        att.put("textColor", "#FFFFFF");
-        att.put("textFontSize", "20");
-        att.put("z-index", "1");
-        att.put("begin", "0");
-        att.put("dur", "10");
+*/
+        if (WaitingQueue.isEmpty()) {
+	        SMILText[] t = new SMILText[4];
+	        t[0] = new SMILText(0, 2, "Hey", 12, "white");
+	        t[1] = new SMILText(3, 2, "howdy", 14, "white");
+	        t[2] = new SMILText(6, 1, "whattup", 16, "red");
+	        t[3] = new SMILText(7, 4, "i guess", 12, "blue");
+	        for (int i = 0; i < 4; i++) WaitingQueue.push(t[i]);
+	        WaitingQueue.prepQ();
+        }
+        
+        messageLength = WaitingQueue.getMessageLength();
 
-        SMILText t = new SMILText((org.xml.sax.Attributes) att);
-        WaitingQueue.push(t);
-        
-        messageLength = WaitingQueue.getLength();
-        */
-        
-        messageLength = 10;
+        Log.w("PlayerActivity", "getMessageLength is: " + messageLength);
         
         _playPause = (ImageView) findViewById(R.id.playPause);
         _seekBar = (SeekBar) findViewById(R.id.seekBar);
@@ -80,7 +76,7 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         _playerCanvas.setSeekBar(_seekBar);
         timeView = (TextView) findViewById(R.id.time);
         
-        
+        timeView.setText(String.valueOf(messageLength));
         /*
         _actionBar = (ActionBar) findViewById(R.id.actionBar);
         _actionBar.setTitle("Message Activity");

@@ -10,6 +10,7 @@ import java.io.*;
  * 
  * Main class for writing SMIL Files.
  * 
+ * 
  */
 
 public class SMILWriter {

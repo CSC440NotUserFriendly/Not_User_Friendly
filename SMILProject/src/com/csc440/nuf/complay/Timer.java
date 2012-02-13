@@ -13,6 +13,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 
+import android.graphics.Canvas;
+import android.util.Log;
+
 import com.csc440.nuf.WaitingQueue;
 import com.csc440.nuf.components.AbstractSMILObject;
 
@@ -59,6 +62,7 @@ public class Timer {
 			// sort the onScreenQ by end time, so the first check will work out well the next time around
 			if (changed) Collections.sort(onScreenQ, new EndTimeASC());
 
+			Log.w("Timer", "on screen size " + onScreenQ.size());
 			//Collections.sort(offScreenQ, new EndTimeDESC());		// don't think we'll need to sort the offScreenQ
 			
 			
@@ -83,7 +87,10 @@ public class Timer {
 		return changed;
 	}
 	
-	public LinkedList <AbstractSMILObject> getOnScreenQ() {
+	public LinkedList <AbstractSMILObject> drawOnScreenQ(Canvas canvas) {
+		LinkedList <AbstractSMILObject> onScreenQcopy = onScreenQ;
+		while (!onScreenQcopy.isEmpty()) onScreenQcopy.pop().draw(canvas);
+		
 		return onScreenQ;
 	}
 }

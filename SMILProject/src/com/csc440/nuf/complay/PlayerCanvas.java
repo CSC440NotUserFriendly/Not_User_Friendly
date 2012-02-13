@@ -72,29 +72,26 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
     		if (deltaTime < 1) continue;
     		// I think this will be a much more elegant solution than sleeping the thread
     		
-    		Canvas canvas = holder.lockCanvas();
-    		
     		/* 
     		 * When we have stuff in the waitingQueue here we will be looping through the 
     		 * onScreenQ and drawing all of the objects. For now I just have it drawing this
     		 * random stuff. Used this output to test the timing and seekbar interaction.
     		 */
-            canvas.drawColor(Color.BLACK);
             
-    		if (timer.timePlusPlus())
-                canvas.drawLine(0, 0, 10, 40, red);
+    		if (timer.timePlusPlus()) {
+        		Canvas canvas = holder.lockCanvas();
+                canvas.drawColor(Color.BLACK);
+                int temp = timer.drawOnScreenQ(canvas).size();
+	    		canvas.drawText("onScreenQ size " + temp + "\nWaiting Queue Start Time" + WaitingQueue.peek().getStartTime(), 10, 10, red);
+
+	    		/* Enough with this testing bullshit
+	    		canvas.drawText("time = " + timer.getTime() + " | deltaTime = " + deltaTime + " | startTime = " + startTime, 10, 10, red);
+	            canvas.drawLine((5*timer.getTime()), 10, 10, (5*timer.getTime()), white);
+				*/
     		
-    		_seekBar.setProgress(timer.getTime());
-
-    		canvas.drawText("time = " + timer.getTime() + " | deltaTime = " + deltaTime + " | startTime = " + startTime, 10, 10, red);
-
-            canvas.drawLine((5*timer.getTime()), 10, 10, (5*timer.getTime()), white);
-
-    		startTime = System.nanoTime();
-    		
-            holder.unlockCanvasAndPost(canvas);
-            
-            /*
+	            holder.unlockCanvasAndPost(canvas);
+    		}
+            /* this was Brad's initial suggestion for controlling time, I've nixed it for now
         	try {
 				renderThread.sleep(1000);
 			} catch (InterruptedException e) {
@@ -102,6 +99,9 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
 				e.printStackTrace();
 			}
 			*/
+
+    		startTime = System.nanoTime();
+    		_seekBar.setProgress(timer.getTime());
         }
     }
 
