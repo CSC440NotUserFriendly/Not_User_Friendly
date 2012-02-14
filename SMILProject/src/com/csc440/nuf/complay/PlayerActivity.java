@@ -56,10 +56,10 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
 */
         if (WaitingQueue.isEmpty()) {
 	        SMILText[] t = new SMILText[4];
-	        t[0] = new SMILText(0, 2, "Hey", 12, "white");
-	        t[1] = new SMILText(3, 2, "howdy", 14, "white");
-	        t[2] = new SMILText(6, 1, "whattup", 16, "red");
-	        t[3] = new SMILText(7, 4, "i guess", 12, "blue");
+	        t[0] = new SMILText(0, 5, 70, 70, "Hey", 40, "yellow");
+	        t[1] = new SMILText(2, 3, 90, 110, "this is a", 60, "white");
+	        t[2] = new SMILText(3, 7, 170, 190, "(: SMIL :)", 90, "red");
+	        t[3] = new SMILText(5, 5, 300, 300, "PRESENTATION!", 40, "blue");
 	        for (int i = 0; i < 4; i++) WaitingQueue.push(t[i]);
 	        WaitingQueue.prepQ();
         }

@@ -30,8 +30,10 @@ public class SMILText extends AbstractSMILObject {
 	protected int zIndex; //z-index
 	private String text; 
 	
-	public SMILText(int begin, int dur, String text, int textFontSize, String textColor) {
+	public SMILText(int begin, int dur, int top, int left, String text, int textFontSize, String textColor) {
 		super(text, begin, dur);
+		this.top = top;
+		this.left = left;
 		this.text = text;
 		this.textFontSize = textFontSize;
 		this.textColor = textColor;
@@ -39,13 +41,19 @@ public class SMILText extends AbstractSMILObject {
 	
 	public void draw(Canvas canvas) {
 		// implement this later
-
-        Paint white = new Paint();
-        white.setColor(Color.WHITE);
-        Paint red = new Paint();
-        red.setColor(Color.RED);
+		int color;
+		if (textColor == "red") color = Color.RED;
+		else if (textColor == "green") color = Color.GREEN;
+		else if (textColor == "blue") color = Color.BLUE;
+		else if (textColor == "yellow") color = Color.YELLOW;
+		else if (textColor == "cyan") color = Color.CYAN;
+		else color = Color.WHITE;
+		
+        Paint paint = new Paint();
+        paint.setColor(color);
+        paint.setTextSize(textFontSize);
         
-		canvas.drawText(text, 10, 10, red);
+		canvas.drawText(text, top, left, paint);
 		Log.w("SMILText", "text was drawn: " + text);
 	}
 	
