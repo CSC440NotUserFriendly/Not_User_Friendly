@@ -22,6 +22,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -80,9 +81,10 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
             
     		if (timer.timePlusPlus()) {
         		Canvas canvas = holder.lockCanvas();
+        		
                 canvas.drawColor(Color.BLACK);
-                int temp = timer.drawOnScreenQ(canvas).size();
-	    		canvas.drawText("onScreenQ size " + temp + "\nWaiting Queue Start Time" + WaitingQueue.peek().getStartTime(), 10, 10, red);
+                timer.drawOnScreenQ(canvas);
+	    		if (!WaitingQueue.isEmpty()) Log.w("PlayerCanvas", "Waiting Queue Start Time " + WaitingQueue.peek().getStartTime());
 
 	    		/* Enough with this testing bullshit
 	    		canvas.drawText("time = " + timer.getTime() + " | deltaTime = " + deltaTime + " | startTime = " + startTime, 10, 10, red);

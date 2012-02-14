@@ -7,6 +7,7 @@ import org.xml.sax.Attributes;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.util.Log;
 
 /**
  * CSC-440 SMIL Project
@@ -44,7 +45,8 @@ public class SMILText extends AbstractSMILObject {
         Paint red = new Paint();
         red.setColor(Color.RED);
         
-		canvas.drawText(text, canvas.getHeight()/2, canvas.getWidth()/2, red);
+		canvas.drawText(text, 10, 10, red);
+		Log.w("SMILText", "text was drawn: " + text);
 	}
 	
 	public SMILText(Attributes att) {
