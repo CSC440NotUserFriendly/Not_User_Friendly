@@ -81,7 +81,7 @@ public class Timer {
 			// then see if anything onScreen needs to be backed up into the WaitingQueue
 			Collections.sort(onScreenQ, new StartTimeDESC());	// sort by startTime
 			if (!onScreenQ.isEmpty()) Log.w("Timer", "onScreenQ's getStartTime(): " +onScreenQ.peek().getStartTime() + ", newTime is " + newTime);
-			while (!onScreenQ.isEmpty() && onScreenQ.peek().getStartTime() < newTime) {
+			while (!onScreenQ.isEmpty() && onScreenQ.peek().getStartTime() > newTime) {
 				changed = true;
 				WaitingQueue.push(onScreenQ.pop());
 				Log.w("Timer", "item added to waiting from onScreen");
