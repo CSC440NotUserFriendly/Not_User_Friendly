@@ -1,7 +1,0 @@
-package com.csc440.nuf.parser;
-
-import org.xml.sax.helpers.DefaultHandler;
-
-public class SMILHandler extends DefaultHandler {
-
-}

@@ -1,8 +1,0 @@
-package com.csc440.nuf;
-
-public abstract class AbstractSMILObject {
-	
-	
-	abstract public void printData();
-
-}
