@@ -1,0 +1,11 @@
+How to Install Restlet Library
+
+First, go to http://www.restlet.org/downloads/stable and download appropriate zip file
+Then,
+
+Drop the content of the Restlet's "lib/" directory into Eclipse's plug-in directory
+Restart Eclipse and go into "Help/About Eclipse SDK" menu
+In the new dialog, click on the "Plug-in Details" button
+In the new dialog, you should see the registered plugins, for example under the "Restlet S.A.S." provider name
+
+Now you're done! You can create new classes and import the org.restlet.* packages to work with Restlets.
