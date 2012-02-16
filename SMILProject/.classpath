@@ -3,7 +3,68 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="/SMILProject-AppEngine/war/WEB-INF/lib/google_sql.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.core_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.datatools_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.appengine.rpc_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.appsmarketplace_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.core_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer_2.5.0.r37x201112291029.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer.gpe_2.5.0.r37x201201030222.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer.hosted_2.5.0.r37x201112291019.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer.hosted.2_0_2.5.0.r37x201112291019.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer.hosted.2_0.super_2.5.0.r37x201112291019.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer.hosted.2_0.webkit_2.5.0.r37x201112291019.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer.hosted.2_2.webkit_2.5.0.r37x201112291019.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.designer.UiBinder_2.5.0.r37x201112291029.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.gph_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.gph.e36_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.gph.hge_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.gph.subclipse_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.gph.subversive_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.login_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.managedapis_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.maven_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.maven.e37_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.mobile.android_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.platform_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.platform.e37_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.platform.shared_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.suite_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gdt.eclipse.suite.ext_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gwt.eclipse.core_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.gwt.eclipse.oophm_2.5.1.v201201120043-rel-r37.jar"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT (1)"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/appengine-api-1.0-sdk-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/appengine-api-labs-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/appengine-jsr107cache-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/jsr107cache-1.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/orm/datanucleus-appengine-1.0.10.final.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/orm/datanucleus-core-1.1.5.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/orm/datanucleus-jpa-1.1.5.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/orm/geronimo-jpa_3.0_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/orm/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/user/orm/jdo2-api-2.3-eb.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/appengine-agent.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/appengine-agentimpl.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/appengine-remote-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/appengine-tools-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/impl/appengine-api-labs.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/impl/appengine-api-stubs.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/impl/appengine-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/impl/appengine-local-runtime.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/impl/google_sql.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/override/appengine-dev-jdk-overrides.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/shared/appengine-local-runtime-shared.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/shared/el-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/shared/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/shared/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/testing/appengine-testing.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/tools/jsp/repackaged-appengine-jakarta-jstl-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/tools/jsp/repackaged-appengine-jakarta-standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/tools/jsp/repackaged-appengine-jasper-jdt-6.0.29.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
