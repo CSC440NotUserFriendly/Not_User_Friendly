@@ -1,11 +1,19 @@
-01-21-2012--Brad: Added folders for organizing the project and added some sample code for reference.  Also this entry serves as a format for future entries.  When committing to the repo add your comments here with the date and your name.
+Phase 1 deliverables:
 
-01-22-2012--Brad: Added Documents section with Collateral and deliverables.  Collateral, is simply information found from research.  Deliverables are documents created by us.
+All our documentation is contained in the Documents folder.
+In the deliverables folder there are the following files:
+	SRS.doc - Contains functional and non-functional requirements
+	HighLevelFunctionalDia.pdf - System Diagram
+	UserDiagram.pdf - User oriented flow diagram
+	StatusUpdates - Folder containing weekly update information
+	ScreenShots.pdf - Actual images of our GUI
 
-01-22-2012--Brad: Created base Eclipse project for our application.  You will import this project directly into Eclipse by going to File->Import Project->GIT then following the instructions.
+In the root Documents folder there are the following documents:
+	Agenda - Folder containing weekly objectives to be discussed
+	Meeting Minutes - Our notes for each meeting (This is really just a combination of the Agenda and status updates)
+	Schedule - MS Project with all our tasks
+	Test Plan - Contains our test plan document
 
-01-22-2012--Brad: Created basic java files to serve as a template for the parser.  Also created a abstract SMIL object class that must be used for the parser to function properly.
-
-01-22-2012--Brad: Created a simple SMIL project as a good baseline requirement for our first revision.
-
-01-26-2012--Brad: New folder with an Agenda for next week (4).  This is so everyone is crystal clear on what we are doing.
+In the root project directory there is a SMILProject folder, this is our eclipse project.
+You should be able to import this directly into eclipse.  We have classes for parsing the smile files, 
+the objects and data structures for handling them, the player interface, and a sample presentation for testing.
