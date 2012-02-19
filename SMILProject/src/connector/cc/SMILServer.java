@@ -18,10 +18,12 @@ import com.google.appengine.api.datastore.KeyFactory;
 public class SMILServer {
 
 	private DatastoreService datastore;
+	private SMILCache cache;
 	
 	public SMILServer()
 	{
 		datastore = DatastoreServiceFactory.getDatastoreService();
+		cache = new SMILCache();
 	}
 	
 	public boolean add(File file, String sender, String recipient,
@@ -39,6 +41,7 @@ public class SMILServer {
 			Date sent = new Date();
 			smil.setProperty("Sent", sent);
 			
+			cache.put(smil);
 			datastore.put(smil);
 			
 		}catch(Exception e){
@@ -52,8 +55,16 @@ public class SMILServer {
 	{
 		Entity smilFile;
 		try{
-			Key smilKey = KeyFactory.stringToKey(file.getName());
-			smilFile = datastore.get(smilKey);
+			if(cache.get(file)!=null)
+			{
+				return cache.get(file);
+			}
+			else
+			{
+				Key smilKey = KeyFactory.stringToKey(file.getName());
+				smilFile = datastore.get(smilKey);
+			}
+			
 		}catch(Exception e){
 			return null;
 		}
