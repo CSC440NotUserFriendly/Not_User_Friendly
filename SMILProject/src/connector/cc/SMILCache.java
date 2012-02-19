@@ -21,8 +21,8 @@ import com.google.appengine.api.datastore.KeyFactory;
 
 public class SMILCache {
 
-	private HashMap<Key,Object[]> cache;
-	private int limit;
+	private static HashMap<Key,Object[]> cache;
+	private static int limit;
 	
 	public SMILCache()
 	{
@@ -30,7 +30,7 @@ public class SMILCache {
 		this.limit = 10;
 	}
 	
-	public void setLimit(int limit)
+	public synchronized void setLimit(int limit)
 	{
 		this.limit = limit;
 	}
@@ -40,7 +40,7 @@ public class SMILCache {
 		return this.limit;
 	}
 	
-	public Entity get(File file)
+	public static synchronized Entity get(File file)
 	{
 		try{
 			Key smilKey = KeyFactory.stringToKey(file.getName());
@@ -61,7 +61,7 @@ public class SMILCache {
 		}
 	}
 	
-	public boolean put(Entity entity)
+	public static synchronized boolean put(Entity entity)
 	{
 		try{
 			Object values[] = new Object[2];
@@ -90,7 +90,7 @@ public class SMILCache {
 	 * in the hashMap according to how often they are 
 	 * used
 	 */
-	private int _getWeightedUsage(SMILCacheObject co)
+	private static int _getWeightedUsage(SMILCacheObject co)
 	{
 		Date temp = co.getStart();
 		int s = temp.getDate();
@@ -108,7 +108,7 @@ public class SMILCache {
 		return timesPer;
 	}
 	
-	private Key _getLeastUsed()
+	private static Key _getLeastUsed()
 	{
 		int least = 999999999;
 		Key deleteMe = null;

@@ -17,8 +17,8 @@ import com.google.appengine.api.datastore.KeyFactory;
 
 public class SMILServer {
 
-	private DatastoreService datastore;
-	private SMILCache cache;
+	private static DatastoreService datastore;
+	private static SMILCache cache;
 	
 	public SMILServer()
 	{
@@ -26,7 +26,7 @@ public class SMILServer {
 		cache = new SMILCache();
 	}
 	
-	public boolean add(File file, String sender, String recipient,
+	public static synchronized boolean add(File file, String sender, String recipient,
 			String senderEmail, String recipientEmail)
 	{
 		try{
@@ -51,7 +51,7 @@ public class SMILServer {
 		return true;
 	}
 	
-	public Entity find(File file)
+	public static synchronized Entity find(File file)
 	{
 		Entity smilFile;
 		try{
