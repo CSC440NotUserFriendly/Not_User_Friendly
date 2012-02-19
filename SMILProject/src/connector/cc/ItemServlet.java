@@ -37,9 +37,10 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.appengine.api.datastore.Entity;
 
 /**
- * This servlet responds to the request corresponding to items. The class
- * creates and manages the ItemEntity
- * 
+ * CSC-440 SMIL Project
+ * 02-16-2011
+ * ItemServlet.java
+ * @author Alex Gilbert
  * 
  */
 @SuppressWarnings("serial")

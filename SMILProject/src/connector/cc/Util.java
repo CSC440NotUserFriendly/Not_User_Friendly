@@ -1,5 +1,14 @@
 package connector.cc;
 
+
+/**
+ * CSC-440 SMIL Project
+ * 02-16-2011
+ * Util.java
+ * @author Alex Gilbert
+ * 
+ */
+
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;

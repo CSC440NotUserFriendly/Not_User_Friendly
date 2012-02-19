@@ -4,8 +4,6 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="lib" path="/SMILProject-AppEngine/war/WEB-INF/lib/google_sql.jar"/>
 	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.core_2.5.1.v201201120043-rel-r37.jar"/>
 	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.datatools_2.5.1.v201201120043-rel-r37.jar"/>
@@ -66,5 +64,7 @@
 	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/tools/jsp/repackaged-appengine-jakarta-jstl-1.1.2.jar"/>
 	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/tools/jsp/repackaged-appengine-jakarta-standard-1.1.2.jar"/>
 	<classpathentry kind="lib" path="/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/agent/Applications/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.6.1.v201201120043r37/appengine-java-sdk-1.6.1/lib/tools/jsp/repackaged-appengine-jasper-jdt-6.0.29.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

@@ -11,9 +11,11 @@ import com.google.appengine.api.datastore.Query.FilterOperator;
 
 
 /**
- * This class handles CRUD operations related to Item entity.
+ * CSC-440 SMIL Project
+ * 02-09-2011
+ * Item.java
+ * @author Alex Gilbert
  * 
- *
  */
 
 public class Item {
@@ -30,14 +32,19 @@ public class Item {
    *          : price of the item
    * @return
    */
-  public static Entity createOrUpdateItem(File file, String sender, String recipient) {
-    Entity item = getSingleItem(itemName);
-    if(item == null){
-      item = new Entity("Item");
-      item.setProperty("File", file);
-      item.setProperty("Sender", sender);
-      item.setProperty("Recipient", recipient);
-    }
+
+	private File file;
+	private String sender;
+	private String senderEmail;
+	private String recipient;
+	private String recipientEmail;
+	
+  public static Entity createItem(File file, String sender, String recipient) {
+    Entity item = new Entity("Item");
+    item.setProperty("File", file);
+    item.setProperty("Sender", sender);
+    item.setProperty("Recipient", recipient);
+   
     Util.persistEntity(item);
     return item;
   }

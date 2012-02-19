@@ -1,5 +1,14 @@
 package connector.cc;
 
+
+/**
+ * CSC-440 SMIL Project
+ * 02-16-2011
+ * BaseServlet.java
+ * @author Alex Gilbert
+ * 
+ */
+
 import java.io.IOException;
 
 import javax.servlet.ServletException;
