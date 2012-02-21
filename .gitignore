@@ -4,8 +4,8 @@ ParserTester
 
 *.pydevproject
 .project
-.metadata
-bin/**
+.metadata/**
+SMILProject/bin/**
 tmp/**
 tmp/**/*
 *.tmp
