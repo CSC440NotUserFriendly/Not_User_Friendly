@@ -51,7 +51,7 @@ public class SMILServer {
 		return true;
 	}
 	
-	public static synchronized Entity find(File file)
+	public static synchronized Entity find(String file)
 	{
 		Entity smilFile;
 		try{
@@ -61,7 +61,7 @@ public class SMILServer {
 			}
 			else
 			{
-				Key smilKey = KeyFactory.stringToKey(file.getName());
+				Key smilKey = KeyFactory.stringToKey(file);
 				smilFile = datastore.get(smilKey);
 			}
 			

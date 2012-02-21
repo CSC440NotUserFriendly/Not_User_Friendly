@@ -40,10 +40,10 @@ public class SMILCache {
 		return this.limit;
 	}
 	
-	public static synchronized Entity get(File file)
+	public static synchronized Entity get(String file)
 	{
 		try{
-			Key smilKey = KeyFactory.stringToKey(file.getName());
+			Key smilKey = KeyFactory.stringToKey(file);
 			if( cache.containsKey( smilKey ) )
 			{
 				SMILCacheObject temp = (SMILCacheObject)cache.get(smilKey)[0];
