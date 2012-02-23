@@ -1,7 +1,5 @@
 package com.csc440.nuf.parser;
 
-import java.io.*;
-
 /**
  * CSC-440 SMIL Project
  * 01-22-2011

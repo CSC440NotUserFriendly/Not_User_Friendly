@@ -1,7 +1,5 @@
 package connector.cc;
 
-import java.io.File;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -27,17 +25,17 @@ public class SMILCache {
 	public SMILCache()
 	{
 		cache = new HashMap<Key,Object[]>();
-		this.limit = 10;
+		SMILCache.limit = 10;
 	}
 	
 	public synchronized void setLimit(int limit)
 	{
-		this.limit = limit;
+		SMILCache.limit = limit;
 	}
 	
 	public int getLimit()
 	{
-		return this.limit;
+		return SMILCache.limit;
 	}
 	
 	public static synchronized Entity get(String file)

@@ -41,7 +41,7 @@ public class SMILServer {
 			Date sent = new Date();
 			smil.setProperty("Sent", sent);
 			
-			cache.put(smil);
+			SMILCache.put(smil);
 			datastore.put(smil);
 			
 		}catch(Exception e){
@@ -55,9 +55,9 @@ public class SMILServer {
 	{
 		Entity smilFile;
 		try{
-			if(cache.get(file)!=null)
+			if(SMILCache.get(file)!=null)
 			{
-				return cache.get(file);
+				return SMILCache.get(file);
 			}
 			else
 			{

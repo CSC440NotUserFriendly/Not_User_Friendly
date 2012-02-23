@@ -14,7 +14,6 @@ package com.csc440.nuf.complay;
 //import com.csc440.nuf.ActionBar;
 
 import com.csc440.nuf.R;
-import com.csc440.nuf.R.layout;
 import com.csc440.nuf.components.SMILText;
 import com.csc440.nuf.WaitingQueue;
 
@@ -27,8 +26,6 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
-
-import java.util.jar.Attributes;
 
 public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeListener {
     // private ActionBar _actionBar;
@@ -89,12 +86,14 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         */
     }
     
-    protected void onResume() {
+    @Override
+	protected void onResume() {
     	super.onResume();
         playPause(null, true);
     }
     
-    protected void onPause() {
+    @Override
+	protected void onPause() {
     	super.onPause();
         playPause(null, false);
     }

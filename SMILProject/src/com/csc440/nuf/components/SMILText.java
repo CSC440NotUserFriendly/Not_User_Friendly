@@ -1,7 +1,5 @@
 package com.csc440.nuf.components;
 
-import java.lang.reflect.Field;
-
 import org.xml.sax.Attributes;
 
 import android.graphics.Canvas;
@@ -39,6 +37,7 @@ public class SMILText extends AbstractSMILObject {
 		this.textColor = textColor;
 	}
 	
+	@Override
 	public void draw(Canvas canvas) {
 		// implement this later
 		int color;
