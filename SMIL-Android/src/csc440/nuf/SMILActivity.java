@@ -19,7 +19,7 @@ import com.google.web.bindery.requestfactory.shared.ServerFailure;
 
 import csc440.nuf.client.MyRequestFactory;
 import csc440.nuf.client.MyRequestFactory.HelloWorldRequest;
-import csc440.nuf.complay.PlayerActivity;
+import csc440.nuf.complay.*;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -109,6 +109,7 @@ public class SMILActivity extends Activity {
         
      // Our stuff from our original main activity   
      // since we're using ActionBar, first take off the title bar
+        
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
 
@@ -157,10 +158,8 @@ public class SMILActivity extends Activity {
         */
         
         
-        
         //Use this to test app engine connection;
         //setScreenContent(R.layout.hello_world);
-        setScreenContent(R.layout.main);
         
     }
 
