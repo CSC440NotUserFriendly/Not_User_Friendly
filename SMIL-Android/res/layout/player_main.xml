@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainView"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    
+ 
     <!--
-    <com.csc440.nuf.ActionBar android:id="@+id/actionBar"
+    <csc440.nuf.ActionBar android:id="@+id/actionBar"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/actionbar_height"
         android:layout_alignParentLeft="true" 
@@ -15,6 +16,9 @@
         android:layout_height="wrap_content"
         android:text="@string/hello" />
     -->
+    
+	<csc440.nuf.complay.PlayerCanvas android:id="@+id/playerCanvas" 
+	    android:layout_width="fill_parent" android:layout_height="fill_parent" />
 	
 	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	    android:id="@+id/controls"
@@ -27,15 +31,17 @@
 		android:paddingTop="3dp" android:paddingBottom="3dp" android:paddingLeft="6dp" android:paddingRight="6dp">
 	    
 		<ImageView android:id="@+id/playPause" android:onClick="playPause"
-			android:layout_toLeftOf="@+id/stop" android:layout_width="44dp"
+			android:layout_alignParentRight="true" android:layout_width="44dp"
 			android:layout_height="44dp" android:background="@drawable/actionbar_btn"
 			android:layout_marginLeft="3dip" android:src="@drawable/play" />
 		
+		<!-- 
 		<ImageView android:id="@+id/stop" android:onClick="stop"
 			android:layout_alignParentRight="true" android:layout_width="44dp"
 			android:layout_height="44dp" android:background="@drawable/actionbar_btn"
 			android:layout_marginLeft="3dip" android:src="@drawable/stop" />
-		
+		 -->
+		 
 	    <SeekBar
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
@@ -66,9 +72,5 @@
 	    
 	</RelativeLayout>
 	
-	<csc440.nuf.complay.PlayerCanvas android:id="@+id/canvas" 
-        android:layout_above="@+id/controls"
-	    android:layout_width="fill_parent" android:layout_height="fill_parent"
-	    android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
-    
+	    
 </RelativeLayout>

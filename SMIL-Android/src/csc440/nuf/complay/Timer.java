@@ -50,45 +50,46 @@ public class Timer {
 			// first check to see if any of your items onScreen are ready to go off.
 			while (!onScreenQ.isEmpty() && onScreenQ.peek().getEndTime() <= newTime) {
 				changed = true;
-				offScreenQ.add(onScreenQ.peek());
-				Log.w("Timer", "item removed from onScreenQ, size is: " + onScreenQ.size() + ", end time is: " + onScreenQ.poll().getEndTime() + ", time is: " + newTime);
+				//offScreenQ.add(onScreenQ.peek());
+				offScreenQ.add(onScreenQ.poll());
+				//Log.w("Timer", "item removed from onScreenQ, size is: " + onScreenQ.size() + ", end time is: " + onScreenQ.poll().getEndTime() + ", time is: " + newTime);
 			}
-			Log.w("Timer", "done removing from onScreenQ, size is: " + onScreenQ.size() + ", time is: " + newTime);
+			//Log.w("Timer", "done removing from onScreenQ, size is: " + onScreenQ.size() + ", time is: " + newTime);
 			
 			// then check if any of the items in the WaitingQueue are ready to go on.
 			while (!WaitingQueue.isEmpty() && WaitingQueue.peek().getStartTime() <= newTime) {
 				changed = true;
 				onScreenQ.add(WaitingQueue.pop());
-				Log.w("Timer", "item added to onScreenQ, size is: " + onScreenQ.size() + ", time is: " + newTime);
+				//Log.w("Timer", "item added to onScreenQ, size is: " + onScreenQ.size() + ", time is: " + newTime);
 			}
 			
 			// sort the onScreenQ by end time, so the first check will work out well the next time around
 			if (changed) Collections.sort(onScreenQ, new EndTimeASC());
 
-			Log.w("Timer", "on screen size " + onScreenQ.size());
+			//Log.w("Timer", "on screen size " + onScreenQ.size());
 			//Collections.sort(offScreenQ, new EndTimeDESC());		// don't think we'll need to sort the offScreenQ
 			
 			
 		} else {	// if the newTime is less than the old time
 			// first see if anything offScreen needs to go back onScreen
-			if (!offScreenQ.isEmpty()) Log.w("Timer", "offScreenQ getEndTime(): " +offScreenQ.peek().getEndTime());
+			//if (!offScreenQ.isEmpty()) Log.w("Timer", "offScreenQ getEndTime(): " +offScreenQ.peek().getEndTime());
 			while (!offScreenQ.isEmpty() && offScreenQ.peek().getEndTime() > newTime && offScreenQ.peek().getStartTime() >= newTime) {
 				changed = true;
 				onScreenQ.add(offScreenQ.poll());
-				Log.w("Timer", "item added onScreen from offScreen");
+				//Log.w("Timer", "item added onScreen from offScreen");
 			}
 			
 			// then see if anything onScreen needs to be backed up into the WaitingQueue
 			Collections.sort(onScreenQ, new StartTimeDESC());	// sort by startTime
-			if (!onScreenQ.isEmpty()) Log.w("Timer", "onScreenQ's getStartTime(): " +onScreenQ.peek().getStartTime() + ", newTime is " + newTime);
+			//if (!onScreenQ.isEmpty()) Log.w("Timer", "onScreenQ's getStartTime(): " +onScreenQ.peek().getStartTime() + ", newTime is " + newTime);
 			while (!onScreenQ.isEmpty() && onScreenQ.peek().getStartTime() > newTime) {
 				changed = true;
 				WaitingQueue.push(onScreenQ.poll());
-				Log.w("Timer", "item added to waiting from onScreen");
+				//Log.w("Timer", "item added to waiting from onScreen");
 			}
 
 			Collections.sort(onScreenQ, new EndTimeASC());		// once only what we need is on the queue, sort it properly
-			Log.w("Timer", "Processed the else statement, onScreenSize: " + onScreenQ.size() + ", offScreenSize: " +offScreenQ.size());
+			//Log.w("Timer", "Processed the else statement, onScreenSize: " + onScreenQ.size() + ", offScreenSize: " +offScreenQ.size());
 		}
 		
 		time = newTime;
@@ -98,11 +99,11 @@ public class Timer {
 	public LinkedList <AbstractSMILObject> drawOnScreenQ(Canvas canvas) {
 		LinkedList <AbstractSMILObject> onScreenQcopy = new LinkedList <AbstractSMILObject>(onScreenQ);
 		while (!onScreenQcopy.isEmpty())  {
-			Log.w("Timer", "onScreenQ size: " + onScreenQ.size());
+			//Log.w("Timer", "onScreenQ size: " + onScreenQ.size());
 			onScreenQcopy.poll().draw(canvas);
 		}
 
-		Log.w("Timer", "onScreenQ size after drawing: " + onScreenQ.size());
+		//Log.w("Timer", "onScreenQ size after drawing: " + onScreenQ.size());
 		return new LinkedList <AbstractSMILObject>(onScreenQ);
 	}
 }

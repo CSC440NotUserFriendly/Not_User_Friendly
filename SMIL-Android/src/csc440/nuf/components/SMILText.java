@@ -1,6 +1,10 @@
 package csc440.nuf.components;
 
+import java.lang.reflect.Field;
+
 import org.xml.sax.Attributes;
+
+import csc440.nuf.WaitingQueue;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -37,7 +41,6 @@ public class SMILText extends AbstractSMILObject {
 		this.textColor = textColor;
 	}
 	
-	@Override
 	public void draw(Canvas canvas) {
 		// implement this later
 		int color;
@@ -50,10 +53,11 @@ public class SMILText extends AbstractSMILObject {
 		
         Paint paint = new Paint();
         paint.setColor(color);
-        paint.setTextSize(textFontSize);
+        paint.setTextSize(textFontSize * WaitingQueue.getDensity());
         
-		canvas.drawText(text, top, left, paint);
-		Log.w("SMILText", "text was drawn: " + text);
+		canvas.drawText(text, top * WaitingQueue.getDensity(), left * WaitingQueue.getDensity(), paint);
+		//Log.w("SMILText", "text was drawn: " + text);
+		
 	}
 	
 	public SMILText(Attributes att) {

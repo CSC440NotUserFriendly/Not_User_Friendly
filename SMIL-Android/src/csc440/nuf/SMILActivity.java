@@ -123,7 +123,7 @@ public class SMILActivity extends Activity {
         item1.setIcon(R.drawable.ic_home);
         item1.setListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent i = new Intent(SMILActivity.this, PlayerActivity.class);
+				Intent i = new Intent(SMILActivity.this, ViewMessageActivity.class);
 				SMILActivity.this.startActivity(i);
 			}
         });
@@ -182,7 +182,6 @@ public class SMILActivity extends Activity {
     }
 
     // Manage UI Screens
-
     private void setHelloWorldScreenContent() {
         setContentView(R.layout.hello_world);
 

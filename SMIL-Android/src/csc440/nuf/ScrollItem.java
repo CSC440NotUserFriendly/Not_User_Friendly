@@ -16,10 +16,15 @@ package csc440.nuf;
  * File Created
  */
 
+import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
+import android.graphics.Color;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.LinearLayout.LayoutParams;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -30,14 +35,25 @@ public class ScrollItem {
 	private LinearLayout _linear;
 	
 	public ScrollItem(View v) {
+		this(v, false);
+	}
+	
+	public ScrollItem(View v, boolean useLinear) {
 		_relative = (RelativeLayout) v;
 		_iconView = (ImageView) v.findViewById(R.id.icon);
 		_titleView = (TextView) v.findViewById(R.id.text);
 		_linear = (LinearLayout) v.findViewById(R.id.linear);
+		
+		if (!useLinear) {
+			RelativeLayout.LayoutParams l = (android.widget.RelativeLayout.LayoutParams) _titleView.getLayoutParams();
+			l.addRule(RelativeLayout.CENTER_VERTICAL);
+			_titleView.setLayoutParams(l);
+		}
 	}
 	
 	public void setIcon(int resId) {
 		_iconView.setImageResource(resId);
+		_iconView.setVisibility(View.VISIBLE);
 	}
 	
 	public void setListener(View.OnClickListener onClickListener) {
@@ -52,7 +68,22 @@ public class ScrollItem {
 		_titleView.setText(resid);
 	}
 	
-	public void addToLinear(View v, OnClickListener onClickListener) {
+	public void addToLinear(View v) {
 		_linear.addView(v, _linear.getChildCount());
 	}
+	
+	/*
+	 * Adds a 1px high linear divider with a few pixel padding on the top and bottom
+	 * I need to save this code, it took forever to figure out. Will come in handy for future projects.
+	 */
+	public void addLineToLinear(Context c) {
+		float density = c.getResources().getDisplayMetrics().density;
+		View line = new View(c);
+		LinearLayout.LayoutParams l = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, (int)(1 * density));
+		l.setMargins(0, (int)(3* density), 0, (int)(3 * density));
+		line.setLayoutParams(l);
+		line.setBackgroundColor(R.color.scrollitem_stroke);
+		addToLinear(line);
+	}
+	
 }

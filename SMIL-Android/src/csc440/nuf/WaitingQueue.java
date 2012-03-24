@@ -23,6 +23,16 @@ public class WaitingQueue {
 	//Remember instanceof when trying to determine what kind of objects these are!
 	private static LinkedList <AbstractSMILObject> objectQ = new LinkedList<AbstractSMILObject>();
 	private static SMILLayout layout;
+	private static float density = 1;
+	
+	public static void setScreenDensity(float newDensity) {
+		density = newDensity;
+	}
+	
+	public static float getDensity() {
+		// we can have this look at other things to scale the presentation as well, can talk about this later
+		return density;
+	}
 	
 	public static void push(AbstractSMILObject smil){
 		objectQ.add(smil);
