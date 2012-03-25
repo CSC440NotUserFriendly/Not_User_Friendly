@@ -33,7 +33,6 @@ import android.widget.TextView;
 public class ScrollItemManager {
 	private LinearLayout _linear;
 	private LinkedList<ScrollItem> items;
-	private ScrollItem item;
 	
 	public ScrollItemManager(View v) {
 		_linear = (LinearLayout) v.findViewById(R.id.scrollLinear);
@@ -67,7 +66,7 @@ public class ScrollItemManager {
 			.inflate(R.layout.scroll_item, null);
 		
 		ScrollItem si = new ScrollItem(item, useLinear);
-		items.add(si);
+		items.addFirst(si);
 		_linear.addView(item);
 	}
 
@@ -75,8 +74,9 @@ public class ScrollItemManager {
 		items.peek().setIcon(resId);
 	}
 	
-	public void setListener(View.OnClickListener onClickListener) {
+	public void setListener(View.OnClickListener onClickListener, int id) {
 		items.peek().setListener(onClickListener);
+		items.peek().setId(id);
 	}
 	
 	public void setTitle(CharSequence title) {
@@ -94,4 +94,9 @@ public class ScrollItemManager {
 	public void addLine(Context c) {
 		items.peek().addLineToLinear(c);
 	}
+
+	public void setId(int id) {
+		items.peek().setId(id);
+	}
+	
 }

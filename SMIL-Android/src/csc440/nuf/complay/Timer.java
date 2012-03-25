@@ -9,24 +9,19 @@ package csc440.nuf.complay;
  * 
  */
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-
-import android.graphics.Canvas;
-import android.util.Log;
-
-import csc440.nuf.WaitingQueue;
-import csc440.nuf.components.AbstractSMILObject;
+//import android.util.Log;
 
 public class Timer {
 	private int time;
-	private LinkedList <AbstractSMILObject> onScreenQ, offScreenQ;
+	//private LinkedList <AbstractSMILObject> OnScreenQ, OffScreenQ;
 	
 	Timer() {
-		offScreenQ = new LinkedList<AbstractSMILObject>();
-		onScreenQ = new LinkedList<AbstractSMILObject>();
+		//OffScreenQ = new LinkedList<AbstractSMILObject>();
+		//onScreenQ = new LinkedList<AbstractSMILObject>();
 		time = -1;
+		Waiting.Q().prepQ();
+		OnScreen.Q().clear();
+		OffScreen.Q().clear();
 	}
 	
 	public int getTime() {
@@ -34,7 +29,7 @@ public class Timer {
 	}
 
 	// idea is to use this to increment the time each frame, and setTime when the seekbar is used
-	// return a boolean which is true if changes have been made, but false if the onScreenQ is the same
+	// return a boolean which is true if changes have been made, but false if the OnScreenQ is the same
 	// in the canvas class, if this returns true we'll redraw everything.
 	public boolean timePlusPlus() {
 		return setTime(time+1);
@@ -42,86 +37,47 @@ public class Timer {
 	
 	// this takes an int (newTime) and adds/removes items to/from each queue so that they reflect
 	// the newTime. It then overwrites the current time variable and returns a boolean stating whether
-	// or not the onScreenQ was changed during the operation.
+	// or not the OnScreenQ was changed during the operation.
 	public boolean setTime(int newTime) {
 		boolean changed = false;
 		if (newTime == time) return changed;
 		else if (newTime > time) { // if the newTime is greater than the old time:
-			// first check to see if any of your items onScreen are ready to go off.
-			while (!onScreenQ.isEmpty() && onScreenQ.peek().getEndTime() <= newTime) {
+			// first check to see if any of your items OnScreen are ready to go off.
+			while (!OnScreen.Q().isEmpty() && OnScreen.Q().peek().getEndTime() <= newTime) {
 				changed = true;
-				//offScreenQ.add(onScreenQ.peek());
-				offScreenQ.add(onScreenQ.poll());
-				//Log.w("Timer", "item removed from onScreenQ, size is: " + onScreenQ.size() + ", end time is: " + onScreenQ.poll().getEndTime() + ", time is: " + newTime);
-			}
-			//Log.w("Timer", "done removing from onScreenQ, size is: " + onScreenQ.size() + ", time is: " + newTime);
-			
-			// then check if any of the items in the WaitingQueue are ready to go on.
-			while (!WaitingQueue.isEmpty() && WaitingQueue.peek().getStartTime() <= newTime) {
-				changed = true;
-				onScreenQ.add(WaitingQueue.pop());
-				//Log.w("Timer", "item added to onScreenQ, size is: " + onScreenQ.size() + ", time is: " + newTime);
+				OffScreen.Q().push(OnScreen.Q().peek());
 			}
 			
-			// sort the onScreenQ by end time, so the first check will work out well the next time around
-			if (changed) Collections.sort(onScreenQ, new EndTimeASC());
+			// then check if any of the items in the Waiting.Q() are ready to go on.
+			while (!Waiting.Q().isEmpty() && Waiting.Q().peek().getStartTime() <= newTime) {
+				changed = true;
+				OnScreen.Q().push(Waiting.Q().pop());
+				//OnScreen.Q().logQ("item added ");
+				//Waiting.Q().logQ("item popped ");
+			}
+			
+			// sort the OnScreenQ by end time, so the first check will work out well the next time around
+			if (changed) OnScreen.Q().sortByEndTimeASC();
 
-			//Log.w("Timer", "on screen size " + onScreenQ.size());
-			//Collections.sort(offScreenQ, new EndTimeDESC());		// don't think we'll need to sort the offScreenQ
-			
-			
+			// used to sort the OffScreenQ by end time here, but don't think it's necessary
 		} else {	// if the newTime is less than the old time
-			// first see if anything offScreen needs to go back onScreen
-			//if (!offScreenQ.isEmpty()) Log.w("Timer", "offScreenQ getEndTime(): " +offScreenQ.peek().getEndTime());
-			while (!offScreenQ.isEmpty() && offScreenQ.peek().getEndTime() > newTime && offScreenQ.peek().getStartTime() >= newTime) {
+			// first see if anything OffScreen needs to go back OnScreen
+			while (!OffScreen.Q().isEmpty() && OffScreen.Q().peek().getEndTime() > newTime && OffScreen.Q().peek().getStartTime() >= newTime) {
 				changed = true;
-				onScreenQ.add(offScreenQ.poll());
-				//Log.w("Timer", "item added onScreen from offScreen");
+				OnScreen.Q().push(OffScreen.Q().pop());
 			}
 			
-			// then see if anything onScreen needs to be backed up into the WaitingQueue
-			Collections.sort(onScreenQ, new StartTimeDESC());	// sort by startTime
-			//if (!onScreenQ.isEmpty()) Log.w("Timer", "onScreenQ's getStartTime(): " +onScreenQ.peek().getStartTime() + ", newTime is " + newTime);
-			while (!onScreenQ.isEmpty() && onScreenQ.peek().getStartTime() > newTime) {
+			// then see if anything OnScreen needs to be backed up into the WaitingQueue
+			OnScreen.Q().sortByStartTimeDESC();	// sort by startTime
+			while (!OnScreen.Q().isEmpty() && OnScreen.Q().peek().getStartTime() > newTime) {
 				changed = true;
-				WaitingQueue.push(onScreenQ.poll());
-				//Log.w("Timer", "item added to waiting from onScreen");
+				Waiting.Q().push(OnScreen.Q().pop());
 			}
 
-			Collections.sort(onScreenQ, new EndTimeASC());		// once only what we need is on the queue, sort it properly
-			//Log.w("Timer", "Processed the else statement, onScreenSize: " + onScreenQ.size() + ", offScreenSize: " +offScreenQ.size());
+			OnScreen.Q().sortByEndTimeASC();		// once only what we need is on the queue, sort it properly
 		}
 		
 		time = newTime;
 		return changed;
 	}
-	
-	public LinkedList <AbstractSMILObject> drawOnScreenQ(Canvas canvas) {
-		LinkedList <AbstractSMILObject> onScreenQcopy = new LinkedList <AbstractSMILObject>(onScreenQ);
-		while (!onScreenQcopy.isEmpty())  {
-			//Log.w("Timer", "onScreenQ size: " + onScreenQ.size());
-			onScreenQcopy.poll().draw(canvas);
-		}
-
-		//Log.w("Timer", "onScreenQ size after drawing: " + onScreenQ.size());
-		return new LinkedList <AbstractSMILObject>(onScreenQ);
-	}
 }
-
-class EndTimeASC implements Comparator< AbstractSMILObject> {
-	public int compare(AbstractSMILObject lhs, AbstractSMILObject rhs) {
-		return lhs.getEndTime() - rhs.getEndTime();
-	}
-}
-class StartTimeDESC implements Comparator< AbstractSMILObject> {
-	public int compare(AbstractSMILObject lhs, AbstractSMILObject rhs) {
-		return rhs.getStartTime() - lhs.getStartTime();
-	}
-}
-/*
-class EndTimeDESC implements Comparator< AbstractSMILObject> {
-	public int compare(AbstractSMILObject lhs, AbstractSMILObject rhs) {
-		return lhs.getEndTime() - rhs.getEndTime();
-	}
-}
-*/

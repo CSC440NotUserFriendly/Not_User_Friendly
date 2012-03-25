@@ -15,7 +15,6 @@ package csc440.nuf.complay;
 
 import csc440.nuf.R;
 import csc440.nuf.components.SMILText;
-import csc440.nuf.WaitingQueue;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -66,20 +65,20 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         
         setContentView(R.layout.player_main);
         // when this activity is created we need to save the screen density for use in drawing
-        WaitingQueue.setScreenDensity(getResources().getDisplayMetrics().density);
+        Waiting.Q().setScreenDensity(getResources().getDisplayMetrics().density);
         
         // for now we're manually making a WaitingQueue
-        while (!WaitingQueue.isEmpty()) WaitingQueue.pop();
+        while (!Waiting.Q().isEmpty()) Waiting.Q().pop();
         SMILText[] t = new SMILText[4];
         t[0] = new SMILText(0, 5, 70, 70, "Hey", 40, "yellow");
         t[1] = new SMILText(2, 3, 150, 130, "this is a", 60, "white");
         t[2] = new SMILText(3, 7, 230, 210, "(: SMIL :)", 90, "red");
         t[3] = new SMILText(5, 5, 300, 300, "PRESENTATION!", 40, "blue");
-        for (int i = 0; i < 4; i++) WaitingQueue.push(t[i]);
-        WaitingQueue.prepQ();
+        for (int i = 0; i < 4; i++) Waiting.Q().push(t[i]);
+        Waiting.Q().prepQ();
         
         // save the message length
-        messageLength = WaitingQueue.getMessageLength();
+        messageLength = Waiting.Q().getMessageLength();
         //Log.w("PlayerActivity", "getMessageLength is: " + messageLength);
         
         // initialize our variables

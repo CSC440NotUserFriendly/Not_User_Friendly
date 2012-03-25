@@ -11,7 +11,6 @@ package csc440.nuf.complay;
  * File Created
  */
 
-import csc440.nuf.WaitingQueue;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -77,8 +76,8 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
         		Canvas canvas = holder.lockCanvas();
         		
                 canvas.drawColor(Color.BLACK);
-                timer.drawOnScreenQ(canvas);
-	    		if (!WaitingQueue.isEmpty()) Log.w("PlayerCanvas", "Waiting Queue Start Time " + WaitingQueue.peek().getStartTime());
+                OnScreen.Q().draw(canvas);
+	    		if (!Waiting.Q().isEmpty()) Log.w("PlayerCanvas", "Waiting Queue Start Time " + Waiting.Q().peek().getStartTime());
 
 	    		/* Enough with this testing bullshit
 	    		canvas.drawText("time = " + timer.getTime() + " | deltaTime = " + deltaTime + " | startTime = " + startTime, 10, 10, red);

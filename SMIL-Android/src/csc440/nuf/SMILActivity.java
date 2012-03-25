@@ -5,7 +5,7 @@
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
- *
+ * 
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -42,13 +42,13 @@ import android.widget.TextView;
  * Main activity - requests "Hello, World" messages from the server and provides
  * a menu item to invoke the accounts activity.
  */
-public class SMILActivity extends Activity {
+public class SMILActivity extends Activity implements OnClickListener {
     /**
      * Tag for logging.
      */
     private static final String TAG = "SMILActivity";
     private ActionBar _actionBar;
-    private ScrollItem item1, item2, item3;
+    private ScrollItemManager items;
 
     /**
      * The current context.
@@ -118,35 +118,22 @@ public class SMILActivity extends Activity {
         _actionBar.setTitle(R.string.app_name);
         _actionBar.setHomeLogo(R.drawable.ic_launcher);
 
-        item1 = new ScrollItem(findViewById(R.id.item1));
-        item1.setTitle("Compose Message");
-        item1.setIcon(R.drawable.ic_home);
-        item1.setListener(new OnClickListener() {
-			public void onClick(View v) {
-				Intent i = new Intent(SMILActivity.this, ViewMessageActivity.class);
-				SMILActivity.this.startActivity(i);
-			}
-        });
+        items = new ScrollItemManager(findViewById(R.id.scrollHolder));
         
-        item2 = new ScrollItem(findViewById(R.id.item2));
-        item2.setTitle("Compose From Template");
-        item2.setIcon(R.drawable.ic_home);
-        item2.setListener(new OnClickListener() {
-			public void onClick(View v) {
-				Intent i = new Intent(SMILActivity.this, PlayerActivity.class);
-				SMILActivity.this.startActivity(i);
-			}
-        });
-        
-        item3 = new ScrollItem(findViewById(R.id.item3));
-        item3.setTitle("View Inbox");
-        item3.setIcon(R.drawable.inbox);
-        item3.setListener(new OnClickListener() {
-			public void onClick(View v) {
-				Intent i = new Intent(SMILActivity.this, PlayerActivity.class);
-				SMILActivity.this.startActivity(i);
-			}
-        });
+        items.addItem(getApplicationContext()); 
+        items.setTitle("Compose Message");
+        items.setIcon(R.drawable.ic_home);
+        items.setListener(this, 1);
+
+        items.addItem(getApplicationContext());
+        items.setTitle("Compose From Template");
+        items.setIcon(R.drawable.ic_home);
+        items.setListener(this, 2);
+
+        items.addItem(getApplicationContext());
+        items.setTitle("View Inbox");
+        items.setIcon(R.drawable.inbox);
+        items.setListener(this, 3);
         
         /*
         _actionBar.setHomeListener(new OnClickListener() {
@@ -163,6 +150,26 @@ public class SMILActivity extends Activity {
         
     }
 
+	@Override
+	public void onClick(View v) {
+		Intent i;
+		
+		switch (v.getId()) {
+		case 1:	// Compose Message
+			i = new Intent(this, ComposerActivity.class);
+			this.startActivity(i);
+			break;
+		case 2:	// Compose From Template
+			i = new Intent(this, PlayerActivity.class);
+			this.startActivity(i);
+			break;
+		case 3:	// View Inbox
+			i = new Intent(this, ViewMessageActivity.class);
+			this.startActivity(i);
+			break;
+		} 
+	}
+	
     /**
      * Shuts down the activity.
      */
@@ -225,7 +232,7 @@ public class SMILActivity extends Activity {
             }
         });
     }
-
+	
     /**
      * Sets the screen content based on the screen id.
      */

@@ -38,9 +38,10 @@ import android.view.View.OnClickListener;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class ViewMessageActivity extends Activity {
+public class ViewMessageActivity extends Activity implements OnClickListener {
 	private final int REQ_CODE_PLAYER = 1111;
 	private static int startTime = 0;
+	private ScrollItemManager items;
 	private Bundle state = null;
 	private ActionBar _actionBar;
 	private boolean playPressed = false;
@@ -63,8 +64,8 @@ public class ViewMessageActivity extends Activity {
 		alertAutoPlay.setMessage("If you turn your phone into landscape mode the message will automatically play. Turn your phone back up to return to the message screen.");
 		alertAutoPlay.setButton("Let me try!", new DialogInterface.OnClickListener() {  
 		      public void onClick(DialogInterface dialog, int which) {  
-		          return;  
-		      }
+		  			return;  
+		      } 
 		});
 		alertAutoPlay.setButton2("Not for me! (disable feature)", new DialogInterface.OnClickListener() {  
 		      public void onClick(DialogInterface dialog, int which) {  
@@ -76,14 +77,6 @@ public class ViewMessageActivity extends Activity {
 		  			return;  
 		      } 
 		});
-			
-		OnClickListener play = new OnClickListener() {
-			public void onClick(View v) {
-				if (ViewMessageActivity.autoPlay)
-					ViewMessageActivity.alertAutoPlay.show();
-				else playMessage(true);
-			}
-		};
 		
 		_actionBar = (ActionBar) findViewById(R.id.actionBar);
         _actionBar.setTitle("Message Details");
@@ -93,11 +86,11 @@ public class ViewMessageActivity extends Activity {
 			}
         });
 
-        ScrollItemManager items = new ScrollItemManager(findViewById(R.id.scrollHolder));
+        items = new ScrollItemManager(findViewById(R.id.scrollHolder));
         items.addItem(getApplicationContext(), true);
         items.setTitle("Message Title");
         items.setIcon(R.drawable.ic_home);
-        items.setListener(play);
+        items.setListener(this, 1);
         TextView item1Text1 = new TextView(this);
         item1Text1.setText("From: magicjj                   on 2/16/2012");
         item1Text1.setTextColor(Color.BLACK);
@@ -115,32 +108,25 @@ public class ViewMessageActivity extends Activity {
         items.addLine(getApplicationContext());
         items.addToLinear(item2Text2);
         items.addLine(getApplicationContext());
-        
+
         items.addItem(getApplicationContext());
         items.setTitle("Play Message");
-        items.setListener(play);
+        items.setListener(this, 1);
 
         items.addItem(getApplicationContext());
         items.setTitle("Reply");
+        //items.setListener(this, 1);
 
         items.addItem(getApplicationContext());
         items.setTitle("Forward");
 
         items.addItem(getApplicationContext());
         items.setTitle("Reset Preference");
-        items.setListener(new OnClickListener() {
-			public void onClick(View v) {
-				SharedPreferences.Editor myPrefEdit = ViewMessageActivity.this.getSharedPreferences("username", MODE_WORLD_READABLE).edit();
-	  			myPrefEdit.putBoolean("autoPlay", true);
-	  			myPrefEdit.commit();
-	  			ViewMessageActivity.autoPlay = true;
-			}
-        });
+        items.setListener(this, 2);
     }
 	
 	protected void onResume() {
 		super.onResume();
-		
 		// we're really going to need a user preference to override this, and have the PlayerActivity just request Landscape
 		// otherwise people without accelerometers won't be able to get to the player
 		if (autoPlay && !playPressed && 
@@ -153,7 +139,7 @@ public class ViewMessageActivity extends Activity {
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
-		Log.w("messageActivity", "activity result code: " + requestCode + ", RESULT_OK? " + (resultCode == RESULT_OK));
+		//Log.w("messageActivity", "activity result code: " + requestCode + ", RESULT_OK? " + (resultCode == RESULT_OK));
 		if (requestCode == REQ_CODE_PLAYER && resultCode == RESULT_OK) {
 			startTime = data.getIntExtra("startTime", 0);	// save what second the player was stopped at
 			// at first I was just passing playPressed into the player so it knew not to kill the activity if the screen was in portrait.
@@ -172,5 +158,22 @@ public class ViewMessageActivity extends Activity {
 		i.putExtra("startTime", startTime);		// tells the player what second to start at
 		i.putExtra("playPressed", playPressed);		// tells the player what second to start at
 		this.startActivityForResult(i, REQ_CODE_PLAYER);
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+		case 1:	// Play Button
+			if (autoPlay)
+				alertAutoPlay.show();
+			else playMessage(true);
+			break;
+		case 2:	// Reset Preference Button
+			SharedPreferences.Editor myPrefEdit = this.getSharedPreferences("username", MODE_WORLD_READABLE).edit();
+  			myPrefEdit.putBoolean("autoPlay", true);
+  			myPrefEdit.commit();
+  			autoPlay = true;
+			break;
+		} 
 	}
 }

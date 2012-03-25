@@ -4,12 +4,12 @@ import java.lang.reflect.Field;
 
 import org.xml.sax.Attributes;
 
-import csc440.nuf.WaitingQueue;
-
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.Log;
+
+import csc440.nuf.complay.Waiting;
 
 /**
  * CSC-440 SMIL Project
@@ -53,9 +53,9 @@ public class SMILText extends AbstractSMILObject {
 		
         Paint paint = new Paint();
         paint.setColor(color);
-        paint.setTextSize(textFontSize * WaitingQueue.getDensity());
+        paint.setTextSize(textFontSize * Waiting.Q().getDensity());
         
-		canvas.drawText(text, top * WaitingQueue.getDensity(), left * WaitingQueue.getDensity(), paint);
+		canvas.drawText(text, top * Waiting.Q().getDensity(), left * Waiting.Q().getDensity(), paint);
 		//Log.w("SMILText", "text was drawn: " + text);
 		
 	}

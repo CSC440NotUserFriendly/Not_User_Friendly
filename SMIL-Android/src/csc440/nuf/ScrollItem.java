@@ -85,5 +85,12 @@ public class ScrollItem {
 		line.setBackgroundColor(R.color.scrollitem_stroke);
 		addToLinear(line);
 	}
+
+	public int getId() {
+		return _relative.getId();
+	}
 	
+	public void setId(int id) {
+		_relative.setId(id);
+	}
 }

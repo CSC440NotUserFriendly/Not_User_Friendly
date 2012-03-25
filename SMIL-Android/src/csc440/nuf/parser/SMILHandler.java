@@ -15,7 +15,7 @@ package csc440.nuf.parser;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
-import csc440.nuf.WaitingQueue;
+import csc440.nuf.complay.Waiting;
 import csc440.nuf.components.*;
 
 public class SMILHandler extends DefaultHandler {
@@ -32,7 +32,7 @@ public class SMILHandler extends DefaultHandler {
 
         if (qName.equals("root-layout")) {
         	//Not sure what to do with this yet, it can't go in the queue.
-            WaitingQueue.setLayout(new SMILLayout(att));
+            Waiting.Q().setLayout(new SMILLayout(att));
         }
         if (qName.equals("par")) {
         	//Can't add this until all the objects contained within it are added.
@@ -90,12 +90,12 @@ public class SMILHandler extends DefaultHandler {
     	
     	//End of the par section
     	if(qName.equals("par")){
-    		WaitingQueue.push(par);
+    		Waiting.Q().push(par);
     		par = null; //Clear it for the next section
     	}
     	
     	if(qName.equals("seq")){
-    		WaitingQueue.push(seq);
+    		Waiting.Q().push(seq);
     		seq = null; //Clear it for the next section
     	}
 
@@ -107,7 +107,7 @@ public class SMILHandler extends DefaultHandler {
     	else if(seq != null)
     		seq.add(o);
     	else
-    		WaitingQueue.push(o);
+    		Waiting.Q().push(o);
     	
     }
 }
