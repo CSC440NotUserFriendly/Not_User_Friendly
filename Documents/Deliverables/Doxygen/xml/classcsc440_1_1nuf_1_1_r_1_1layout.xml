@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_r_1_1layout" kind="class" prot="public">
+    <compoundname>csc440::nuf::R::layout</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a80d76520fc651da0785ac36f7f959c77" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.account</definition>
+        <argsstring></argsstring>
+        <name>account</name>
+        <initializer>0x7f030000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="99" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a6f3c1a212eb7049214639b94f00fb94b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.actionbar</definition>
+        <argsstring></argsstring>
+        <name>actionbar</name>
+        <initializer>0x7f030001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="100" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a3ea84a335c51ff46d04b1c3fcfb192dc" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.actionbar_icon</definition>
+        <argsstring></argsstring>
+        <name>actionbar_icon</name>
+        <initializer>0x7f030002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="101" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a3bb50edd16f77154493675ab8fdf1f71" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.composer_main</definition>
+        <argsstring></argsstring>
+        <name>composer_main</name>
+        <initializer>0x7f030003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="102" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1aa80f91fbeb4aa1d6eae62a98f970e16a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.connect</definition>
+        <argsstring></argsstring>
+        <name>connect</name>
+        <initializer>0x7f030004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="103" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a7a996e1941c582b875d1abb38f02ba3c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.disconnect</definition>
+        <argsstring></argsstring>
+        <name>disconnect</name>
+        <initializer>0x7f030005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="104" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a1001cce8436aadc664664c6891eef1ff" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.hello_world</definition>
+        <argsstring></argsstring>
+        <name>hello_world</name>
+        <initializer>0x7f030006</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="105" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a9a490a68a3d751df744033e812b9eaa0" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <initializer>0x7f030007</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="106" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1af24e1679b326c8a889319e8cafe4e3e8" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.player_main</definition>
+        <argsstring></argsstring>
+        <name>player_main</name>
+        <initializer>0x7f030008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="107" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1layout_1a6953112030db669d28bcb23e20c6ec8e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.layout.scroll_item</definition>
+        <argsstring></argsstring>
+        <name>scroll_item</name>
+        <initializer>0x7f030009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="108" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="98" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="98" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a80d76520fc651da0785ac36f7f959c77" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>account</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a6f3c1a212eb7049214639b94f00fb94b" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>actionbar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a3ea84a335c51ff46d04b1c3fcfb192dc" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>actionbar_icon</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a3bb50edd16f77154493675ab8fdf1f71" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>composer_main</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1aa80f91fbeb4aa1d6eae62a98f970e16a" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>connect</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a7a996e1941c582b875d1abb38f02ba3c" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>disconnect</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a1001cce8436aadc664664c6891eef1ff" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>hello_world</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a9a490a68a3d751df744033e812b9eaa0" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>main</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1af24e1679b326c8a889319e8cafe4e3e8" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>player_main</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a6953112030db669d28bcb23e20c6ec8e" prot="public" virt="non-virtual"><scope>csc440::nuf::R::layout</scope><name>scroll_item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

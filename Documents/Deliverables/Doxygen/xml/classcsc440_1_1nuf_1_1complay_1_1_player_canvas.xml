@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas" kind="class" prot="public">
+    <compoundname>csc440::nuf::complay::PlayerCanvas</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SurfaceView</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a37483f4f52519489788b90780dedd43d" prot="private" static="no" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1complay_1_1_timer" kindref="compound">Timer</ref></type>
+        <definition>Timer csc440.nuf.complay.PlayerCanvas.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="26" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1adf240f6d1223a9d40e872053ed854960" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.PlayerCanvas.playing</definition>
+        <argsstring></argsstring>
+        <name>playing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aeb72981fb9e946968287e9a32dc7a0ec" prot="private" static="no" mutable="no">
+        <type>SurfaceHolder</type>
+        <definition>SurfaceHolder csc440.nuf.complay.PlayerCanvas.holder</definition>
+        <argsstring></argsstring>
+        <name>holder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a6c6ae795a96cb501eec7700327e7e600" prot="private" static="no" mutable="no">
+        <type>Thread</type>
+        <definition>Thread csc440.nuf.complay.PlayerCanvas.renderThread</definition>
+        <argsstring></argsstring>
+        <name>renderThread</name>
+        <initializer> null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="29" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab9493f73c7a31835981a8c01248388b2" prot="private" static="no" mutable="no">
+        <type>SeekBar</type>
+        <definition>SeekBar csc440.nuf.complay.PlayerCanvas._seekBar</definition>
+        <argsstring></argsstring>
+        <name>_seekBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="30" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aeb55a6f14113d2b6f4183b3b46284835" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float csc440.nuf.complay.PlayerCanvas.deltaTime</definition>
+        <argsstring></argsstring>
+        <name>deltaTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a3727a156fd301eb509e7c79f4ad06833" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.complay.PlayerCanvas.messageLength</definition>
+        <argsstring></argsstring>
+        <name>messageLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ae8e4a5d566c323f8b7e8d9cece4fe07c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.complay.PlayerCanvas.PlayerCanvas</definition>
+        <argsstring>(Context context, AttributeSet attrs)</argsstring>
+        <name>PlayerCanvas</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>AttributeSet</type>
+          <declname>attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="34" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab0dcca93b23d621e1d3d353ecd95a215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerCanvas.setSeekBar</definition>
+        <argsstring>(SeekBar seekBar)</argsstring>
+        <name>setSeekBar</name>
+        <param>
+          <type>SeekBar</type>
+          <declname>seekBar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="40" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="40" bodyend="43"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a1d41cf44dc0cb2c075744299c9867903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerCanvas.play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="45" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="45" bodyend="49"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a7f5eb45ffac9b23a602a8ba76dbb6d47" compoundref="_player_activity_8java" startline="162" endline="176">csc440.nuf.complay.PlayerActivity.playPause</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerCanvas.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="51" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="51" bodyend="101"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aff1846d75c64aee648b2321f9ea62314" compoundref="_timer_8java" startline="34" endline="36">csc440.nuf.complay.Timer.timePlusPlus</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_on_screen_1a33feeb951e6558b0f50251e713a5a230" compoundref="_on_screen_8java" startline="5" endline="7">csc440.nuf.complay.OnScreen.Q</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a75d1b0f2ee11e7051721631f7659fdab" compoundref="_q_8java" startline="88" endline="94">csc440.nuf.complay.Q.draw</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" compoundref="_waiting_8java" startline="5" endline="7">csc440.nuf.complay.Waiting.Q</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a6c333b08908191e022f23b68989c263a" compoundref="_q_8java" startline="64" endline="66">csc440.nuf.complay.Q.isEmpty</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a1909fe89eabfc73398d99c7dc4c9b946" compoundref="_q_8java" startline="52" endline="54">csc440.nuf.complay.Q.peek</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1a8a082600290ab98e14d378e26a64c76f" compoundref="_timer_8java" startline="27" endline="29">csc440.nuf.complay.Timer.getTime</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab280f6a822b63f5aa82300ebdec8dccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerCanvas.pause</definition>
+        <argsstring>()</argsstring>
+        <name>pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="103" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="103" bodyend="113"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a7f5eb45ffac9b23a602a8ba76dbb6d47" compoundref="_player_activity_8java" startline="162" endline="176">csc440.nuf.complay.PlayerActivity.playPause</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a64eae2e9ed26456ab5b104436c97d78f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerCanvas.setTime</definition>
+        <argsstring>(int time)</argsstring>
+        <name>setTime</name>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="115" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="115" bodyend="118"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a042e95babe17fab59ba7d71a6dfc9dbb" compoundref="_player_activity_8java" startline="153" endline="156">csc440.nuf.complay.PlayerActivity.onStopTrackingTouch</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a7f5eb45ffac9b23a602a8ba76dbb6d47" compoundref="_player_activity_8java" startline="162" endline="176">csc440.nuf.complay.PlayerActivity.playPause</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a6b937b5f221fc77c732639ae3dd710de" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerCanvas.onDraw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>onDraw</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="121" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="121" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="387">
+        <label>SurfaceView</label>
+      </node>
+      <node id="386">
+        <label>csc440.nuf.complay.PlayerCanvas</label>
+        <link refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas"/>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="389">
+        <label>SurfaceView</label>
+      </node>
+      <node id="388">
+        <label>csc440.nuf.complay.PlayerCanvas</label>
+        <link refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas"/>
+        <childnode refid="389" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerCanvas.java" bodystart="25" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab9493f73c7a31835981a8c01248388b2" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>_seekBar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aeb55a6f14113d2b6f4183b3b46284835" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>deltaTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aeb72981fb9e946968287e9a32dc7a0ec" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>holder</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a3727a156fd301eb509e7c79f4ad06833" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>messageLength</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a6b937b5f221fc77c732639ae3dd710de" prot="protected" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>onDraw</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab280f6a822b63f5aa82300ebdec8dccf" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>pause</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a1d41cf44dc0cb2c075744299c9867903" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>play</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ae8e4a5d566c323f8b7e8d9cece4fe07c" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>PlayerCanvas</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1adf240f6d1223a9d40e872053ed854960" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>playing</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a6c6ae795a96cb501eec7700327e7e600" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>renderThread</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>run</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab0dcca93b23d621e1d3d353ecd95a215" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>setSeekBar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a64eae2e9ed26456ab5b104436c97d78f" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>setTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a37483f4f52519489788b90780dedd43d" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerCanvas</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

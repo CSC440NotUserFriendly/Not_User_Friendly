@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_waiting_queue" kind="class" prot="public">
+    <compoundname>csc440::nuf::WaitingQueue</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_waiting_queue_1a9dceaa48b16ebe0c73b018a73d71667e" prot="private" static="yes" mutable="no">
+        <type>LinkedList&lt; AbstractSMILObject &gt;</type>
+        <definition>LinkedList&lt;AbstractSMILObject&gt; csc440.nuf.WaitingQueue.objectQ</definition>
+        <argsstring></argsstring>
+        <name>objectQ</name>
+        <initializer> new LinkedList&lt;AbstractSMILObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_waiting_queue_1a733055434781ba9a443798c145608946" prot="private" static="yes" mutable="no">
+        <type>SMILLayout</type>
+        <definition>SMILLayout csc440.nuf.WaitingQueue.layout</definition>
+        <argsstring></argsstring>
+        <name>layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_waiting_queue_1a1bb768ecb8a705e457e3a6b975a58905" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float csc440.nuf.WaitingQueue.density</definition>
+        <argsstring></argsstring>
+        <name>density</name>
+        <initializer> 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="26" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1ae92237ad5f78ecae6df25064fa060076" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.WaitingQueue.setScreenDensity</definition>
+        <argsstring>(float newDensity)</argsstring>
+        <name>setScreenDensity</name>
+        <param>
+          <type>float</type>
+          <declname>newDensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1aa0df75774f0678ef2e387dd46e467e59" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float csc440.nuf.WaitingQueue.getDensity</definition>
+        <argsstring>()</argsstring>
+        <name>getDensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1a98723a43fc41b33c625b6bc89f316daa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.WaitingQueue.push</definition>
+        <argsstring>(AbstractSMILObject smil)</argsstring>
+        <name>push</name>
+        <param>
+          <type>AbstractSMILObject</type>
+          <declname>smil</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="37" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1a5853f4f4288ee80584dac9d0805f058d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbstractSMILObject</type>
+        <definition>static AbstractSMILObject csc440.nuf.WaitingQueue.peek</definition>
+        <argsstring>()</argsstring>
+        <name>peek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1aa733f738402b4ed414e66fbe65be3654" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbstractSMILObject</type>
+        <definition>static AbstractSMILObject csc440.nuf.WaitingQueue.pop</definition>
+        <argsstring>()</argsstring>
+        <name>pop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="45" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1add84a726026626b52f9c0722c1ba5440" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.WaitingQueue.prepQ</definition>
+        <argsstring>()</argsstring>
+        <name>prepQ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="48" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1a260533a2fb28363d13793ccd1ccb2268" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean csc440.nuf.WaitingQueue.isEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="52" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1af3ffba3dc502336574e7538b22d734d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SMILLayout</type>
+        <definition>static SMILLayout csc440.nuf.WaitingQueue.getLayout</definition>
+        <argsstring>()</argsstring>
+        <name>getLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="56" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1ac0eebf9ce1ffdffc555d394ff6c1d62c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.WaitingQueue.setLayout</definition>
+        <argsstring>(SMILLayout layout)</argsstring>
+        <name>setLayout</name>
+        <param>
+          <type>SMILLayout</type>
+          <declname>layout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="60" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1ac136b1f6e6ba8e78b592bfb98ee1e812" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int csc440.nuf.WaitingQueue.getMessageLength</definition>
+        <argsstring>()</argsstring>
+        <name>getMessageLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="64" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_waiting_queue_1a02dea3c8c7be5619af03f518a21186f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int csc440.nuf.WaitingQueue.getLength</definition>
+        <argsstring>()</argsstring>
+        <name>getLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="67" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="67" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/WaitingQueue.java" bodystart="20" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a1bb768ecb8a705e457e3a6b975a58905" prot="private" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>density</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1aa0df75774f0678ef2e387dd46e467e59" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>getDensity</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1af3ffba3dc502336574e7538b22d734d0" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>getLayout</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a02dea3c8c7be5619af03f518a21186f2" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>getLength</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1ac136b1f6e6ba8e78b592bfb98ee1e812" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>getMessageLength</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a260533a2fb28363d13793ccd1ccb2268" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>isEmpty</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a733055434781ba9a443798c145608946" prot="private" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>layout</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a9dceaa48b16ebe0c73b018a73d71667e" prot="private" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>objectQ</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a5853f4f4288ee80584dac9d0805f058d" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>peek</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1aa733f738402b4ed414e66fbe65be3654" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>pop</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1add84a726026626b52f9c0722c1ba5440" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>prepQ</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a98723a43fc41b33c625b6bc89f316daa" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>push</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1ac0eebf9ce1ffdffc555d394ff6c1d62c" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>setLayout</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1ae92237ad5f78ecae6df25064fa060076" prot="public" virt="non-virtual"><scope>csc440::nuf::WaitingQueue</scope><name>setScreenDensity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

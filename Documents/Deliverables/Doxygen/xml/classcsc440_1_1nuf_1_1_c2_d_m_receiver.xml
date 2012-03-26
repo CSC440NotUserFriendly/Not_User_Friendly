@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_c2_d_m_receiver" kind="class" prot="public">
+    <compoundname>csc440::nuf::C2DMReceiver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">C2DMBaseReceiver</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a6026d84758d7ab3090f035236d58fd87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.C2DMReceiver.C2DMReceiver</definition>
+        <argsstring>()</argsstring>
+        <name>C2DMReceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" bodystart="33" bodyend="35"/>
+        <references refid="classcsc440_1_1nuf_1_1_setup_1a7a399cf5d77d0ea94c0cc2a091fc7c7d" compoundref="_setup_8java" startline="38">csc440.nuf.Setup.SENDER_ID</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a55ec75d92b2ea18fc3bfb7354fc63571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.C2DMReceiver.onRegistered</definition>
+        <argsstring>(Context context, String registration)</argsstring>
+        <name>onRegistered</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>registration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when a registration token has been received.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>context</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Context </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>registrationId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the registration id as a String </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if registration cannot be performed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" line="45" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" bodystart="45" bodyend="47"/>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a5703ea903b3efa7a0fc8b0dd94c93939" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.C2DMReceiver.onUnregistered</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>onUnregistered</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when the device has been unregistered.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>context</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Context </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" line="55" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" bodystart="55" bodyend="59"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="180" endline="182">csc440.nuf.Util.getSharedPreferences</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a19e590891af91bcb18ce096826a637d9" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="86">csc440.nuf.Util.DEVICE_REGISTRATION_ID</references>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4772899d4fb8e0ce9dbe2b4a04fed1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.C2DMReceiver.onError</definition>
+        <argsstring>(Context context, String errorId)</argsstring>
+        <name>onError</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>errorId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called on registration error. This is called in the context of a Service<itemizedlist>
+<listitem><para>no dialog or UI.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>context</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the Context </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>errorId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an error message, defined in <ref refid="" kindref="compound">C2DMBaseReceiver</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" line="69" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" bodystart="69" bodyend="71"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a3376e622f91a209d996ed066878f3ff5" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="96">csc440.nuf.Util.UPDATE_UI_INTENT</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4fd8cbc3e17b49225e052b12547af03a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.C2DMReceiver.onMessage</definition>
+        <argsstring>(Context context, Intent intent)</argsstring>
+        <name>onMessage</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Intent</type>
+          <declname>intent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when a cloud message has been received. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" line="77" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" bodystart="77" bodyend="82"/>
+        <references refid="classcsc440_1_1nuf_1_1_message_display_1adf7092394387e6226d21bfa80c15b28d" compoundref="_message_display_8java" startline="38" endline="46">csc440.nuf.MessageDisplay.displayMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Receive a push message from the Cloud to Device Messaging (C2DM) service. This class should be modified to include functionality specific to your application. This class must have a no-arg constructor and pass the sender id to the superclass constructor. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="283">
+        <label>csc440.nuf.C2DMReceiver</label>
+        <link refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver"/>
+        <childnode refid="284" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>C2DMBaseReceiver</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="285">
+        <label>csc440.nuf.C2DMReceiver</label>
+        <link refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver"/>
+        <childnode refid="286" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="286">
+        <label>C2DMBaseReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/C2DMReceiver.java" bodystart="31" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a6026d84758d7ab3090f035236d58fd87" prot="public" virt="non-virtual"><scope>csc440::nuf::C2DMReceiver</scope><name>C2DMReceiver</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4772899d4fb8e0ce9dbe2b4a04fed1cf" prot="public" virt="non-virtual"><scope>csc440::nuf::C2DMReceiver</scope><name>onError</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4fd8cbc3e17b49225e052b12547af03a" prot="public" virt="non-virtual"><scope>csc440::nuf::C2DMReceiver</scope><name>onMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a55ec75d92b2ea18fc3bfb7354fc63571" prot="public" virt="non-virtual"><scope>csc440::nuf::C2DMReceiver</scope><name>onRegistered</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a5703ea903b3efa7a0fc8b0dd94c93939" prot="public" virt="non-virtual"><scope>csc440::nuf::C2DMReceiver</scope><name>onUnregistered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

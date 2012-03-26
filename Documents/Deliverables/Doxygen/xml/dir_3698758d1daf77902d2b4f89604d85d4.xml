@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_3698758d1daf77902d2b4f89604d85d4" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/</compoundname>
+    <innerdir refid="dir_64647976fc7bd8031b3a77a485000aed">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/cache/</innerdir>
+    <innerdir refid="dir_9ce2c557358f9da7e596a7de456d9d66">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/</innerdir>
+    <innerdir refid="dir_da4b808e10b7c14da844880ca3c93fe6">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/</innerdir>
+    <innerdir refid="dir_d5ff1ff8d91467bc6f7a4c28edcdd5bd">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/</innerdir>
+    <innerfile refid="_accounts_activity_8java">AccountsActivity.java</innerfile>
+    <innerfile refid="_s_m_i_l-_android_2src_2csc440_2nuf_2_action_bar_8java">ActionBar.java</innerfile>
+    <innerfile refid="_android_request_transport_8java">AndroidRequestTransport.java</innerfile>
+    <innerfile refid="_async_fetch_s_m_i_l_message_8java">AsyncFetchSMILMessage.java</innerfile>
+    <innerfile refid="_c2_d_m_receiver_8java">C2DMReceiver.java</innerfile>
+    <innerfile refid="_device_registrar_8java">DeviceRegistrar.java</innerfile>
+    <innerfile refid="_message_display_8java">MessageDisplay.java</innerfile>
+    <innerfile refid="_scroll_item_8java">ScrollItem.java</innerfile>
+    <innerfile refid="_scroll_item_manager_8java">ScrollItemManager.java</innerfile>
+    <innerfile refid="_setup_8java">Setup.java</innerfile>
+    <innerfile refid="_s_m_i_l_activity_8java">SMILActivity.java</innerfile>
+    <innerfile refid="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java">Util.java</innerfile>
+    <innerfile refid="_view_message_activity_8java">ViewMessageActivity.java</innerfile>
+    <innerfile refid="_waiting_queue_8java">WaitingQueue.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/"/>
+  </compounddef>
+</doxygen>

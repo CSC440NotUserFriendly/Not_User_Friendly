@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_setup" kind="class" prot="public">
+    <compoundname>csc440::nuf::Setup</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_setup_1add02a3bfc847514e59ba681a84d59755" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Setup.APP_NAME</definition>
+        <argsstring></argsstring>
+        <name>APP_NAME</name>
+        <initializer>&quot;smil&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The AppEngine app name, used to construct the production service URL below. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_setup_1a2b9dcf3824dfea4980f2d9f8c9bdcf09" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Setup.PROD_URL</definition>
+        <argsstring></argsstring>
+        <name>PROD_URL</name>
+        <initializer>&quot;.appspot.com&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The URL of the production service. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1a6073587e3dc087b21d85869abe1e91e9" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="138" endline="150">csc440.nuf.Util.getBaseUrl</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1ab50759c63c640488621224b197658775" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="187" endline="191">csc440.nuf.Util.isDebug</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_setup_1a7a399cf5d77d0ea94c0cc2a091fc7c7d" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Setup.SENDER_ID</definition>
+        <argsstring></argsstring>
+        <name>SENDER_ID</name>
+        <initializer>&quot;brad.a.barker@gmail.com&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The C2DM sender ID for the server. A C2DM registration with this name must exist for the app to function correctly. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" line="38" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_accounts_activity_1a172796bda215011c1ef3b983e9555cfb" compoundref="_accounts_activity_8java" startline="108" endline="119">csc440.nuf.AccountsActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a6026d84758d7ab3090f035236d58fd87" compoundref="_c2_d_m_receiver_8java" startline="33" endline="35">csc440.nuf.C2DMReceiver.C2DMReceiver</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to be customized with app-specific data. The Eclipse plugin will set these values when the project is created. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" line="21" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Setup.java" bodystart="21" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_setup_1add02a3bfc847514e59ba681a84d59755" prot="private" virt="non-virtual"><scope>csc440::nuf::Setup</scope><name>APP_NAME</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_setup_1a2b9dcf3824dfea4980f2d9f8c9bdcf09" prot="public" virt="non-virtual"><scope>csc440::nuf::Setup</scope><name>PROD_URL</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_setup_1a7a399cf5d77d0ea94c0cc2a091fc7c7d" prot="public" virt="non-virtual"><scope>csc440::nuf::Setup</scope><name>SENDER_ID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

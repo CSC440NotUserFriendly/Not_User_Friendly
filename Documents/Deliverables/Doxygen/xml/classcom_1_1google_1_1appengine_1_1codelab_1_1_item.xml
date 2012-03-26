@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item" kind="class" prot="public">
+    <compoundname>com::google::appengine::codelab::Item</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1f0cd1ed3e9e496f6cd40cde580dc045" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Entity</type>
+        <definition>static Entity com.google.appengine.codelab.Item.createOrUpdateItem</definition>
+        <argsstring>(String productName, String itemName, String price)</argsstring>
+        <name>createOrUpdateItem</name>
+        <param>
+          <type>String</type>
+          <declname>productName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>itemName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create or update <ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item" kindref="compound">Item</ref> for a particular product. <ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product" kindref="compound">Product</ref> entity has one to many relation-ship with <ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item" kindref="compound">Item</ref> entity</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>productName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: product name for which the item is created. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>itemName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: item name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: price of the item </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" bodystart="33" bodyend="49"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a8281f8c29702347f39fcb651db5e073f" compoundref="_product_8java" startline="48" endline="51">com.google.appengine.codelab.Product.getProduct</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1addfefc24274a9ae1e62dc123e4bc2a68" compoundref="_item_8java" startline="94" endline="102">com.google.appengine.codelab.Item.getSingleItem</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a95f645b216766041423363dd06815dc7" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="48" endline="51">com.google.appengine.codelab.Util.persistEntity</references>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a5d5c9f0b60f447633023ec79cfa95ea1" compoundref="_item_servlet_8java" startline="64" endline="71">com.google.appengine.codelab.ItemServlet.doPut</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1ac34c1a67f0b499b88f2ba10c9c57d9d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt; Entity &gt;</type>
+        <definition>static Iterable&lt;Entity&gt; com.google.appengine.codelab.Item.getAllItems</definition>
+        <argsstring>()</argsstring>
+        <name>getAllItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get All the items in the list</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: item kind </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>all the items </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" line="58" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" bodystart="58" bodyend="61"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a450bc0facf36bb5525b4f66a18be74cd" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="100" endline="109">com.google.appengine.codelab.Util.listEntities</references>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8" compoundref="_item_servlet_8java" startline="41" endline="59">com.google.appengine.codelab.ItemServlet.doGet</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a03e5b5b5ebc360327091c946c6b7874d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt; Entity &gt;</type>
+        <definition>static Iterable&lt;Entity&gt; com.google.appengine.codelab.Item.getItem</definition>
+        <argsstring>(String itemName)</argsstring>
+        <name>getItem</name>
+        <param>
+          <type>String</type>
+          <declname>itemName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the item by name, return an Iterable</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: item name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item" kindref="compound">Item</ref> Entity </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" line="70" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" bodystart="70" bodyend="73"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a450bc0facf36bb5525b4f66a18be74cd" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="100" endline="109">com.google.appengine.codelab.Util.listEntities</references>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8" compoundref="_item_servlet_8java" startline="41" endline="59">com.google.appengine.codelab.ItemServlet.doGet</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1c221deafdbd13c4133edf24cb6dcdb8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterable&lt; Entity &gt;</type>
+        <definition>static Iterable&lt;Entity&gt; com.google.appengine.codelab.Item.getItemsForProduct</definition>
+        <argsstring>(String kind, String productName)</argsstring>
+        <name>getItemsForProduct</name>
+        <param>
+          <type>String</type>
+          <declname>kind</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>productName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get all the items for a product</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: item kind </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>productName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: product name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: all items of type product </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" line="84" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" bodystart="84" bodyend="87"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a7a9f221fa79d46f397b81e06820beb03" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="118" endline="125">com.google.appengine.codelab.Util.listChildren</references>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8" compoundref="_item_servlet_8java" startline="41" endline="59">com.google.appengine.codelab.ItemServlet.doGet</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1addfefc24274a9ae1e62dc123e4bc2a68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Entity</type>
+        <definition>static Entity com.google.appengine.codelab.Item.getSingleItem</definition>
+        <argsstring>(String itemName)</argsstring>
+        <name>getSingleItem</name>
+        <param>
+          <type>String</type>
+          <declname>itemName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get <ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item" kindref="compound">Item</ref> with item name <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemName</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>get itemName </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>item entity </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" line="94" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" bodystart="94" bodyend="102"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a097d93268afc438617bd7e13f0f0f5e7" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="234" endline="236">com.google.appengine.codelab.Util.getDatastoreServiceInstance</references>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1f0cd1ed3e9e496f6cd40cde580dc045" compoundref="_item_8java" startline="33" endline="49">com.google.appengine.codelab.Item.createOrUpdateItem</referencedby>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a43b58e542f3362d9d1f3c35cc0d27d4d" compoundref="_item_8java" startline="104" endline="112">com.google.appengine.codelab.Item.deleteItem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a43b58e542f3362d9d1f3c35cc0d27d4d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String com.google.appengine.codelab.Item.deleteItem</definition>
+        <argsstring>(String itemKey)</argsstring>
+        <name>deleteItem</name>
+        <param>
+          <type>String</type>
+          <declname>itemKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" line="105" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" bodystart="104" bodyend="112"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1addfefc24274a9ae1e62dc123e4bc2a68" compoundref="_item_8java" startline="94" endline="102">com.google.appengine.codelab.Item.getSingleItem</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a04a02f078a3bd61f4bb36b48b4580c58" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="57" endline="60">com.google.appengine.codelab.Util.deleteEntity</references>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a977e84d117d1e9c9faf1be8e71f0e69e" compoundref="_item_servlet_8java" startline="77" endline="87">com.google.appengine.codelab.ItemServlet.doDelete</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class handles CRUD operations related to <ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item" kindref="compound">Item</ref> entity. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" line="19" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/Item.java" bodystart="19" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1f0cd1ed3e9e496f6cd40cde580dc045" prot="public" virt="non-virtual"><scope>com::google::appengine::codelab::Item</scope><name>createOrUpdateItem</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a43b58e542f3362d9d1f3c35cc0d27d4d" prot="public" virt="non-virtual"><scope>com::google::appengine::codelab::Item</scope><name>deleteItem</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1ac34c1a67f0b499b88f2ba10c9c57d9d5" prot="public" virt="non-virtual"><scope>com::google::appengine::codelab::Item</scope><name>getAllItems</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a03e5b5b5ebc360327091c946c6b7874d" prot="public" virt="non-virtual"><scope>com::google::appengine::codelab::Item</scope><name>getItem</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1c221deafdbd13c4133edf24cb6dcdb8" prot="public" virt="non-virtual"><scope>com::google::appengine::codelab::Item</scope><name>getItemsForProduct</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1addfefc24274a9ae1e62dc123e4bc2a68" prot="public" virt="non-virtual"><scope>com::google::appengine::codelab::Item</scope><name>getSingleItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

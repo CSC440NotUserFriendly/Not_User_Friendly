@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener" kind="class" prot="package">
+    <compoundname>csc440::nuf::complay::HideControlsListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OnTouchListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1afdacc6c269401cc38b67ef72f5c00e10" prot="private" static="no" mutable="no">
+        <type>View</type>
+        <definition>View csc440.nuf.complay.HideControlsListener.controls</definition>
+        <argsstring></argsstring>
+        <name>controls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="12" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1ab04d0f676fd9d1727f0f511cde996c81" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long csc440.nuf.complay.HideControlsListener.lastTouched</definition>
+        <argsstring></argsstring>
+        <name>lastTouched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="13" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a1d186f4d09b7a74b6997e306a790fb8b" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.complay.HideControlsListener.SECONDS_TO_SHOW</definition>
+        <argsstring></argsstring>
+        <name>SECONDS_TO_SHOW</name>
+        <initializer> 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="14" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a2707b1ca34ad67ff5400563a97540824" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.HideControlsListener.override</definition>
+        <argsstring></argsstring>
+        <name>override</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="15" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a2477d3aa8449eef0b602ef18b911ed65" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.complay.HideControlsListener.HideControlsListener</definition>
+        <argsstring>(View controls)</argsstring>
+        <name>HideControlsListener</name>
+        <param>
+          <type>View</type>
+          <declname>controls</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="17" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1af96b99c1e447d5306ef0f58a231d721a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.HideControlsListener.onTouch</definition>
+        <argsstring>(View v, MotionEvent event)</argsstring>
+        <name>onTouch</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>MotionEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="22" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="22" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a110c3cf3bf939d473b0b882a8a4e8cb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.HideControlsListener.checkControls</definition>
+        <argsstring>()</argsstring>
+        <name>checkControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="33" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a49861e207c15dcb4b597c0a2cc0f0421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.HideControlsListener.resetTime</definition>
+        <argsstring>()</argsstring>
+        <name>resetTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a1dd38c2298feb21b70148f5362657127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.HideControlsListener.setOverride</definition>
+        <argsstring>(boolean override)</argsstring>
+        <name>setOverride</name>
+        <param>
+          <type>boolean</type>
+          <declname>override</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="47" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1aa8747ce9bb087351d9bb18fd9aa06e3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.HideControlsListener.getOverride</definition>
+        <argsstring>()</argsstring>
+        <name>getOverride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="53" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a17436ae1743e85499f120deb18a051df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.HideControlsListener.getControlsVisible</definition>
+        <argsstring>()</argsstring>
+        <name>getControlsVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="57" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a168565bf47a1c98ba2d53f04c6f7566d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.HideControlsListener.setControlsVisible</definition>
+        <argsstring>(boolean visible)</argsstring>
+        <name>setControlsVisible</name>
+        <param>
+          <type>boolean</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="61" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="61" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a92e6741b98f4ec7b26acaeddf9b6c5c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.HideControlsListener.toggleControlsVisible</definition>
+        <argsstring>()</argsstring>
+        <name>toggleControlsVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="71" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="71" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="325">
+        <label>csc440.nuf.complay.HideControlsListener</label>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>OnTouchListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="327">
+        <label>csc440.nuf.complay.HideControlsListener</label>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>OnTouchListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" line="11" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/HideControlsListener.java" bodystart="11" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a110c3cf3bf939d473b0b882a8a4e8cb1" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>checkControls</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1afdacc6c269401cc38b67ef72f5c00e10" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>controls</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a17436ae1743e85499f120deb18a051df" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>getControlsVisible</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1aa8747ce9bb087351d9bb18fd9aa06e3b" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>getOverride</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a2477d3aa8449eef0b602ef18b911ed65" prot="package" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>HideControlsListener</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1ab04d0f676fd9d1727f0f511cde996c81" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>lastTouched</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1af96b99c1e447d5306ef0f58a231d721a" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>onTouch</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a2707b1ca34ad67ff5400563a97540824" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>override</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a49861e207c15dcb4b597c0a2cc0f0421" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>resetTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a1d186f4d09b7a74b6997e306a790fb8b" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>SECONDS_TO_SHOW</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a168565bf47a1c98ba2d53f04c6f7566d" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>setControlsVisible</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a1dd38c2298feb21b70148f5362657127" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>setOverride</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a92e6741b98f4ec7b26acaeddf9b6c5c5" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::HideControlsListener</scope><name>toggleControlsVisible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

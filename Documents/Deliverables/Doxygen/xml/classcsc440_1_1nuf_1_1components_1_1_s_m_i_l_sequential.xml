@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential" kind="class" prot="public">
+    <compoundname>csc440::nuf::components::SMILSequential</compoundname>
+    <basecompoundref refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" prot="public" virt="non-virtual">csc440.nuf.components.AbstractSMILObject</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab1908eebf82db38cfed5f892721e4c8e" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILSequential.xmlid</definition>
+        <argsstring></argsstring>
+        <name>xmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="21" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a3c5284fa22cb41fc82ee96c140fdd54c" compoundref="_s_m_i_l_sequential_8java" startline="24" endline="33">csc440.nuf.components.SMILSequential.SMILSequential</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab6bd413f3a5c0842d0647f763ade9b44" compoundref="_s_m_i_l_sequential_8java" startline="58" endline="60">csc440.nuf.components.SMILSequential.getXmlid</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a0ed7bf2774e872936435ac3256a7d894" compoundref="_s_m_i_l_sequential_8java" startline="62" endline="64">csc440.nuf.components.SMILSequential.setXmlid</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab03f32d23d7f7b2897ae6c45944fc4db" prot="private" static="no" mutable="no">
+        <type>LinkedList&lt; <ref refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" kindref="compound">AbstractSMILObject</ref> &gt;</type>
+        <definition>LinkedList&lt;AbstractSMILObject&gt; csc440.nuf.components.SMILSequential.sequentialObjects</definition>
+        <argsstring></argsstring>
+        <name>sequentialObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="22" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a3c5284fa22cb41fc82ee96c140fdd54c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.components.SMILSequential.SMILSequential</definition>
+        <argsstring>(Attributes att)</argsstring>
+        <name>SMILSequential</name>
+        <param>
+          <type>Attributes</type>
+          <declname>att</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="24" bodyend="33"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" compoundref="_abstract_s_m_i_l_object_8java" startline="22">csc440.nuf.components.AbstractSMILObject.qName</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab1908eebf82db38cfed5f892721e4c8e" compoundref="_s_m_i_l_sequential_8java" startline="21">csc440.nuf.components.SMILSequential.xmlid</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a176c8fea4dad1bdc8dfee6b66a9d0f08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILSequential.add</definition>
+        <argsstring>(AbstractSMILObject o)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" kindref="compound">AbstractSMILObject</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="35" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="35" bodyend="50"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" compoundref="_abstract_s_m_i_l_object_8java" startline="24">csc440.nuf.components.AbstractSMILObject.end</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" compoundref="_abstract_s_m_i_l_object_8java" startline="25">csc440.nuf.components.AbstractSMILObject.dur</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ae7877c94ee5c20a8cd676c3bae9d1888" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinkedList&lt; <ref refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" kindref="compound">AbstractSMILObject</ref> &gt;</type>
+        <definition>LinkedList&lt;AbstractSMILObject&gt; csc440.nuf.components.SMILSequential.getElements</definition>
+        <argsstring>()</argsstring>
+        <name>getElements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="52" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab6bd413f3a5c0842d0647f763ade9b44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILSequential.getXmlid</definition>
+        <argsstring>()</argsstring>
+        <name>getXmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="58" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="58" bodyend="60"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab1908eebf82db38cfed5f892721e4c8e" compoundref="_s_m_i_l_sequential_8java" startline="21">csc440.nuf.components.SMILSequential.xmlid</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a0ed7bf2774e872936435ac3256a7d894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILSequential.setXmlid</definition>
+        <argsstring>(String xmlid)</argsstring>
+        <name>setXmlid</name>
+        <param>
+          <type>String</type>
+          <declname>xmlid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="62" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="62" bodyend="64"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab1908eebf82db38cfed5f892721e4c8e" compoundref="_s_m_i_l_sequential_8java" startline="21">csc440.nuf.components.SMILSequential.xmlid</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a5fae7e91919070144cf29337eee45b6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILSequential.printTag</definition>
+        <argsstring>()</argsstring>
+        <name>printTag</name>
+        <reimplements refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6b7e0dec2a36758ce801132d7c040974">printTag</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="66" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="66" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 01-26-2011 <ref refid="_s_m_i_l_sequential_8java" kindref="compound">SMILSequential.java</ref> <simplesect kind="author"><para>Brad Barker</para></simplesect>
+List within a list to group components of a sequential section. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="479">
+        <label>csc440.nuf.components.SMILSequential</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential"/>
+        <childnode refid="480" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="480">
+        <label>csc440.nuf.components.AbstractSMILObject</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="481">
+        <label>csc440.nuf.components.SMILSequential</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential"/>
+        <childnode refid="482" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="482">
+        <label>csc440.nuf.components.AbstractSMILObject</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" line="19" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILSequential.java" bodystart="19" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a30ec13c486b3b2ddd7c1911d69ebd8d3" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a176c8fea4dad1bdc8dfee6b66a9d0f08" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>add</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>begin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a85eb33753bf3769bc240cee7b632e8fd" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>compareTo</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3bacb759032970e83ba2ffc4ed5179b9" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>draw</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>dur</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>end</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1abd5dd2e6eef92f800197b160936d9f35" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>getDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ae7877c94ee5c20a8cd676c3bae9d1888" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>getElements</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1acb56c0543fc58acf2929479598647bcb" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>getEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>getIntValue</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a243ba9744414f121ea34960bc4a15c26" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>getStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab6bd413f3a5c0842d0647f763ade9b44" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>getXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a5fae7e91919070144cf29337eee45b6f" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>printTag</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>qName</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab03f32d23d7f7b2897ae6c45944fc4db" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>sequentialObjects</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>setDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3b153d8b1c68f8278a9565cc254e1a9e" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>setEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a63fa1f8e7b3d8e110fba9b9914137350" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>setStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a0ed7bf2774e872936435ac3256a7d894" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>setXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a3c5284fa22cb41fc82ee96c140fdd54c" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>SMILSequential</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>toString</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab1908eebf82db38cfed5f892721e4c8e" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILSequential</scope><name>xmlid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

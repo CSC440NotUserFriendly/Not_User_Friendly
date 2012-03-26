@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory.xhtml#aec007852eb50441fe13e53e4fb86e3a6" title="csc440.nuf.client.MyRequestFactory.messageRequest" alt="" coords="389,5,755,35"/>
+<area shape="rect" id="node5" href="$interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy.xhtml#ae5db6a14c1cd21b25d90e77d56a85ddd" title="csc440.nuf.shared.MessageProxy.setRecipient" alt="" coords="412,59,732,90"/>
+<area shape="rect" id="node7" href="$interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy.xhtml#a05843b2b7eb495a2b217f37a0f25db3b" title="csc440.nuf.shared.MessageProxy.setMessage" alt="" coords="414,114,730,145"/>
+<area shape="rect" id="node9" href="$interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_message_request.xhtml#af97b69aaf2d4d1af0581210de50b5c28" title="csc440.nuf.client.MyRequestFactory.MessageRequest.send" alt="" coords="372,169,772,199"/>
+<area shape="rect" id="node11" href="$interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory.xhtml#a4828401da626ac8389a9417580304595" title="csc440.nuf.client.MyRequestFactory.helloWorldRequest" alt="" coords="383,223,761,254"/>
+<area shape="rect" id="node13" href="$interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request.xhtml#ad2a116ea152e1420554619fbe67a056c" title="csc440.nuf.client.MyRequestFactory.HelloWorldRequest.getMessage" alt="" coords="342,278,802,309"/>
+</map>

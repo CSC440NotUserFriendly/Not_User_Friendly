@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_android_request_transport" kind="class" prot="public">
+    <compoundname>csc440::nuf::AndroidRequestTransport</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RequestTransport</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_android_request_transport_1a3ccd1af6fc2f5403ba666f27e1c5dd90" prot="private" static="no" mutable="no">
+        <type>final URI</type>
+        <definition>final URI csc440.nuf.AndroidRequestTransport.uri</definition>
+        <argsstring></argsstring>
+        <name>uri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" line="39" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_android_request_transport_1a8671f7ff06e80cf075f07ba9084dc9da" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.AndroidRequestTransport.cookie</definition>
+        <argsstring></argsstring>
+        <name>cookie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_android_request_transport_1aae88aa9c83cc09929169f31070c76d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.AndroidRequestTransport.AndroidRequestTransport</definition>
+        <argsstring>(URI uri, String cookie)</argsstring>
+        <name>AndroidRequestTransport</name>
+        <param>
+          <type>URI</type>
+          <declname>uri</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cookie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an <ref refid="classcsc440_1_1nuf_1_1_android_request_transport" kindref="compound">AndroidRequestTransport</ref> instance.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uri</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the URI for the RequestFactory service </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cookie</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the ACSID or SACSID cookie used for authentication </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_android_request_transport_1a1813f282bb199424e279cf7b5ec6c01e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AndroidRequestTransport.send</definition>
+        <argsstring>(String payload, TransportReceiver receiver)</argsstring>
+        <name>send</name>
+        <param>
+          <type>String</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>TransportReceiver</type>
+          <declname>receiver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" line="54" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" bodystart="54" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_android_request_transport_1a109386c7cfe953a2e3afc7ab9d17bbab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.AndroidRequestTransport.readStreamAsString</definition>
+        <argsstring>(InputStream in)</argsstring>
+        <name>readStreamAsString</name>
+        <param>
+          <type>InputStream</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads an entire input stream as a String. Closes the input stream. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" line="86" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" bodystart="86" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An implementation of RequestTransport for use between an Android client and a Google AppEngine server. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="268">
+        <label>RequestTransport</label>
+      </node>
+      <node id="267">
+        <label>csc440.nuf.AndroidRequestTransport</label>
+        <link refid="classcsc440_1_1nuf_1_1_android_request_transport"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="270">
+        <label>RequestTransport</label>
+      </node>
+      <node id="269">
+        <label>csc440.nuf.AndroidRequestTransport</label>
+        <link refid="classcsc440_1_1nuf_1_1_android_request_transport"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" line="37" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AndroidRequestTransport.java" bodystart="37" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1aae88aa9c83cc09929169f31070c76d4d" prot="public" virt="non-virtual"><scope>csc440::nuf::AndroidRequestTransport</scope><name>AndroidRequestTransport</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a8671f7ff06e80cf075f07ba9084dc9da" prot="private" virt="non-virtual"><scope>csc440::nuf::AndroidRequestTransport</scope><name>cookie</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a109386c7cfe953a2e3afc7ab9d17bbab" prot="private" virt="non-virtual"><scope>csc440::nuf::AndroidRequestTransport</scope><name>readStreamAsString</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a1813f282bb199424e279cf7b5ec6c01e" prot="public" virt="non-virtual"><scope>csc440::nuf::AndroidRequestTransport</scope><name>send</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a3ccd1af6fc2f5403ba666f27e1c5dd90" prot="private" virt="non-virtual"><scope>csc440::nuf::AndroidRequestTransport</scope><name>uri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

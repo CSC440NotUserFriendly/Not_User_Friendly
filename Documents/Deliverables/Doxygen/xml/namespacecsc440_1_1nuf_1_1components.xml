@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecsc440_1_1nuf_1_1components" kind="namespace">
+    <compoundname>csc440::nuf::components</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" prot="public">csc440::nuf::components::AbstractSMILObject</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio" prot="public">csc440::nuf::components::SMILAudio</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image" prot="public">csc440::nuf::components::SMILImage</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout" prot="public">csc440::nuf::components::SMILLayout</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel" prot="public">csc440::nuf::components::SMILParallel</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential" prot="public">csc440::nuf::components::SMILSequential</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text" prot="public">csc440::nuf::components::SMILText</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video" prot="public">csc440::nuf::components::SMILVideo</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="1"/>
+  </compounddef>
+</doxygen>

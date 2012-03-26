@@ -1,0 +1,1163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.0">
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" kind="class"><name>csc440::nuf::components::AbstractSMILObject</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" kind="variable"><name>qName</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" kind="variable"><name>begin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" kind="variable"><name>end</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" kind="variable"><name>dur</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" kind="function"><name>AbstractSMILObject</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a30ec13c486b3b2ddd7c1911d69ebd8d3" kind="function"><name>AbstractSMILObject</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6b7e0dec2a36758ce801132d7c040974" kind="function"><name>printTag</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a63fa1f8e7b3d8e110fba9b9914137350" kind="function"><name>setStartTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3b153d8b1c68f8278a9565cc254e1a9e" kind="function"><name>setEndTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a243ba9744414f121ea34960bc4a15c26" kind="function"><name>getStartTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1acb56c0543fc58acf2929479598647bcb" kind="function"><name>getEndTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a85eb33753bf3769bc240cee7b632e8fd" kind="function"><name>compareTo</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" kind="function"><name>toString</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1abd5dd2e6eef92f800197b160936d9f35" kind="function"><name>getDuration</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" kind="function"><name>setDuration</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3bacb759032970e83ba2ffc4ed5179b9" kind="function"><name>draw</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" kind="function"><name>getIntValue</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_accounts_activity" kind="class"><name>csc440::nuf::AccountsActivity</name>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a0b7b6cae0bfdbfdb0b003ad6a3fbf532" kind="variable"><name>TAG</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a871ffcec4ab3ab732767784c46454be2" kind="variable"><name>AUTH_COOKIE_NAME</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a1f86c260a8c39acfe8b850707f125c81" kind="variable"><name>mAccountSelectedPosition</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a0ee9589db9a5913c979475a56e6f2062" kind="variable"><name>mPendingAuth</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1adcfb8545cf2999ddc2bae3c4272d4abf" kind="variable"><name>mContext</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a4404f0bf65d48a9e30301527d1150c57" kind="function"><name>onCreate</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a172796bda215011c1ef3b983e9555cfb" kind="function"><name>onResume</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a14330003a2d410ba148d8ac0f16b4378" kind="function"><name>setConnectScreenContent</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a5c17ce6ca7003c81a32aae463e05d81b" kind="function"><name>setDisconnectScreenContent</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1ae2f8f731f389f87d713c47fcbef6c389" kind="function"><name>setScreenContent</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1aa1a43cb96816d38e5ab8098d0cb2d78b" kind="function"><name>register</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a6f98652e63d82c75f0258d1cb6fb3770" kind="function"><name>getAuthToken</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a11d294dfac4d1389c7a80b2523d9768b" kind="function"><name>getAuthCookie</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1adbad4dc0742195c2534c3b182e3bb71b" kind="function"><name>getGoogleAccounts</name></member>
+  </compound>
+  <compound refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar" kind="class"><name>com::thira::examples::actionbar::widget::ActionBar</name>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1ae84b06b1d63c2b61353a8e0f93775c76" kind="variable"><name>mInflater</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a774e4d385593d546545ae7d5d2fb9650" kind="variable"><name>mLogoView</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1affd11c4d1628ed1b5e40dd15088e2470" kind="variable"><name>mTitleView</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1aa82f4de67169eb67b2ff9d2f2f3c7245" kind="variable"><name>mProgress</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a5b1a967fa986f3f27343f40e0ea582ee" kind="variable"><name>mActionIconContainer</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a45414f21cf875edbd288e9e521a64ad1" kind="function"><name>ActionBar</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a3fae9dd666ad12891b9d9a96918652de" kind="function"><name>setHomeLogo</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a6085d9e0d9776b9893f00c02b9a7c3a8" kind="function"><name>setHomeLogo</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a9940796cc1b0e1a6169da32cf75593e9" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a704095073507862211214b17a106249b" kind="function"><name>setTitle</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a1483342c600fcea3fe48953f8773ac18" kind="function"><name>showProgressBar</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a29a2b3a12e2ad549fc16eeef9e81714f" kind="function"><name>hideProgressBar</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a0e3a9b81ca94496856105e3390f34266" kind="function"><name>addActionIcon</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1ad83d48f27fc9972e22c0b3605f4a45ea" kind="function"><name>removeActionIconAt</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a9d9ec9d5202b704dfed806d8a5ca9bf9" kind="function"><name>isProgressBarVisible</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a50fe62b5c7fc216e781e124e1493adbd" kind="function"><name>setProgressBarVisibility</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_action_bar" kind="class"><name>csc440::nuf::ActionBar</name>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a7f9f4d5e2ac41f08e0eb5d40f245b0e5" kind="variable"><name>mInflater</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a6cd3b25a929a52487c96627ff730379e" kind="variable"><name>mLogoView</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a95080ebccfb8a64f51a8e735a958cded" kind="variable"><name>mTitleView</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1abb7ef428d7f8f83a361005659e36251a" kind="variable"><name>mProgress</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a9e536dc0e97c0bae86bf6c65ac077916" kind="variable"><name>mActionIconContainer</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1ac5f0e9b866cc8148023171122b78b115" kind="function"><name>ActionBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1af2b4df26aa6a8e02bc668d49abd82835" kind="function"><name>setHomeLogo</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a05076cbc2ed528aef5c06b37e8469b1d" kind="function"><name>setHomeListener</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1aa8aa6584906e2aa28298c720006060db" kind="function"><name>setTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1ad9d45e296e85b875aedc05f7c546ba51" kind="function"><name>setTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1ad12b2cf4d53d3605cdac65a3ca830025" kind="function"><name>showProgressBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a4b96c2da4f336e1621c39c236b0e9881" kind="function"><name>hideProgressBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a4d83db21922864af30726bbb53a9e825" kind="function"><name>addActionIcon</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1ae7467a90e6fbab07cca8c6a59e4af711" kind="function"><name>removeActionIconAt</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1a9588061b3c0a144ea971f3062a5b11e0" kind="function"><name>isProgressBarVisible</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_action_bar_1af8a9582fa3c051ea7d819d4eb8efb8f4" kind="function"><name>setProgressBarVisibility</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_android_request_transport" kind="class"><name>csc440::nuf::AndroidRequestTransport</name>
+    <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a3ccd1af6fc2f5403ba666f27e1c5dd90" kind="variable"><name>uri</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a8671f7ff06e80cf075f07ba9084dc9da" kind="variable"><name>cookie</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1aae88aa9c83cc09929169f31070c76d4d" kind="function"><name>AndroidRequestTransport</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a1813f282bb199424e279cf7b5ec6c01e" kind="function"><name>send</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_android_request_transport_1a109386c7cfe953a2e3afc7ab9d17bbab" kind="function"><name>readStreamAsString</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message" kind="class"><name>csc440::nuf::AsyncFetchSMILMessage</name>
+    <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1aac84d6a114f5171942d75a53f5bfc2f7" kind="variable"><name>activity</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a6981a13293e7442e219c0a8d92593652" kind="variable"><name>newTask</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1adcf2d3ac152674428522085bb76a2039" kind="function"><name>AsyncFetchSMILMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a19a50624286e3650df8cbe84e6cf4ada" kind="function"><name>doInBackground</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a05b3b68baf20c6a11a1f56208f508fa0" kind="function"><name>onPostExecute</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1attr" kind="class"><name>csc440::nuf::R::attr</name>
+  </compound>
+  <compound refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet" kind="class"><name>com::google::appengine::codelab::BaseServlet</name>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet_1abb34ecfcd902fafc62944237f49283b9" kind="function"><name>doGet</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver" kind="class"><name>csc440::nuf::C2DMReceiver</name>
+    <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a6026d84758d7ab3090f035236d58fd87" kind="function"><name>C2DMReceiver</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a55ec75d92b2ea18fc3bfb7354fc63571" kind="function"><name>onRegistered</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a5703ea903b3efa7a0fc8b0dd94c93939" kind="function"><name>onUnregistered</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4772899d4fb8e0ce9dbe2b4a04fed1cf" kind="function"><name>onError</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4fd8cbc3e17b49225e052b12547af03a" kind="function"><name>onMessage</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1color" kind="class"><name>csc440::nuf::R::color</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a82f79ac6d062d6b7eef417bde46220d1" kind="variable"><name>actionbar_background_end</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a2c57adf834370e9d60ab88b46bf42f3f" kind="variable"><name>actionbar_background_item_pressed_end</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a9a2471efa7c64cf2a73f5501c1b22d7d" kind="variable"><name>actionbar_background_item_pressed_start</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1aa9adbc72bc5076706e432f3560c004f2" kind="variable"><name>actionbar_background_start</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a55fe803dce0d3c76304b74a517250814" kind="variable"><name>actionbar_separator</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a3ab3a951f8b20b3270887ec69c50f2e1" kind="variable"><name>actionbar_title</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a75ce63b7f6ac122d4d4328801ab51cf7" kind="variable"><name>scroll_bg_end</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a1afc99aadd3ed873e89aa96d96a90f5a" kind="variable"><name>scroll_bg_start</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a0d6c5e50c9a00526c815969c582edbb2" kind="variable"><name>scrollitem_bg_end</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a971c53e36ab5b4776f5763148c18186d" kind="variable"><name>scrollitem_bg_start</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a877dbd6f977a1ac092b7b8f968632ed7" kind="variable"><name>scrollitem_pressed_bg_end</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1a302f95402e29ecfa0da607b2e061f9e6" kind="variable"><name>scrollitem_pressed_bg_start</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1color_1aa16f038d63a306217d9e6c6977fa7728" kind="variable"><name>scrollitem_stroke</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_composer_activity" kind="class"><name>csc440::nuf::complay::ComposerActivity</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_composer_activity_1ac0bfd2dd39a96098f5e59619df2aba6d" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_custom_title_activity" kind="class"><name>com::thira::examples::actionbar::CustomTitleActivity</name>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_custom_title_activity_1a287d18f93e07dddfdd90a9d0cde39737" kind="variable"><name>mActionBar</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_custom_title_activity_1a0fc998991fdce16c2902a85b6f9d5bc2" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_data_store" kind="class"><name>csc440::nuf::server::DataStore</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1a338414fad64469e2aeb74ffd4833f5d9" kind="function"><name>delete</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ae6c7e81006cca7f550337a8ac3c84a47" kind="function"><name>find</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1adeb95b19f2aef0eae3d55b5aabf63660" kind="function"><name>findAll</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ab66ed1adeb1a5ee0ce37bf5404909e11" kind="function"><name>update</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1aec9033c4e9624646beb5276de28bfe59" kind="function"><name>getUserId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1a3749afd0edd374001b7a29ef14495ffc" kind="function"><name>getUserEmail</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ad7c4ecf86f1850c8ba359f20feec8797" kind="function"><name>sendC2DMUpdate</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_device_info" kind="class"><name>csc440::nuf::server::DeviceInfo</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a8af77812311b34803e1402c784daa55c" kind="variable"><name>log</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a59dc6f029a61fa879b7fbcce0c945a62" kind="variable"><name>key</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a36d442c5f97450b15eaa718e4a12e691" kind="variable"><name>deviceRegistrationID</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1abc29933577e6ae6663635110d3f3477b" kind="variable"><name>type</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ab97f01b0cfc1623e88b84186aa0da9ea" kind="variable"><name>registrationTimestamp</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a5de660c26866ddf2fee09273dce51221" kind="variable"><name>debug</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1abebcf4568af54ade9145deef1379033f" kind="function"><name>DeviceInfo</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ad97a129642c65cd6ccc150f62720bd6f" kind="function"><name>DeviceInfo</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a10d351ee9254f7f63bd6b77c3005f33c" kind="function"><name>getKey</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1aa5e584cac75d8ec6a1c1d48c3db02829" kind="function"><name>setKey</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a09635fb3f7c88f9f440491adad27517c" kind="function"><name>getDeviceRegistrationID</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1accf76fe6cb3bae22ea8993e9953dd6d5" kind="function"><name>setDeviceRegistrationID</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ac2441b49b7a4d54c481ae68afeccda2d" kind="function"><name>getDebug</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ad52d926f4379fc7f1801928a15c80f66" kind="function"><name>setDebug</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9925ea2454675718ab863fb23a6900e6" kind="function"><name>setType</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a8b52bee034de79eb4ec16e67e60a2d04" kind="function"><name>getType</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9da41b1af89038902b419b584cbfb56e" kind="function"><name>setRegistrationTimestamp</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a947fcd68b2cb0308afb40194a66326a0" kind="function"><name>getRegistrationTimestamp</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ae1c3a4ef43b8a4433e52eff1443c7309" kind="function"><name>toString</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9d068913be4bf051ab37c7fb7ef981f2" kind="function"><name>getDeviceInfoForUser</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_device_registrar" kind="class"><name>csc440::nuf::DeviceRegistrar</name>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1adc5815321a10b8875ec81ede0da62c43" kind="variable"><name>ACCOUNT_NAME_EXTRA</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1aaf88ac176dfd4264b4138fc00b49998a" kind="variable"><name>STATUS_EXTRA</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a4a59981b92ee9c8476393b73560b3d48" kind="variable"><name>REGISTERED_STATUS</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a9a90ee9e8e64edc961b0e3c3b454d047" kind="variable"><name>UNREGISTERED_STATUS</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1abf61261a85f1e4912a777059da4bb994" kind="variable"><name>ERROR_STATUS</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a1844ae27f6d7698bd50f01a74e3bd01b" kind="variable"><name>TAG</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" kind="function"><name>registerOrUnregister</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a6817ddc4b23a18d9551b09cb0244fb46" kind="function"><name>getRequest</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1dimen" kind="class"><name>csc440::nuf::R::dimen</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1ad77c97019da46c5b4847af58436ab02b" kind="variable"><name>actionbar_corner_radius</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a41b553e08fabd9beb2ad6f1f0468e04c" kind="variable"><name>actionbar_height</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1af158487c01f9d20f8f51cb3e21167dbf" kind="variable"><name>padding_small</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a3f2d6afa67eedeec7fc5151d08b75e56" kind="variable"><name>scroll_padding</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a81643c92652f00a2a67e246e3f41074e" kind="variable"><name>scrollitem_padding</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a762a9fb3f2ecbdbc0013fa950f641194" kind="variable"><name>scrollitem_radius</name></member>
+  </compound>
+  <compound refid="classcom_1_1_display_exp_1_1_display" kind="class"><name>com::DisplayExp::Display</name>
+    <member refid="classcom_1_1_display_exp_1_1_display_1abb30ee2f0961b6158a47013e26345553" kind="variable"><name>myCav</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_display_1a0d4ddf6db49a34c171c0d0e0a7fd1259" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1drawable" kind="class"><name>csc440::nuf::R::drawable</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a9675138c79dab43d2af11e0c0d069f44" kind="variable"><name>actionbar_bg</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ae9c5dcd26889fbfd113394ca299e2234" kind="variable"><name>actionbar_btn</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a98c4d0045fb49af400ff920469f0fd86" kind="variable"><name>actionbar_btn_normal</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a563db7f3280269c55e7acfe5af2cfa51" kind="variable"><name>actionbar_btn_pressed</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a1dffe0551dccc5d6bb22fcf5e0e6b082" kind="variable"><name>app_icon</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ac7f3f567e9f1a19649cb32111de3644b" kind="variable"><name>gradient</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a0b1b75c1402c55cce5847b1fcfcf4707" kind="variable"><name>ic_home</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ab8acc8b13e80a7acf1bf2ff9775f8af9" kind="variable"><name>ic_launcher</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a0ba64f40ec50cfc4557e8b990890fa89" kind="variable"><name>ic_mailboxes_accounts</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a7b4a17eea38c29976b83128097738507" kind="variable"><name>inbox</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1aaa18803158caa48780a3764071e4ee5f" kind="variable"><name>pause</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a47cbf7592abda07321ebd4f222cdb3da" kind="variable"><name>play</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a7f1801f28875068031fdb26df2d6b22c" kind="variable"><name>scroll_bg</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ab771503dfaf151eb715c2944586c73e2" kind="variable"><name>scrollitem_bg_normal</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ae9983ef313179f391343480d40f419a9" kind="variable"><name>scrollitem_bg_pressed</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ac103d854a126f3394d5334875145000a" kind="variable"><name>scrollitem_btn</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a6ed52a311bbd447a0e18a764e222cc2e" kind="variable"><name>seek_thumb</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ae62f88f935729f382939398d52494f0b" kind="variable"><name>seekbar_bg</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a94b52de708b7f2443e6197a68ae0f235" kind="variable"><name>seekbar_progress</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1afa399b14c4b41e0b1b27b7ca5382fb02" kind="variable"><name>seekbar_progress_bg</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1ad24def1161df747c65b05487dc301e44" kind="variable"><name>seekbar_thumb_normal</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1af86247ddab014210cb7f59258acfed52" kind="variable"><name>seekbar_thumb_pressed</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1acbd2c9e6b493b4c548e9e2f95525d7f0" kind="variable"><name>status_icon</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1a7033e0f49eb582c6d3d1b5a433251aee" kind="variable"><name>stop</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1drawable_1afe74834ff1d13f5cf631a1fb60a4e1ef" kind="variable"><name>stripe_bg</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_end_time_a_s_c" kind="class"><name>csc440::nuf::complay::EndTimeASC</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_end_time_a_s_c_1aab73436555092bfd2b871b5292aea73f" kind="function"><name>compare</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request" kind="interface"><name>csc440::nuf::client::MyRequestFactory::HelloWorldRequest</name>
+    <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request_1ad2a116ea152e1420554619fbe67a056c" kind="function"><name>getMessage</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service" kind="class"><name>csc440::nuf::server::HelloWorldService</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1a1115164148eb29e365bb57948816274b" kind="variable"><name>log</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1a102993be555236a224e7b604b8b75a94" kind="function"><name>HelloWorldService</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1ae40a035a45174f49deb0a352e3c1545c" kind="function"><name>getMessage</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener" kind="class"><name>csc440::nuf::complay::HideControlsListener</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1afdacc6c269401cc38b67ef72f5c00e10" kind="variable"><name>controls</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1ab04d0f676fd9d1727f0f511cde996c81" kind="variable"><name>lastTouched</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a1d186f4d09b7a74b6997e306a790fb8b" kind="variable"><name>SECONDS_TO_SHOW</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a2707b1ca34ad67ff5400563a97540824" kind="variable"><name>override</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a2477d3aa8449eef0b602ef18b911ed65" kind="function"><name>HideControlsListener</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1af96b99c1e447d5306ef0f58a231d721a" kind="function"><name>onTouch</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a110c3cf3bf939d473b0b882a8a4e8cb1" kind="function"><name>checkControls</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a49861e207c15dcb4b597c0a2cc0f0421" kind="function"><name>resetTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a1dd38c2298feb21b70148f5362657127" kind="function"><name>setOverride</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1aa8747ce9bb087351d9bb18fd9aa06e3b" kind="function"><name>getOverride</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a17436ae1743e85499f120deb18a051df" kind="function"><name>getControlsVisible</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a168565bf47a1c98ba2d53f04c6f7566d" kind="function"><name>setControlsVisible</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_hide_controls_listener_1a92e6741b98f4ec7b26acaeddf9b6c5c5" kind="function"><name>toggleControlsVisible</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1id" kind="class"><name>csc440::nuf::R::id</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a09c5b44d50a90bb72623ef99638319b0" kind="variable"><name>actionBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a011d9505afee7246bea7546544012610" kind="variable"><name>actionbar_actionIcons</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1aa15a4065849312ca76644aaec8f1debc" kind="variable"><name>actionbar_home_logo</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a13987cc6f6d1189684cc668bae0d6c82" kind="variable"><name>actionbar_item</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a873e921b472c82e50323c481c9f1a051" kind="variable"><name>actionbar_progress</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1abc2bb57c47ce3092d3ea7670b527a0ef" kind="variable"><name>actionbar_title</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a64732dd695e276a23c61ec9737ca5194" kind="variable"><name>canvas</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a5ffc710fbbdcc3ef9e2d660cc20874d9" kind="variable"><name>connect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1ade7ea163244cfb1c2a47d6e1241429df" kind="variable"><name>connect_footer</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a39d92a13ad87d25660e198618648cbdd" kind="variable"><name>connect_text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a2d79835c18cf8dbafe8951239bb75381" kind="variable"><name>controls</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a92a2c133cce22a96487a02a7b24bc02e" kind="variable"><name>disconnect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a3027f873f55462e9c1bcfcaff7cc5083" kind="variable"><name>disconnect_footer</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1ab6c42813818443630ca472f0e0b1da1b" kind="variable"><name>disconnect_text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1addbe3663a4f63a7c45175f6150669298" kind="variable"><name>divider</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a17efa6acbb1f3cbdd17ec1d0bbb1614f" kind="variable"><name>header</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a072a27f2607847e4844441c9a4bca5c4" kind="variable"><name>hello_world</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a01f2d0d6adbe3317586d4b74fb9121d4" kind="variable"><name>hello_world_info</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a16682a50dad3606d8b2dbb591f99c6ce" kind="variable"><name>icon</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a50fc69591b983e26eb10a019b8b3cf3f" kind="variable"><name>item</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a3cff248ce28aef6937f80eedd3799eee" kind="variable"><name>item1</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1af96f472d104fcb3968ca21e8b2cefb03" kind="variable"><name>item2</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a6719e379800a728c463dad991eceb29d" kind="variable"><name>item3</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a3ffcf9276e05b374ccca9782c2b75842" kind="variable"><name>linear</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1ad1729437a9e63da96f8dab1ce64e78cc" kind="variable"><name>playPause</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1ad7e9f9f388941a40230aade11ad5f3bb" kind="variable"><name>say_hello</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a34f075f1775f8da3f00fad9a8eb78d96" kind="variable"><name>seekBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1add78537e5d56c023a7fa3eb1580f0b20" kind="variable"><name>select_account</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1aadf8cb4e48a60877f32217009066713d" kind="variable"><name>select_text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a9220901b1326aa9987248b55ddbcd909" kind="variable"><name>stop</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a316ad3f70aa3f06c85946c1305c2363c" kind="variable"><name>text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1ad286c4ebe867cfe01e30388cfb59b6af" kind="variable"><name>time</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1id_1a8b10ac763b68aab2070c090f4a10d438" kind="variable"><name>title</name></member>
+  </compound>
+  <compound refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item" kind="class"><name>com::google::appengine::codelab::Item</name>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1f0cd1ed3e9e496f6cd40cde580dc045" kind="function"><name>createOrUpdateItem</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1ac34c1a67f0b499b88f2ba10c9c57d9d5" kind="function"><name>getAllItems</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a03e5b5b5ebc360327091c946c6b7874d" kind="function"><name>getItem</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1c221deafdbd13c4133edf24cb6dcdb8" kind="function"><name>getItemsForProduct</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1addfefc24274a9ae1e62dc123e4bc2a68" kind="function"><name>getSingleItem</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a43b58e542f3362d9d1f3c35cc0d27d4d" kind="function"><name>deleteItem</name></member>
+  </compound>
+  <compound refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet" kind="class"><name>com::google::appengine::codelab::ItemServlet</name>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a629a76c8a5f545c6b73ebdb00250559c" kind="variable"><name>logger</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8" kind="function"><name>doGet</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a5d5c9f0b60f447633023ec79cfa95ea1" kind="function"><name>doPut</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a977e84d117d1e9c9faf1be8e71f0e69e" kind="function"><name>doDelete</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a6233275e3c630dbb5ee2e33be6a813ba" kind="function"><name>doPost</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1layout" kind="class"><name>csc440::nuf::R::layout</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a80d76520fc651da0785ac36f7f959c77" kind="variable"><name>account</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a6f3c1a212eb7049214639b94f00fb94b" kind="variable"><name>actionbar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a3ea84a335c51ff46d04b1c3fcfb192dc" kind="variable"><name>actionbar_icon</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a3bb50edd16f77154493675ab8fdf1f71" kind="variable"><name>composer_main</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1aa80f91fbeb4aa1d6eae62a98f970e16a" kind="variable"><name>connect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a7a996e1941c582b875d1abb38f02ba3c" kind="variable"><name>disconnect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a1001cce8436aadc664664c6891eef1ff" kind="variable"><name>hello_world</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a9a490a68a3d751df744033e812b9eaa0" kind="variable"><name>main</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1af24e1679b326c8a889319e8cafe4e3e8" kind="variable"><name>player_main</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1layout_1a6953112030db669d28bcb23e20c6ec8e" kind="variable"><name>scroll_item</name></member>
+  </compound>
+  <compound refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity" kind="class"><name>com::thira::examples::actionbar::MainActivity</name>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ad30426a35f2cb89fa4a362fc760b37ee" kind="variable"><name>mActionBar</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1a80a54a45ea3fcc4bce5790197a6cb46a" kind="variable"><name>mActionIconCount</name></member>
+    <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" kind="function"><name>onCreate</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_manifest" kind="class"><name>csc440::nuf::Manifest</name>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1menu" kind="class"><name>csc440::nuf::R::menu</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1menu_1ad8503236e467a65eaf3316b45c6e5855" kind="variable"><name>main_menu</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_message" kind="class"><name>csc440::nuf::server::Message</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1ad2c20b4ee45095c7806ad506d12e44e1" kind="variable"><name>log</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1a74c66bd393f6c168b38c5fd2904d09bc" kind="variable"><name>context</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1a24469835fe47d84edc8faa2fa36201b8" kind="variable"><name>recipient</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1a2c05d40cf376c2645b75aaa688e430a7" kind="variable"><name>message</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1a82501f3731bf7e2057ab8929b857c73a" kind="function"><name>Message</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1af818158bf892806a62e95faa3d0a987a" kind="function"><name>getRecipient</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1a49b1c73527fa7560bb93e56f64bd1203" kind="function"><name>getMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1a8fe8e1a3d08cf036c59a0fe09458754e" kind="function"><name>send</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1aa8f2422c7e3df56a06b771a2f4c5df53" kind="function"><name>setRecipient</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1a6d841d1b9dcb61a1a31800c3aac00bf2" kind="function"><name>setMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_1ad6b870df8fc8cfdb0adba3d472e39aa0" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_message_display" kind="class"><name>csc440::nuf::MessageDisplay</name>
+    <member refid="classcsc440_1_1nuf_1_1_message_display_1aed80fdad605f37d876a04b05951ad2fb" kind="function"><name>MessageDisplay</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_message_display_1adf7092394387e6226d21bfa80c15b28d" kind="function"><name>displayMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_message_display_1a1c3d06d9f65d7a7856b899c9f050d06b" kind="function"><name>playNotificationSound</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_message_locator" kind="class"><name>csc440::nuf::server::MessageLocator</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a2988c1638d0484362ea892cf03336b68" kind="function"><name>create</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a72aabcef006258bbd775553ad77ef570" kind="function"><name>find</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1ac32fb8e799737ac0760b9d7745b27866" kind="function"><name>getDomainType</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a35330d4c31936a55a27cd472e0e6dc9c" kind="function"><name>getId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a4bd6ce8cd4f6668f312d43f7228ca5de" kind="function"><name>getIdType</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a18d1ac622301b5d3b13812d9e98877e0" kind="function"><name>getVersion</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy" kind="interface"><name>csc440::nuf::shared::MessageProxy</name>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy_1a37848b521a3a3819838801e78b9c1fcf" kind="function"><name>getMessage</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy_1a4d2f3521869363d181d0f0395bab98bf" kind="function"><name>getRecipient</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy_1ae5db6a14c1cd21b25d90e77d56a85ddd" kind="function"><name>setRecipient</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy_1a05843b2b7eb495a2b217f37a0f25db3b" kind="function"><name>setMessage</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_message_request" kind="interface"><name>csc440::nuf::client::MyRequestFactory::MessageRequest</name>
+    <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_message_request_1af97b69aaf2d4d1af0581210de50b5c28" kind="function"><name>send</name></member>
+  </compound>
+  <compound refid="classcom_1_1_display_exp_1_1_my_canvas" kind="class"><name>com::DisplayExp::MyCanvas</name>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a6ab3452d5637b89f1ead8e6bb4fe4727" kind="variable"><name>original</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a55346c1972e1da0b426b4f6af7eabddc" kind="variable"><name>myImg</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1acf6f5ad90a505694153c190400fe5ee4" kind="variable"><name>p</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a0c550b70afffb52ac1046356d6039e8d" kind="variable"><name>xCenter</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a216cc02d102bb1df3675af525fc954ab" kind="variable"><name>yCenter</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a9037806c446fbcbf120d95f411cd772a" kind="variable"><name>xLeft</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a5aeffb53a9d787dbe328e39c9a988676" kind="variable"><name>yTop</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1ad30c5cdf28cb8b3a81ee07b9aa584966" kind="variable"><name>xRight</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a9fecb90c0731fc45d15a6c1ac306d20c" kind="variable"><name>yBottom</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1aa314bef8f6259a95de7026cc7fce50fc" kind="variable"><name>width</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a0f4375884cb501809f3cb5ffd37ee7a4" kind="variable"><name>height</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1aa5574b85c736bb46da63db27c8b9dfd3" kind="variable"><name>FATFINGER</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1ac0d0abb985ebb2548ff43e8b53245f0e" kind="function"><name>MyCanvas</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a894833c69a49d5a11ceb286ad750a032" kind="function"><name>onTouch</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a67b5fa8a6def1b3b8c6b0b61859e0434" kind="function"><name>onDraw</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a263bfa204260eb46c1c4ba30b62c7971" kind="function"><name>setLoc</name></member>
+    <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a8c3e476cb26a7bef0fec676a8ee5d2e8" kind="function"><name>newImage</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory" kind="interface"><name>csc440::nuf::client::MyRequestFactory</name>
+    <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1a4828401da626ac8389a9417580304595" kind="function"><name>helloWorldRequest</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1ac6639a72023708a6799b5d0b009dd07c" kind="function"><name>registrationInfoRequest</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1aec007852eb50441fe13e53e4fb86e3a6" kind="function"><name>messageRequest</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen" kind="class"><name>csc440::nuf::complay::OffScreen</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ae7b2468975932c98c85621f84383fa8c" kind="variable"><name>q</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ab94d06e82ef902255257e6ca5b635a56" kind="function"><name>Q</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_on_screen" kind="class"><name>csc440::nuf::complay::OnScreen</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_on_screen_1a21e76269b2753c49a6d55c3f596154ad" kind="variable"><name>q</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_on_screen_1a33feeb951e6558b0f50251e713a5a230" kind="function"><name>Q</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_manifest_1_1permission" kind="class"><name>csc440::nuf::Manifest::permission</name>
+    <member refid="classcsc440_1_1nuf_1_1_manifest_1_1permission_1a0d9714f3d838e40b9b69471ef0198311" kind="variable"><name>C2D_MESSAGE</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity" kind="class"><name>csc440::nuf::complay::PlayerActivity</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a704653303b7b218f683c30f9a5b00ef2" kind="variable"><name>_playPause</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1ab77406a8ccf752f047e38bffaf48f2f6" kind="variable"><name>_seekBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1adefaa45c7f62bdc0896c97c7fe83ed74" kind="variable"><name>_playerCanvas</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a920b418b3328cd584b9cf672f41855c6" kind="variable"><name>timeView</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afbd65b79c5abf52260decb826c41c1ef" kind="variable"><name>controls</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a88ec4adaaff7b20f1f04212d596ecd31" kind="variable"><name>playing</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afe646a4cee19345cda9bfb85fbd9dc13" kind="variable"><name>messageLength</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a8cf330d6760ae3cb21d68200c6c15f1a" kind="variable"><name>controlHider</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a82f95fc68dba341516d71319db6e80ee" kind="variable"><name>mainView</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1af22bb71983ddd201e0bcb27695d2473e" kind="variable"><name>playingCopy</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1acc6ddd348202de540df7428502190801" kind="variable"><name>fromMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afc1c8109f3f68784c302f802cbd84f6a" kind="variable"><name>playPressed</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" kind="function"><name>onCreate</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a0bf16e9f9a7c640c685def8eb7d38205" kind="function"><name>onProgressChanged</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a58c0167e7af40eb7747ed8ca90e1c939" kind="function"><name>onStartTrackingTouch</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a042e95babe17fab59ba7d71a6dfc9dbb" kind="function"><name>onStopTrackingTouch</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" kind="function"><name>playPause</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a7f5eb45ffac9b23a602a8ba76dbb6d47" kind="function"><name>playPause</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a2c26eb31e540ba1a1c22a029d1669741" kind="function"><name>formatSecondsToMinutes</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a9390d2b6a505e0a44fc421a8d146789e" kind="function"><name>onResume</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a3066e6fc9a59784f6ec3ddb23cc92707" kind="function"><name>onPause</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas" kind="class"><name>csc440::nuf::complay::PlayerCanvas</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a37483f4f52519489788b90780dedd43d" kind="variable"><name>timer</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1adf240f6d1223a9d40e872053ed854960" kind="variable"><name>playing</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aeb72981fb9e946968287e9a32dc7a0ec" kind="variable"><name>holder</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a6c6ae795a96cb501eec7700327e7e600" kind="variable"><name>renderThread</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab9493f73c7a31835981a8c01248388b2" kind="variable"><name>_seekBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aeb55a6f14113d2b6f4183b3b46284835" kind="variable"><name>deltaTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a3727a156fd301eb509e7c79f4ad06833" kind="variable"><name>messageLength</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ae8e4a5d566c323f8b7e8d9cece4fe07c" kind="function"><name>PlayerCanvas</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab0dcca93b23d621e1d3d353ecd95a215" kind="function"><name>setSeekBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a1d41cf44dc0cb2c075744299c9867903" kind="function"><name>play</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" kind="function"><name>run</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab280f6a822b63f5aa82300ebdec8dccf" kind="function"><name>pause</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a64eae2e9ed26456ab5b104436c97d78f" kind="function"><name>setTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a6b937b5f221fc77c732639ae3dd710de" kind="function"><name>onDraw</name></member>
+  </compound>
+  <compound refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product" kind="class"><name>com::google::appengine::codelab::Product</name>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a0ad4aec15554c898684fcd6ea8d9ef10" kind="function"><name>createOrUpdateProduct</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a4fb28dec3d7ae43c47581ecadb62012b" kind="function"><name>getAllProducts</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a8281f8c29702347f39fcb651db5e073f" kind="function"><name>getProduct</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a7a8a391c4b6446d33e163ceb21521e69" kind="function"><name>getItems</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1addc5d2e4ec78d1eef631ffc4cdf268a1" kind="function"><name>deleteProduct</name></member>
+  </compound>
+  <compound refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet" kind="class"><name>com::google::appengine::codelab::ProductServlet</name>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a4e45c9f63096df96174ddc033859781c" kind="variable"><name>logger</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a7c57929d447f8ee5c296d57be19d1727" kind="function"><name>doGet</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a3cbc6cfe522686a474dade9a58b3d1a3" kind="function"><name>doPut</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a772fa15f8adf07619e0e71e58488f198" kind="function"><name>doDelete</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a851ac4b307d376fe7985f5ad46e07cf7" kind="function"><name>doPost</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_q" kind="class"><name>csc440::nuf::complay::Q</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aea2fad200c5d75c18a293c0380f4a853" kind="variable"><name>objectQ</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a6f1a378a2d72ee0a70758e46f706c82e" kind="variable"><name>layout</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a9f86403c30211de4c45ce64a864647bf" kind="variable"><name>density</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a1b40ea4bed45dd4c214ce69495f0f462" kind="variable"><name>qType</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ad72dc784bb75e4e78b3b612e2d57d85c" kind="function"><name>Q</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a89a196928ffab3aa6d54f6029a6c22db" kind="function"><name>setScreenDensity</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ab4cfe319143b0b8147222d71b1a7e474" kind="function"><name>getDensity</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" kind="function"><name>push</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a1909fe89eabfc73398d99c7dc4c9b946" kind="function"><name>peek</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1af768e2d386701d7d3ee1078e08a21422" kind="function"><name>pop</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a819204376514251f5ca8edc5245b950b" kind="function"><name>prepQ</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a6c333b08908191e022f23b68989c263a" kind="function"><name>isEmpty</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a37b180778c7a88f92b1feee52d171a18" kind="function"><name>getLayout</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a37ca528aeec4df81de99fe3cec490372" kind="function"><name>setLayout</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a71e507602b30ba7ca249efedf6ddabad" kind="function"><name>getMessageLength</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ad07780ee275df50700092486b77010dd" kind="function"><name>getLength</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ad1a841654a2ffdf723916899f7cf434a" kind="function"><name>getQ</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a75d1b0f2ee11e7051721631f7659fdab" kind="function"><name>draw</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aa873b2a8f7d338e917b5db7af678a55d" kind="function"><name>sortByEndTimeASC</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a935d3fbb201ad281bfc122c616335413" kind="function"><name>sortByStartTimeDESC</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a7a50e7b8980cf5b55cd7ae6ce93c8348" kind="function"><name>clear</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a45d3006d15d01f06878b7eb8e191ae29" kind="function"><name>logQ</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r" kind="class"><name>csc440::nuf::R</name>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_registration_info" kind="class"><name>csc440::nuf::server::RegistrationInfo</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a5e7becd33780d8482b97b59f21a7152d" kind="variable"><name>log</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a1216bb04f9befc9153accb124e9770bc" kind="variable"><name>MAX_DEVICES</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a21e9416ff8f432bb32fbb679080e4a9b" kind="variable"><name>deviceId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a57845a46ef09d488cff2a0270c7dbebd" kind="variable"><name>deviceRegistrationId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a0d5be37b87016d51bc469a92584c28ab" kind="function"><name>RegistrationInfo</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a0a381bfcf246aecc8b7dbfe579f956ee" kind="function"><name>getDeviceId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a65ef34464fcc2a409fc958e08d8b065f" kind="function"><name>getDeviceRegistrationId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1ab176d58e768a58c208d03f222a2fafa1" kind="function"><name>register</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a638bce523d769d8678ab84e39a3ff7ea" kind="function"><name>setDeviceId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1aa521432f0fcc482f6f972eb97468728c" kind="function"><name>setDeviceRegistrationId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1aba904430676108833005e3d9c04fe74c" kind="function"><name>toString</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a9a81326b26268cc5da3c47f0b06b6bd2" kind="function"><name>unregister</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a8d25e34d5771e417611c0dd0e9daedf0" kind="function"><name>getAccountName</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a8923b6d7737538c21a64e02fa18e0755" kind="function"><name>doRegister</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_registration_info_1a916fbba121c8b044425f86e72b2aded4" kind="function"><name>doUnregister</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy" kind="interface"><name>csc440::nuf::shared::RegistrationInfoProxy</name>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1a191f88f1a01a822e48621a18782899be" kind="function"><name>getDeviceId</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1ab7a087a6ff53a38fa068ced739959f4b" kind="function"><name>getDeviceRegistrationId</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1a3d96be9a03c6aa4547a680419561baff" kind="function"><name>setDeviceId</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1adfd37626741163e3b5b1e815af150e23" kind="function"><name>setDeviceRegistrationId</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request" kind="interface"><name>csc440::nuf::client::MyRequestFactory::RegistrationInfoRequest</name>
+    <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a675270c3171bd35749e7552fa4e93546" kind="function"><name>register</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a2135c9d95519fc4923751338733456de" kind="function"><name>unregister</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_scroll_item" kind="class"><name>csc440::nuf::ScrollItem</name>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a44c4cd856bd5a695cf0312377f7d1de1" kind="variable"><name>_relative</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1adefa4975eb645380d6a26ae3f29be712" kind="variable"><name>_iconView</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a8d80d098fdf81baff3011091d90e7cc7" kind="variable"><name>_titleView</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1aa37a8e8adb470e877d33ebefa0b5e0b5" kind="variable"><name>_linear</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1aa3a08180a202762b896bf48c86985bd5" kind="function"><name>ScrollItem</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a55eb094d194abbe9f1caaeb04c63a559" kind="function"><name>ScrollItem</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a687d5d5be465254c1beeb2e765c4fdd1" kind="function"><name>setIcon</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a7e04c4b4de2dffc4e61dc96b7b50f3ad" kind="function"><name>setListener</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1acfeba61356426661bdf5d1a0f6e9c6ae" kind="function"><name>setTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a31ccf1ce275646cebcf8095d22ad394b" kind="function"><name>setTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a7707e48907bb7df94a2f37894e2e8ca0" kind="function"><name>addToLinear</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1a8364fccdd3a2f3e6c43ecd7ce34e6c8b" kind="function"><name>addLineToLinear</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1ac0ffb2be908e4d613308b74d2ca93a53" kind="function"><name>getId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_1aa2b4c6bd38566c6447b3edbbc1911723" kind="function"><name>setId</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_scroll_item_manager" kind="class"><name>csc440::nuf::ScrollItemManager</name>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab519603bce7a7613da0ac11d595d053b" kind="variable"><name>_linear</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a9083576343bdd1dc9e5e44fa45536154" kind="variable"><name>items</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1aa18c40f7a7adb588afc5cebd53b362f7" kind="function"><name>ScrollItemManager</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab0e055a91a49439fa3a2ccca61a05657" kind="function"><name>addItem</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a649ec198b5730074bff55084fa12c578" kind="function"><name>addItem</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a1561fbe2466c1f47c901f3760ccbfa07" kind="function"><name>setIcon</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a29b56004e0c6b27c4cf37abbe702b0e2" kind="function"><name>setListener</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a593cfa1b9eb3288297683b1a370015e1" kind="function"><name>setTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a2d288f9456342f8b826196d6adba7222" kind="function"><name>setTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab04c896f513d8e83a03d34f26e8ebd65" kind="function"><name>addToLinear</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ad2ce97de474a3760d071b6dea3e2daf2" kind="function"><name>addLine</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab3d59cd21b6ae1fb2ab0be5055ad49d7" kind="function"><name>setId</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_send_message" kind="class"><name>csc440::nuf::server::SendMessage</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1af84e07193c631f78c49b27f320e415b0" kind="variable"><name>log</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1a0c14fe20917e68f73dda5a275ba2a7f2" kind="function"><name>sendMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1a316fd4f89163efad5734da93c3ba2549" kind="function"><name>doSendViaC2dm</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_setup" kind="class"><name>csc440::nuf::Setup</name>
+    <member refid="classcsc440_1_1nuf_1_1_setup_1add02a3bfc847514e59ba681a84d59755" kind="variable"><name>APP_NAME</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_setup_1a2b9dcf3824dfea4980f2d9f8c9bdcf09" kind="variable"><name>PROD_URL</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_setup_1a7a399cf5d77d0ea94c0cc2a091fc7c7d" kind="variable"><name>SENDER_ID</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l" kind="class"><name>csc440::nuf::client::SMIL</name>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_1a83d135955494462091fb2a7ca1bf2e22" kind="function"><name>onModuleLoad</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity" kind="class"><name>csc440::nuf::SMILActivity</name>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1afc9c010c15f60bb13c9f46a4074b4b66" kind="variable"><name>TAG</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1aceda4600e0e538e919688909564c1fb1" kind="variable"><name>_actionBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a1b94af27d89d7da3d0e3350dc23520ac" kind="variable"><name>items</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a96061c9e0eaae3c1a0b13e0a0670850a" kind="variable"><name>mContext</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1af33c25de004b30dfaa9bd829e4b4d373" kind="variable"><name>mUpdateUIReceiver</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a47e09143aeb07746ff801ee691280413" kind="function"><name>onCreate</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" kind="function"><name>onResume</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1accf1657de6b21643fc49d115e16b6118" kind="function"><name>onClick</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2f59a58a41923c67061ea32127bf4736" kind="function"><name>onDestroy</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2745735dd683f9051c5188c8492a8e33" kind="function"><name>onCreateOptionsMenu</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1afbe7e6e63db2e4c136f6666ec180558f" kind="function"><name>setHelloWorldScreenContent</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a63ea9d81c107560bacae11e67d206223" kind="function"><name>setScreenContent</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio" kind="class"><name>csc440::nuf::components::SMILAudio</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a5b0579e97844040a2254fcf1f84a8c80" kind="variable"><name>qName</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a6e5d5517217155497b83ec5f9cab8f53" kind="variable"><name>xmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a482173b3a842129f333212e31827bbba" kind="variable"><name>src</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1ac4389b9bffc1d3562f3233190a3b2caa" kind="function"><name>SMILAudio</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a855b8f0b5bbd31473130ba5f4834639a" kind="function"><name>printTag</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7ab667bfb856659aa5b30b05256ba1ca" kind="function"><name>getXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7e54acd192f2685de81df7f87ef5ca45" kind="function"><name>setXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a0316fbbbc88d046fe6dcf4b7849c2c79" kind="function"><name>getSrc</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a4dca9500971fc82cd951c97348457a7a" kind="function"><name>setSrc</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1cache_1_1_s_m_i_l_cache" kind="class"><name>csc440::nuf::cache::SMILCache</name>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1cache_1_1_s_m_i_l_cache_object" kind="class"><name>csc440::nuf::cache::SMILCacheObject</name>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request" kind="interface"><name>csc440::nuf::shared::SMILEngineRequest</name>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1ae676cd26bbe66d70138183bfabc7f437" kind="function"><name>createSMILMessage</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1ac8a27dbfa795c56f55621c1bf9fa1cd2" kind="function"><name>readSMILMessage</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1abb67e9ef53e8db25c95928f18d25b439" kind="function"><name>updateSMILMessage</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1aab5cf1bfa01de349bae730b5eddbe6e9" kind="function"><name>deleteSMILMessage</name></member>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1a3eee4d421f3a52debf63d9145b69aaac" kind="function"><name>querySMILMessages</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service" kind="class"><name>csc440::nuf::server::SMILEngineService</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1abf331d257346f4d73c4678d6094a0b9f" kind="variable"><name>db</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a3b83cad8892f2616c9107132e9335272" kind="function"><name>createSMILMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1afd3deee2a9ec22cfeb37095d0b118e13" kind="function"><name>readSMILMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a2c28cf08855cb6e77d5b774321f245d0" kind="function"><name>updateSMILMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1ab19512b37c29e2b7a222a9a34b7e5077" kind="function"><name>deleteSMILMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1aa5da8cd2b8d67fc8120eeb94f575b4c6" kind="function"><name>querySMILMessages</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator" kind="class"><name>csc440::nuf::server::SMILEngineServiceLocator</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator_1a8975ab32a83011d88840baa2989ef0d0" kind="function"><name>getInstance</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler" kind="class"><name>csc440::nuf::parser::SMILHandler</name>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a09b2703aa4cb1c8fe468db2db3dbf513" kind="variable"><name>par</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1afef5bdbde9c5222a14c9fab71195ea77" kind="variable"><name>seq</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a45df0db0b5889063fdfe8168fd9489fa" kind="variable"><name>currentObject</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a2b4d94d2fc3c31316eb1c44a1720902e" kind="function"><name>startElement</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aee16f02b7d6c54d685a116ee2bbeff9a" kind="function"><name>characters</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a3e1b09860f1ed33f8de26294e34ef167" kind="function"><name>endElement</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aa6eb041f2aed3eb2895323c762cd39de" kind="function"><name>add</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image" kind="class"><name>csc440::nuf::components::SMILImage</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a10257eac57e459777194d3c458cacddf" kind="variable"><name>QNAME</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1afd55b46f4defec7cf41823ad02b878d9" kind="variable"><name>xmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a784ec5f0e8f19333d81b5ae24adfe715" kind="variable"><name>top</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1aed0dc17d8a4a8c4f60329107990c0b2e" kind="variable"><name>left</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a9aeac60e77b5bd6e8fe368bd49016def" kind="variable"><name>zIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a87d825fa15d090559671a8aeecd775b0" kind="variable"><name>src</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a30d35f0657c429743a53c840f6911000" kind="function"><name>SMILImage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1aae0e9e20f89e2700c6de7fe910325ba9" kind="function"><name>printTag</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a5783ed68e651d5f2719c267b017bb688" kind="function"><name>getXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1ab031dd4583f23351e60e84a223f07080" kind="function"><name>setXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1aadcfef3d7b9a023495f5f31676fef88b" kind="function"><name>getTopMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1ac147150e57bc4a8137a2d1829108992c" kind="function"><name>setTopMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1ae39611dc016972a96a660c9884dcae5a" kind="function"><name>getLeftMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a244835e5f63dc4cbe3d268d8a8910c0b" kind="function"><name>setLeftMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a5702599838bdddbbc8fea7700bf45bd2" kind="function"><name>getzIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a148b84198ddbd7035b04577fa713fc91" kind="function"><name>setzIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1ad1c3a41607563a99bcf80b3b6d208337" kind="function"><name>getSrc</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a180c0a2f78b4aad213fe55702be84d72" kind="function"><name>setSrc</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout" kind="class"><name>csc440::nuf::components::SMILLayout</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1aedf14a289243fa0a6551f142d82a6905" kind="variable"><name>xmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ab300426431ca434dc55534bcb7b1adbc" kind="variable"><name>title</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6fb9fd7e665fc290a124348a3b15b520" kind="variable"><name>backgroundColor</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ac4e97c99f8d078f2ced03f13250c85b8" kind="variable"><name>height</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a10c61bc4f3efffeac5b9a16ba7662ad8" kind="variable"><name>width</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a9a121e49635c5e847b46dd4031afede9" kind="function"><name>SMILLayout</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a08fee20d86b3197f8db7c14257a305f8" kind="function"><name>getXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a436951da124cbb8849d1d78313195245" kind="function"><name>setXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a4bb394e41713de8e63eed56b513e9895" kind="function"><name>getTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1aeab630ad66b54dadde37617d40236242" kind="function"><name>setTitle</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a439b9b251d41c9e3784b1da182f89ee8" kind="function"><name>getBackgroundColor</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a068bcdcd53482b8bf0523aff2f9265e7" kind="function"><name>setBackgroundColor</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6c3c8f3a23cdf0c1fc04f5661ed0edd2" kind="function"><name>getHeight</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a83e96efea6adf1f1e3d46c781598deb9" kind="function"><name>setHeight</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ab94c0389b854476f03e1b49f83fa83ec" kind="function"><name>getWidth</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a2c03ffc172e1fc4d8d1a24cdd7163273" kind="function"><name>setWidth</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6e3f40fdd577d4cb4c8a309935126826" kind="function"><name>toString</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ad264e6d3b39d40024fc9905265fb5455" kind="function"><name>getIntValue</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kind="class"><name>csc440::nuf::server::SMILMessage</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a2b4bb02fb34249bbbf48864997b1fb79" kind="variable"><name>sender</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a8f26ecb5a3548409fbb026423d573ed9" kind="variable"><name>recipient</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a6d908ff5bcba4908d4678f01c269cadc" kind="variable"><name>senderEmail</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a03f9d4bc6a7272dbb914c8ff7ea7111f" kind="variable"><name>recipientEmail</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a845f6828b30a8a02dcff4e5bd7f97489" kind="variable"><name>SMILFile</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1aeaa69be4d09796d001469c54321f4fa0" kind="variable"><name>id</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af1d70e5d15f2bfe64144c4c6c11b6d2f" kind="function"><name>SMILMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1acc420f2ba04adbacaf4f601a52aaedda" kind="function"><name>getSenderEmail</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a839f38b917f400f15cc39046b99d7ec6" kind="function"><name>setSenderEmail</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ac2f789260ce6f5adad7e3db119c5e7c0" kind="function"><name>getRecipientEmail</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a04d79c49862dd1cde96912887d427b6d" kind="function"><name>setRecipientEmail</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a6288c6662d5ca2c83e64655a5035c86f" kind="function"><name>getSMILFile</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af7f723cd1bac6a7298a2d1f6f9cd9600" kind="function"><name>setSMILFile</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a3244ff730fcc1e2935e268358d0c507d" kind="function"><name>getId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ae0bf6116cba42238cf2ddd705222021c" kind="function"><name>setId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a9a0d3c988da6a99e6b5835f97c93842b" kind="function"><name>getSender</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a918480c6eea346cccc1b9ac3f2f46713" kind="function"><name>setSender</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ab5695cbd1178caab9f7cce13bedf8688" kind="function"><name>getRecipient</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ab41e6a3de45845f04ec95588eefb6c23" kind="function"><name>setRecipient</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator" kind="class"><name>csc440::nuf::server::SMILMessageLocator</name>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator_1ab7bbcf409e81bffa7b1ebcae40e80f89" kind="function"><name>create</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator_1a3fabe3cb299046a276f91cbdbb8479cf" kind="function"><name>find</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator_1afb58acd78f2012671923217cc02adb32" kind="function"><name>getDomainType</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator_1a9cdc8f3d218fffec7a2580f79bd0de8c" kind="function"><name>getId</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator_1aee1006b0271d90e6c52fb868be8bc0c1" kind="function"><name>getIdType</name></member>
+    <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator_1a60795f88db0b0a1a7681dd7e2682ad6e" kind="function"><name>getVersion</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kind="interface"><name>csc440::nuf::shared::SMILMessageProxy</name>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory" kind="interface"><name>csc440::nuf::shared::SMILMessageRequestFactory</name>
+    <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory_1aaa62c39f6f4cb930377753bd844c7100" kind="function"><name>SMILEngineRequest</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel" kind="class"><name>csc440::nuf::components::SMILParallel</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a1b91be8e079621e4d1f316c80c3ef73d" kind="variable"><name>xmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a674a8ce7d17257b875a21c845bcdd5f2" kind="variable"><name>parallelObjects</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a10d6d99522be99cae5b4dc5e357546fa" kind="function"><name>SMILParallel</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1af9a43098b50d757cea757ac4216b0b07" kind="function"><name>add</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a63d48a732e446ed8d7fea49fce46f01a" kind="function"><name>getElements</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a955354ced713f72891a44b76ab4c5736" kind="function"><name>getXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1aa7cca2f16e2f1be55f72ca9554235ecd" kind="function"><name>setXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a4ad0639616ec446c16c3f8fae4932d9f" kind="function"><name>printTag</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_parser" kind="class"><name>csc440::nuf::parser::SMILParser</name>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_parser_1a020728f137e374bb16fdd48bf280bd18" kind="variable"><name>is</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_parser_1af9a1d7e43f1010aa107c70624cd9da6a" kind="function"><name>SMILParser</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_parser_1a6323a240909e175e583f7b8117361fd5" kind="function"><name>SMILParser</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_parser_1a356ee3d10c71ad2d8c389ed9195b8a6d" kind="function"><name>parse</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential" kind="class"><name>csc440::nuf::components::SMILSequential</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab1908eebf82db38cfed5f892721e4c8e" kind="variable"><name>xmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab03f32d23d7f7b2897ae6c45944fc4db" kind="variable"><name>sequentialObjects</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a3c5284fa22cb41fc82ee96c140fdd54c" kind="function"><name>SMILSequential</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a176c8fea4dad1bdc8dfee6b66a9d0f08" kind="function"><name>add</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ae7877c94ee5c20a8cd676c3bae9d1888" kind="function"><name>getElements</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1ab6bd413f3a5c0842d0647f763ade9b44" kind="function"><name>getXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a0ed7bf2774e872936435ac3256a7d894" kind="function"><name>setXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a5fae7e91919070144cf29337eee45b6f" kind="function"><name>printTag</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text" kind="class"><name>csc440::nuf::components::SMILText</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a78a68077966f0348c75d1d504db42828" kind="variable"><name>xmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a74e840fdb88a2db5fc40abcd973e9550" kind="variable"><name>textAlign</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" kind="variable"><name>top</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" kind="variable"><name>left</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" kind="variable"><name>textColor</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" kind="variable"><name>textFontSize</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a4fbd664e16a4127c890a35f416f96e18" kind="variable"><name>zIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a491d3fb99b7f44f3eac10568ad3f194d" kind="variable"><name>text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a138b548477e92aaf86cb307966139c36" kind="function"><name>SMILText</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" kind="function"><name>draw</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" kind="function"><name>SMILText</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1ad6895c2e7b6cd50f3e0152e5a5c7158a" kind="function"><name>getText</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1abe863bf12d1e4e0c949b2903c601f34a" kind="function"><name>setText</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a08a8a1dff18366c7a4bf62c8af16cb48" kind="function"><name>printTag</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a0a1cb04aafb6b08141bb4c9084ccfe40" kind="function"><name>getXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a67d1b03d069b99855cf5ed4ad347ba02" kind="function"><name>setXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af5b7b6f8d8094f98923c8320d013d0d9" kind="function"><name>getTextAlign</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1a1fe776dd7496edc16b6673872f592a" kind="function"><name>setTextAlign</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a20f89595c7bacd6e061f602fc9db5edc" kind="function"><name>getTopMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a582d8d19208f7aea1fc8f84ad77a1e" kind="function"><name>setTopMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1ad500916845dafbe824c0e7ac9bd6e003" kind="function"><name>getLeftMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aee872383f64d2243499713423d5c08cf" kind="function"><name>setLeftMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aac8ad56e2ff100ec29c791e2a10b3719" kind="function"><name>getTextColor</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1f2ce43203e773ea841760d283281c7f" kind="function"><name>setTextColor</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a2805645b88e4538cfddc5b10ce47fc" kind="function"><name>getTextFontSize</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aea22a19c305c13d5fa10e3ab642f5792" kind="function"><name>setTextFontSize</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a968b19e7f2dfbe2bee49ef94e0c1407b" kind="function"><name>getzIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af77b4951b6198482fedc7a6b1c9efddd" kind="function"><name>setzIndex</name></member>
+  </compound>
+  <compound refid="interfacecsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1_1_s_m_i_l_ui_binder" kind="interface"><name>csc440::nuf::client::SMILWidget::SMILUiBinder</name>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video" kind="class"><name>csc440::nuf::components::SMILVideo</name>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a25ff5be76ad57dc81a343bff00caa157" kind="variable"><name>xmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a03c86e8b71b363c52853e72369cc9c35" kind="variable"><name>topMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a952e3b3bc3302fa27e51e48bfbc7ea02" kind="variable"><name>leftMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a4ad187b1dd945d9a90ec4de8300d0c7b" kind="variable"><name>zIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1ac14d6715867285424f8a14e0fc4f2a0a" kind="variable"><name>src</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1ae035b34027fa1b5fbe193edda3a97099" kind="function"><name>SMILVideo</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1aa3232eb51025bf28db9535a86612b009" kind="function"><name>getzIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a8f92a71a8ee9b0a5d1790d37f79b03a5" kind="function"><name>setzIndex</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a5fade0f5c2c00847e55578ba7552f387" kind="function"><name>getSrc</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a71b325df14d62b9af9c041b4c3b545e7" kind="function"><name>setSrc</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a0377e2f5e8f3daa37bb89d1293998f2f" kind="function"><name>getXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a1fc9b627c59a98f05c88117d09866e83" kind="function"><name>setXmlid</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a0c504798b02208fe24d6ab7f341aefea" kind="function"><name>getTopMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a00c196756cfc5e9763c19c29780ab62c" kind="function"><name>setTopMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1ae53a13869d3e765b692ec4dd4b828cc7" kind="function"><name>getLeftMargin</name></member>
+    <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1a79264fb65053bb8afd1d04ebb3c56e02" kind="function"><name>setLeftMargin</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget" kind="class"><name>csc440::nuf::client::SMILWidget</name>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a8e76661a1156eb81e61206acd6e12cb0" kind="variable"><name>STATUS_DELAY</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1aca099a64b7fc0527357897ca85017b91" kind="variable"><name>STATUS_ERROR</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a006c3dd70d7bdc96bc923734582ccbac" kind="variable"><name>STATUS_NONE</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a3747da591e7aee6e7bf7c4f707622f23" kind="variable"><name>STATUS_SUCCESS</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a903130b2b4a7943980114f4002d5e99a" kind="variable"><name>uiBinder</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1adb2f85fe1bb79e6d4bbc333f42eb07a3" kind="variable"><name>messageArea</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a93ab4737fa6a3e069241706bc47d1495" kind="variable"><name>recipientArea</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a8895b57cef5da71b606465a6ef614ccc" kind="variable"><name>status</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a09f34b17893ba39ab47d513158ba1c09" kind="variable"><name>sayHelloButton</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1ae297f24f7537225bf3be3d27d7db92d5" kind="variable"><name>sendMessageButton</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a66fdd6ad58e25390b049060aee92c136" kind="variable"><name>timer</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a12d9686653186477faabb5827640eb47" kind="function"><name>setStatus</name></member>
+    <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1af3e77d56e898cc26b1c2bdef38415cf1" kind="function"><name>SMILWidget</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer" kind="class"><name>csc440::nuf::parser::SMILWriter</name>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1ac0e1e3802d1e20af8e4f79fdeb2afc9a" kind="variable"><name>filename</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a52edc2f5797769f5cc250c56a0fd05c6" kind="function"><name>saveSMIL</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a392dc47401bcb619cbc06db1a78d794b" kind="function"><name>saveSMIL</name></member>
+    <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a2c1cc326dbdbbfbad1bf472b24166555" kind="function"><name>saveState</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_start_time_d_e_s_c" kind="class"><name>csc440::nuf::complay::StartTimeDESC</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_start_time_d_e_s_c_1aa47247770c80d08d7fac5738c770213a" kind="function"><name>compare</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1string" kind="class"><name>csc440::nuf::R::string</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a5f9967f8d20aa6ca7c688b13f85b6223" kind="variable"><name>accounts</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a25485fb6ea7c250a7f2d966633ed32ce" kind="variable"><name>add_account</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a17dc8d4ab6fd15a3ec715e9a64d44491" kind="variable"><name>app_name</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a4a8befcd4086657a72e04bc3f1c820d3" kind="variable"><name>attention</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1aaf71c70dd737a69439bae5292bb9e79d" kind="variable"><name>connect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a52b5401714d14fc5c805b61637405cfb" kind="variable"><name>connect_text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a247bf26a2b0129db4d5f93279208180f" kind="variable"><name>connect_to_the_cloud</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a9559933f0ea2925bea2138977ef373f2" kind="variable"><name>connected_to_the_cloud</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a47492bf1107318a9e247ff56b23f9b1f" kind="variable"><name>contacting_server</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1aa0f2de41d24d46346aeb6fc82c8f468c" kind="variable"><name>disconnect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a3d4780fe00bc6af5374102a1ecd004ce" kind="variable"><name>disconnect_text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1ad980cfb08c90754e90fdedd1b827ea73" kind="variable"><name>do_you_want_to_connect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a974f08e08d351ac2f203271f4278c651" kind="variable"><name>do_you_want_to_disconnect</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1ae43ad511bbfd9412e1abbb2ba6012994" kind="variable"><name>hello_world_info_text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a0fe1ca94b9a5a6557af18e235407fdea" kind="variable"><name>hello_world_text</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a2f62fdaa69cd0c6b3c34cbce609223f2" kind="variable"><name>needs_account</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1af31562d5638e277e184d09d6666870fd" kind="variable"><name>registration_error</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a4fa785e8091b45ee0ee0cd060b25415d" kind="variable"><name>registration_succeeded</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a26377eb003f2227f04c108a998756966" kind="variable"><name>say_hello</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a7219e3168f25e9f2cef43f097e1abe30" kind="variable"><name>select_account</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1aaf595eea7202032c808191c4501a66bc" kind="variable"><name>skip</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1string_1a29dbcdf4db3db501865189f629867ad0" kind="variable"><name>unregistration_succeeded</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_r_1_1style" kind="class"><name>csc440::nuf::R::style</name>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1style_1a53566032f652a489f7fbe3122692d6b6" kind="variable"><name>scroll</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_r_1_1style_1a7ce81283b004479d20d19d150d67ac95" kind="variable"><name>scrollitem</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_timer" kind="class"><name>csc440::nuf::complay::Timer</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aad1dd757c8a4db3031f3898d0aca55b4" kind="variable"><name>time</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1ace51ddbb89a24187037eae2f8c212cbf" kind="function"><name>Timer</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1a8a082600290ab98e14d378e26a64c76f" kind="function"><name>getTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aff1846d75c64aee648b2321f9ea62314" kind="function"><name>timePlusPlus</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" kind="function"><name>setTime</name></member>
+  </compound>
+  <compound refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test" kind="class"><name>testing::src::csc440::nuf::complay::TimerTest</name>
+    <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1ac7d16b7c9f095f8490f93cb77ee73211" kind="variable"><name>timer</name></member>
+    <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1ab8ec466786294670f9b70dacf1c87de8" kind="variable"><name>data</name></member>
+    <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1a754f5ec93ba1d9bc24d51c0638fb5bd7" kind="function"><name>setup</name></member>
+    <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1a65fed0b056aa48a3f01419a29585ceee" kind="function"><name>testSetTime</name></member>
+  </compound>
+  <compound refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util" kind="class"><name>com::google::appengine::codelab::Util</name>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1aa5b8cdc8a728f891329f146db77eb029" kind="variable"><name>logger</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a78f40cb1a7717ae8431e664721797739" kind="variable"><name>datastore</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a95f645b216766041423363dd06815dc7" kind="function"><name>persistEntity</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a04a02f078a3bd61f4bb36b48b4580c58" kind="function"><name>deleteEntity</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1ad219fba4ce05c825c31252a07a987f20" kind="function"><name>deleteEntity</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a14548b6d0d079225ae5f6596542a1c0f" kind="function"><name>findEntity</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a450bc0facf36bb5525b4f66a18be74cd" kind="function"><name>listEntities</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a7a9f221fa79d46f397b81e06820beb03" kind="function"><name>listChildren</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a3aa977c9e242b761d98ef6bcd9b55793" kind="function"><name>listChildKeys</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a87d0f3bedf24d631c476ca62d10fb8d9" kind="function"><name>writeJSON</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a1166a7fd8ba0cbbd491a3aa68556bf1d" kind="function"><name>writeJSON</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a0d7e9492450f9aaaaf6b8b4e8a9d7890" kind="function"><name>getErrorMessage</name></member>
+    <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a097d93268afc438617bd7e13f0f0f5e7" kind="function"><name>getDatastoreServiceInstance</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_util" kind="class"><name>csc440::nuf::Util</name>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a02e0c32438350b575fcee7d439173b33" kind="variable"><name>TAG</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1ae03bf3e1a948f0df57c133efabca76a5" kind="variable"><name>SHARED_PREFS</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a23f709e29000dc379ca333f4bb725997" kind="variable"><name>URL_MAP</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a40b66c29439ea7980ebe035fc1f33547" kind="variable"><name>ACCOUNT_NAME</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a5261d5e5a553256bbe76b2fbee31c909" kind="variable"><name>AUTH_COOKIE</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" kind="variable"><name>CONNECTION_STATUS</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a0f9fe311a7c4baf4d5a0f373839aaf6e" kind="variable"><name>CONNECTED</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a5d1dcaf2bd94bf0d3e20aa24db16f7b3" kind="variable"><name>CONNECTING</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1acc59e40c430a78ba6bb0cc45bd616c2b" kind="variable"><name>DISCONNECTED</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a19e590891af91bcb18ce096826a637d9" kind="variable"><name>DEVICE_REGISTRATION_ID</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a168e27d595b96d0e784d5f32a6f5e125" kind="variable"><name>RF_METHOD</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a3376e622f91a209d996ed066878f3ff5" kind="variable"><name>UPDATE_UI_INTENT</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1adbbee48d176f30c61d5819634d17b73a" kind="function"><name>generateNotification</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a6073587e3dc087b21d85869abe1e91e9" kind="function"><name>getBaseUrl</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" kind="function"><name>getRequestFactory</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" kind="function"><name>getSharedPreferences</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1ab50759c63c640488621224b197658775" kind="function"><name>isDebug</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a8b1609b3b688fe104413bd4a58345891" kind="function"><name>getDebugUrl</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_util_1a2020d4a0a3e6b8feb854bec003f44ca6" kind="function"><name>getPackageName</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_view_message_activity" kind="class"><name>csc440::nuf::ViewMessageActivity</name>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a1b2328f99f4730a731953349e3ea6f41" kind="variable"><name>REQ_CODE_PLAYER</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1ab5ff225e9e72a14d07ac9c09db45f5ab" kind="variable"><name>items</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a72635cec29e697b7d992f6c98b334764" kind="variable"><name>state</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1abb652a7b243a4b49fd6f85fdd532ea51" kind="variable"><name>_actionBar</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a127f4e439d6aa4d35997125fd2c1c560" kind="variable"><name>playPressed</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1abefa81829e602dcc3a449e37ed1403d1" kind="variable"><name>startTime</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1aaa80007675b07612e07e521da21a2987" kind="variable"><name>autoPlay</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a29153e443a47e114205c936f59f9916a" kind="variable"><name>alertAutoPlay</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" kind="function"><name>onCreate</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1af7da4ac74c5aeb46448c50fa8479e13a" kind="function"><name>playMessage</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a8b4905772a4092ef3bc0e21ed23d7ae1" kind="function"><name>onClick</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1ac15977b1ad20ed909ff3ce8ee4a85769" kind="function"><name>onResume</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a88e2195231d2097a71a9de8298532e23" kind="function"><name>onActivityResult</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1complay_1_1_waiting" kind="class"><name>csc440::nuf::complay::Waiting</name>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1acff22c67f5f3a68bdb6c23f6e8a9a504" kind="variable"><name>q</name></member>
+    <member refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" kind="function"><name>Q</name></member>
+  </compound>
+  <compound refid="classcsc440_1_1nuf_1_1_waiting_queue" kind="class"><name>csc440::nuf::WaitingQueue</name>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a9dceaa48b16ebe0c73b018a73d71667e" kind="variable"><name>objectQ</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a733055434781ba9a443798c145608946" kind="variable"><name>layout</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a1bb768ecb8a705e457e3a6b975a58905" kind="variable"><name>density</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1ae92237ad5f78ecae6df25064fa060076" kind="function"><name>setScreenDensity</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1aa0df75774f0678ef2e387dd46e467e59" kind="function"><name>getDensity</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a98723a43fc41b33c625b6bc89f316daa" kind="function"><name>push</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a5853f4f4288ee80584dac9d0805f058d" kind="function"><name>peek</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1aa733f738402b4ed414e66fbe65be3654" kind="function"><name>pop</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1add84a726026626b52f9c0722c1ba5440" kind="function"><name>prepQ</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a260533a2fb28363d13793ccd1ccb2268" kind="function"><name>isEmpty</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1af3ffba3dc502336574e7538b22d734d0" kind="function"><name>getLayout</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1ac0eebf9ce1ffdffc555d394ff6c1d62c" kind="function"><name>setLayout</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1ac136b1f6e6ba8e78b592bfb98ee1e812" kind="function"><name>getMessageLength</name></member>
+    <member refid="classcsc440_1_1nuf_1_1_waiting_queue_1a02dea3c8c7be5619af03f518a21186f2" kind="function"><name>getLength</name></member>
+  </compound>
+  <compound refid="namespacecom" kind="namespace"><name>com</name>
+  </compound>
+  <compound refid="namespacecom_1_1_display_exp" kind="namespace"><name>com::DisplayExp</name>
+  </compound>
+  <compound refid="namespacecom_1_1google" kind="namespace"><name>com::google</name>
+  </compound>
+  <compound refid="namespacecom_1_1google_1_1appengine" kind="namespace"><name>com::google::appengine</name>
+  </compound>
+  <compound refid="namespacecom_1_1google_1_1appengine_1_1codelab" kind="namespace"><name>com::google::appengine::codelab</name>
+  </compound>
+  <compound refid="namespacecom_1_1thira" kind="namespace"><name>com::thira</name>
+  </compound>
+  <compound refid="namespacecom_1_1thira_1_1examples" kind="namespace"><name>com::thira::examples</name>
+  </compound>
+  <compound refid="namespacecom_1_1thira_1_1examples_1_1actionbar" kind="namespace"><name>com::thira::examples::actionbar</name>
+  </compound>
+  <compound refid="namespacecom_1_1thira_1_1examples_1_1actionbar_1_1widget" kind="namespace"><name>com::thira::examples::actionbar::widget</name>
+  </compound>
+  <compound refid="namespacecsc440" kind="namespace"><name>csc440</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf" kind="namespace"><name>csc440::nuf</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1" kind="namespace"><name>csc440::nuf::</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1cache" kind="namespace"><name>csc440::nuf::cache</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1client" kind="namespace"><name>csc440::nuf::client</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1complay" kind="namespace"><name>csc440::nuf::complay</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1complay_1_1" kind="namespace"><name>csc440::nuf::complay::</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1components" kind="namespace"><name>csc440::nuf::components</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1components_1_1" kind="namespace"><name>csc440::nuf::components::</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1parser" kind="namespace"><name>csc440::nuf::parser</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1server" kind="namespace"><name>csc440::nuf::server</name>
+  </compound>
+  <compound refid="namespacecsc440_1_1nuf_1_1shared" kind="namespace"><name>csc440::nuf::shared</name>
+  </compound>
+  <compound refid="namespacejavax_1_1persistence_1_1" kind="namespace"><name>javax::persistence::</name>
+  </compound>
+  <compound refid="namespacejunit_1_1framework_1_1" kind="namespace"><name>junit::framework::</name>
+  </compound>
+  <compound refid="namespacetesting" kind="namespace"><name>testing</name>
+  </compound>
+  <compound refid="namespacetesting_1_1src" kind="namespace"><name>testing::src</name>
+  </compound>
+  <compound refid="namespacetesting_1_1src_1_1csc440" kind="namespace"><name>testing::src::csc440</name>
+  </compound>
+  <compound refid="namespacetesting_1_1src_1_1csc440_1_1nuf" kind="namespace"><name>testing::src::csc440::nuf</name>
+  </compound>
+  <compound refid="namespacetesting_1_1src_1_1csc440_1_1nuf_1_1complay" kind="namespace"><name>testing::src::csc440::nuf::complay</name>
+  </compound>
+  <compound refid="_custom_title_activity_8java" kind="file"><name>CustomTitleActivity.java</name>
+  </compound>
+  <compound refid="_main_activity_8java" kind="file"><name>MainActivity.java</name>
+  </compound>
+  <compound refid="_documents_2_code_01_references_2android-actionbar-lib-v1_2src_2com_2thira_2examples_2actionbar_2widget_2_action_bar_8java" kind="file"><name>ActionBar.java</name>
+  </compound>
+  <compound refid="_s_m_i_l-_android_2src_2csc440_2nuf_2_action_bar_8java" kind="file"><name>ActionBar.java</name>
+  </compound>
+  <compound refid="_base_servlet_8java" kind="file"><name>BaseServlet.java</name>
+  </compound>
+  <compound refid="_item_8java" kind="file"><name>Item.java</name>
+  </compound>
+  <compound refid="_item_servlet_8java" kind="file"><name>ItemServlet.java</name>
+  </compound>
+  <compound refid="_product_8java" kind="file"><name>Product.java</name>
+  </compound>
+  <compound refid="_product_servlet_8java" kind="file"><name>ProductServlet.java</name>
+  </compound>
+  <compound refid="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" kind="file"><name>Util.java</name>
+  </compound>
+  <compound refid="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" kind="file"><name>Util.java</name>
+  </compound>
+  <compound refid="_display_8java" kind="file"><name>Display.java</name>
+  </compound>
+  <compound refid="_my_canvas_8java" kind="file"><name>MyCanvas.java</name>
+  </compound>
+  <compound refid="_manifest_8java" kind="file"><name>Manifest.java</name>
+  </compound>
+  <compound refid="_r_8java" kind="file"><name>R.java</name>
+  </compound>
+  <compound refid="_accounts_activity_8java" kind="file"><name>AccountsActivity.java</name>
+  </compound>
+  <compound refid="_android_request_transport_8java" kind="file"><name>AndroidRequestTransport.java</name>
+  </compound>
+  <compound refid="_async_fetch_s_m_i_l_message_8java" kind="file"><name>AsyncFetchSMILMessage.java</name>
+  </compound>
+  <compound refid="_c2_d_m_receiver_8java" kind="file"><name>C2DMReceiver.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_cache_8java" kind="file"><name>SMILCache.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_cache_object_8java" kind="file"><name>SMILCacheObject.java</name>
+  </compound>
+  <compound refid="_composer_activity_8java" kind="file"><name>ComposerActivity.java</name>
+  </compound>
+  <compound refid="_hide_controls_listener_8java" kind="file"><name>HideControlsListener.java</name>
+  </compound>
+  <compound refid="_off_screen_8java" kind="file"><name>OffScreen.java</name>
+  </compound>
+  <compound refid="_on_screen_8java" kind="file"><name>OnScreen.java</name>
+  </compound>
+  <compound refid="_player_activity_8java" kind="file"><name>PlayerActivity.java</name>
+  </compound>
+  <compound refid="_player_canvas_8java" kind="file"><name>PlayerCanvas.java</name>
+  </compound>
+  <compound refid="_q_8java" kind="file"><name>Q.java</name>
+  </compound>
+  <compound refid="_timer_8java" kind="file"><name>Timer.java</name>
+  </compound>
+  <compound refid="_waiting_8java" kind="file"><name>Waiting.java</name>
+  </compound>
+  <compound refid="_abstract_s_m_i_l_object_8java" kind="file"><name>AbstractSMILObject.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_audio_8java" kind="file"><name>SMILAudio.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_image_8java" kind="file"><name>SMILImage.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_layout_8java" kind="file"><name>SMILLayout.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_parallel_8java" kind="file"><name>SMILParallel.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_sequential_8java" kind="file"><name>SMILSequential.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_text_8java" kind="file"><name>SMILText.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_video_8java" kind="file"><name>SMILVideo.java</name>
+  </compound>
+  <compound refid="_device_registrar_8java" kind="file"><name>DeviceRegistrar.java</name>
+  </compound>
+  <compound refid="_message_display_8java" kind="file"><name>MessageDisplay.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_handler_8java" kind="file"><name>SMILHandler.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_parser_8java" kind="file"><name>SMILParser.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_writer_8java" kind="file"><name>SMILWriter.java</name>
+  </compound>
+  <compound refid="_scroll_item_8java" kind="file"><name>ScrollItem.java</name>
+  </compound>
+  <compound refid="_scroll_item_manager_8java" kind="file"><name>ScrollItemManager.java</name>
+  </compound>
+  <compound refid="_setup_8java" kind="file"><name>Setup.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_activity_8java" kind="file"><name>SMILActivity.java</name>
+  </compound>
+  <compound refid="_view_message_activity_8java" kind="file"><name>ViewMessageActivity.java</name>
+  </compound>
+  <compound refid="_waiting_queue_8java" kind="file"><name>WaitingQueue.java</name>
+  </compound>
+  <compound refid="_timer_test_8java" kind="file"><name>TimerTest.java</name>
+  </compound>
+  <compound refid="_my_request_factory_8java" kind="file"><name>MyRequestFactory.java</name>
+  </compound>
+  <compound refid="_message_proxy_8java" kind="file"><name>MessageProxy.java</name>
+  </compound>
+  <compound refid="_registration_info_proxy_8java" kind="file"><name>RegistrationInfoProxy.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_engine_request_8java" kind="file"><name>SMILEngineRequest.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_message_proxy_8java" kind="file"><name>SMILMessageProxy.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_message_request_factory_8java" kind="file"><name>SMILMessageRequestFactory.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_8java" kind="file"><name>SMIL.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_widget_8java" kind="file"><name>SMILWidget.java</name>
+  </compound>
+  <compound refid="_data_store_8java" kind="file"><name>DataStore.java</name>
+  </compound>
+  <compound refid="_device_info_8java" kind="file"><name>DeviceInfo.java</name>
+  </compound>
+  <compound refid="_hello_world_service_8java" kind="file"><name>HelloWorldService.java</name>
+  </compound>
+  <compound refid="_message_8java" kind="file"><name>Message.java</name>
+  </compound>
+  <compound refid="_message_locator_8java" kind="file"><name>MessageLocator.java</name>
+  </compound>
+  <compound refid="_registration_info_8java" kind="file"><name>RegistrationInfo.java</name>
+  </compound>
+  <compound refid="_send_message_8java" kind="file"><name>SendMessage.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_engine_service_8java" kind="file"><name>SMILEngineService.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_engine_service_locator_8java" kind="file"><name>SMILEngineServiceLocator.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_message_8java" kind="file"><name>SMILMessage.java</name>
+  </compound>
+  <compound refid="_s_m_i_l_message_locator_8java" kind="file"><name>SMILMessageLocator.java</name>
+  </compound>
+  <compound refid="dir_85352d8cdb9fd2541270251580a87015" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/</name>
+  </compound>
+  <compound refid="dir_9b36cfeca13d225570f8546e114b5a36" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/</name>
+  </compound>
+  <compound refid="dir_caf624570f308402244d1cf72027d558" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/</name>
+  </compound>
+  <compound refid="dir_481b1e6ce4f9fdfac47571947dd23edf" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/</name>
+  </compound>
+  <compound refid="dir_8f5dbfc2c16749345c2ceae4769e292c" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/</name>
+  </compound>
+  <compound refid="dir_64647976fc7bd8031b3a77a485000aed" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/cache/</name>
+  </compound>
+  <compound refid="dir_42dd07a3206905061a8003b3b5a3ceb6" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/</name>
+  </compound>
+  <compound refid="dir_d9b7858ac8cb17d1eb3a438e4ca9b10a" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/</name>
+  </compound>
+  <compound refid="dir_7023d04cd845face42ce7d1cda56997b" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/</name>
+  </compound>
+  <compound refid="dir_62ef9811f9a030bce233485ee4f42621" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/</name>
+  </compound>
+  <compound refid="dir_e3750d21a94fcfd3e170d754d05cc051" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/</name>
+  </compound>
+  <compound refid="dir_6e6569b13d197463b8dbb0666f601bfd" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/</name>
+  </compound>
+  <compound refid="dir_ec2abdb8d53a930d4c5bcc12866a37f0" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/</name>
+  </compound>
+  <compound refid="dir_0746461b95a5928159232f4436c5efac" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/</name>
+  </compound>
+  <compound refid="dir_312fd34c9dc1aac160d2b4797e0ac799" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/</name>
+  </compound>
+  <compound refid="dir_9ce2c557358f9da7e596a7de456d9d66" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/</name>
+  </compound>
+  <compound refid="dir_da4b808e10b7c14da844880ca3c93fe6" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/</name>
+  </compound>
+  <compound refid="dir_23a7f96a116c6bb568edfbc011c61233" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/</name>
+  </compound>
+  <compound refid="dir_3eb70f40c438c544eee8ce89455f9638" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/</name>
+  </compound>
+  <compound refid="dir_65cfe5519b0d9ab4308eb6940adb2655" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/</name>
+  </compound>
+  <compound refid="dir_f1fc228e851cc337582b85e538a67cc5" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/</name>
+  </compound>
+  <compound refid="dir_c95c8b4824df695a9b34a21705ced46c" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/</name>
+  </compound>
+  <compound refid="dir_08a0d126575b6c1862fc6300fa9d7bdf" kind="dir"><name>/Users/alex/Documents/CSC_440/</name>
+  </compound>
+  <compound refid="dir_b5a9a3a443fb92bb4e0b40d5125b9c49" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/</name>
+  </compound>
+  <compound refid="dir_1b38da644cc63c66b96895c24adf6055" kind="dir"><name>/Users/alex/Documents/</name>
+  </compound>
+  <compound refid="dir_694d3a19f40a81d0ede2c12b77cb4ca0" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/</name>
+  </compound>
+  <compound refid="dir_687b8e8fb0383708f9616f37bfee9ba1" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/</name>
+  </compound>
+  <compound refid="dir_c80497c4c111f0026a6e783e570b98dd" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/</name>
+  </compound>
+  <compound refid="dir_46af5d11476f17e76aaaba90cd4f5d9f" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/</name>
+  </compound>
+  <compound refid="dir_f8581b880a613cebad21f8bdfe7c0506" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/</name>
+  </compound>
+  <compound refid="dir_d790839254e0638e832a2b0eb2400628" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/</name>
+  </compound>
+  <compound refid="dir_4ed0bc6ecf5892682ca115fe16e05ae2" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/</name>
+  </compound>
+  <compound refid="dir_9183c36ff35f194be3bfbf93bec48c40" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/</name>
+  </compound>
+  <compound refid="dir_552a5ff9b67048de8aea9caa264b3797" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/</name>
+  </compound>
+  <compound refid="dir_e1102279bfb96baa2789661af8200972" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/</name>
+  </compound>
+  <compound refid="dir_3698758d1daf77902d2b4f89604d85d4" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/</name>
+  </compound>
+  <compound refid="dir_d5ff1ff8d91467bc6f7a4c28edcdd5bd" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/</name>
+  </compound>
+  <compound refid="dir_d2f67884bc8c11ea8888bd82ce64076c" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/</name>
+  </compound>
+  <compound refid="dir_1a2b3016e507ffb7f1e76ca5cbe94997" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/</name>
+  </compound>
+  <compound refid="dir_cb0195190176c0e69eef7b84f9827170" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/</name>
+  </compound>
+  <compound refid="dir_49a8ac52c272384bff1336abf3da343f" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/</name>
+  </compound>
+  <compound refid="dir_f2d3cf776a1f87fda9b8368f7ac9fc38" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/</name>
+  </compound>
+  <compound refid="dir_a5b09e70917f50f9e2c184ea9bc81746" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/</name>
+  </compound>
+  <compound refid="dir_30de2c6417e30f51598f247f7b4ec5af" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/</name>
+  </compound>
+  <compound refid="dir_d76947eac64483e39f3d7f12a27a34c2" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/</name>
+  </compound>
+  <compound refid="dir_fecde7bee28eddbb20a67ad4519c6a29" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/</name>
+  </compound>
+  <compound refid="dir_600c7ad2987c42522bc35a2095e08fb9" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/</name>
+  </compound>
+  <compound refid="dir_a79fabdf190381e9063a23d42633a423" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/</name>
+  </compound>
+  <compound refid="dir_ce046fca37bb1ff736675e91bc35e44a" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/</name>
+  </compound>
+  <compound refid="dir_93e720ed21b92e46fdd93ea794faa588" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/</name>
+  </compound>
+  <compound refid="dir_28283812a8e7ea82ea57b8ec1382a5d6" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/</name>
+  </compound>
+  <compound refid="dir_0c79620d8077d344692ead07afd66c6f" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/</name>
+  </compound>
+  <compound refid="dir_8a87d13b2d0c22f59d95a4487ceb931f" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/</name>
+  </compound>
+  <compound refid="dir_a98d89de509a8d0fef0f5b8749bdb08f" kind="dir"><name>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/</name>
+  </compound>
+</doxygenindex>

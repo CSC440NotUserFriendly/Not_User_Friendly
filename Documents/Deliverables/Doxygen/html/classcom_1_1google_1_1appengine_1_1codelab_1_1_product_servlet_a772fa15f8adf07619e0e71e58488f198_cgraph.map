@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_product.xhtml#addc5d2e4ec78d1eef631ffc4cdf268a1" title="com.google.appengine.codelab.Product.deleteProduct" alt="" coords="437,31,808,62"/>
+<area shape="rect" id="node11" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_util.xhtml#a0d7e9492450f9aaaaf6b8b4e8a9d7890" title="com.google.appengine.codelab.Util.getErrorMessage" alt="" coords="441,86,804,117"/>
+<area shape="rect" id="node5" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_product.xhtml#a7a8a391c4b6446d33e163ceb21521e69" title="com.google.appengine.codelab.Product.getItems" alt="" coords="856,5,1194,35"/>
+<area shape="rect" id="node9" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_util.xhtml#a04a02f078a3bd61f4bb36b48b4580c58" title="com.google.appengine.codelab.Util.deleteEntity" alt="" coords="860,59,1190,90"/>
+<area shape="rect" id="node7" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_util.xhtml#a097d93268afc438617bd7e13f0f0f5e7" title="com.google.appengine.codelab.Util.getDatastoreServiceInstance" alt="" coords="1243,5,1680,35"/>
+</map>

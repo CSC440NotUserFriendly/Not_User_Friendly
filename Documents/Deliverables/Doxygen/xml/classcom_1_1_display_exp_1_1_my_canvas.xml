@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcom_1_1_display_exp_1_1_my_canvas" kind="class" prot="public">
+    <compoundname>com::DisplayExp::MyCanvas</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a6ab3452d5637b89f1ead8e6bb4fe4727" prot="package" static="no" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap com.DisplayExp.MyCanvas.original</definition>
+        <argsstring></argsstring>
+        <name>original</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="23" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a55346c1972e1da0b426b4f6af7eabddc" prot="package" static="no" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap com.DisplayExp.MyCanvas.myImg</definition>
+        <argsstring></argsstring>
+        <name>myImg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1acf6f5ad90a505694153c190400fe5ee4" prot="package" static="no" mutable="no">
+        <type>Paint</type>
+        <definition>Paint com.DisplayExp.MyCanvas.p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a0c550b70afffb52ac1046356d6039e8d" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.xCenter</definition>
+        <argsstring></argsstring>
+        <name>xCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a216cc02d102bb1df3675af525fc954ab" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.yCenter</definition>
+        <argsstring></argsstring>
+        <name>yCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a9037806c446fbcbf120d95f411cd772a" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.xLeft</definition>
+        <argsstring></argsstring>
+        <name>xLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="30" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a5aeffb53a9d787dbe328e39c9a988676" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.yTop</definition>
+        <argsstring></argsstring>
+        <name>yTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1ad30c5cdf28cb8b3a81ee07b9aa584966" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.xRight</definition>
+        <argsstring></argsstring>
+        <name>xRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a9fecb90c0731fc45d15a6c1ac306d20c" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.yBottom</definition>
+        <argsstring></argsstring>
+        <name>yBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="34" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1aa314bef8f6259a95de7026cc7fce50fc" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="36" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1a0f4375884cb501809f3cb5ffd37ee7a4" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.DisplayExp.MyCanvas.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="37" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_my_canvas_1aa5574b85c736bb46da63db27c8b9dfd3" prot="package" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.DisplayExp.MyCanvas.FATFINGER</definition>
+        <argsstring></argsstring>
+        <name>FATFINGER</name>
+        <initializer> 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="39" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1_display_exp_1_1_my_canvas_1ac0d0abb985ebb2548ff43e8b53245f0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.DisplayExp.MyCanvas.MyCanvas</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>MyCanvas</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="41" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_display_exp_1_1_my_canvas_1a894833c69a49d5a11ceb286ad750a032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.DisplayExp.MyCanvas.onTouch</definition>
+        <argsstring>(View view, MotionEvent event)</argsstring>
+        <name>onTouch</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>MotionEvent</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="96" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="96" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1_display_exp_1_1_my_canvas_1a67b5fa8a6def1b3b8c6b0b61859e0434" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.DisplayExp.MyCanvas.onDraw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>onDraw</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="62" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="62" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcom_1_1_display_exp_1_1_my_canvas_1a263bfa204260eb46c1c4ba30b62c7971" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.DisplayExp.MyCanvas.setLoc</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>setLoc</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="74" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="74" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_display_exp_1_1_my_canvas_1a8c3e476cb26a7bef0fec676a8ee5d2e8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.DisplayExp.MyCanvas.newImage</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>newImage</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="86" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="86" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Brad </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="366">
+        <label>View</label>
+      </node>
+      <node id="365">
+        <label>com.DisplayExp.MyCanvas</label>
+        <link refid="classcom_1_1_display_exp_1_1_my_canvas"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="370">
+        <label>Paint</label>
+      </node>
+      <node id="368">
+        <label>View</label>
+      </node>
+      <node id="369">
+        <label>Bitmap</label>
+      </node>
+      <node id="367">
+        <label>com.DisplayExp.MyCanvas</label>
+        <link refid="classcom_1_1_display_exp_1_1_my_canvas"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>myImg</edgelabel>
+          <edgelabel>original</edgelabel>
+        </childnode>
+        <childnode refid="370" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" line="21" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/MyCanvas.java" bodystart="21" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1aa5574b85c736bb46da63db27c8b9dfd3" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>FATFINGER</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a0f4375884cb501809f3cb5ffd37ee7a4" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>height</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1ac0d0abb985ebb2548ff43e8b53245f0e" prot="public" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>MyCanvas</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a55346c1972e1da0b426b4f6af7eabddc" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>myImg</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a8c3e476cb26a7bef0fec676a8ee5d2e8" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>newImage</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a67b5fa8a6def1b3b8c6b0b61859e0434" prot="protected" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>onDraw</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a894833c69a49d5a11ceb286ad750a032" prot="public" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>onTouch</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a6ab3452d5637b89f1ead8e6bb4fe4727" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>original</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1acf6f5ad90a505694153c190400fe5ee4" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>p</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a263bfa204260eb46c1c4ba30b62c7971" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>setLoc</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1aa314bef8f6259a95de7026cc7fce50fc" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>width</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a0c550b70afffb52ac1046356d6039e8d" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>xCenter</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a9037806c446fbcbf120d95f411cd772a" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>xLeft</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1ad30c5cdf28cb8b3a81ee07b9aa584966" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>xRight</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a9fecb90c0731fc45d15a6c1ac306d20c" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>yBottom</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a216cc02d102bb1df3675af525fc954ab" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>yCenter</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_my_canvas_1a5aeffb53a9d787dbe328e39c9a988676" prot="package" virt="non-virtual"><scope>com::DisplayExp::MyCanvas</scope><name>yTop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer" kind="class" prot="public">
+    <compoundname>csc440::nuf::parser::SMILWriter</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1ac0e1e3802d1e20af8e4f79fdeb2afc9a" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.parser.SMILWriter.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" line="16" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a52edc2f5797769f5cc250c56a0fd05c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.parser.SMILWriter.saveSMIL</definition>
+        <argsstring>(String filename)</argsstring>
+        <name>saveSMIL</name>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" line="18" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a392dc47401bcb619cbc06db1a78d794b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.parser.SMILWriter.saveSMIL</definition>
+        <argsstring>(String filename, String comments)</argsstring>
+        <name>saveSMIL</name>
+        <param>
+          <type>String</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>comments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" line="22" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a2c1cc326dbdbbfbad1bf472b24166555" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.parser.SMILWriter.saveState</definition>
+        <argsstring>()</argsstring>
+        <name>saveState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 01-22-2011 <ref refid="_s_m_i_l_writer_8java" kindref="compound">SMILWriter.java</ref> <simplesect kind="author"><para>Brad Barker</para></simplesect>
+Main class for writing SMIL Files. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" line="14" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILWriter.java" bodystart="14" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1ac0e1e3802d1e20af8e4f79fdeb2afc9a" prot="private" virt="non-virtual"><scope>csc440::nuf::parser::SMILWriter</scope><name>filename</name></member>
+      <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a52edc2f5797769f5cc250c56a0fd05c6" prot="public" virt="non-virtual"><scope>csc440::nuf::parser::SMILWriter</scope><name>saveSMIL</name></member>
+      <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a392dc47401bcb619cbc06db1a78d794b" prot="public" virt="non-virtual"><scope>csc440::nuf::parser::SMILWriter</scope><name>saveSMIL</name></member>
+      <member refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer_1a2c1cc326dbdbbfbad1bf472b24166555" prot="public" virt="non-virtual"><scope>csc440::nuf::parser::SMILWriter</scope><name>saveState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

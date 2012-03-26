@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecom_1_1thira_1_1examples_1_1actionbar" kind="namespace">
+    <compoundname>com::thira::examples::actionbar</compoundname>
+    <innerclass refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_custom_title_activity" prot="public">com::thira::examples::actionbar::CustomTitleActivity</innerclass>
+    <innerclass refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity" prot="public">com::thira::examples::actionbar::MainActivity</innerclass>
+    <innernamespace refid="namespacecom_1_1thira_1_1examples_1_1actionbar_1_1widget">com::thira::examples::actionbar::widget</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/CustomTitleActivity.java" line="1"/>
+  </compounddef>
+</doxygen>

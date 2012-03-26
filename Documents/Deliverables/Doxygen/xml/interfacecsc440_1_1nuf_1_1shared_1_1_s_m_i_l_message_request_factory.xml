@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory" kind="interface" prot="public">
+    <compoundname>csc440::nuf::shared::SMILMessageRequestFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RequestFactory</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory_1aaa62c39f6f4cb930377753bd844c7100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request" kindref="compound">SMILEngineRequest</ref></type>
+        <definition>SMILEngineRequest csc440.nuf.shared.SMILMessageRequestFactory.SMILEngineRequest</definition>
+        <argsstring>()</argsstring>
+        <name>SMILEngineRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILMessageRequestFactory.java" line="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="470">
+        <label>RequestFactory</label>
+      </node>
+      <node id="469">
+        <label>csc440.nuf.shared.SMILMessageRequestFactory</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory"/>
+        <childnode refid="470" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="472">
+        <label>RequestFactory</label>
+      </node>
+      <node id="471">
+        <label>csc440.nuf.shared.SMILMessageRequestFactory</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory"/>
+        <childnode refid="472" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILMessageRequestFactory.java" line="6" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILMessageRequestFactory.java" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory_1aaa62c39f6f4cb930377753bd844c7100" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::SMILMessageRequestFactory</scope><name>SMILEngineRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a9390d2b6a505e0a44fc421a8d146789e" title="csc440.nuf.complay.PlayerActivity.onResume" alt="" coords="401,5,714,35"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a3066e6fc9a59784f6ec3ddb23cc92707" title="csc440.nuf.complay.PlayerActivity.onPause" alt="" coords="408,59,707,90"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a0bf16e9f9a7c640c685def8eb7d38205" title="csc440.nuf.complay.PlayerActivity.onProgressChanged" alt="" coords="370,114,745,145"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a58c0167e7af40eb7747ed8ca90e1c939" title="csc440.nuf.complay.PlayerActivity.onStartTrackingTouch" alt="" coords="363,169,751,199"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a042e95babe17fab59ba7d71a6dfc9dbb" title="csc440.nuf.complay.PlayerActivity.onStopTrackingTouch" alt="" coords="364,223,751,254"/>
+</map>

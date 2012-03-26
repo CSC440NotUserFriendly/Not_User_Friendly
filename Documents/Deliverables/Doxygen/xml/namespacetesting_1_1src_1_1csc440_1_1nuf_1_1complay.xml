@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacetesting_1_1src_1_1csc440_1_1nuf_1_1complay" kind="namespace">
+    <compoundname>testing::src::csc440::nuf::complay</compoundname>
+    <innerclass refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test" prot="package">testing::src::csc440::nuf::complay::TimerTest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" line="1"/>
+  </compounddef>
+</doxygen>

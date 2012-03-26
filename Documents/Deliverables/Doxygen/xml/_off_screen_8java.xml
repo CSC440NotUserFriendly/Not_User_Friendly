@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="_off_screen_8java" kind="file">
+    <compoundname>OffScreen.java</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen" prot="public">csc440::nuf::complay::OffScreen</innerclass>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1complay">csc440::nuf::complay</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">csc440.nuf.complay;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen" kindref="compound">OffScreen</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_q" kindref="compound">Q</ref><sp/>q<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ab94d06e82ef902255257e6ca5b635a56" kindref="member">Q</ref>(</highlight><highlight class="stringliteral">&quot;OffScreenQ&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="5" refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ab94d06e82ef902255257e6ca5b635a56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_q" kindref="compound">Q</ref><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ab94d06e82ef902255257e6ca5b635a56" kindref="member">Q</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>q;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/OffScreen.java"/>
+  </compounddef>
+</doxygen>

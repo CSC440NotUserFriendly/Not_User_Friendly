@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1complay_1_1_player_activity" kind="class" prot="public">
+    <compoundname>csc440::nuf::complay::PlayerActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a704653303b7b218f683c30f9a5b00ef2" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView csc440.nuf.complay.PlayerActivity._playPause</definition>
+        <argsstring></argsstring>
+        <name>_playPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="39" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1ab77406a8ccf752f047e38bffaf48f2f6" prot="private" static="no" mutable="no">
+        <type>SeekBar</type>
+        <definition>SeekBar csc440.nuf.complay.PlayerActivity._seekBar</definition>
+        <argsstring></argsstring>
+        <name>_seekBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="40" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1adefaa45c7f62bdc0896c97c7fe83ed74" prot="private" static="no" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas" kindref="compound">PlayerCanvas</ref></type>
+        <definition>PlayerCanvas csc440.nuf.complay.PlayerActivity._playerCanvas</definition>
+        <argsstring></argsstring>
+        <name>_playerCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a920b418b3328cd584b9cf672f41855c6" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView csc440.nuf.complay.PlayerActivity.timeView</definition>
+        <argsstring></argsstring>
+        <name>timeView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="42" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afbd65b79c5abf52260decb826c41c1ef" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout csc440.nuf.complay.PlayerActivity.controls</definition>
+        <argsstring></argsstring>
+        <name>controls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a88ec4adaaff7b20f1f04212d596ecd31" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.PlayerActivity.playing</definition>
+        <argsstring></argsstring>
+        <name>playing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afe646a4cee19345cda9bfb85fbd9dc13" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.complay.PlayerActivity.messageLength</definition>
+        <argsstring></argsstring>
+        <name>messageLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="45" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a8cf330d6760ae3cb21d68200c6c15f1a" prot="private" static="no" mutable="no">
+        <type>HideControlsListener</type>
+        <definition>HideControlsListener csc440.nuf.complay.PlayerActivity.controlHider</definition>
+        <argsstring></argsstring>
+        <name>controlHider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="46" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a82f95fc68dba341516d71319db6e80ee" prot="package" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout csc440.nuf.complay.PlayerActivity.mainView</definition>
+        <argsstring></argsstring>
+        <name>mainView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1af22bb71983ddd201e0bcb27695d2473e" prot="package" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.PlayerActivity.playingCopy</definition>
+        <argsstring></argsstring>
+        <name>playingCopy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1acc6ddd348202de540df7428502190801" prot="package" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.PlayerActivity.fromMessage</definition>
+        <argsstring></argsstring>
+        <name>fromMessage</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afc1c8109f3f68784c302f802cbd84f6a" prot="package" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.PlayerActivity.playPressed</definition>
+        <argsstring></argsstring>
+        <name>playPressed</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The &quot;main&quot; method of an android activity </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="50" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="50" bodyend="116"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" compoundref="_waiting_8java" startline="5" endline="7">csc440.nuf.complay.Waiting.Q</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a89a196928ffab3aa6d54f6029a6c22db" compoundref="_q_8java" startline="39" endline="41">csc440.nuf.complay.Q.setScreenDensity</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a6c333b08908191e022f23b68989c263a" compoundref="_q_8java" startline="64" endline="66">csc440.nuf.complay.Q.isEmpty</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1af768e2d386701d7d3ee1078e08a21422" compoundref="_q_8java" startline="56" endline="58">csc440.nuf.complay.Q.pop</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" compoundref="_q_8java" startline="48" endline="50">csc440.nuf.complay.Q.push</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a819204376514251f5ca8edc5245b950b" compoundref="_q_8java" startline="60" endline="62">csc440.nuf.complay.Q.prepQ</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a71e507602b30ba7ca249efedf6ddabad" compoundref="_q_8java" startline="76" endline="78">csc440.nuf.complay.Q.getMessageLength</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab0dcca93b23d621e1d3d353ecd95a215" compoundref="_player_canvas_8java" startline="40" endline="43">csc440.nuf.complay.PlayerCanvas.setSeekBar</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a2c26eb31e540ba1a1c22a029d1669741" compoundref="_player_activity_8java" startline="184" endline="193">csc440.nuf.complay.PlayerActivity.formatSecondsToMinutes</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a64eae2e9ed26456ab5b104436c97d78f" compoundref="_player_canvas_8java" startline="115" endline="118">csc440.nuf.complay.PlayerCanvas.setTime</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a0bf16e9f9a7c640c685def8eb7d38205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.onProgressChanged</definition>
+        <argsstring>(SeekBar seekBar, int secondsIn, boolean fromUser)</argsstring>
+        <name>onProgressChanged</name>
+        <param>
+          <type>SeekBar</type>
+          <declname>seekBar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>secondsIn</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>fromUser</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="139" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="139" bodyend="144"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a2c26eb31e540ba1a1c22a029d1669741" compoundref="_player_activity_8java" startline="184" endline="193">csc440.nuf.complay.PlayerActivity.formatSecondsToMinutes</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" compoundref="_player_activity_8java" startline="158" endline="160">csc440.nuf.complay.PlayerActivity.playPause</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a58c0167e7af40eb7747ed8ca90e1c939" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.onStartTrackingTouch</definition>
+        <argsstring>(SeekBar seekBar)</argsstring>
+        <name>onStartTrackingTouch</name>
+        <param>
+          <type>SeekBar</type>
+          <declname>seekBar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="146" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="146" bodyend="151"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" compoundref="_player_activity_8java" startline="158" endline="160">csc440.nuf.complay.PlayerActivity.playPause</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a042e95babe17fab59ba7d71a6dfc9dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.onStopTrackingTouch</definition>
+        <argsstring>(SeekBar seekBar)</argsstring>
+        <name>onStopTrackingTouch</name>
+        <param>
+          <type>SeekBar</type>
+          <declname>seekBar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="153" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="153" bodyend="156"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" compoundref="_player_activity_8java" startline="158" endline="160">csc440.nuf.complay.PlayerActivity.playPause</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a64eae2e9ed26456ab5b104436c97d78f" compoundref="_player_canvas_8java" startline="115" endline="118">csc440.nuf.complay.PlayerCanvas.setTime</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.playPause</definition>
+        <argsstring>(View v)</argsstring>
+        <name>playPause</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="158" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="158" bodyend="160"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a9390d2b6a505e0a44fc421a8d146789e" compoundref="_player_activity_8java" startline="118" endline="131">csc440.nuf.complay.PlayerActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a3066e6fc9a59784f6ec3ddb23cc92707" compoundref="_player_activity_8java" startline="133" endline="137">csc440.nuf.complay.PlayerActivity.onPause</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a0bf16e9f9a7c640c685def8eb7d38205" compoundref="_player_activity_8java" startline="139" endline="144">csc440.nuf.complay.PlayerActivity.onProgressChanged</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a58c0167e7af40eb7747ed8ca90e1c939" compoundref="_player_activity_8java" startline="146" endline="151">csc440.nuf.complay.PlayerActivity.onStartTrackingTouch</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a042e95babe17fab59ba7d71a6dfc9dbb" compoundref="_player_activity_8java" startline="153" endline="156">csc440.nuf.complay.PlayerActivity.onStopTrackingTouch</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a7f5eb45ffac9b23a602a8ba76dbb6d47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.playPause</definition>
+        <argsstring>(View v, boolean newPlaying)</argsstring>
+        <name>playPause</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>newPlaying</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="162" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="162" bodyend="176"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a64eae2e9ed26456ab5b104436c97d78f" compoundref="_player_canvas_8java" startline="115" endline="118">csc440.nuf.complay.PlayerCanvas.setTime</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a1d41cf44dc0cb2c075744299c9867903" compoundref="_player_canvas_8java" startline="45" endline="49">csc440.nuf.complay.PlayerCanvas.play</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1ab280f6a822b63f5aa82300ebdec8dccf" compoundref="_player_canvas_8java" startline="103" endline="113">csc440.nuf.complay.PlayerCanvas.pause</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a2c26eb31e540ba1a1c22a029d1669741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.complay.PlayerActivity.formatSecondsToMinutes</definition>
+        <argsstring>(int secondsIn)</argsstring>
+        <name>formatSecondsToMinutes</name>
+        <param>
+          <type>int</type>
+          <declname>secondsIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="184" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="184" bodyend="193"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a0bf16e9f9a7c640c685def8eb7d38205" compoundref="_player_activity_8java" startline="139" endline="144">csc440.nuf.complay.PlayerActivity.onProgressChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a9390d2b6a505e0a44fc421a8d146789e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="118" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="118" bodyend="131"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" compoundref="_player_activity_8java" startline="158" endline="160">csc440.nuf.complay.PlayerActivity.playPause</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a3066e6fc9a59784f6ec3ddb23cc92707" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.PlayerActivity.onPause</definition>
+        <argsstring>()</argsstring>
+        <name>onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="133" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="133" bodyend="137"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" compoundref="_player_activity_8java" startline="158" endline="160">csc440.nuf.complay.PlayerActivity.playPause</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="382">
+        <label>Activity</label>
+      </node>
+      <node id="381">
+        <label>csc440.nuf.complay.PlayerActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity"/>
+        <childnode refid="382" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="384">
+        <label>Activity</label>
+      </node>
+      <node id="385">
+        <label>RelativeLayout</label>
+      </node>
+      <node id="383">
+        <label>csc440.nuf.complay.PlayerActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+        <childnode refid="385" relation="usage">
+          <edgelabel>mainView</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" line="37" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/PlayerActivity.java" bodystart="37" bodyend="195"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1adefaa45c7f62bdc0896c97c7fe83ed74" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>_playerCanvas</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a704653303b7b218f683c30f9a5b00ef2" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>_playPause</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1ab77406a8ccf752f047e38bffaf48f2f6" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>_seekBar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a8cf330d6760ae3cb21d68200c6c15f1a" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>controlHider</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afbd65b79c5abf52260decb826c41c1ef" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>controls</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a2c26eb31e540ba1a1c22a029d1669741" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>formatSecondsToMinutes</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1acc6ddd348202de540df7428502190801" prot="package" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>fromMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a82f95fc68dba341516d71319db6e80ee" prot="package" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>mainView</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afe646a4cee19345cda9bfb85fbd9dc13" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>messageLength</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>onCreate</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a3066e6fc9a59784f6ec3ddb23cc92707" prot="protected" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>onPause</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a0bf16e9f9a7c640c685def8eb7d38205" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>onProgressChanged</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a9390d2b6a505e0a44fc421a8d146789e" prot="protected" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>onResume</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a58c0167e7af40eb7747ed8ca90e1c939" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>onStartTrackingTouch</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a042e95babe17fab59ba7d71a6dfc9dbb" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>onStopTrackingTouch</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a88ec4adaaff7b20f1f04212d596ecd31" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>playing</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1af22bb71983ddd201e0bcb27695d2473e" prot="package" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>playingCopy</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1aa3331f58e6bf08d6ccd6f324607738d8" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>playPause</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a7f5eb45ffac9b23a602a8ba76dbb6d47" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>playPause</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1afc1c8109f3f68784c302f802cbd84f6a" prot="package" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>playPressed</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a920b418b3328cd584b9cf672f41855c6" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::PlayerActivity</scope><name>timeView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

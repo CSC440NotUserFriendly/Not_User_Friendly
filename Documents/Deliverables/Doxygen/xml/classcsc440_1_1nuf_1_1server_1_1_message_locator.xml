@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1server_1_1_message_locator" kind="class" prot="public">
+    <compoundname>csc440::nuf::server::MessageLocator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">com::google::web::bindery::requestfactory::shared::Locator&lt; Message, Void &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a2988c1638d0484362ea892cf03336b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_message" kindref="compound">Message</ref></type>
+        <definition>Message csc440.nuf.server.MessageLocator.create</definition>
+        <argsstring>(Class&lt;?extends Message &gt; clazz)</argsstring>
+        <name>create</name>
+        <param>
+          <type>Class&lt;?extends <ref refid="classcsc440_1_1nuf_1_1server_1_1_message" kindref="compound">Message</ref> &gt;</type>
+          <declname>clazz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" line="23" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a72aabcef006258bbd775553ad77ef570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_message" kindref="compound">Message</ref></type>
+        <definition>Message csc440.nuf.server.MessageLocator.find</definition>
+        <argsstring>(Class&lt;?extends Message &gt; clazz, Void id)</argsstring>
+        <name>find</name>
+        <param>
+          <type>Class&lt;?extends <ref refid="classcsc440_1_1nuf_1_1server_1_1_message" kindref="compound">Message</ref> &gt;</type>
+          <declname>clazz</declname>
+        </param>
+        <param>
+          <type>Void</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_message_locator_1ac32fb8e799737ac0760b9d7745b27866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Class&lt; <ref refid="classcsc440_1_1nuf_1_1server_1_1_message" kindref="compound">Message</ref> &gt;</type>
+        <definition>Class&lt;Message&gt; csc440.nuf.server.MessageLocator.getDomainType</definition>
+        <argsstring>()</argsstring>
+        <name>getDomainType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a35330d4c31936a55a27cd472e0e6dc9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Void</type>
+        <definition>Void csc440.nuf.server.MessageLocator.getId</definition>
+        <argsstring>(Message domainObject)</argsstring>
+        <name>getId</name>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_message" kindref="compound">Message</ref></type>
+          <declname>domainObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" line="38" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a4bd6ce8cd4f6668f312d43f7228ca5de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Class&lt; Void &gt;</type>
+        <definition>Class&lt;Void&gt; csc440.nuf.server.MessageLocator.getIdType</definition>
+        <argsstring>()</argsstring>
+        <name>getIdType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a18d1ac622301b5d3b13812d9e98877e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object csc440.nuf.server.MessageLocator.getVersion</definition>
+        <argsstring>(Message domainObject)</argsstring>
+        <name>getVersion</name>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_message" kindref="compound">Message</ref></type>
+          <declname>domainObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" line="48" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" bodystart="48" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="353">
+        <label>csc440.nuf.server.MessageLocator</label>
+        <link refid="classcsc440_1_1nuf_1_1server_1_1_message_locator"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="354">
+        <label>com::google::web::bindery::requestfactory::shared::Locator&lt; Message, Void &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="355">
+        <label>csc440.nuf.server.MessageLocator</label>
+        <link refid="classcsc440_1_1nuf_1_1server_1_1_message_locator"/>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>com::google::web::bindery::requestfactory::shared::Locator&lt; Message, Void &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/MessageLocator.java" bodystart="20" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a2988c1638d0484362ea892cf03336b68" prot="public" virt="non-virtual"><scope>csc440::nuf::server::MessageLocator</scope><name>create</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a72aabcef006258bbd775553ad77ef570" prot="public" virt="non-virtual"><scope>csc440::nuf::server::MessageLocator</scope><name>find</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1ac32fb8e799737ac0760b9d7745b27866" prot="public" virt="non-virtual"><scope>csc440::nuf::server::MessageLocator</scope><name>getDomainType</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a35330d4c31936a55a27cd472e0e6dc9c" prot="public" virt="non-virtual"><scope>csc440::nuf::server::MessageLocator</scope><name>getId</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a4bd6ce8cd4f6668f312d43f7228ca5de" prot="public" virt="non-virtual"><scope>csc440::nuf::server::MessageLocator</scope><name>getIdType</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_message_locator_1a18d1ac622301b5d3b13812d9e98877e0" prot="public" virt="non-virtual"><scope>csc440::nuf::server::MessageLocator</scope><name>getVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

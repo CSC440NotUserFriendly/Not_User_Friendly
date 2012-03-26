@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l" kind="class" prot="public">
+    <compoundname>csc440::nuf::client::SMIL</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EntryPoint</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_1a83d135955494462091fb2a7ca1bf2e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.client.SMIL.onModuleLoad</definition>
+        <argsstring>()</argsstring>
+        <name>onModuleLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the entry point method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMIL.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMIL.java" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Entry point classes define <computeroutput><ref refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_1a83d135955494462091fb2a7ca1bf2e22" kindref="member">onModuleLoad()</ref></computeroutput>. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="421">
+        <label>EntryPoint</label>
+      </node>
+      <node id="420">
+        <label>csc440.nuf.client.SMIL</label>
+        <link refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="423">
+        <label>EntryPoint</label>
+      </node>
+      <node id="422">
+        <label>csc440.nuf.client.SMIL</label>
+        <link refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l"/>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMIL.java" line="23" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMIL.java" bodystart="23" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_1a83d135955494462091fb2a7ca1bf2e22" prot="public" virt="non-virtual"><scope>csc440::nuf::client::SMIL</scope><name>onModuleLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

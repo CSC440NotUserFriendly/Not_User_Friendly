@@ -1,0 +1,117 @@
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet}{\section{com.\-google.\-appengine.\-codelab.\-Item\-Servlet Class Reference}
+\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet}\index{com.\-google.\-appengine.\-codelab.\-Item\-Servlet@{com.\-google.\-appengine.\-codelab.\-Item\-Servlet}}
+}
+
+
+Inheritance diagram for com.\-google.\-appengine.\-codelab.\-Item\-Servlet\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\-google.\-appengine.\-codelab.\-Item\-Servlet\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_ac3bcf595bb8d62c1ef0a44d24ce129c8}{do\-Get} (Http\-Servlet\-Request req, Http\-Servlet\-Response resp)  throws Servlet\-Exception, I\-O\-Exception 
+\item 
+void \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a5d5c9f0b60f447633023ec79cfa95ea1}{do\-Put} (Http\-Servlet\-Request req, Http\-Servlet\-Response resp)  throws Servlet\-Exception, I\-O\-Exception 
+\item 
+void \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a977e84d117d1e9c9faf1be8e71f0e69e}{do\-Delete} (Http\-Servlet\-Request req, Http\-Servlet\-Response resp)  throws Servlet\-Exception, I\-O\-Exception 
+\item 
+void \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a6233275e3c630dbb5ee2e33be6a813ba}{do\-Post} (Http\-Servlet\-Request req, Http\-Servlet\-Response resp)  throws Servlet\-Exception, I\-O\-Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This servlet responds to the request corresponding to items. The class creates and manages the Item\-Entity 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a977e84d117d1e9c9faf1be8e71f0e69e}{\index{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}!do\-Delete@{do\-Delete}}
+\index{do\-Delete@{do\-Delete}!com::google::appengine::codelab::ItemServlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}}
+\subsubsection[{do\-Delete}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf com.\-google.\-appengine.\-codelab.\-Item\-Servlet.\-do\-Delete} (
+\begin{DoxyParamCaption}
+\item[{Http\-Servlet\-Request}]{req, }
+\item[{Http\-Servlet\-Response}]{resp}
+\end{DoxyParamCaption}
+)  throws Servlet\-Exception, I\-O\-Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a977e84d117d1e9c9faf1be8e71f0e69e}
+Delete the entity from the datastore. Throws an exception if there are any orders associated with the item and ignores the delete action for it. 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a977e84d117d1e9c9faf1be8e71f0e69e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_ac3bcf595bb8d62c1ef0a44d24ce129c8}{\index{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}!do\-Get@{do\-Get}}
+\index{do\-Get@{do\-Get}!com::google::appengine::codelab::ItemServlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}}
+\subsubsection[{do\-Get}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf com.\-google.\-appengine.\-codelab.\-Item\-Servlet.\-do\-Get} (
+\begin{DoxyParamCaption}
+\item[{Http\-Servlet\-Request}]{req, }
+\item[{Http\-Servlet\-Response}]{resp}
+\end{DoxyParamCaption}
+)  throws Servlet\-Exception, I\-O\-Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_ac3bcf595bb8d62c1ef0a44d24ce129c8}
+Searches for the entity based on the search criteria and returns result in J\-S\-O\-N format 
+
+Reimplemented from \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet_abb34ecfcd902fafc62944237f49283b9}{com.\-google.\-appengine.\-codelab.\-Base\-Servlet}.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_ac3bcf595bb8d62c1ef0a44d24ce129c8_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a6233275e3c630dbb5ee2e33be6a813ba}{\index{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}!do\-Post@{do\-Post}}
+\index{do\-Post@{do\-Post}!com::google::appengine::codelab::ItemServlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}}
+\subsubsection[{do\-Post}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf com.\-google.\-appengine.\-codelab.\-Item\-Servlet.\-do\-Post} (
+\begin{DoxyParamCaption}
+\item[{Http\-Servlet\-Request}]{req, }
+\item[{Http\-Servlet\-Response}]{resp}
+\end{DoxyParamCaption}
+)  throws Servlet\-Exception, I\-O\-Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a6233275e3c630dbb5ee2e33be6a813ba}
+Redirects to delete or insert entity based on the action in the H\-T\-T\-P request. \hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a5d5c9f0b60f447633023ec79cfa95ea1}{\index{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}!do\-Put@{do\-Put}}
+\index{do\-Put@{do\-Put}!com::google::appengine::codelab::ItemServlet@{com\-::google\-::appengine\-::codelab\-::\-Item\-Servlet}}
+\subsubsection[{do\-Put}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf com.\-google.\-appengine.\-codelab.\-Item\-Servlet.\-do\-Put} (
+\begin{DoxyParamCaption}
+\item[{Http\-Servlet\-Request}]{req, }
+\item[{Http\-Servlet\-Response}]{resp}
+\end{DoxyParamCaption}
+)  throws Servlet\-Exception, I\-O\-Exception \hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a5d5c9f0b60f447633023ec79cfa95ea1}
+Creates entity and persists the same 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_a5d5c9f0b60f447633023ec79cfa95ea1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/alex/\-Documents/\-C\-S\-C\-\_\-440/\-Project/\-S\-M\-I\-L/\-Not\-\_\-\-User\-\_\-\-Friendly/\-Documents/\-Code References/\-Code\-Lab\-Ex1/src/com/google/appengine/codelab/\hyperlink{_item_servlet_8java}{Item\-Servlet.\-java}\end{DoxyCompactItemize}

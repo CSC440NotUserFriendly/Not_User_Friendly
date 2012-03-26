@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1complay_1_1_player_canvas.xhtml#aa0797d703af20d0ada15e590da003617" title="csc440.nuf.complay.PlayerCanvas.run" alt="" coords="956,5,1222,35"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1complay_1_1_timer.xhtml#aebbe2beb25856951b72d866d783ce897" title="csc440.nuf.complay.Timer.setTime" alt="" coords="256,58,504,89"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1complay_1_1_player_canvas.xhtml#a64eae2e9ed26456ab5b104436c97d78f" title="csc440.nuf.complay.PlayerCanvas.setTime" alt="" coords="552,114,848,145"/>
+<area shape="rect" id="node15" href="$classcsc440_1_1nuf_1_1complay_1_1_timer.xhtml#aff1846d75c64aee648b2321f9ea62314" title="csc440.nuf.complay.Timer.timePlusPlus" alt="" coords="561,58,839,89"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a592b9fe89b9076e65456181c0e389e3c" title="csc440.nuf.complay.PlayerActivity.onCreate" alt="" coords="937,59,1241,90"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a042e95babe17fab59ba7d71a6dfc9dbb" title="csc440.nuf.complay.PlayerActivity.onStopTrackingTouch" alt="" coords="896,114,1283,145"/>
+<area shape="rect" id="node13" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a7f5eb45ffac9b23a602a8ba76dbb6d47" title="csc440.nuf.complay.PlayerActivity.playPause" alt="" coords="935,169,1244,199"/>
+</map>

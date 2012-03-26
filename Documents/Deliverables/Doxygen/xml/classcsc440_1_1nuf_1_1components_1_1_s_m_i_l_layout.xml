@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout" kind="class" prot="public">
+    <compoundname>csc440::nuf::components::SMILLayout</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1aedf14a289243fa0a6551f142d82a6905" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILLayout.xmlid</definition>
+        <argsstring></argsstring>
+        <name>xmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ab300426431ca434dc55534bcb7b1adbc" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILLayout.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="26" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6fb9fd7e665fc290a124348a3b15b520" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILLayout.backgroundColor</definition>
+        <argsstring></argsstring>
+        <name>backgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ac4e97c99f8d078f2ced03f13250c85b8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILLayout.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a10c61bc4f3efffeac5b9a16ba7662ad8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILLayout.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="29" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a9a121e49635c5e847b46dd4031afede9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.components.SMILLayout.SMILLayout</definition>
+        <argsstring>(Attributes att)</argsstring>
+        <name>SMILLayout</name>
+        <param>
+          <type>Attributes</type>
+          <declname>att</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="32" bodyend="57"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ad264e6d3b39d40024fc9905265fb5455" compoundref="_s_m_i_l_layout_8java" startline="90" endline="100">csc440.nuf.components.SMILLayout.getIntValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a08fee20d86b3197f8db7c14257a305f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILLayout.getXmlid</definition>
+        <argsstring>()</argsstring>
+        <name>getXmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="59" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a436951da124cbb8849d1d78313195245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILLayout.setXmlid</definition>
+        <argsstring>(String xmlid)</argsstring>
+        <name>setXmlid</name>
+        <param>
+          <type>String</type>
+          <declname>xmlid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="62" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a4bb394e41713de8e63eed56b513e9895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILLayout.getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="65" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1aeab630ad66b54dadde37617d40236242" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILLayout.setTitle</definition>
+        <argsstring>(String title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>String</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="68" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a439b9b251d41c9e3784b1da182f89ee8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILLayout.getBackgroundColor</definition>
+        <argsstring>()</argsstring>
+        <name>getBackgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="71" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a068bcdcd53482b8bf0523aff2f9265e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILLayout.setBackgroundColor</definition>
+        <argsstring>(String backgroundColor)</argsstring>
+        <name>setBackgroundColor</name>
+        <param>
+          <type>String</type>
+          <declname>backgroundColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="74" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6c3c8f3a23cdf0c1fc04f5661ed0edd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILLayout.getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="77" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="77" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a83e96efea6adf1f1e3d46c781598deb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILLayout.setHeight</definition>
+        <argsstring>(int height)</argsstring>
+        <name>setHeight</name>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="80" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ab94c0389b854476f03e1b49f83fa83ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILLayout.getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="83" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a2c03ffc172e1fc4d8d1a24cdd7163273" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILLayout.setWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>setWidth</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="86" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6e3f40fdd577d4cb4c8a309935126826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILLayout.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="103" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="103" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ad264e6d3b39d40024fc9905265fb5455" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int csc440.nuf.components.SMILLayout.getIntValue</definition>
+        <argsstring>(String s)</argsstring>
+        <name>getIntValue</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="90" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="90" bodyend="100"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a9a121e49635c5e847b46dd4031afede9" compoundref="_s_m_i_l_layout_8java" startline="32" endline="57">csc440.nuf.components.SMILLayout.SMILLayout</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 01-26-2011 <ref refid="_s_m_i_l_layout_8java" kindref="compound">SMILLayout.java</ref> <simplesect kind="author"><para>Brad Barker</para></simplesect>
+Contains all of the information from the &lt;layout&gt; tag.</para><para>Sample layout xml attribute object:</para><para>root-layout xml:id root title Sample width 500 height 500 </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" line="23" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILLayout.java" bodystart="23" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6fb9fd7e665fc290a124348a3b15b520" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>backgroundColor</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a439b9b251d41c9e3784b1da182f89ee8" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>getBackgroundColor</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6c3c8f3a23cdf0c1fc04f5661ed0edd2" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>getHeight</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ad264e6d3b39d40024fc9905265fb5455" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>getIntValue</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a4bb394e41713de8e63eed56b513e9895" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>getTitle</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ab94c0389b854476f03e1b49f83fa83ec" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>getWidth</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a08fee20d86b3197f8db7c14257a305f8" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>getXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ac4e97c99f8d078f2ced03f13250c85b8" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>height</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a068bcdcd53482b8bf0523aff2f9265e7" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>setBackgroundColor</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a83e96efea6adf1f1e3d46c781598deb9" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>setHeight</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1aeab630ad66b54dadde37617d40236242" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>setTitle</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a2c03ffc172e1fc4d8d1a24cdd7163273" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>setWidth</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a436951da124cbb8849d1d78313195245" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>setXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a9a121e49635c5e847b46dd4031afede9" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>SMILLayout</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1ab300426431ca434dc55534bcb7b1adbc" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>title</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a6e3f40fdd577d4cb4c8a309935126826" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>toString</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1a10c61bc4f3efffeac5b9a16ba7662ad8" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>width</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_layout_1aedf14a289243fa0a6551f142d82a6905" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILLayout</scope><name>xmlid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

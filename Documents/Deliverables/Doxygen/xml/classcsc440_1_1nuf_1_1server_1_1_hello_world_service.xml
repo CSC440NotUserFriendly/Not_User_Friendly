@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1server_1_1_hello_world_service" kind="class" prot="public">
+    <compoundname>csc440::nuf::server::HelloWorldService</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1a1115164148eb29e365bb57948816274b" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger csc440.nuf.server.HelloWorldService.log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <initializer> Logger.getLogger(HelloWorldService.class.getName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" line="26" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1a102993be555236a224e7b604b8b75a94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.server.HelloWorldService.HelloWorldService</definition>
+        <argsstring>()</argsstring>
+        <name>HelloWorldService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" bodystart="28" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1ae40a035a45174f49deb0a352e3c1545c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String csc440.nuf.server.HelloWorldService.getMessage</definition>
+        <argsstring>()</argsstring>
+        <name>getMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" bodystart="31" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/HelloWorldService.java" bodystart="24" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1ae40a035a45174f49deb0a352e3c1545c" prot="public" virt="non-virtual"><scope>csc440::nuf::server::HelloWorldService</scope><name>getMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1a102993be555236a224e7b604b8b75a94" prot="public" virt="non-virtual"><scope>csc440::nuf::server::HelloWorldService</scope><name>HelloWorldService</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service_1a1115164148eb29e365bb57948816274b" prot="private" virt="non-virtual"><scope>csc440::nuf::server::HelloWorldService</scope><name>log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

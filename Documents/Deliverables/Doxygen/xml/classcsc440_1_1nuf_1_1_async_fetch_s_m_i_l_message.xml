@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message" kind="class" prot="public">
+    <compoundname>csc440::nuf::AsyncFetchSMILMessage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">android::os::AsyncTask&lt; Long, Void, List&lt; SMILMessageProxy &gt; &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1aac84d6a114f5171942d75a53f5bfc2f7" prot="private" static="no" mutable="no">
+        <type>final <ref refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity" kindref="compound">SMILActivity</ref></type>
+        <definition>final SMILActivity csc440.nuf.AsyncFetchSMILMessage.activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" line="15" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a6981a13293e7442e219c0a8d92593652" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.AsyncFetchSMILMessage.newTask</definition>
+        <argsstring></argsstring>
+        <name>newTask</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" line="16" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1adcf2d3ac152674428522085bb76a2039" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.AsyncFetchSMILMessage.AsyncFetchSMILMessage</definition>
+        <argsstring>(SMILActivity activity)</argsstring>
+        <name>AsyncFetchSMILMessage</name>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity" kindref="compound">SMILActivity</ref></type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" line="18" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a19a50624286e3650df8cbe84e6cf4ada" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref> &gt;</type>
+        <definition>List&lt;SMILMessageProxy&gt; csc440.nuf.AsyncFetchSMILMessage.doInBackground</definition>
+        <argsstring>(Long...arguments)</argsstring>
+        <name>doInBackground</name>
+        <param>
+          <type>Long...</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" bodystart="24" bodyend="50"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="156" endline="175">csc440.nuf.Util.getRequestFactory</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a05b3b68baf20c6a11a1f56208f508fa0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AsyncFetchSMILMessage.onPostExecute</definition>
+        <argsstring>(List&lt; SMILMessageProxy &gt; result)</argsstring>
+        <name>onPostExecute</name>
+        <param>
+          <type>List&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref> &gt;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" line="53" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" bodystart="53" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="272">
+        <label>android::os::AsyncTask&lt; Long, Void, List&lt; SMILMessageProxy &gt; &gt;</label>
+      </node>
+      <node id="271">
+        <label>csc440.nuf.AsyncFetchSMILMessage</label>
+        <link refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="274">
+        <label>android::os::AsyncTask&lt; Long, Void, List&lt; SMILMessageProxy &gt; &gt;</label>
+      </node>
+      <node id="273">
+        <label>csc440.nuf.AsyncFetchSMILMessage</label>
+        <link refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message"/>
+        <childnode refid="274" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" line="13" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AsyncFetchSMILMessage.java" bodystart="13" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1aac84d6a114f5171942d75a53f5bfc2f7" prot="private" virt="non-virtual"><scope>csc440::nuf::AsyncFetchSMILMessage</scope><name>activity</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1adcf2d3ac152674428522085bb76a2039" prot="public" virt="non-virtual"><scope>csc440::nuf::AsyncFetchSMILMessage</scope><name>AsyncFetchSMILMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a19a50624286e3650df8cbe84e6cf4ada" prot="protected" virt="non-virtual"><scope>csc440::nuf::AsyncFetchSMILMessage</scope><name>doInBackground</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a6981a13293e7442e219c0a8d92593652" prot="private" virt="non-virtual"><scope>csc440::nuf::AsyncFetchSMILMessage</scope><name>newTask</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a05b3b68baf20c6a11a1f56208f508fa0" prot="protected" virt="non-virtual"><scope>csc440::nuf::AsyncFetchSMILMessage</scope><name>onPostExecute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

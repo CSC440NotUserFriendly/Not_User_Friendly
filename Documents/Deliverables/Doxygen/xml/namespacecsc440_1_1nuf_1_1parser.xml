@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecsc440_1_1nuf_1_1parser" kind="namespace">
+    <compoundname>csc440::nuf::parser</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler" prot="public">csc440::nuf::parser::SMILHandler</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_parser" prot="public">csc440::nuf::parser::SMILParser</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_writer" prot="public">csc440::nuf::parser::SMILWriter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILHandler.java" line="1"/>
+  </compounddef>
+</doxygen>

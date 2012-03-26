@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1server_1_1_send_message" kind="class" prot="public">
+    <compoundname>csc440::nuf::server::SendMessage</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_send_message_1af84e07193c631f78c49b27f320e415b0" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger csc440.nuf.server.SendMessage.log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <initializer> Logger.getLogger(SendMessage.class.getName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" line="35" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_send_message_1a0c14fe20917e68f73dda5a275ba2a7f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String csc440.nuf.server.SendMessage.sendMessage</definition>
+        <argsstring>(ServletContext context, String recipient, String message)</argsstring>
+        <name>sendMessage</name>
+        <param>
+          <type>ServletContext</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>recipient</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" line="37" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" bodystart="37" bodyend="107"/>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9d068913be4bf051ab37c7fb7ef981f2" compoundref="_device_info_8java" startline="144" endline="164">csc440.nuf.server.DeviceInfo.getDeviceInfoForUser</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a10d351ee9254f7f63bd6b77c3005f33c" compoundref="_device_info_8java" startline="94" endline="97">csc440.nuf.server.DeviceInfo.getKey</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ad7c4ecf86f1850c8ba359f20feec8797" compoundref="_data_store_8java" startline="119" endline="124">csc440.nuf.server.DataStore.sendC2DMUpdate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_message_1a8fe8e1a3d08cf036c59a0fe09458754e" compoundref="_message_8java" startline="43" endline="50">csc440.nuf.server.Message.send</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_send_message_1a316fd4f89163efad5734da93c3ba2549" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean csc440.nuf.server.SendMessage.doSendViaC2dm</definition>
+        <argsstring>(String message, String sender, C2DMessaging push, String collapseKey, DeviceInfo deviceInfo)</argsstring>
+        <name>doSendViaC2dm</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>C2DMessaging</type>
+          <declname>push</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>collapseKey</declname>
+        </param>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_device_info" kindref="compound">DeviceInfo</ref></type>
+          <declname>deviceInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" line="110" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" bodystart="109" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Send a message using C2DM. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SendMessage.java" bodystart="33" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1a316fd4f89163efad5734da93c3ba2549" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SendMessage</scope><name>doSendViaC2dm</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1af84e07193c631f78c49b27f320e415b0" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SendMessage</scope><name>log</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1a0c14fe20917e68f73dda5a275ba2a7f2" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SendMessage</scope><name>sendMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

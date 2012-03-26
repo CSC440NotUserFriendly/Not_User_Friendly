@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1_message_display.xhtml#adf7092394387e6226d21bfa80c15b28d" title="csc440.nuf.MessageDisplay.displayMessage" alt="" coords="321,5,626,35"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1_util.xhtml#adbbee48d176f30c61d5819634d17b73a" title="csc440.nuf.Util.generateNotification" alt="" coords="675,5,930,35"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1_util.xhtml#a048158fe7160473100aaae303ef393e4" title="csc440.nuf.Util.getSharedPreferences" alt="" coords="979,5,1242,35"/>
+</map>

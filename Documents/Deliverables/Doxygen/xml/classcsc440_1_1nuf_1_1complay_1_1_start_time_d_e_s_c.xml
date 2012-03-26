@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1complay_1_1_start_time_d_e_s_c" kind="class" prot="package">
+    <compoundname>csc440::nuf::complay::StartTimeDESC</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">java::util::Comparator&lt; AbstractSMILObject &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_start_time_d_e_s_c_1aa47247770c80d08d7fac5738c770213a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.complay.StartTimeDESC.compare</definition>
+        <argsstring>(AbstractSMILObject lhs, AbstractSMILObject rhs)</argsstring>
+        <name>compare</name>
+        <param>
+          <type>AbstractSMILObject</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>AbstractSMILObject</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="130" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="130" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="506">
+        <label>csc440.nuf.complay.StartTimeDESC</label>
+        <childnode refid="507" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="507">
+        <label>java::util::Comparator&lt; AbstractSMILObject &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="508">
+        <label>csc440.nuf.complay.StartTimeDESC</label>
+        <childnode refid="509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>java::util::Comparator&lt; AbstractSMILObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="129" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="129" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_start_time_d_e_s_c_1aa47247770c80d08d7fac5738c770213a" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::StartTimeDESC</scope><name>compare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

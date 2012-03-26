@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_scroll_item_manager" kind="class" prot="public">
+    <compoundname>csc440::nuf::ScrollItemManager</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab519603bce7a7613da0ac11d595d053b" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout csc440.nuf.ScrollItemManager._linear</definition>
+        <argsstring></argsstring>
+        <name>_linear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="34" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1a9083576343bdd1dc9e5e44fa45536154" prot="private" static="no" mutable="no">
+        <type>LinkedList&lt; <ref refid="classcsc440_1_1nuf_1_1_scroll_item" kindref="compound">ScrollItem</ref> &gt;</type>
+        <definition>LinkedList&lt;ScrollItem&gt; csc440.nuf.ScrollItemManager.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="35" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1aa18c40f7a7adb588afc5cebd53b362f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.ScrollItemManager.ScrollItemManager</definition>
+        <argsstring>(View v)</argsstring>
+        <name>ScrollItemManager</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="37" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab0e055a91a49439fa3a2ccca61a05657" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.addItem</definition>
+        <argsstring>(Context c)</argsstring>
+        <name>addItem</name>
+        <param>
+          <type>Context</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="46" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="46" bodyend="48"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1a649ec198b5730074bff55084fa12c578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.addItem</definition>
+        <argsstring>(Context c, boolean useLinear)</argsstring>
+        <name>addItem</name>
+        <param>
+          <type>Context</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>useLinear</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="49" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1a1561fbe2466c1f47c901f3760ccbfa07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.setIcon</definition>
+        <argsstring>(int resId)</argsstring>
+        <name>setIcon</name>
+        <param>
+          <type>int</type>
+          <declname>resId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="73" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="73" bodyend="75"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1a29b56004e0c6b27c4cf37abbe702b0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.setListener</definition>
+        <argsstring>(View.OnClickListener onClickListener, int id)</argsstring>
+        <name>setListener</name>
+        <param>
+          <type>View.OnClickListener</type>
+          <declname>onClickListener</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="77" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="77" bodyend="80"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1a593cfa1b9eb3288297683b1a370015e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.setTitle</definition>
+        <argsstring>(CharSequence title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>CharSequence</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="82" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="82" bodyend="84"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1a2d288f9456342f8b826196d6adba7222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.setTitle</definition>
+        <argsstring>(int resid)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>int</type>
+          <declname>resid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="86" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab04c896f513d8e83a03d34f26e8ebd65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.addToLinear</definition>
+        <argsstring>(View v)</argsstring>
+        <name>addToLinear</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="90" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="90" bodyend="92"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1ad2ce97de474a3760d071b6dea3e2daf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.addLine</definition>
+        <argsstring>(Context c)</argsstring>
+        <name>addLine</name>
+        <param>
+          <type>Context</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="94" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="94" bodyend="96"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab3d59cd21b6ae1fb2ab0be5055ad49d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ScrollItemManager.setId</definition>
+        <argsstring>(int id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="98" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ScrollItemManager.java" bodystart="33" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab519603bce7a7613da0ac11d595d053b" prot="private" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>_linear</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab0e055a91a49439fa3a2ccca61a05657" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>addItem</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a649ec198b5730074bff55084fa12c578" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>addItem</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ad2ce97de474a3760d071b6dea3e2daf2" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>addLine</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab04c896f513d8e83a03d34f26e8ebd65" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>addToLinear</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a9083576343bdd1dc9e5e44fa45536154" prot="private" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>items</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1aa18c40f7a7adb588afc5cebd53b362f7" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>ScrollItemManager</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a1561fbe2466c1f47c901f3760ccbfa07" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>setIcon</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab3d59cd21b6ae1fb2ab0be5055ad49d7" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>setId</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a29b56004e0c6b27c4cf37abbe702b0e2" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>setListener</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a593cfa1b9eb3288297683b1a370015e1" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>setTitle</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a2d288f9456342f8b826196d6adba7222" prot="public" virt="non-virtual"><scope>csc440::nuf::ScrollItemManager</scope><name>setTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

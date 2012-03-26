@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_device_registrar" kind="class" prot="public">
+    <compoundname>csc440::nuf::DeviceRegistrar</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_device_registrar_1adc5815321a10b8875ec81ede0da62c43" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.DeviceRegistrar.ACCOUNT_NAME_EXTRA</definition>
+        <argsstring></argsstring>
+        <name>ACCOUNT_NAME_EXTRA</name>
+        <initializer>&quot;AccountName&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="36" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_device_registrar_1aaf88ac176dfd4264b4138fc00b49998a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.DeviceRegistrar.STATUS_EXTRA</definition>
+        <argsstring></argsstring>
+        <name>STATUS_EXTRA</name>
+        <initializer>&quot;Status&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="38" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_device_registrar_1a4a59981b92ee9c8476393b73560b3d48" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.DeviceRegistrar.REGISTERED_STATUS</definition>
+        <argsstring></argsstring>
+        <name>REGISTERED_STATUS</name>
+        <initializer> 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="40" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_device_registrar_1a9a90ee9e8e64edc961b0e3c3b454d047" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.DeviceRegistrar.UNREGISTERED_STATUS</definition>
+        <argsstring></argsstring>
+        <name>UNREGISTERED_STATUS</name>
+        <initializer> 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="42" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_device_registrar_1abf61261a85f1e4912a777059da4bb994" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.DeviceRegistrar.ERROR_STATUS</definition>
+        <argsstring></argsstring>
+        <name>ERROR_STATUS</name>
+        <initializer> 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_device_registrar_1a1844ae27f6d7698bd50f01a74e3bd01b" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.DeviceRegistrar.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>&quot;DeviceRegistrar&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="46" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.DeviceRegistrar.registerOrUnregister</definition>
+        <argsstring>(final Context context, final String deviceRegistrationId, final boolean register)</argsstring>
+        <name>registerOrUnregister</name>
+        <param>
+          <type>final Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>deviceRegistrationId</declname>
+        </param>
+        <param>
+          <type>final boolean</type>
+          <declname>register</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="48" bodyend="104"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="180" endline="182">csc440.nuf.Util.getSharedPreferences</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a40b66c29439ea7980ebe035fc1f33547" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="56">csc440.nuf.Util.ACCOUNT_NAME</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a3376e622f91a209d996ed066878f3ff5" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="96">csc440.nuf.Util.UPDATE_UI_INTENT</references>
+        <references refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1adfd37626741163e3b5b1e815af150e23">csc440.nuf.shared.RegistrationInfoProxy.setDeviceRegistrationId</references>
+        <references refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1a3d96be9a03c6aa4547a680419561baff">csc440.nuf.shared.RegistrationInfoProxy.setDeviceId</references>
+        <references refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a675270c3171bd35749e7552fa4e93546">csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest.register</references>
+        <references refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a2135c9d95519fc4923751338733456de">csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest.unregister</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a5261d5e5a553256bbe76b2fbee31c909" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="61">csc440.nuf.Util.AUTH_COOKIE</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a19e590891af91bcb18ce096826a637d9" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="86">csc440.nuf.Util.DEVICE_REGISTRATION_ID</references>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1adc5815321a10b8875ec81ede0da62c43" compoundref="_device_registrar_8java" startline="36">csc440.nuf.DeviceRegistrar.ACCOUNT_NAME_EXTRA</references>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1aaf88ac176dfd4264b4138fc00b49998a" compoundref="_device_registrar_8java" startline="38">csc440.nuf.DeviceRegistrar.STATUS_EXTRA</references>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1abf61261a85f1e4912a777059da4bb994" compoundref="_device_registrar_8java" startline="44">csc440.nuf.DeviceRegistrar.ERROR_STATUS</references>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1a4a59981b92ee9c8476393b73560b3d48" compoundref="_device_registrar_8java" startline="40">csc440.nuf.DeviceRegistrar.REGISTERED_STATUS</references>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1a9a90ee9e8e64edc961b0e3c3b454d047" compoundref="_device_registrar_8java" startline="42">csc440.nuf.DeviceRegistrar.UNREGISTERED_STATUS</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1_accounts_activity_1a172796bda215011c1ef3b983e9555cfb" compoundref="_accounts_activity_8java" startline="108" endline="119">csc440.nuf.AccountsActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a55ec75d92b2ea18fc3bfb7354fc63571" compoundref="_c2_d_m_receiver_8java" startline="45" endline="47">csc440.nuf.C2DMReceiver.onRegistered</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a5703ea903b3efa7a0fc8b0dd94c93939" compoundref="_c2_d_m_receiver_8java" startline="55" endline="59">csc440.nuf.C2DMReceiver.onUnregistered</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_device_registrar_1a6817ddc4b23a18d9551b09cb0244fb46" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request" kindref="compound">RegistrationInfoRequest</ref></type>
+        <definition>static RegistrationInfoRequest csc440.nuf.DeviceRegistrar.getRequest</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>getRequest</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="106" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="106" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Register/unregister with the third-party App Engine server using RequestFactory. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" line="35" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/DeviceRegistrar.java" bodystart="35" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1adc5815321a10b8875ec81ede0da62c43" prot="public" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>ACCOUNT_NAME_EXTRA</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1abf61261a85f1e4912a777059da4bb994" prot="public" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>ERROR_STATUS</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a6817ddc4b23a18d9551b09cb0244fb46" prot="private" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>getRequest</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a4a59981b92ee9c8476393b73560b3d48" prot="public" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>REGISTERED_STATUS</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" prot="public" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>registerOrUnregister</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1aaf88ac176dfd4264b4138fc00b49998a" prot="public" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>STATUS_EXTRA</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a1844ae27f6d7698bd50f01a74e3bd01b" prot="private" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>TAG</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_device_registrar_1a9a90ee9e8e64edc961b0e3c3b454d047" prot="public" virt="non-virtual"><scope>csc440::nuf::DeviceRegistrar</scope><name>UNREGISTERED_STATUS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

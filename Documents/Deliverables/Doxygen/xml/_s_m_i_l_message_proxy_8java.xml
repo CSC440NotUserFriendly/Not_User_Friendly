@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="_s_m_i_l_message_proxy_8java" kind="file">
+    <compoundname>SMILMessageProxy.java</compoundname>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" prot="public">csc440::nuf::shared::SMILMessageProxy</innerclass>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1shared">csc440::nuf::shared</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">csc440.nuf.shared;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.google.web.bindery.requestfactory.shared.ProxyForName;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.google.web.bindery.requestfactory.shared.ValueProxy;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">@ProxyForName(value<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;csc440.nuf.server.SMILMessage&quot;</highlight><highlight class="normal">,<sp/>locator<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;csc440.nuf.server.SMILMessageLocator&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="7" refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" refkind="compound"><highlight class="normal">public<sp/>interface<sp/><ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref><sp/>extends<sp/>ValueProxy<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILMessageProxy.java"/>
+  </compounddef>
+</doxygen>

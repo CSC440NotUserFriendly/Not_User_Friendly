@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar" kind="class" prot="public">
+    <compoundname>com::thira::examples::actionbar::widget::ActionBar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RelativeLayout</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1ae84b06b1d63c2b61353a8e0f93775c76" prot="private" static="no" mutable="no">
+        <type>LayoutInflater</type>
+        <definition>LayoutInflater com.thira.examples.actionbar.widget.ActionBar.mInflater</definition>
+        <argsstring></argsstring>
+        <name>mInflater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reusable <ref refid="" kindref="compound">LayoutInflater</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a774e4d385593d546545ae7d5d2fb9650" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView com.thira.examples.actionbar.widget.ActionBar.mLogoView</definition>
+        <argsstring></argsstring>
+        <name>mLogoView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holds the home-icon logo </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1affd11c4d1628ed1b5e40dd15088e2470" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView com.thira.examples.actionbar.widget.ActionBar.mTitleView</definition>
+        <argsstring></argsstring>
+        <name>mTitleView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Displays the <ref refid="" kindref="compound">Activity</ref> text </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1aa82f4de67169eb67b2ff9d2f2f3c7245" prot="private" static="no" mutable="no">
+        <type>ProgressBar</type>
+        <definition>ProgressBar com.thira.examples.actionbar.widget.ActionBar.mProgress</definition>
+        <argsstring></argsstring>
+        <name>mProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Represents the progress bar (i.e. busy-icon) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a5b1a967fa986f3f27343f40e0ea582ee" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout com.thira.examples.actionbar.widget.ActionBar.mActionIconContainer</definition>
+        <argsstring></argsstring>
+        <name>mActionIconContainer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contains the ActionIcons. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="36" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a45414f21cf875edbd288e9e521a64ad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.thira.examples.actionbar.widget.ActionBar.ActionBar</definition>
+        <argsstring>(Context context, AttributeSet attrs)</argsstring>
+        <name>ActionBar</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>AttributeSet</type>
+          <declname>attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="38" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="38" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a3fae9dd666ad12891b9d9a96918652de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.setHomeLogo</definition>
+        <argsstring>(int resId)</argsstring>
+        <name>setHomeLogo</name>
+        <param>
+          <type>int</type>
+          <declname>resId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="52" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="52" bodyend="54"/>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_custom_title_activity_1a0fc998991fdce16c2902a85b6f9d5bc2" compoundref="_custom_title_activity_8java" startline="16" endline="35">com.thira.examples.actionbar.CustomTitleActivity.onCreate</referencedby>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" compoundref="_main_activity_8java" startline="24" endline="95">com.thira.examples.actionbar.MainActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a6085d9e0d9776b9893f00c02b9a7c3a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.setHomeLogo</definition>
+        <argsstring>(int resId, OnClickListener onClickListener)</argsstring>
+        <name>setHomeLogo</name>
+        <param>
+          <type>int</type>
+          <declname>resId</declname>
+        </param>
+        <param>
+          <type>OnClickListener</type>
+          <declname>onClickListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="56" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a9940796cc1b0e1a6169da32cf75593e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.setTitle</definition>
+        <argsstring>(CharSequence title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>CharSequence</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="64" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="64" bodyend="66"/>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_custom_title_activity_1a0fc998991fdce16c2902a85b6f9d5bc2" compoundref="_custom_title_activity_8java" startline="16" endline="35">com.thira.examples.actionbar.CustomTitleActivity.onCreate</referencedby>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" compoundref="_main_activity_8java" startline="24" endline="95">com.thira.examples.actionbar.MainActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a704095073507862211214b17a106249b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.setTitle</definition>
+        <argsstring>(int resid)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>int</type>
+          <declname>resid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="68" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a1483342c600fcea3fe48953f8773ac18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.showProgressBar</definition>
+        <argsstring>()</argsstring>
+        <name>showProgressBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="72" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="72" bodyend="74"/>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" compoundref="_main_activity_8java" startline="24" endline="95">com.thira.examples.actionbar.MainActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a29a2b3a12e2ad549fc16eeef9e81714f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.hideProgressBar</definition>
+        <argsstring>()</argsstring>
+        <name>hideProgressBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="76" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="76" bodyend="78"/>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" compoundref="_main_activity_8java" startline="24" endline="95">com.thira.examples.actionbar.MainActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a0e3a9b81ca94496856105e3390f34266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.addActionIcon</definition>
+        <argsstring>(int iconResourceId, OnClickListener onClickListener)</argsstring>
+        <name>addActionIcon</name>
+        <param>
+          <type>int</type>
+          <declname>iconResourceId</declname>
+        </param>
+        <param>
+          <type>OnClickListener</type>
+          <declname>onClickListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds ActionIcons to the <ref refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar" kindref="compound">ActionBar</ref> (adds to the left-end)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iconResourceId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>onClickListener</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to handle click actions on the ActionIcon. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="86" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="86" bodyend="94"/>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_custom_title_activity_1a0fc998991fdce16c2902a85b6f9d5bc2" compoundref="_custom_title_activity_8java" startline="16" endline="35">com.thira.examples.actionbar.CustomTitleActivity.onCreate</referencedby>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" compoundref="_main_activity_8java" startline="24" endline="95">com.thira.examples.actionbar.MainActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1ad83d48f27fc9972e22c0b3605f4a45ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.thira.examples.actionbar.widget.ActionBar.removeActionIconAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>removeActionIconAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the action icon from the given index (0 based)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the item was removed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="102" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="102" bodyend="109"/>
+        <referencedby refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" compoundref="_main_activity_8java" startline="24" endline="95">com.thira.examples.actionbar.MainActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a9d9ec9d5202b704dfed806d8a5ca9bf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.thira.examples.actionbar.widget.ActionBar.isProgressBarVisible</definition>
+        <argsstring>()</argsstring>
+        <name>isProgressBarVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if the progressbar is visible </para></simplesect>
+<simplesect kind="see"><para>View::VISIBLE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="115" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="115" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a50fe62b5c7fc216e781e124e1493adbd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.widget.ActionBar.setProgressBarVisibility</definition>
+        <argsstring>(int visibility)</argsstring>
+        <name>setProgressBarVisibility</name>
+        <param>
+          <type>int</type>
+          <declname>visibility</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the enabled state of the progress bar.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>One</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of <ref refid="" kindref="compound">View#VISIBLE</ref>, <ref refid="" kindref="compound">View#INVISIBLE</ref>, or <ref refid="" kindref="compound">View#GONE</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="124" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="260">
+        <label>RelativeLayout</label>
+      </node>
+      <node id="259">
+        <label>com.thira.examples.actionbar.widget.ActionBar</label>
+        <link refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar"/>
+        <childnode refid="260" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="262">
+        <label>RelativeLayout</label>
+      </node>
+      <node id="261">
+        <label>com.thira.examples.actionbar.widget.ActionBar</label>
+        <link refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar"/>
+        <childnode refid="262" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" line="15" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/widget/ActionBar.java" bodystart="15" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a45414f21cf875edbd288e9e521a64ad1" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>ActionBar</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a0e3a9b81ca94496856105e3390f34266" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>addActionIcon</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a29a2b3a12e2ad549fc16eeef9e81714f" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>hideProgressBar</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a9d9ec9d5202b704dfed806d8a5ca9bf9" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>isProgressBarVisible</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a5b1a967fa986f3f27343f40e0ea582ee" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>mActionIconContainer</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1ae84b06b1d63c2b61353a8e0f93775c76" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>mInflater</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a774e4d385593d546545ae7d5d2fb9650" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>mLogoView</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1aa82f4de67169eb67b2ff9d2f2f3c7245" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>mProgress</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1affd11c4d1628ed1b5e40dd15088e2470" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>mTitleView</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1ad83d48f27fc9972e22c0b3605f4a45ea" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>removeActionIconAt</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a3fae9dd666ad12891b9d9a96918652de" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>setHomeLogo</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a6085d9e0d9776b9893f00c02b9a7c3a8" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>setHomeLogo</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a50fe62b5c7fc216e781e124e1493adbd" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>setProgressBarVisibility</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a9940796cc1b0e1a6169da32cf75593e9" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a704095073507862211214b17a106249b" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>setTitle</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a1483342c600fcea3fe48953f8773ac18" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::widget::ActionBar</scope><name>showProgressBar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

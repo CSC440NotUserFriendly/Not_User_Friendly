@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request" kind="interface" prot="public">
+    <compoundname>csc440::nuf::shared::SMILEngineRequest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RequestContext</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1ae676cd26bbe66d70138183bfabc7f437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Request&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref> &gt;</type>
+        <definition>Request&lt;SMILMessageProxy&gt; csc440.nuf.shared.SMILEngineRequest.createSMILMessage</definition>
+        <argsstring>()</argsstring>
+        <name>createSMILMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java" line="12"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1ac8a27dbfa795c56f55621c1bf9fa1cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Request&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref> &gt;</type>
+        <definition>Request&lt;SMILMessageProxy&gt; csc440.nuf.shared.SMILEngineRequest.readSMILMessage</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>readSMILMessage</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1abb67e9ef53e8db25c95928f18d25b439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Request&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref> &gt;</type>
+        <definition>Request&lt;SMILMessageProxy&gt; csc440.nuf.shared.SMILEngineRequest.updateSMILMessage</definition>
+        <argsstring>(SMILMessageProxy smilmessage)</argsstring>
+        <name>updateSMILMessage</name>
+        <param>
+          <type><ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref></type>
+          <declname>smilmessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1aab5cf1bfa01de349bae730b5eddbe6e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Request&lt; Void &gt;</type>
+        <definition>Request&lt;Void&gt; csc440.nuf.shared.SMILEngineRequest.deleteSMILMessage</definition>
+        <argsstring>(SMILMessageProxy smilmessage)</argsstring>
+        <name>deleteSMILMessage</name>
+        <param>
+          <type><ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref></type>
+          <declname>smilmessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1a3eee4d421f3a52debf63d9145b69aaac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Request&lt; List&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref> &gt; &gt;</type>
+        <definition>Request&lt;List&lt;SMILMessageProxy&gt; &gt; csc440.nuf.shared.SMILEngineRequest.querySMILMessages</definition>
+        <argsstring>()</argsstring>
+        <name>querySMILMessages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java" line="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="439">
+        <label>RequestContext</label>
+      </node>
+      <node id="438">
+        <label>csc440.nuf.shared.SMILEngineRequest</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="441">
+        <label>RequestContext</label>
+      </node>
+      <node id="440">
+        <label>csc440.nuf.shared.SMILEngineRequest</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request"/>
+        <childnode refid="441" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java" line="10" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java" bodystart="10" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1ae676cd26bbe66d70138183bfabc7f437" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::SMILEngineRequest</scope><name>createSMILMessage</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1aab5cf1bfa01de349bae730b5eddbe6e9" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::SMILEngineRequest</scope><name>deleteSMILMessage</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1a3eee4d421f3a52debf63d9145b69aaac" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::SMILEngineRequest</scope><name>querySMILMessages</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1ac8a27dbfa795c56f55621c1bf9fa1cd2" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::SMILEngineRequest</scope><name>readSMILMessage</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request_1abb67e9ef53e8db25c95928f18d25b439" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::SMILEngineRequest</scope><name>updateSMILMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1server_1_1_device_info" kind="class" prot="public">
+    <compoundname>csc440::nuf::server::DeviceInfo</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a8af77812311b34803e1402c784daa55c" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger csc440.nuf.server.DeviceInfo.log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <initializer>
+        Logger.getLogger(DeviceInfo.class.getName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a59dc6f029a61fa879b7fbcce0c945a62" prot="private" static="no" mutable="no">
+        <type>Key</type>
+        <definition>Key csc440.nuf.server.DeviceInfo.key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>User-email # device-id</para><para>Device-id can be specified by device, default is hash of abs(registration id).</para><para><ulink url="mailto:user@example.com">user@example.com</ulink>#1234 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="56" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a36d442c5f97450b15eaa718e4a12e691" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.server.DeviceInfo.deviceRegistrationID</definition>
+        <argsstring></argsstring>
+        <name>deviceRegistrationID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The ID used for sending messages to. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="62" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1abc29933577e6ae6663635110d3f3477b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.server.DeviceInfo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Current supported types: (default) - ac2dm, regular froyo+ devices using C2DM protocol</para><para>New types may be defined - for example for sending to chrome. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="71" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1ab97f01b0cfc1623e88b84186aa0da9ea" prot="private" static="no" mutable="no">
+        <type>Date</type>
+        <definition>Date csc440.nuf.server.DeviceInfo.registrationTimestamp</definition>
+        <argsstring></argsstring>
+        <name>registrationTimestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For statistics - and to provide hints to the user. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="77" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a5de660c26866ddf2fee09273dce51221" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean csc440.nuf.server.DeviceInfo.debug</definition>
+        <argsstring></argsstring>
+        <name>debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="80" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1abebcf4568af54ade9145deef1379033f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.server.DeviceInfo.DeviceInfo</definition>
+        <argsstring>(Key key, String deviceRegistrationID)</argsstring>
+        <name>DeviceInfo</name>
+        <param>
+          <type>Key</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>deviceRegistrationID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="82" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1ad97a129642c65cd6ccc150f62720bd6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.server.DeviceInfo.DeviceInfo</definition>
+        <argsstring>(Key key)</argsstring>
+        <name>DeviceInfo</name>
+        <param>
+          <type>Key</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="89" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a10d351ee9254f7f63bd6b77c3005f33c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Key</type>
+        <definition>Key csc440.nuf.server.DeviceInfo.getKey</definition>
+        <argsstring>()</argsstring>
+        <name>getKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="94" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="94" bodyend="97"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1a0c14fe20917e68f73dda5a275ba2a7f2" compoundref="_send_message_8java" startline="37" endline="107">csc440.nuf.server.SendMessage.sendMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1aa5e584cac75d8ec6a1c1d48c3db02829" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.DeviceInfo.setKey</definition>
+        <argsstring>(Key key)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>Key</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="99" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a09635fb3f7c88f9f440491adad27517c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.server.DeviceInfo.getDeviceRegistrationID</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceRegistrationID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="106" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1accf76fe6cb3bae22ea8993e9953dd6d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.DeviceInfo.setDeviceRegistrationID</definition>
+        <argsstring>(String deviceRegistrationID)</argsstring>
+        <name>setDeviceRegistrationID</name>
+        <param>
+          <type>String</type>
+          <declname>deviceRegistrationID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="111" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1ac2441b49b7a4d54c481ae68afeccda2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.server.DeviceInfo.getDebug</definition>
+        <argsstring>()</argsstring>
+        <name>getDebug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="116" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1ad52d926f4379fc7f1801928a15c80f66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.DeviceInfo.setDebug</definition>
+        <argsstring>(boolean debug)</argsstring>
+        <name>setDebug</name>
+        <param>
+          <type>boolean</type>
+          <declname>debug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="120" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9925ea2454675718ab863fb23a6900e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.DeviceInfo.setType</definition>
+        <argsstring>(String type)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>String</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="124" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a8b52bee034de79eb4ec16e67e60a2d04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.server.DeviceInfo.getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="128" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="128" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9da41b1af89038902b419b584cbfb56e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.DeviceInfo.setRegistrationTimestamp</definition>
+        <argsstring>(Date registrationTimestamp)</argsstring>
+        <name>setRegistrationTimestamp</name>
+        <param>
+          <type>Date</type>
+          <declname>registrationTimestamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="132" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a947fcd68b2cb0308afb40194a66326a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date csc440.nuf.server.DeviceInfo.getRegistrationTimestamp</definition>
+        <argsstring>()</argsstring>
+        <name>getRegistrationTimestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="136" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1ae1c3a4ef43b8a4433e52eff1443c7309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.server.DeviceInfo.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="167" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="167" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9d068913be4bf051ab37c7fb7ef981f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classcsc440_1_1nuf_1_1server_1_1_device_info" kindref="compound">DeviceInfo</ref> &gt;</type>
+        <definition>static List&lt;DeviceInfo&gt; csc440.nuf.server.DeviceInfo.getDeviceInfoForUser</definition>
+        <argsstring>(String user)</argsstring>
+        <name>getDeviceInfoForUser</name>
+        <param>
+          <type>String</type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper function - will query all registrations for a user. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="144" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="144" bodyend="164"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_send_message_1a0c14fe20917e68f73dda5a275ba2a7f2" compoundref="_send_message_8java" startline="37" endline="107">csc440.nuf.server.SendMessage.sendMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Registration info.</para><para>An account may be associated with multiple phones, and a phone may be associated with multiple accounts.</para><para>registrations lists different phones registered to that account. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" line="42" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DeviceInfo.java" bodystart="42" bodyend="173"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a5de660c26866ddf2fee09273dce51221" prot="private" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>debug</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1abebcf4568af54ade9145deef1379033f" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>DeviceInfo</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ad97a129642c65cd6ccc150f62720bd6f" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>DeviceInfo</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a36d442c5f97450b15eaa718e4a12e691" prot="private" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>deviceRegistrationID</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ac2441b49b7a4d54c481ae68afeccda2d" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>getDebug</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9d068913be4bf051ab37c7fb7ef981f2" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>getDeviceInfoForUser</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a09635fb3f7c88f9f440491adad27517c" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>getDeviceRegistrationID</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a10d351ee9254f7f63bd6b77c3005f33c" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>getKey</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a947fcd68b2cb0308afb40194a66326a0" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>getRegistrationTimestamp</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a8b52bee034de79eb4ec16e67e60a2d04" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>getType</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a59dc6f029a61fa879b7fbcce0c945a62" prot="private" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>key</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a8af77812311b34803e1402c784daa55c" prot="private" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>log</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ab97f01b0cfc1623e88b84186aa0da9ea" prot="private" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>registrationTimestamp</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ad52d926f4379fc7f1801928a15c80f66" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>setDebug</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1accf76fe6cb3bae22ea8993e9953dd6d5" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>setDeviceRegistrationID</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1aa5e584cac75d8ec6a1c1d48c3db02829" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>setKey</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9da41b1af89038902b419b584cbfb56e" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>setRegistrationTimestamp</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1a9925ea2454675718ab863fb23a6900e6" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>setType</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1ae1c3a4ef43b8a4433e52eff1443c7309" prot="public" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>toString</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_device_info_1abc29933577e6ae6663635110d3f3477b" prot="private" virt="non-virtual"><scope>csc440::nuf::server::DeviceInfo</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

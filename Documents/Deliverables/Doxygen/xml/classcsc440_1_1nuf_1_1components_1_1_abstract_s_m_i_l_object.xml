@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" kind="class" prot="public">
+    <compoundname>csc440::nuf::components::AbstractSMILObject</compoundname>
+    <derivedcompoundref refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio" prot="public" virt="non-virtual">csc440.nuf.components.SMILAudio</derivedcompoundref>
+    <derivedcompoundref refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image" prot="public" virt="non-virtual">csc440.nuf.components.SMILImage</derivedcompoundref>
+    <derivedcompoundref refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel" prot="public" virt="non-virtual">csc440.nuf.components.SMILParallel</derivedcompoundref>
+    <derivedcompoundref refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential" prot="public" virt="non-virtual">csc440.nuf.components.SMILSequential</derivedcompoundref>
+    <derivedcompoundref refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text" prot="public" virt="non-virtual">csc440.nuf.components.SMILText</derivedcompoundref>
+    <derivedcompoundref refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video" prot="public" virt="non-virtual">csc440.nuf.components.SMILVideo</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.AbstractSMILObject.qName</definition>
+        <argsstring></argsstring>
+        <name>qName</name>
+        <reimplementedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a5b0579e97844040a2254fcf1f84a8c80">qName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="22" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" compoundref="_abstract_s_m_i_l_object_8java" startline="27" endline="31">csc440.nuf.components.AbstractSMILObject.AbstractSMILObject</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a30d35f0657c429743a53c840f6911000" compoundref="_s_m_i_l_image_8java" startline="23" endline="48">csc440.nuf.components.SMILImage.SMILImage</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a10d6d99522be99cae5b4dc5e357546fa" compoundref="_s_m_i_l_parallel_8java" startline="23" endline="30">csc440.nuf.components.SMILParallel.SMILParallel</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a3c5284fa22cb41fc82ee96c140fdd54c" compoundref="_s_m_i_l_sequential_8java" startline="24" endline="33">csc440.nuf.components.SMILSequential.SMILSequential</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" compoundref="_s_m_i_l_text_8java" startline="63" endline="97">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1ae035b34027fa1b5fbe193edda3a97099" compoundref="_s_m_i_l_video_8java" startline="22" endline="47">csc440.nuf.components.SMILVideo.SMILVideo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.AbstractSMILObject.begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="23" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" compoundref="_abstract_s_m_i_l_object_8java" startline="27" endline="31">csc440.nuf.components.AbstractSMILObject.AbstractSMILObject</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a63fa1f8e7b3d8e110fba9b9914137350" compoundref="_abstract_s_m_i_l_object_8java" startline="94" endline="96">csc440.nuf.components.AbstractSMILObject.setStartTime</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a243ba9744414f121ea34960bc4a15c26" compoundref="_abstract_s_m_i_l_object_8java" startline="102" endline="104">csc440.nuf.components.AbstractSMILObject.getStartTime</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a85eb33753bf3769bc240cee7b632e8fd" compoundref="_abstract_s_m_i_l_object_8java" startline="109" endline="111">csc440.nuf.components.AbstractSMILObject.compareTo</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" compoundref="_abstract_s_m_i_l_object_8java" startline="120" endline="148">csc440.nuf.components.AbstractSMILObject.toString</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" compoundref="_abstract_s_m_i_l_object_8java" startline="154" endline="159">csc440.nuf.components.AbstractSMILObject.setDuration</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1af9a43098b50d757cea757ac4216b0b07" compoundref="_s_m_i_l_parallel_8java" startline="32" endline="45">csc440.nuf.components.SMILParallel.add</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a176c8fea4dad1bdc8dfee6b66a9d0f08" compoundref="_s_m_i_l_sequential_8java" startline="35" endline="50">csc440.nuf.components.SMILSequential.add</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.AbstractSMILObject.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3b153d8b1c68f8278a9565cc254e1a9e" compoundref="_abstract_s_m_i_l_object_8java" startline="97" endline="99">csc440.nuf.components.AbstractSMILObject.setEndTime</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1acb56c0543fc58acf2929479598647bcb" compoundref="_abstract_s_m_i_l_object_8java" startline="105" endline="107">csc440.nuf.components.AbstractSMILObject.getEndTime</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" compoundref="_abstract_s_m_i_l_object_8java" startline="120" endline="148">csc440.nuf.components.AbstractSMILObject.toString</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" compoundref="_abstract_s_m_i_l_object_8java" startline="154" endline="159">csc440.nuf.components.AbstractSMILObject.setDuration</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a176c8fea4dad1bdc8dfee6b66a9d0f08" compoundref="_s_m_i_l_sequential_8java" startline="35" endline="50">csc440.nuf.components.SMILSequential.add</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.AbstractSMILObject.dur</definition>
+        <argsstring></argsstring>
+        <name>dur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" compoundref="_abstract_s_m_i_l_object_8java" startline="120" endline="148">csc440.nuf.components.AbstractSMILObject.toString</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1abd5dd2e6eef92f800197b160936d9f35" compoundref="_abstract_s_m_i_l_object_8java" startline="150" endline="152">csc440.nuf.components.AbstractSMILObject.getDuration</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" compoundref="_abstract_s_m_i_l_object_8java" startline="154" endline="159">csc440.nuf.components.AbstractSMILObject.setDuration</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a176c8fea4dad1bdc8dfee6b66a9d0f08" compoundref="_s_m_i_l_sequential_8java" startline="35" endline="50">csc440.nuf.components.SMILSequential.add</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.components.AbstractSMILObject.AbstractSMILObject</definition>
+        <argsstring>(String qName, int begin, int dur)</argsstring>
+        <name>AbstractSMILObject</name>
+        <param>
+          <type>String</type>
+          <declname>qName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="27" bodyend="31"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" compoundref="_abstract_s_m_i_l_object_8java" startline="22">csc440.nuf.components.AbstractSMILObject.qName</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" compoundref="_abstract_s_m_i_l_object_8java" startline="154" endline="159">csc440.nuf.components.AbstractSMILObject.setDuration</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a30ec13c486b3b2ddd7c1911d69ebd8d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.components.AbstractSMILObject.AbstractSMILObject</definition>
+        <argsstring>(Attributes att)</argsstring>
+        <name>AbstractSMILObject</name>
+        <param>
+          <type>Attributes</type>
+          <declname>att</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="33" bodyend="45"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" compoundref="_abstract_s_m_i_l_object_8java" startline="154" endline="159">csc440.nuf.components.AbstractSMILObject.setDuration</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" compoundref="_abstract_s_m_i_l_object_8java" startline="82" endline="91">csc440.nuf.components.AbstractSMILObject.getIntValue</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6b7e0dec2a36758ce801132d7c040974" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.AbstractSMILObject.printTag</definition>
+        <argsstring>()</argsstring>
+        <name>printTag</name>
+        <reimplementedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a855b8f0b5bbd31473130ba5f4834639a">printTag</reimplementedby>
+        <reimplementedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1aae0e9e20f89e2700c6de7fe910325ba9">printTag</reimplementedby>
+        <reimplementedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel_1a4ad0639616ec446c16c3f8fae4932d9f">printTag</reimplementedby>
+        <reimplementedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential_1a5fae7e91919070144cf29337eee45b6f">printTag</reimplementedby>
+        <reimplementedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a08a8a1dff18366c7a4bf62c8af16cb48">printTag</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="47" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="47" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a63fa1f8e7b3d8e110fba9b9914137350" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.AbstractSMILObject.setStartTime</definition>
+        <argsstring>(int startTime)</argsstring>
+        <name>setStartTime</name>
+        <param>
+          <type>int</type>
+          <declname>startTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="94" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="94" bodyend="96"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3b153d8b1c68f8278a9565cc254e1a9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.AbstractSMILObject.setEndTime</definition>
+        <argsstring>(int endTime)</argsstring>
+        <name>setEndTime</name>
+        <param>
+          <type>int</type>
+          <declname>endTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="97" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="97" bodyend="99"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" compoundref="_abstract_s_m_i_l_object_8java" startline="24">csc440.nuf.components.AbstractSMILObject.end</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a243ba9744414f121ea34960bc4a15c26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.AbstractSMILObject.getStartTime</definition>
+        <argsstring>()</argsstring>
+        <name>getStartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="102" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="102" bodyend="104"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1acb56c0543fc58acf2929479598647bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.AbstractSMILObject.getEndTime</definition>
+        <argsstring>()</argsstring>
+        <name>getEndTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="105" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="105" bodyend="107"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" compoundref="_abstract_s_m_i_l_object_8java" startline="24">csc440.nuf.components.AbstractSMILObject.end</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a85eb33753bf3769bc240cee7b632e8fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.AbstractSMILObject.compareTo</definition>
+        <argsstring>(AbstractSMILObject o)</argsstring>
+        <name>compareTo</name>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" kindref="compound">AbstractSMILObject</ref></type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="109" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="109" bodyend="111"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.AbstractSMILObject.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="120" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="120" bodyend="148"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" compoundref="_abstract_s_m_i_l_object_8java" startline="24">csc440.nuf.components.AbstractSMILObject.end</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" compoundref="_abstract_s_m_i_l_object_8java" startline="25">csc440.nuf.components.AbstractSMILObject.dur</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1abd5dd2e6eef92f800197b160936d9f35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.AbstractSMILObject.getDuration</definition>
+        <argsstring>()</argsstring>
+        <name>getDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="150" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="150" bodyend="152"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" compoundref="_abstract_s_m_i_l_object_8java" startline="25">csc440.nuf.components.AbstractSMILObject.dur</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.AbstractSMILObject.setDuration</definition>
+        <argsstring>(int duration)</argsstring>
+        <name>setDuration</name>
+        <param>
+          <type>int</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="154" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="154" bodyend="159"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" compoundref="_abstract_s_m_i_l_object_8java" startline="25">csc440.nuf.components.AbstractSMILObject.dur</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" compoundref="_abstract_s_m_i_l_object_8java" startline="23">csc440.nuf.components.AbstractSMILObject.begin</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" compoundref="_abstract_s_m_i_l_object_8java" startline="24">csc440.nuf.components.AbstractSMILObject.end</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" compoundref="_abstract_s_m_i_l_object_8java" startline="27" endline="31">csc440.nuf.components.AbstractSMILObject.AbstractSMILObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3bacb759032970e83ba2ffc4ed5179b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.AbstractSMILObject.draw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>draw</name>
+        <reimplementedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05">draw</reimplementedby>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="161" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="161" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int csc440.nuf.components.AbstractSMILObject.getIntValue</definition>
+        <argsstring>(String s)</argsstring>
+        <name>getIntValue</name>
+        <param>
+          <type>String</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="82" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="82" bodyend="91"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a30ec13c486b3b2ddd7c1911d69ebd8d3" compoundref="_abstract_s_m_i_l_object_8java" startline="33" endline="45">csc440.nuf.components.AbstractSMILObject.AbstractSMILObject</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image_1a30d35f0657c429743a53c840f6911000" compoundref="_s_m_i_l_image_8java" startline="23" endline="48">csc440.nuf.components.SMILImage.SMILImage</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" compoundref="_s_m_i_l_text_8java" startline="63" endline="97">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video_1ae035b34027fa1b5fbe193edda3a97099" compoundref="_s_m_i_l_video_8java" startline="22" endline="47">csc440.nuf.components.SMILVideo.SMILVideo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 01-22-2011 <ref refid="_abstract_s_m_i_l_object_8java" kindref="compound">AbstractSMILObject.java</ref> <simplesect kind="author"><para>Brad Barker</para></simplesect>
+Abstract class for defining mandatory requirements of SMIL objects. All SMIL Object types MUST INHERIT FROM THIS CLASS, NO EXCEPTIONS! </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="252">
+        <label>csc440.nuf.components.SMILText</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>csc440.nuf.components.SMILSequential</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>csc440.nuf.components.SMILVideo</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="248">
+        <label>csc440.nuf.components.SMILAudio</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>csc440.nuf.components.AbstractSMILObject</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object"/>
+      </node>
+      <node id="250">
+        <label>csc440.nuf.components.SMILParallel</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="249">
+        <label>csc440.nuf.components.SMILImage</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" line="19" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/AbstractSMILObject.java" bodystart="19" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a30ec13c486b3b2ddd7c1911d69ebd8d3" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>begin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a85eb33753bf3769bc240cee7b632e8fd" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>compareTo</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3bacb759032970e83ba2ffc4ed5179b9" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>draw</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>dur</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>end</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1abd5dd2e6eef92f800197b160936d9f35" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>getDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1acb56c0543fc58acf2929479598647bcb" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>getEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>getIntValue</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a243ba9744414f121ea34960bc4a15c26" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>getStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6b7e0dec2a36758ce801132d7c040974" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>printTag</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>qName</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>setDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3b153d8b1c68f8278a9565cc254e1a9e" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>setEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a63fa1f8e7b3d8e110fba9b9914137350" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>setStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" prot="public" virt="non-virtual"><scope>csc440::nuf::components::AbstractSMILObject</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

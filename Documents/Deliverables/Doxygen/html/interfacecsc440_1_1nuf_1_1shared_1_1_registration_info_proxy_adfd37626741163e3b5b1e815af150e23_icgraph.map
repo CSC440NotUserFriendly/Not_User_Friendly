@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1_device_registrar.xhtml#a588aba958edca877d7f3f995d8854dbd" title="csc440.nuf.DeviceRegistrar.registerOrUnregister" alt="" coords="494,59,829,90"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1_accounts_activity.xhtml#a172796bda215011c1ef3b983e9555cfb" title="csc440.nuf.AccountsActivity.onResume" alt="" coords="886,5,1162,35"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1_c2_d_m_receiver.xhtml#a55ec75d92b2ea18fc3bfb7354fc63571" title="csc440.nuf.C2DMReceiver.onRegistered" alt="" coords="884,59,1164,90"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1_c2_d_m_receiver.xhtml#a5703ea903b3efa7a0fc8b0dd94c93939" title="csc440.nuf.C2DMReceiver.onUnregistered" alt="" coords="877,114,1171,145"/>
+</map>

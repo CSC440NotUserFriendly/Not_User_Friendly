@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet" kind="class" prot="public">
+    <compoundname>com::google::appengine::codelab::BaseServlet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpServlet</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet" prot="public" virt="non-virtual">com.google.appengine.codelab.ItemServlet</derivedcompoundref>
+    <derivedcompoundref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet" prot="public" virt="non-virtual">com.google.appengine.codelab.ProductServlet</derivedcompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet_1abb34ecfcd902fafc62944237f49283b9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.google.appengine.codelab.BaseServlet.doGet</definition>
+        <argsstring>(HttpServletRequest req, HttpServletResponse resp)</argsstring>
+        <name>doGet</name>
+        <reimplementedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8">doGet</reimplementedby>
+        <reimplementedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a7c57929d447f8ee5c296d57be19d1727">doGet</reimplementedby>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>req</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>resp</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/BaseServlet.java" line="15" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/BaseServlet.java" bodystart="14" bodyend="18"/>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8" compoundref="_item_servlet_8java" startline="41" endline="59">com.google.appengine.codelab.ItemServlet.doGet</referencedby>
+        <referencedby refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a7c57929d447f8ee5c296d57be19d1727" compoundref="_product_servlet_8java" startline="45" endline="63">com.google.appengine.codelab.ProductServlet.doGet</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="280">
+        <label>com.google.appengine.codelab.ProductServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>com.google.appengine.codelab.BaseServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet"/>
+        <childnode refid="278" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>HttpServlet</label>
+      </node>
+      <node id="279">
+        <label>com.google.appengine.codelab.ItemServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="281">
+        <label>com.google.appengine.codelab.BaseServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet"/>
+        <childnode refid="282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>HttpServlet</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/BaseServlet.java" line="11" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/BaseServlet.java" bodystart="11" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet_1abb34ecfcd902fafc62944237f49283b9" prot="protected" virt="non-virtual"><scope>com::google::appengine::codelab::BaseServlet</scope><name>doGet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

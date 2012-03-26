@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio" kind="class" prot="public">
+    <compoundname>csc440::nuf::components::SMILAudio</compoundname>
+    <basecompoundref refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" prot="public" virt="non-virtual">csc440.nuf.components.AbstractSMILObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a5b0579e97844040a2254fcf1f84a8c80" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.components.SMILAudio.qName</definition>
+        <argsstring></argsstring>
+        <name>qName</name>
+        <reimplements refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db">qName</reimplements>
+        <initializer>&quot;audio&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="18" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a6e5d5517217155497b83ec5f9cab8f53" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILAudio.xmlid</definition>
+        <argsstring></argsstring>
+        <name>xmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="19" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1ac4389b9bffc1d3562f3233190a3b2caa" compoundref="_s_m_i_l_audio_8java" startline="22" endline="37">csc440.nuf.components.SMILAudio.SMILAudio</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7ab667bfb856659aa5b30b05256ba1ca" compoundref="_s_m_i_l_audio_8java" startline="43" endline="45">csc440.nuf.components.SMILAudio.getXmlid</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7e54acd192f2685de81df7f87ef5ca45" compoundref="_s_m_i_l_audio_8java" startline="47" endline="49">csc440.nuf.components.SMILAudio.setXmlid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a482173b3a842129f333212e31827bbba" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILAudio.src</definition>
+        <argsstring></argsstring>
+        <name>src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1ac4389b9bffc1d3562f3233190a3b2caa" compoundref="_s_m_i_l_audio_8java" startline="22" endline="37">csc440.nuf.components.SMILAudio.SMILAudio</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a0316fbbbc88d046fe6dcf4b7849c2c79" compoundref="_s_m_i_l_audio_8java" startline="50" endline="52">csc440.nuf.components.SMILAudio.getSrc</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a4dca9500971fc82cd951c97348457a7a" compoundref="_s_m_i_l_audio_8java" startline="54" endline="56">csc440.nuf.components.SMILAudio.setSrc</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1ac4389b9bffc1d3562f3233190a3b2caa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.components.SMILAudio.SMILAudio</definition>
+        <argsstring>(Attributes att)</argsstring>
+        <name>SMILAudio</name>
+        <param>
+          <type>Attributes</type>
+          <declname>att</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="22" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="22" bodyend="37"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a6e5d5517217155497b83ec5f9cab8f53" compoundref="_s_m_i_l_audio_8java" startline="19">csc440.nuf.components.SMILAudio.xmlid</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a482173b3a842129f333212e31827bbba" compoundref="_s_m_i_l_audio_8java" startline="20">csc440.nuf.components.SMILAudio.src</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a855b8f0b5bbd31473130ba5f4834639a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILAudio.printTag</definition>
+        <argsstring>()</argsstring>
+        <name>printTag</name>
+        <reimplements refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6b7e0dec2a36758ce801132d7c040974">printTag</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="39" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7ab667bfb856659aa5b30b05256ba1ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILAudio.getXmlid</definition>
+        <argsstring>()</argsstring>
+        <name>getXmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="43" bodyend="45"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a6e5d5517217155497b83ec5f9cab8f53" compoundref="_s_m_i_l_audio_8java" startline="19">csc440.nuf.components.SMILAudio.xmlid</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7e54acd192f2685de81df7f87ef5ca45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILAudio.setXmlid</definition>
+        <argsstring>(String xmlid)</argsstring>
+        <name>setXmlid</name>
+        <param>
+          <type>String</type>
+          <declname>xmlid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="47" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="47" bodyend="49"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a6e5d5517217155497b83ec5f9cab8f53" compoundref="_s_m_i_l_audio_8java" startline="19">csc440.nuf.components.SMILAudio.xmlid</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a0316fbbbc88d046fe6dcf4b7849c2c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILAudio.getSrc</definition>
+        <argsstring>()</argsstring>
+        <name>getSrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="50" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="50" bodyend="52"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a482173b3a842129f333212e31827bbba" compoundref="_s_m_i_l_audio_8java" startline="20">csc440.nuf.components.SMILAudio.src</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a4dca9500971fc82cd951c97348457a7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILAudio.setSrc</definition>
+        <argsstring>(String src)</argsstring>
+        <name>setSrc</name>
+        <param>
+          <type>String</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="54" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="54" bodyend="56"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a482173b3a842129f333212e31827bbba" compoundref="_s_m_i_l_audio_8java" startline="20">csc440.nuf.components.SMILAudio.src</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 01-26-2011 <ref refid="_s_m_i_l_audio_8java" kindref="compound">SMILAudio.java</ref> <simplesect kind="author"><para>Brad Barker </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="430">
+        <label>csc440.nuf.components.SMILAudio</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio"/>
+        <childnode refid="431" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>csc440.nuf.components.AbstractSMILObject</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="432">
+        <label>csc440.nuf.components.SMILAudio</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio"/>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>csc440.nuf.components.AbstractSMILObject</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" line="16" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILAudio.java" bodystart="16" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a30ec13c486b3b2ddd7c1911d69ebd8d3" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>begin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a85eb33753bf3769bc240cee7b632e8fd" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>compareTo</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3bacb759032970e83ba2ffc4ed5179b9" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>draw</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>dur</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>end</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1abd5dd2e6eef92f800197b160936d9f35" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>getDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1acb56c0543fc58acf2929479598647bcb" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>getEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>getIntValue</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a0316fbbbc88d046fe6dcf4b7849c2c79" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>getSrc</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a243ba9744414f121ea34960bc4a15c26" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>getStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7ab667bfb856659aa5b30b05256ba1ca" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>getXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a855b8f0b5bbd31473130ba5f4834639a" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>printTag</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a5b0579e97844040a2254fcf1f84a8c80" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>qName</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>setDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3b153d8b1c68f8278a9565cc254e1a9e" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>setEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a4dca9500971fc82cd951c97348457a7a" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>setSrc</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a63fa1f8e7b3d8e110fba9b9914137350" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>setStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a7e54acd192f2685de81df7f87ef5ca45" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>setXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1ac4389b9bffc1d3562f3233190a3b2caa" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>SMILAudio</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a482173b3a842129f333212e31827bbba" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>src</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>toString</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio_1a6e5d5517217155497b83ec5f9cab8f53" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILAudio</scope><name>xmlid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_util" kind="class" prot="public">
+    <compoundname>csc440::nuf::Util</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a02e0c32438350b575fcee7d439173b33" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>&quot;Util&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tag for logging. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1ae03bf3e1a948f0df57c133efabca76a5" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.SHARED_PREFS</definition>
+        <argsstring></argsstring>
+        <name>SHARED_PREFS</name>
+        <initializer>&quot;_PREFS&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Key for shared preferences. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="103" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a23f709e29000dc379ca333f4bb725997" prot="private" static="yes" mutable="no">
+        <type>final Map&lt; Context, String &gt;</type>
+        <definition>final Map&lt;Context, String&gt; csc440.nuf.Util.URL_MAP</definition>
+        <argsstring></argsstring>
+        <name>URL_MAP</name>
+        <initializer> new HashMap&lt;Context, String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cache containing the base URL for a given context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="108" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a40b66c29439ea7980ebe035fc1f33547" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.ACCOUNT_NAME</definition>
+        <argsstring></argsstring>
+        <name>ACCOUNT_NAME</name>
+        <initializer>&quot;accountName&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Key for account name in shared preferences. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="56" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a5261d5e5a553256bbe76b2fbee31c909" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.AUTH_COOKIE</definition>
+        <argsstring></argsstring>
+        <name>AUTH_COOKIE</name>
+        <initializer>&quot;authCookie&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Key for auth cookie name in shared preferences. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="61" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="156" endline="175">csc440.nuf.Util.getRequestFactory</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.CONNECTION_STATUS</definition>
+        <argsstring></argsstring>
+        <name>CONNECTION_STATUS</name>
+        <initializer>&quot;connectionStatus&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Key for connection status in shared preferences. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="66" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a0f9fe311a7c4baf4d5a0f373839aaf6e" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.CONNECTED</definition>
+        <argsstring></argsstring>
+        <name>CONNECTED</name>
+        <initializer>&quot;connected&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value for <ref refid="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" kindref="member">CONNECTION_STATUS</ref> key. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="71" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a5d1dcaf2bd94bf0d3e20aa24db16f7b3" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.CONNECTING</definition>
+        <argsstring></argsstring>
+        <name>CONNECTING</name>
+        <initializer>&quot;connecting&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value for <ref refid="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" kindref="member">CONNECTION_STATUS</ref> key. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="76" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1acc59e40c430a78ba6bb0cc45bd616c2b" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.DISCONNECTED</definition>
+        <argsstring></argsstring>
+        <name>DISCONNECTED</name>
+        <initializer>&quot;disconnected&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value for <ref refid="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" kindref="member">CONNECTION_STATUS</ref> key. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="81" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a19e590891af91bcb18ce096826a637d9" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.DEVICE_REGISTRATION_ID</definition>
+        <argsstring></argsstring>
+        <name>DEVICE_REGISTRATION_ID</name>
+        <initializer>&quot;deviceRegistrationID&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Key for device registration id in shared preferences. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="86" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="86" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_accounts_activity_1a4404f0bf65d48a9e30301527d1150c57" compoundref="_accounts_activity_8java" startline="90" endline="102">csc440.nuf.AccountsActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a5703ea903b3efa7a0fc8b0dd94c93939" compoundref="_c2_d_m_receiver_8java" startline="55" endline="59">csc440.nuf.C2DMReceiver.onUnregistered</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a168e27d595b96d0e784d5f32a6f5e125" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.RF_METHOD</definition>
+        <argsstring></argsstring>
+        <name>RF_METHOD</name>
+        <initializer>&quot;/gwtRequest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="91" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="91" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="156" endline="175">csc440.nuf.Util.getRequestFactory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_util_1a3376e622f91a209d996ed066878f3ff5" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Util.UPDATE_UI_INTENT</definition>
+        <argsstring></argsstring>
+        <name>UPDATE_UI_INTENT</name>
+        <initializer>&quot;.UPDATE_UI&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An intent name for receiving registration/unregistration status. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="96" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="96" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4772899d4fb8e0ce9dbe2b4a04fed1cf" compoundref="_c2_d_m_receiver_8java" startline="69" endline="71">csc440.nuf.C2DMReceiver.onError</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a47e09143aeb07746ff801ee691280413" compoundref="_s_m_i_l_activity_8java" startline="92" endline="98">csc440.nuf.SMILActivity.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_util_1adbbee48d176f30c61d5819634d17b73a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.Util.generateNotification</definition>
+        <argsstring>(Context context, String message)</argsstring>
+        <name>generateNotification</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Display a notification containing the given string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="113" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="113" bodyend="132"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="180" endline="182">csc440.nuf.Util.getSharedPreferences</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1_message_display_1adf7092394387e6226d21bfa80c15b28d" compoundref="_message_display_8java" startline="38" endline="46">csc440.nuf.MessageDisplay.displayMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_util_1a6073587e3dc087b21d85869abe1e91e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String csc440.nuf.Util.getBaseUrl</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>getBaseUrl</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the (debug or production) URL associated with the registration service. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="138" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="138" bodyend="150"/>
+        <references refid="classcsc440_1_1nuf_1_1_setup_1a2b9dcf3824dfea4980f2d9f8c9bdcf09" compoundref="_setup_8java" startline="32">csc440.nuf.Setup.PROD_URL</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="156" endline="175">csc440.nuf.Util.getRequestFactory</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1ab50759c63c640488621224b197658775" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="187" endline="191">csc440.nuf.Util.isDebug</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static&lt; TextendsRequestFactory &gt; T</type>
+        <definition>static &lt;TextendsRequestFactory&gt; T csc440.nuf.Util.getRequestFactory</definition>
+        <argsstring>(Context context, Class&lt; T &gt; factoryClass)</argsstring>
+        <name>getRequestFactory</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Class&lt; T &gt;</type>
+          <declname>factoryClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns an initialized <ref refid="" kindref="compound">RequestFactory</ref> of the given type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="157" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="156" bodyend="175"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="180" endline="182">csc440.nuf.Util.getSharedPreferences</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a5261d5e5a553256bbe76b2fbee31c909" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="61">csc440.nuf.Util.AUTH_COOKIE</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a6073587e3dc087b21d85869abe1e91e9" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="138" endline="150">csc440.nuf.Util.getBaseUrl</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a168e27d595b96d0e784d5f32a6f5e125" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="91">csc440.nuf.Util.RF_METHOD</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message_1a19a50624286e3650df8cbe84e6cf4ada" compoundref="_async_fetch_s_m_i_l_message_8java" startline="24" endline="50">csc440.nuf.AsyncFetchSMILMessage.doInBackground</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SharedPreferences</type>
+        <definition>static SharedPreferences csc440.nuf.Util.getSharedPreferences</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>getSharedPreferences</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper method to get a SharedPreferences instance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="180" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="180" bodyend="182"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1adbbee48d176f30c61d5819634d17b73a" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="113" endline="132">csc440.nuf.Util.generateNotification</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="156" endline="175">csc440.nuf.Util.getRequestFactory</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_accounts_activity_1a4404f0bf65d48a9e30301527d1150c57" compoundref="_accounts_activity_8java" startline="90" endline="102">csc440.nuf.AccountsActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a5703ea903b3efa7a0fc8b0dd94c93939" compoundref="_c2_d_m_receiver_8java" startline="55" endline="59">csc440.nuf.C2DMReceiver.onUnregistered</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_util_1ab50759c63c640488621224b197658775" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean csc440.nuf.Util.isDebug</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>isDebug</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if we are running against a dev mode appengine instance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="187" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="187" bodyend="191"/>
+        <references refid="classcsc440_1_1nuf_1_1_setup_1a2b9dcf3824dfea4980f2d9f8c9bdcf09" compoundref="_setup_8java" startline="32">csc440.nuf.Setup.PROD_URL</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a6073587e3dc087b21d85869abe1e91e9" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="138" endline="150">csc440.nuf.Util.getBaseUrl</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_util_1a8b1609b3b688fe104413bd4a58345891" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String csc440.nuf.Util.getDebugUrl</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>getDebugUrl</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a debug url, or null. To set the url, create a file <programlisting><codeline><highlight class="normal"><sp/>assets/debugging_prefs.properties<sp/></highlight></codeline>
+</programlisting> with a line of the form &apos;url=<ulink url="http:/">http:/</ulink>&lt;ip address&gt;=&quot;&quot;&gt;:&lt;port&gt;&apos;. A numeric IP address may be required in situations where the device or emulator will not be able to resolve the hostname for the dev mode server. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="200" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="200" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_util_1a2020d4a0a3e6b8feb854bec003f44ca6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String csc440.nuf.Util.getPackageName</definition>
+        <argsstring>()</argsstring>
+        <name>getPackageName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the package name of this class. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="240" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="240" bodyend="242"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Utility methods for getting the base URL for client-server communication and retrieving shared preferences. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/Util.java" bodystart="44" bodyend="243"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a40b66c29439ea7980ebe035fc1f33547" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>ACCOUNT_NAME</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a5261d5e5a553256bbe76b2fbee31c909" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>AUTH_COOKIE</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a0f9fe311a7c4baf4d5a0f373839aaf6e" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>CONNECTED</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a5d1dcaf2bd94bf0d3e20aa24db16f7b3" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>CONNECTING</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>CONNECTION_STATUS</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a19e590891af91bcb18ce096826a637d9" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>DEVICE_REGISTRATION_ID</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1acc59e40c430a78ba6bb0cc45bd616c2b" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>DISCONNECTED</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1adbbee48d176f30c61d5819634d17b73a" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>generateNotification</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a6073587e3dc087b21d85869abe1e91e9" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>getBaseUrl</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a8b1609b3b688fe104413bd4a58345891" prot="private" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>getDebugUrl</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a2020d4a0a3e6b8feb854bec003f44ca6" prot="private" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>getPackageName</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a5fbb65d6db8c6c778abe34f22b529513" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>getRequestFactory</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>getSharedPreferences</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1ab50759c63c640488621224b197658775" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>isDebug</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a168e27d595b96d0e784d5f32a6f5e125" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>RF_METHOD</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1ae03bf3e1a948f0df57c133efabca76a5" prot="private" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>SHARED_PREFS</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a02e0c32438350b575fcee7d439173b33" prot="private" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>TAG</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a3376e622f91a209d996ed066878f3ff5" prot="public" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>UPDATE_UI_INTENT</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_util_1a23f709e29000dc379ca333f4bb725997" prot="private" virt="non-virtual"><scope>csc440::nuf::Util</scope><name>URL_MAP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

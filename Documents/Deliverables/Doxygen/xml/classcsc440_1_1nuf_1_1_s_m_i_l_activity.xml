@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_s_m_i_l_activity" kind="class" prot="public">
+    <compoundname>csc440::nuf::SMILActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnClickListener</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1afc9c010c15f60bb13c9f46a4074b4b66" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.SMILActivity.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>&quot;SMILActivity&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tag for logging. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1aceda4600e0e538e919688909564c1fb1" prot="private" static="no" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1_action_bar" kindref="compound">ActionBar</ref></type>
+        <definition>ActionBar csc440.nuf.SMILActivity._actionBar</definition>
+        <argsstring></argsstring>
+        <name>_actionBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="50" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a1b94af27d89d7da3d0e3350dc23520ac" prot="private" static="no" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1_scroll_item_manager" kindref="compound">ScrollItemManager</ref></type>
+        <definition>ScrollItemManager csc440.nuf.SMILActivity.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="51" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a96061c9e0eaae3c1a0b13e0a0670850a" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context csc440.nuf.SMILActivity.mContext</definition>
+        <argsstring></argsstring>
+        <name>mContext</name>
+        <initializer> this</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The current context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="56" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1af33c25de004b30dfaa9bd829e4b4d373" prot="private" static="no" mutable="no">
+        <type>final BroadcastReceiver</type>
+        <definition>final BroadcastReceiver csc440.nuf.SMILActivity.mUpdateUIReceiver</definition>
+        <argsstring></argsstring>
+        <name>mUpdateUIReceiver</name>
+        <initializer> new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String accountName = intent.getStringExtra(<ref refid="classcsc440_1_1nuf_1_1_device_registrar_1adc5815321a10b8875ec81ede0da62c43" kindref="member">DeviceRegistrar.ACCOUNT_NAME_EXTRA</ref>);
+            int status = intent.getIntExtra(<ref refid="classcsc440_1_1nuf_1_1_device_registrar_1aaf88ac176dfd4264b4138fc00b49998a" kindref="member">DeviceRegistrar.STATUS_EXTRA</ref>,
+                    <ref refid="classcsc440_1_1nuf_1_1_device_registrar_1abf61261a85f1e4912a777059da4bb994" kindref="member">DeviceRegistrar.ERROR_STATUS</ref>);
+            String message = null;
+            String connectionStatus = <ref refid="classcsc440_1_1nuf_1_1_util_1acc59e40c430a78ba6bb0cc45bd616c2b" kindref="member">Util.DISCONNECTED</ref>;
+            if (status == <ref refid="classcsc440_1_1nuf_1_1_device_registrar_1a4a59981b92ee9c8476393b73560b3d48" kindref="member">DeviceRegistrar.REGISTERED_STATUS</ref>) {
+                message = getResources().getString(R.string.registration_succeeded);
+                connectionStatus = <ref refid="classcsc440_1_1nuf_1_1_util_1a0f9fe311a7c4baf4d5a0f373839aaf6e" kindref="member">Util.CONNECTED</ref>;
+            } else if (status == <ref refid="classcsc440_1_1nuf_1_1_device_registrar_1a9a90ee9e8e64edc961b0e3c3b454d047" kindref="member">DeviceRegistrar.UNREGISTERED_STATUS</ref>) {
+                message = getResources().getString(R.string.unregistration_succeeded);
+            } else {
+                message = getResources().getString(R.string.registration_error);
+            }
+
+            
+            SharedPreferences prefs = <ref refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" kindref="member">Util.getSharedPreferences</ref>(mContext);
+            prefs.edit().putString(<ref refid="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" kindref="member">Util.CONNECTION_STATUS</ref>, connectionStatus).commit();
+
+            
+            <ref refid="classcsc440_1_1nuf_1_1_util_1adbbee48d176f30c61d5819634d17b73a" kindref="member">Util.generateNotification</ref>(mContext, String.format(message, accountName));
+        }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A <ref refid="" kindref="compound">BroadcastReceiver</ref> to receive the response from a register or unregister request, and to update the UI. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="86" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a47e09143aeb07746ff801ee691280413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.SMILActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begins the activity. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="92" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="92" bodyend="98"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a3376e622f91a209d996ed066878f3ff5" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="96">csc440.nuf.Util.UPDATE_UI_INTENT</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.SMILActivity.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="101" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="101" bodyend="151"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="180" endline="182">csc440.nuf.Util.getSharedPreferences</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1ae827ff85c7a597b88b411a982eb41ad7" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="66">csc440.nuf.Util.CONNECTION_STATUS</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1acc59e40c430a78ba6bb0cc45bd616c2b" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="81">csc440.nuf.Util.DISCONNECTED</references>
+        <references refid="classcsc440_1_1nuf_1_1_action_bar_1aa8aa6584906e2aa28298c720006060db" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_action_bar_8java" startline="73" endline="75">csc440.nuf.ActionBar.setTitle</references>
+        <references refid="classcsc440_1_1nuf_1_1_action_bar_1af2b4df26aa6a8e02bc668d49abd82835" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_action_bar_8java" startline="55" endline="57">csc440.nuf.ActionBar.setHomeLogo</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab0e055a91a49439fa3a2ccca61a05657" compoundref="_scroll_item_manager_8java" startline="46" endline="48">csc440.nuf.ScrollItemManager.addItem</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a593cfa1b9eb3288297683b1a370015e1" compoundref="_scroll_item_manager_8java" startline="82" endline="84">csc440.nuf.ScrollItemManager.setTitle</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a1561fbe2466c1f47c901f3760ccbfa07" compoundref="_scroll_item_manager_8java" startline="73" endline="75">csc440.nuf.ScrollItemManager.setIcon</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a29b56004e0c6b27c4cf37abbe702b0e2" compoundref="_scroll_item_manager_8java" startline="77" endline="80">csc440.nuf.ScrollItemManager.setListener</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1accf1657de6b21643fc49d115e16b6118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.SMILActivity.onClick</definition>
+        <argsstring>(View v)</argsstring>
+        <name>onClick</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="154" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="154" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2f59a58a41923c67061ea32127bf4736" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.SMILActivity.onDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>onDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shuts down the activity. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="177" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2745735dd683f9051c5188c8492a8e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.SMILActivity.onCreateOptionsMenu</definition>
+        <argsstring>(Menu menu)</argsstring>
+        <name>onCreateOptionsMenu</name>
+        <param>
+          <type>Menu</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="183" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="183" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1afbe7e6e63db2e4c136f6666ec180558f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.SMILActivity.setHelloWorldScreenContent</definition>
+        <argsstring>()</argsstring>
+        <name>setHelloWorldScreenContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="192" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="192" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a63ea9d81c107560bacae11e67d206223" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.SMILActivity.setScreenContent</definition>
+        <argsstring>(int screenId)</argsstring>
+        <name>setScreenContent</name>
+        <param>
+          <type>int</type>
+          <declname>screenId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the screen content based on the screen id. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="239" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="239" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Main activity - requests &quot;Hello, World&quot; messages from the server and provides a menu item to invoke the accounts activity. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="425">
+        <label>Activity</label>
+      </node>
+      <node id="424">
+        <label>csc440.nuf.SMILActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+        <childnode refid="426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>OnClickListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="428">
+        <label>Activity</label>
+      </node>
+      <node id="427">
+        <label>csc440.nuf.SMILActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>OnClickListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" line="45" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/SMILActivity.java" bodystart="45" bodyend="247"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1aceda4600e0e538e919688909564c1fb1" prot="private" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>_actionBar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a1b94af27d89d7da3d0e3350dc23520ac" prot="private" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>items</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a96061c9e0eaae3c1a0b13e0a0670850a" prot="private" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>mContext</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1af33c25de004b30dfaa9bd829e4b4d373" prot="private" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>mUpdateUIReceiver</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1accf1657de6b21643fc49d115e16b6118" prot="public" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>onClick</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a47e09143aeb07746ff801ee691280413" prot="public" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>onCreate</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2745735dd683f9051c5188c8492a8e33" prot="public" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>onCreateOptionsMenu</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2f59a58a41923c67061ea32127bf4736" prot="public" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>onDestroy</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" prot="public" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>onResume</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1afbe7e6e63db2e4c136f6666ec180558f" prot="private" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>setHelloWorldScreenContent</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a63ea9d81c107560bacae11e67d206223" prot="private" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>setScreenContent</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1afc9c010c15f60bb13c9f46a4074b4b66" prot="private" virt="non-virtual"><scope>csc440::nuf::SMILActivity</scope><name>TAG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

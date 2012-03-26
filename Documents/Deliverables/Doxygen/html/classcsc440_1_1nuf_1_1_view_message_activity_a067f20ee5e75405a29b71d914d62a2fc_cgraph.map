@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1_view_message_activity.xhtml#a8b4905772a4092ef3bc0e21ed23d7ae1" title="csc440.nuf.ViewMessageActivity.onClick" alt="" coords="356,5,639,35"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1_view_message_activity.xhtml#af7da4ac74c5aeb46448c50fa8479e13a" title="csc440.nuf.ViewMessageActivity.playMessage" alt="" coords="696,31,1013,62"/>
+<area shape="rect" id="node8" href="$classcsc440_1_1nuf_1_1_action_bar.xhtml#aa8aa6584906e2aa28298c720006060db" title="csc440.nuf.ActionBar.setTitle" alt="" coords="392,111,603,142"/>
+<area shape="rect" id="node10" href="$classcsc440_1_1nuf_1_1_action_bar.xhtml#a05076cbc2ed528aef5c06b37e8469b1d" title="csc440.nuf.ActionBar.setHomeListener" alt="" coords="362,166,633,197"/>
+<area shape="rect" id="node12" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#ab0e055a91a49439fa3a2ccca61a05657" title="csc440.nuf.ScrollItemManager.addItem" alt="" coords="360,221,634,251"/>
+<area shape="rect" id="node14" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#a593cfa1b9eb3288297683b1a370015e1" title="csc440.nuf.ScrollItemManager.setTitle" alt="" coords="363,275,632,306"/>
+<area shape="rect" id="node16" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#a1561fbe2466c1f47c901f3760ccbfa07" title="csc440.nuf.ScrollItemManager.setIcon" alt="" coords="364,330,631,361"/>
+<area shape="rect" id="node18" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#a29b56004e0c6b27c4cf37abbe702b0e2" title="csc440.nuf.ScrollItemManager.setListener" alt="" coords="352,385,643,415"/>
+<area shape="rect" id="node20" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#ab04c896f513d8e83a03d34f26e8ebd65" title="csc440.nuf.ScrollItemManager.addToLinear" alt="" coords="347,439,648,470"/>
+<area shape="rect" id="node22" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#ad2ce97de474a3760d071b6dea3e2daf2" title="csc440.nuf.ScrollItemManager.addLine" alt="" coords="361,494,633,525"/>
+</map>

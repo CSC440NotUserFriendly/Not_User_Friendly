@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecsc440_1_1nuf_1_1shared" kind="namespace">
+    <compoundname>csc440::nuf::shared</compoundname>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy" prot="public">csc440::nuf::shared::MessageProxy</innerclass>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy" prot="public">csc440::nuf::shared::RegistrationInfoProxy</innerclass>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request" prot="public">csc440::nuf::shared::SMILEngineRequest</innerclass>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" prot="public">csc440::nuf::shared::SMILMessageProxy</innerclass>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_request_factory" prot="public">csc440::nuf::shared::SMILMessageRequestFactory</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/MessageProxy.java" line="15"/>
+  </compounddef>
+</doxygen>

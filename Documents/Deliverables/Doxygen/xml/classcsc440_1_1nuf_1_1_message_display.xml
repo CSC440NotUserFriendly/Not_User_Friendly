@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_message_display" kind="class" prot="public">
+    <compoundname>csc440::nuf::MessageDisplay</compoundname>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_message_display_1aed80fdad605f37d876a04b05951ad2fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.MessageDisplay.MessageDisplay</definition>
+        <argsstring>()</argsstring>
+        <name>MessageDisplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" line="30" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" bodystart="30" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_message_display_1adf7092394387e6226d21bfa80c15b28d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.MessageDisplay.displayMessage</definition>
+        <argsstring>(Context context, Intent intent)</argsstring>
+        <name>displayMessage</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Intent</type>
+          <declname>intent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" line="38" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" bodystart="38" bodyend="46"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1adbbee48d176f30c61d5819634d17b73a" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="113" endline="132">csc440.nuf.Util.generateNotification</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver_1a4fd8cbc3e17b49225e052b12547af03a" compoundref="_c2_d_m_receiver_8java" startline="77" endline="82">csc440.nuf.C2DMReceiver.onMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_message_display_1a1c3d06d9f65d7a7856b899c9f050d06b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void csc440.nuf.MessageDisplay.playNotificationSound</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>playNotificationSound</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" line="48" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" bodystart="48" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Display a message as a notification, with an accompanying sound. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/MessageDisplay.java" bodystart="28" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_message_display_1adf7092394387e6226d21bfa80c15b28d" prot="public" virt="non-virtual"><scope>csc440::nuf::MessageDisplay</scope><name>displayMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_message_display_1aed80fdad605f37d876a04b05951ad2fb" prot="private" virt="non-virtual"><scope>csc440::nuf::MessageDisplay</scope><name>MessageDisplay</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_message_display_1a1c3d06d9f65d7a7856b899c9f050d06b" prot="private" virt="non-virtual"><scope>csc440::nuf::MessageDisplay</scope><name>playNotificationSound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

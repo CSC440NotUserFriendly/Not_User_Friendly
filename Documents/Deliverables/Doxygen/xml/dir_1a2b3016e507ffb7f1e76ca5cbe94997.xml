@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_1a2b3016e507ffb7f1e76ca5cbe94997" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/</compoundname>
+    <innerfile refid="_data_store_8java">DataStore.java</innerfile>
+    <innerfile refid="_device_info_8java">DeviceInfo.java</innerfile>
+    <innerfile refid="_hello_world_service_8java">HelloWorldService.java</innerfile>
+    <innerfile refid="_message_8java">Message.java</innerfile>
+    <innerfile refid="_message_locator_8java">MessageLocator.java</innerfile>
+    <innerfile refid="_registration_info_8java">RegistrationInfo.java</innerfile>
+    <innerfile refid="_send_message_8java">SendMessage.java</innerfile>
+    <innerfile refid="_s_m_i_l_engine_service_8java">SMILEngineService.java</innerfile>
+    <innerfile refid="_s_m_i_l_engine_service_locator_8java">SMILEngineServiceLocator.java</innerfile>
+    <innerfile refid="_s_m_i_l_message_8java">SMILMessage.java</innerfile>
+    <innerfile refid="_s_m_i_l_message_locator_8java">SMILMessageLocator.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/"/>
+  </compounddef>
+</doxygen>

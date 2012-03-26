@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kind="class" prot="public">
+    <compoundname>csc440::nuf::server::SMILMessage</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a2b4bb02fb34249bbbf48864997b1fb79" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.sender</definition>
+        <argsstring></argsstring>
+        <name>sender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="19" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a8f26ecb5a3548409fbb026423d573ed9" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.recipient</definition>
+        <argsstring></argsstring>
+        <name>recipient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a6d908ff5bcba4908d4678f01c269cadc" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.senderEmail</definition>
+        <argsstring></argsstring>
+        <name>senderEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="21" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a03f9d4bc6a7272dbb914c8ff7ea7111f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.recipientEmail</definition>
+        <argsstring></argsstring>
+        <name>recipientEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="22" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a845f6828b30a8a02dcff4e5bd7f97489" prot="private" static="no" mutable="no">
+        <type>File</type>
+        <definition>File csc440.nuf.server.SMILMessage.SMILFile</definition>
+        <argsstring></argsstring>
+        <name>SMILFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1aeaa69be4d09796d001469c54321f4fa0" prot="private" static="no" mutable="no">
+        <type>Long</type>
+        <definition>Long csc440.nuf.server.SMILMessage.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af1d70e5d15f2bfe64144c4c6c11b6d2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.server.SMILMessage.SMILMessage</definition>
+        <argsstring>(File file, String sender, String recipient, String senderEmail, String recipientEmail)</argsstring>
+        <name>SMILMessage</name>
+        <param>
+          <type>File</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>recipient</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>senderEmail</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>recipientEmail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="30" bodyend="39"/>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a918480c6eea346cccc1b9ac3f2f46713" compoundref="_s_m_i_l_message_8java" startline="77" endline="79">csc440.nuf.server.SMILMessage.setSender</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ab41e6a3de45845f04ec95588eefb6c23" compoundref="_s_m_i_l_message_8java" startline="85" endline="87">csc440.nuf.server.SMILMessage.setRecipient</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1acc420f2ba04adbacaf4f601a52aaedda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.getSenderEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getSenderEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a839f38b917f400f15cc39046b99d7ec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.SMILMessage.setSenderEmail</definition>
+        <argsstring>(String senderEmail)</argsstring>
+        <name>setSenderEmail</name>
+        <param>
+          <type>String</type>
+          <declname>senderEmail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="45" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="45" bodyend="47"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ab66ed1adeb1a5ee0ce37bf5404909e11" compoundref="_data_store_8java" startline="91" endline="103">csc440.nuf.server.DataStore.update</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a2c28cf08855cb6e77d5b774321f245d0" compoundref="_s_m_i_l_engine_service_8java" startline="29" endline="34">csc440.nuf.server.SMILEngineService.updateSMILMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ac2f789260ce6f5adad7e3db119c5e7c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.getRecipientEmail</definition>
+        <argsstring>()</argsstring>
+        <name>getRecipientEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a04d79c49862dd1cde96912887d427b6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.SMILMessage.setRecipientEmail</definition>
+        <argsstring>(String recipientEmail)</argsstring>
+        <name>setRecipientEmail</name>
+        <param>
+          <type>String</type>
+          <declname>recipientEmail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="53" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a6288c6662d5ca2c83e64655a5035c86f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>File</type>
+        <definition>File csc440.nuf.server.SMILMessage.getSMILFile</definition>
+        <argsstring>()</argsstring>
+        <name>getSMILFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="57" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af7f723cd1bac6a7298a2d1f6f9cd9600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.SMILMessage.setSMILFile</definition>
+        <argsstring>(File sMILFile)</argsstring>
+        <name>setSMILFile</name>
+        <param>
+          <type>File</type>
+          <declname>sMILFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="61" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a3244ff730fcc1e2935e268358d0c507d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Long</type>
+        <definition>Long csc440.nuf.server.SMILMessage.getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="65" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="65" bodyend="67"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a2c28cf08855cb6e77d5b774321f245d0" compoundref="_s_m_i_l_engine_service_8java" startline="29" endline="34">csc440.nuf.server.SMILEngineService.updateSMILMessage</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1ab19512b37c29e2b7a222a9a34b7e5077" compoundref="_s_m_i_l_engine_service_8java" startline="36" endline="38">csc440.nuf.server.SMILEngineService.deleteSMILMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ae0bf6116cba42238cf2ddd705222021c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.SMILMessage.setId</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="69" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="69" bodyend="71"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ab66ed1adeb1a5ee0ce37bf5404909e11" compoundref="_data_store_8java" startline="91" endline="103">csc440.nuf.server.DataStore.update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a9a0d3c988da6a99e6b5835f97c93842b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.getSender</definition>
+        <argsstring>()</argsstring>
+        <name>getSender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="73" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a918480c6eea346cccc1b9ac3f2f46713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.SMILMessage.setSender</definition>
+        <argsstring>(String sender)</argsstring>
+        <name>setSender</name>
+        <param>
+          <type>String</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="77" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="77" bodyend="79"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af1d70e5d15f2bfe64144c4c6c11b6d2f" compoundref="_s_m_i_l_message_8java" startline="30" endline="39">csc440.nuf.server.SMILMessage.SMILMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ab5695cbd1178caab9f7cce13bedf8688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.server.SMILMessage.getRecipient</definition>
+        <argsstring>()</argsstring>
+        <name>getRecipient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="81" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ab41e6a3de45845f04ec95588eefb6c23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.SMILMessage.setRecipient</definition>
+        <argsstring>(String recipient)</argsstring>
+        <name>setRecipient</name>
+        <param>
+          <type>String</type>
+          <declname>recipient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="85" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="85" bodyend="87"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af1d70e5d15f2bfe64144c4c6c11b6d2f" compoundref="_s_m_i_l_message_8java" startline="30" endline="39">csc440.nuf.server.SMILMessage.SMILMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" line="17" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILMessage.java" bodystart="17" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a3244ff730fcc1e2935e268358d0c507d" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>getId</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ab5695cbd1178caab9f7cce13bedf8688" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>getRecipient</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ac2f789260ce6f5adad7e3db119c5e7c0" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>getRecipientEmail</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a9a0d3c988da6a99e6b5835f97c93842b" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>getSender</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1acc420f2ba04adbacaf4f601a52aaedda" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>getSenderEmail</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a6288c6662d5ca2c83e64655a5035c86f" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>getSMILFile</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1aeaa69be4d09796d001469c54321f4fa0" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>id</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a8f26ecb5a3548409fbb026423d573ed9" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>recipient</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a03f9d4bc6a7272dbb914c8ff7ea7111f" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>recipientEmail</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a2b4bb02fb34249bbbf48864997b1fb79" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>sender</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a6d908ff5bcba4908d4678f01c269cadc" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>senderEmail</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ae0bf6116cba42238cf2ddd705222021c" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>setId</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1ab41e6a3de45845f04ec95588eefb6c23" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>setRecipient</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a04d79c49862dd1cde96912887d427b6d" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>setRecipientEmail</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a918480c6eea346cccc1b9ac3f2f46713" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>setSender</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a839f38b917f400f15cc39046b99d7ec6" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>setSenderEmail</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af7f723cd1bac6a7298a2d1f6f9cd9600" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>setSMILFile</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a845f6828b30a8a02dcff4e5bd7f97489" prot="private" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>SMILFile</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1af1d70e5d15f2bfe64144c4c6c11b6d2f" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILMessage</scope><name>SMILMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

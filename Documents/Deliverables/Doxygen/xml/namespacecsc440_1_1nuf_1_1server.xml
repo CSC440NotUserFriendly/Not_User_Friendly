@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecsc440_1_1nuf_1_1server" kind="namespace">
+    <compoundname>csc440::nuf::server</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_data_store" prot="public">csc440::nuf::server::DataStore</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_device_info" prot="public">csc440::nuf::server::DeviceInfo</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_hello_world_service" prot="public">csc440::nuf::server::HelloWorldService</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_message" prot="public">csc440::nuf::server::Message</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_message_locator" prot="public">csc440::nuf::server::MessageLocator</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_registration_info" prot="public">csc440::nuf::server::RegistrationInfo</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_send_message" prot="public">csc440::nuf::server::SendMessage</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service" prot="public">csc440::nuf::server::SMILEngineService</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator" prot="public">csc440::nuf::server::SMILEngineServiceLocator</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" prot="public">csc440::nuf::server::SMILMessage</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_locator" prot="public">csc440::nuf::server::SMILMessageLocator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/DataStore.java" line="1"/>
+  </compounddef>
+</doxygen>

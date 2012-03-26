@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_d790839254e0638e832a2b0eb2400628" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/</compoundname>
+    <innerdir refid="dir_b5a9a3a443fb92bb4e0b40d5125b9c49">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/</innerdir>
+    <innerdir refid="dir_a5b09e70917f50f9e2c184ea9bc81746">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/</innerdir>
+    <innerdir refid="dir_30de2c6417e30f51598f247f7b4ec5af">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/"/>
+  </compounddef>
+</doxygen>
