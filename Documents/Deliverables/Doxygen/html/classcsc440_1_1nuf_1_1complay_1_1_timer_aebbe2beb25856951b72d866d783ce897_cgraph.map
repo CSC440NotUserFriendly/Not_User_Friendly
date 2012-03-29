@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1complay_1_1_on_screen.xhtml#a33feeb951e6558b0f50251e713a5a230" title="csc440.nuf.complay.OnScreen.Q" alt="" coords="339,5,570,35"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a6c333b08908191e022f23b68989c263a" title="csc440.nuf.complay.Q.isEmpty" alt="" coords="344,59,565,90"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a1909fe89eabfc73398d99c7dc4c9b946" title="csc440.nuf.complay.Q.peek" alt="" coords="354,114,555,145"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1complay_1_1_off_screen.xhtml#ab94d06e82ef902255257e6ca5b635a56" title="csc440.nuf.complay.OffScreen.Q" alt="" coords="339,169,571,199"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#aaa9e1371272a3d71932a7b753155741b" title="csc440.nuf.complay.Q.push" alt="" coords="354,223,555,254"/>
+<area shape="rect" id="node13" href="$classcsc440_1_1nuf_1_1complay_1_1_waiting.xhtml#aaa8d6d536f680a183de75424e4d95627" title="csc440.nuf.complay.Waiting.Q" alt="" coords="346,278,564,309"/>
+<area shape="rect" id="node15" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#af768e2d386701d7d3ee1078e08a21422" title="csc440.nuf.complay.Q.pop" alt="" coords="357,333,552,363"/>
+<area shape="rect" id="node17" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#aa873b2a8f7d338e917b5db7af678a55d" title="csc440.nuf.complay.Q.sortByEndTimeASC" alt="" coords="309,387,600,418"/>
+<area shape="rect" id="node19" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a935d3fbb201ad281bfc122c616335413" title="csc440.nuf.complay.Q.sortByStartTimeDESC" alt="" coords="302,442,607,473"/>
+</map>

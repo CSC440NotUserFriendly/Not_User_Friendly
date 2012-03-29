@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_accounts_activity" kind="class" prot="public">
+    <compoundname>csc440::nuf::AccountsActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_accounts_activity_1a0b7b6cae0bfdbfdb0b003ad6a3fbf532" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.AccountsActivity.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>&quot;AccountsActivity&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tag for logging. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="64" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_accounts_activity_1a871ffcec4ab3ab732767784c46454be2" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.AccountsActivity.AUTH_COOKIE_NAME</definition>
+        <argsstring></argsstring>
+        <name>AUTH_COOKIE_NAME</name>
+        <initializer>&quot;SACSID&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cookie name for authorization. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="69" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_accounts_activity_1a1f86c260a8c39acfe8b850707f125c81" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.AccountsActivity.mAccountSelectedPosition</definition>
+        <argsstring></argsstring>
+        <name>mAccountSelectedPosition</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The selected position in the ListView of accounts. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="74" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_accounts_activity_1a0ee9589db9a5913c979475a56e6f2062" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.AccountsActivity.mPendingAuth</definition>
+        <argsstring></argsstring>
+        <name>mPendingAuth</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True if we are waiting for App Engine authorization. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="79" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_accounts_activity_1adcfb8545cf2999ddc2bae3c4272d4abf" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context csc440.nuf.AccountsActivity.mContext</definition>
+        <argsstring></argsstring>
+        <name>mContext</name>
+        <initializer> this</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The current context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="84" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1a4404f0bf65d48a9e30301527d1150c57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AccountsActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Begins the activity. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="90" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="90" bodyend="102"/>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a048158fe7160473100aaae303ef393e4" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="180" endline="182">csc440.nuf.Util.getSharedPreferences</references>
+        <references refid="classcsc440_1_1nuf_1_1_util_1a19e590891af91bcb18ce096826a637d9" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_util_8java" startline="86">csc440.nuf.Util.DEVICE_REGISTRATION_ID</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1a172796bda215011c1ef3b983e9555cfb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AccountsActivity.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resumes the activity. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="108" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="108" bodyend="119"/>
+        <references refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</references>
+        <references refid="classcsc440_1_1nuf_1_1_setup_1a7a399cf5d77d0ea94c0cc2a091fc7c7d" compoundref="_setup_8java" startline="38">csc440.nuf.Setup.SENDER_ID</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1a14330003a2d410ba148d8ac0f16b4378" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AccountsActivity.setConnectScreenContent</definition>
+        <argsstring>()</argsstring>
+        <name>setConnectScreenContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets up the &apos;connect&apos; screen content. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="126" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="126" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1a5c17ce6ca7003c81a32aae463e05d81b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AccountsActivity.setDisconnectScreenContent</definition>
+        <argsstring>()</argsstring>
+        <name>setDisconnectScreenContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets up the &apos;disconnected&apos; screen. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="171" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="171" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1ae2f8f731f389f87d713c47fcbef6c389" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AccountsActivity.setScreenContent</definition>
+        <argsstring>(int screenId)</argsstring>
+        <name>setScreenContent</name>
+        <param>
+          <type>int</type>
+          <declname>screenId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the screen content based on the screen id. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="195" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="195" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1aa1a43cb96816d38e5ab8098d0cb2d78b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.AccountsActivity.register</definition>
+        <argsstring>(final String accountName)</argsstring>
+        <name>register</name>
+        <param>
+          <type>final String</type>
+          <declname>accountName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers for C2DM messaging with the given account name.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>accountName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a String containing a Google account name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="214" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="214" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1a6f98652e63d82c75f0258d1cb6fb3770" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.AccountsActivity.getAuthToken</definition>
+        <argsstring>(AccountManagerFuture&lt; Bundle &gt; future)</argsstring>
+        <name>getAuthToken</name>
+        <param>
+          <type>AccountManagerFuture&lt; Bundle &gt;</type>
+          <declname>future</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="266" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="266" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1a11d294dfac4d1389c7a80b2523d9768b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.AccountsActivity.getAuthCookie</definition>
+        <argsstring>(String authToken)</argsstring>
+        <name>getAuthCookie</name>
+        <param>
+          <type>String</type>
+          <declname>authToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the authorization cookie associated with the given token. This method should only be used when running against a production appengine backend (as opposed to a dev mode server). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="284" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="284" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_accounts_activity_1adbad4dc0742195c2534c3b182e3bb71b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; csc440.nuf.AccountsActivity.getGoogleAccounts</definition>
+        <argsstring>()</argsstring>
+        <name>getGoogleAccounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a list of registered Google account names. If no Google accounts are registered on the device, a zero-length list is returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="319" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="319" bodyend="329"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Account selections activity - handles device registration and unregistration. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="256">
+        <label>Activity</label>
+      </node>
+      <node id="255">
+        <label>csc440.nuf.AccountsActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1_accounts_activity"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="258">
+        <label>Activity</label>
+      </node>
+      <node id="257">
+        <label>csc440.nuf.AccountsActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1_accounts_activity"/>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" line="59" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/AccountsActivity.java" bodystart="59" bodyend="330"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a871ffcec4ab3ab732767784c46454be2" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>AUTH_COOKIE_NAME</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a11d294dfac4d1389c7a80b2523d9768b" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>getAuthCookie</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a6f98652e63d82c75f0258d1cb6fb3770" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>getAuthToken</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1adbad4dc0742195c2534c3b182e3bb71b" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>getGoogleAccounts</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a1f86c260a8c39acfe8b850707f125c81" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>mAccountSelectedPosition</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1adcfb8545cf2999ddc2bae3c4272d4abf" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>mContext</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a0ee9589db9a5913c979475a56e6f2062" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>mPendingAuth</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a4404f0bf65d48a9e30301527d1150c57" prot="public" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>onCreate</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a172796bda215011c1ef3b983e9555cfb" prot="protected" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>onResume</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1aa1a43cb96816d38e5ab8098d0cb2d78b" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>register</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a14330003a2d410ba148d8ac0f16b4378" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>setConnectScreenContent</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a5c17ce6ca7003c81a32aae463e05d81b" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>setDisconnectScreenContent</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1ae2f8f731f389f87d713c47fcbef6c389" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>setScreenContent</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_accounts_activity_1a0b7b6cae0bfdbfdb0b003ad6a3fbf532" prot="private" virt="non-virtual"><scope>csc440::nuf::AccountsActivity</scope><name>TAG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

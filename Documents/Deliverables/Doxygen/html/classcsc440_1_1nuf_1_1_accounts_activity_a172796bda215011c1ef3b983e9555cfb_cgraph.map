@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1_device_registrar.xhtml#a588aba958edca877d7f3f995d8854dbd" title="csc440.nuf.DeviceRegistrar.registerOrUnregister" alt="" coords="331,114,666,145"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1_util.xhtml#a048158fe7160473100aaae303ef393e4" title="csc440.nuf.Util.getSharedPreferences" alt="" coords="825,5,1087,35"/>
+<area shape="rect" id="node7" href="$interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy.xhtml#adfd37626741163e3b5b1e815af150e23" title="csc440.nuf.shared.RegistrationInfoProxy.setDeviceRegistrationId" alt="" coords="736,59,1176,90"/>
+<area shape="rect" id="node9" href="$interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy.xhtml#a3d96be9a03c6aa4547a680419561baff" title="csc440.nuf.shared.RegistrationInfoProxy.setDeviceId" alt="" coords="775,114,1137,145"/>
+<area shape="rect" id="node11" href="$interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request.xhtml#a675270c3171bd35749e7552fa4e93546" title="csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest.register" alt="" coords="723,169,1189,199"/>
+<area shape="rect" id="node13" href="$interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request.xhtml#a2135c9d95519fc4923751338733456de" title="csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest.unregister" alt="" coords="714,223,1198,254"/>
+</map>

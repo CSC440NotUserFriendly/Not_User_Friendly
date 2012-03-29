@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="_product_servlet_8java" kind="file">
+    <compoundname>ProductServlet.java</compoundname>
+    <innerclass refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet" prot="public">com::google::appengine::codelab::ProductServlet</innerclass>
+    <innernamespace refid="namespacecom_1_1google_1_1appengine_1_1codelab">com::google::appengine::codelab</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="16"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.google.appengine.codelab;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.io.IOException;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.io.PrintWriter;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.HashSet;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Set;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.logging.Level;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.logging.Logger;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.servlet.ServletException;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.servlet.http.HttpServletRequest;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.servlet.http.HttpServletResponse;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.google.appengine.api.datastore.Entity;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.google.appengine.codelab.Util;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">@SuppressWarnings(</highlight><highlight class="stringliteral">&quot;serial&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38" refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet" refkind="compound"><highlight class="normal">public<sp/>class<sp/><ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet" kindref="compound">ProductServlet</ref><sp/>extends<sp/><ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet" kindref="compound">BaseServlet</ref><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Logger<sp/>logger<sp/>=<sp/>Logger.getLogger(<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet" kindref="compound">ProductServlet</ref>.class.getCanonicalName());</highlight></codeline>
+<codeline lineno="45" refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a7c57929d447f8ee5c296d57be19d1727" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doGet(HttpServletRequest<sp/>req,<sp/>HttpServletResponse<sp/>resp)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>ServletException,<sp/>IOException<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet_1abb34ecfcd902fafc62944237f49283b9" kindref="member">doGet</ref>(req,<sp/>resp);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>logger.log(Level.INFO,<sp/></highlight><highlight class="stringliteral">&quot;Obtaining<sp/>product<sp/>listing&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>searchFor<sp/>=<sp/>req.getParameter(</highlight><highlight class="stringliteral">&quot;q&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>PrintWriter<sp/>out<sp/>=<sp/>resp.getWriter();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>Iterable&lt;Entity&gt;<sp/>entities<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(searchFor<sp/>==<sp/>null<sp/>||<sp/>searchFor.equals(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>||<sp/>searchFor<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>entities<sp/>=<sp/><ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product" kindref="compound">Product</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a4fb28dec3d7ae43c47581ecadb62012b" kindref="member">getAllProducts</ref>(</highlight><highlight class="stringliteral">&quot;Product&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>out.println(<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util" kindref="compound">Util</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a87d0f3bedf24d631c476ca62d10fb8d9" kindref="member">writeJSON</ref>(entities));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Entity<sp/>product<sp/>=<sp/><ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product" kindref="compound">Product</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a8281f8c29702347f39fcb651db5e073f" kindref="member">getProduct</ref>(searchFor);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(product<sp/>!=<sp/>null)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Set&lt;Entity&gt;<sp/>result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>HashSet&lt;Entity&gt;();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.add(product);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out.println(<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util" kindref="compound">Util</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a87d0f3bedf24d631c476ca62d10fb8d9" kindref="member">writeJSON</ref>(result));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a3cbc6cfe522686a474dade9a58b3d1a3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doPut(HttpServletRequest<sp/>req,<sp/>HttpServletResponse<sp/>resp)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>ServletException,<sp/>IOException<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>logger.log(Level.INFO,<sp/></highlight><highlight class="stringliteral">&quot;Creating<sp/>Product&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>PrintWriter<sp/>out<sp/>=<sp/>resp.getWriter();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>category<sp/>=<sp/>req.getParameter(</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>description<sp/>=<sp/>req.getParameter(</highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product" kindref="compound">Product</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1a0ad4aec15554c898684fcd6ea8d9ef10" kindref="member">createOrUpdateProduct</ref>(category,<sp/>description);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(Exception<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>msg<sp/>=<sp/><ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util" kindref="compound">Util</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a0d7e9492450f9aaaaf6b8b4e8a9d7890" kindref="member">getErrorMessage</ref>(e);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>out.print(msg);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a772fa15f8adf07619e0e71e58488f198" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doDelete(HttpServletRequest<sp/>req,<sp/>HttpServletResponse<sp/>resp)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>ServletException,<sp/>IOException<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>productkey<sp/>=<sp/>req.getParameter(</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>PrintWriter<sp/>out<sp/>=<sp/>resp.getWriter();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out.println(<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product" kindref="compound">Product</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_1addc5d2e4ec78d1eef631ffc4cdf268a1" kindref="member">deleteProduct</ref>(productkey));</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(Exception<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out.println(<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util" kindref="compound">Util</ref>.<ref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a0d7e9492450f9aaaaf6b8b4e8a9d7890" kindref="member">getErrorMessage</ref>(e));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet_1a851ac4b307d376fe7985f5ad46e07cf7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doPost(HttpServletRequest<sp/>req,<sp/>HttpServletResponse<sp/>resp)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>ServletException,<sp/>IOException<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>action<sp/>=<sp/>req.getParameter(</highlight><highlight class="stringliteral">&quot;action&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(action.equalsIgnoreCase(</highlight><highlight class="stringliteral">&quot;delete&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>doDelete(req,<sp/>resp);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(action.equalsIgnoreCase(</highlight><highlight class="stringliteral">&quot;put&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>doPut(req,<sp/>resp);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ProductServlet.java"/>
+  </compounddef>
+</doxygen>

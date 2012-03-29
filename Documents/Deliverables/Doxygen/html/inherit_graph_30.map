@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object.xhtml" title="csc440.nuf.components.AbstractSMILObject" alt="" coords="5,142,312,173"/>
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_audio.xhtml" title="csc440.nuf.components.SMILAudio" alt="" coords="374,5,623,35"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_image.xhtml" title="csc440.nuf.components.SMILImage" alt="" coords="374,59,624,90"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_parallel.xhtml" title="csc440.nuf.components.SMILParallel" alt="" coords="370,114,627,145"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_sequential.xhtml" title="csc440.nuf.components.SMILSequential" alt="" coords="360,169,637,199"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text.xhtml" title="csc440.nuf.components.SMILText" alt="" coords="379,223,618,254"/>
+<area shape="rect" id="node13" href="$classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_video.xhtml" title="csc440.nuf.components.SMILVideo" alt="" coords="375,278,622,309"/>
+</map>

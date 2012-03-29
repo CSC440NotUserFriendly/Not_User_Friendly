@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1cache_1_1_s_m_i_l_cache_object" kind="class" prot="public">
+    <compoundname>csc440::nuf::cache::SMILCacheObject</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 02-18-2011 <ref refid="_s_m_i_l_cache_object_8java" kindref="compound">SMILCacheObject.java</ref> <simplesect kind="author"><para>Alex Gilbert</para></simplesect>
+This needs to be changed as well, I&apos;m thinking the cache needs to be in the shared package. </para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/cache/SMILCacheObject.java" line="19" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/cache/SMILCacheObject.java" bodystart="19" bodyend="64"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_687b8e8fb0383708f9616f37bfee9ba1" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/</compoundname>
+    <innerdir refid="dir_85352d8cdb9fd2541270251580a87015">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/actionbar/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-lib-v1/src/com/thira/examples/"/>
+  </compounddef>
+</doxygen>

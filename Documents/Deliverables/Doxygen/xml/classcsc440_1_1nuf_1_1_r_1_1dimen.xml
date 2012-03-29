@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_r_1_1dimen" kind="class" prot="public">
+    <compoundname>csc440::nuf::R::dimen</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1dimen_1ad77c97019da46c5b4847af58436ab02b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.dimen.actionbar_corner_radius</definition>
+        <argsstring></argsstring>
+        <name>actionbar_corner_radius</name>
+        <initializer>0x7f050001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="29" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1dimen_1a41b553e08fabd9beb2ad6f1f0468e04c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.dimen.actionbar_height</definition>
+        <argsstring></argsstring>
+        <name>actionbar_height</name>
+        <initializer>0x7f050000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="30" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1dimen_1af158487c01f9d20f8f51cb3e21167dbf" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.dimen.padding_small</definition>
+        <argsstring></argsstring>
+        <name>padding_small</name>
+        <initializer>0x7f050005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1dimen_1a3f2d6afa67eedeec7fc5151d08b75e56" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.dimen.scroll_padding</definition>
+        <argsstring></argsstring>
+        <name>scroll_padding</name>
+        <initializer>0x7f050004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1dimen_1a81643c92652f00a2a67e246e3f41074e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.dimen.scrollitem_padding</definition>
+        <argsstring></argsstring>
+        <name>scrollitem_padding</name>
+        <initializer>0x7f050003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_r_1_1dimen_1a762a9fb3f2ecbdbc0013fa950f641194" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.R.dimen.scrollitem_radius</definition>
+        <argsstring></argsstring>
+        <name>scrollitem_radius</name>
+        <initializer>0x7f050002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="34" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="28" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1ad77c97019da46c5b4847af58436ab02b" prot="public" virt="non-virtual"><scope>csc440::nuf::R::dimen</scope><name>actionbar_corner_radius</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a41b553e08fabd9beb2ad6f1f0468e04c" prot="public" virt="non-virtual"><scope>csc440::nuf::R::dimen</scope><name>actionbar_height</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1af158487c01f9d20f8f51cb3e21167dbf" prot="public" virt="non-virtual"><scope>csc440::nuf::R::dimen</scope><name>padding_small</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a3f2d6afa67eedeec7fc5151d08b75e56" prot="public" virt="non-virtual"><scope>csc440::nuf::R::dimen</scope><name>scroll_padding</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a81643c92652f00a2a67e246e3f41074e" prot="public" virt="non-virtual"><scope>csc440::nuf::R::dimen</scope><name>scrollitem_padding</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_r_1_1dimen_1a762a9fb3f2ecbdbc0013fa950f641194" prot="public" virt="non-virtual"><scope>csc440::nuf::R::dimen</scope><name>scrollitem_radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

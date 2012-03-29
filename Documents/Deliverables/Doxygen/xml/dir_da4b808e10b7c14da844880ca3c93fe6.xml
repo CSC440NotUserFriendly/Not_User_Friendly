@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_da4b808e10b7c14da844880ca3c93fe6" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/</compoundname>
+    <innerfile refid="_abstract_s_m_i_l_object_8java">AbstractSMILObject.java</innerfile>
+    <innerfile refid="_s_m_i_l_audio_8java">SMILAudio.java</innerfile>
+    <innerfile refid="_s_m_i_l_image_8java">SMILImage.java</innerfile>
+    <innerfile refid="_s_m_i_l_layout_8java">SMILLayout.java</innerfile>
+    <innerfile refid="_s_m_i_l_parallel_8java">SMILParallel.java</innerfile>
+    <innerfile refid="_s_m_i_l_sequential_8java">SMILSequential.java</innerfile>
+    <innerfile refid="_s_m_i_l_text_8java">SMILText.java</innerfile>
+    <innerfile refid="_s_m_i_l_video_8java">SMILVideo.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecsc440_1_1nuf_1_1client" kind="namespace">
+    <compoundname>csc440::nuf::client</compoundname>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory" prot="public">csc440::nuf::client::MyRequestFactory</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l" prot="public">csc440::nuf::client::SMIL</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget" prot="public">csc440::nuf::client::SMILWidget</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="15"/>
+  </compounddef>
+</doxygen>

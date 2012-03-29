@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_manifest_1_1permission" kind="class" prot="public">
+    <compoundname>csc440::nuf::Manifest::permission</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_manifest_1_1permission_1a0d9714f3d838e40b9b69471ef0198311" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.Manifest.permission.C2D_MESSAGE</definition>
+        <argsstring></argsstring>
+        <name>C2D_MESSAGE</name>
+        <initializer>&quot;csc440.nuf.permission.C2D_MESSAGE&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only this application can receive the messages and registration result </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/Manifest.java" line="14" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/Manifest.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/Manifest.java" line="11" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/Manifest.java" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_manifest_1_1permission_1a0d9714f3d838e40b9b69471ef0198311" prot="public" virt="non-virtual"><scope>csc440::nuf::Manifest::permission</scope><name>C2D_MESSAGE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

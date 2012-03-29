@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1_util.xhtml#a048158fe7160473100aaae303ef393e4" title="csc440.nuf.Util.getSharedPreferences" alt="" coords="314,5,577,35"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1_action_bar.xhtml#aa8aa6584906e2aa28298c720006060db" title="csc440.nuf.ActionBar.setTitle" alt="" coords="340,59,551,90"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1_action_bar.xhtml#af2b4df26aa6a8e02bc668d49abd82835" title="csc440.nuf.ActionBar.setHomeLogo" alt="" coords="319,114,571,145"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#ab0e055a91a49439fa3a2ccca61a05657" title="csc440.nuf.ScrollItemManager.addItem" alt="" coords="308,169,582,199"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#a593cfa1b9eb3288297683b1a370015e1" title="csc440.nuf.ScrollItemManager.setTitle" alt="" coords="311,223,580,254"/>
+<area shape="rect" id="node13" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#a1561fbe2466c1f47c901f3760ccbfa07" title="csc440.nuf.ScrollItemManager.setIcon" alt="" coords="312,278,579,309"/>
+<area shape="rect" id="node15" href="$classcsc440_1_1nuf_1_1_scroll_item_manager.xhtml#a29b56004e0c6b27c4cf37abbe702b0e2" title="csc440.nuf.ScrollItemManager.setListener" alt="" coords="300,333,591,363"/>
+</map>

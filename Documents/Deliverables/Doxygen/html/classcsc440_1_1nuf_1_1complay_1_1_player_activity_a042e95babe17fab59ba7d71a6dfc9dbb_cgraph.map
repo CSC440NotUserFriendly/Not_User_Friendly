@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#aa3331f58e6bf08d6ccd6f324607738d8" title="csc440.nuf.complay.PlayerActivity.playPause" alt="" coords="440,169,749,199"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1complay_1_1_player_canvas.xhtml#a64eae2e9ed26456ab5b104436c97d78f" title="csc440.nuf.complay.PlayerCanvas.setTime" alt="" coords="447,223,742,254"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1complay_1_1_timer.xhtml#aebbe2beb25856951b72d866d783ce897" title="csc440.nuf.complay.Timer.setTime" alt="" coords="797,223,1046,254"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1complay_1_1_on_screen.xhtml#a33feeb951e6558b0f50251e713a5a230" title="csc440.nuf.complay.OnScreen.Q" alt="" coords="1131,5,1362,35"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a6c333b08908191e022f23b68989c263a" title="csc440.nuf.complay.Q.isEmpty" alt="" coords="1136,59,1357,90"/>
+<area shape="rect" id="node13" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a1909fe89eabfc73398d99c7dc4c9b946" title="csc440.nuf.complay.Q.peek" alt="" coords="1146,114,1347,145"/>
+<area shape="rect" id="node15" href="$classcsc440_1_1nuf_1_1complay_1_1_off_screen.xhtml#ab94d06e82ef902255257e6ca5b635a56" title="csc440.nuf.complay.OffScreen.Q" alt="" coords="1131,169,1363,199"/>
+<area shape="rect" id="node17" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#aaa9e1371272a3d71932a7b753155741b" title="csc440.nuf.complay.Q.push" alt="" coords="1146,223,1347,254"/>
+<area shape="rect" id="node19" href="$classcsc440_1_1nuf_1_1complay_1_1_waiting.xhtml#aaa8d6d536f680a183de75424e4d95627" title="csc440.nuf.complay.Waiting.Q" alt="" coords="1138,278,1356,309"/>
+<area shape="rect" id="node21" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#af768e2d386701d7d3ee1078e08a21422" title="csc440.nuf.complay.Q.pop" alt="" coords="1149,333,1344,363"/>
+<area shape="rect" id="node23" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#aa873b2a8f7d338e917b5db7af678a55d" title="csc440.nuf.complay.Q.sortByEndTimeASC" alt="" coords="1101,387,1392,418"/>
+<area shape="rect" id="node25" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a935d3fbb201ad281bfc122c616335413" title="csc440.nuf.complay.Q.sortByStartTimeDESC" alt="" coords="1094,442,1399,473"/>
+</map>

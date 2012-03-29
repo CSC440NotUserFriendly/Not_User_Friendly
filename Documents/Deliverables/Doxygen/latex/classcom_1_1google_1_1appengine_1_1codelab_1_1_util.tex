@@ -1,0 +1,309 @@
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util}{\section{com.\-google.\-appengine.\-codelab.\-Util Class Reference}
+\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util}\index{com.\-google.\-appengine.\-codelab.\-Util@{com.\-google.\-appengine.\-codelab.\-Util}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a95f645b216766041423363dd06815dc7}{persist\-Entity} (Entity entity)
+\item 
+static void \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a04a02f078a3bd61f4bb36b48b4580c58}{delete\-Entity} (Key key)
+\item 
+static void \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_ad219fba4ce05c825c31252a07a987f20}{delete\-Entity} (final List$<$ Key $>$ keys)
+\item 
+static Entity \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a14548b6d0d079225ae5f6596542a1c0f}{find\-Entity} (Key key)
+\item 
+static Iterable$<$ Entity $>$ \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a450bc0facf36bb5525b4f66a18be74cd}{list\-Entities} (String kind, String search\-By, String search\-For)
+\item 
+static Iterable$<$ Entity $>$ \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a7a9f221fa79d46f397b81e06820beb03}{list\-Children} (String kind, Key ancestor)
+\item 
+static Iterable$<$ Entity $>$ \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a3aa977c9e242b761d98ef6bcd9b55793}{list\-Child\-Keys} (String kind, Key ancestor)
+\item 
+static String \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a87d0f3bedf24d631c476ca62d10fb8d9}{write\-J\-S\-O\-N} (Iterable$<$ Entity $>$ entities)
+\item 
+static String \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a1166a7fd8ba0cbbd491a3aa68556bf1d}{write\-J\-S\-O\-N} (Iterable$<$ Entity $>$ entities, String child\-Kind, String fk\-Name)
+\item 
+static String \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a0d7e9492450f9aaaaf6b8b4e8a9d7890}{get\-Error\-Message} (Exception ex)  throws I\-O\-Exception
+\item 
+static Datastore\-Service \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a097d93268afc438617bd7e13f0f0f5e7}{get\-Datastore\-Service\-Instance} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the utility class for all servlets. It provides method for inserting, deleting, searching the entity from data store. Also contains method for displaying the entity in J\-S\-O\-N format. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a04a02f078a3bd61f4bb36b48b4580c58}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!delete\-Entity@{delete\-Entity}}
+\index{delete\-Entity@{delete\-Entity}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{delete\-Entity}]{\setlength{\rightskip}{0pt plus 5cm}static void {\bf com.\-google.\-appengine.\-codelab.\-Util.\-delete\-Entity} (
+\begin{DoxyParamCaption}
+\item[{Key}]{key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a04a02f078a3bd61f4bb36b48b4580c58}
+Delete the entity from persistent store represented by the key 
+\begin{DoxyParams}{Parameters}
+{\em key} & \-: key to delete the entity from the persistent store \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a04a02f078a3bd61f4bb36b48b4580c58_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_ad219fba4ce05c825c31252a07a987f20}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!delete\-Entity@{delete\-Entity}}
+\index{delete\-Entity@{delete\-Entity}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{delete\-Entity}]{\setlength{\rightskip}{0pt plus 5cm}static void {\bf com.\-google.\-appengine.\-codelab.\-Util.\-delete\-Entity} (
+\begin{DoxyParamCaption}
+\item[{final List$<$ Key $>$}]{keys}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_ad219fba4ce05c825c31252a07a987f20}
+Delete list of entities given their keys 
+\begin{DoxyParams}{Parameters}
+{\em keys} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a14548b6d0d079225ae5f6596542a1c0f}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!find\-Entity@{find\-Entity}}
+\index{find\-Entity@{find\-Entity}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{find\-Entity}]{\setlength{\rightskip}{0pt plus 5cm}static Entity {\bf com.\-google.\-appengine.\-codelab.\-Util.\-find\-Entity} (
+\begin{DoxyParamCaption}
+\item[{Key}]{key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a14548b6d0d079225ae5f6596542a1c0f}
+Search and return the entity from datastore. 
+\begin{DoxyParams}{Parameters}
+{\em key} & \-: key to find the entity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+entity 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a14548b6d0d079225ae5f6596542a1c0f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a097d93268afc438617bd7e13f0f0f5e7}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!get\-Datastore\-Service\-Instance@{get\-Datastore\-Service\-Instance}}
+\index{get\-Datastore\-Service\-Instance@{get\-Datastore\-Service\-Instance}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{get\-Datastore\-Service\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}static Datastore\-Service {\bf com.\-google.\-appengine.\-codelab.\-Util.\-get\-Datastore\-Service\-Instance} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a097d93268afc438617bd7e13f0f0f5e7}
+get Datastore\-Service instance \begin{DoxyReturn}{Returns}
+Datastore\-Service instance 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a097d93268afc438617bd7e13f0f0f5e7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a0d7e9492450f9aaaaf6b8b4e8a9d7890}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!get\-Error\-Message@{get\-Error\-Message}}
+\index{get\-Error\-Message@{get\-Error\-Message}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{get\-Error\-Message}]{\setlength{\rightskip}{0pt plus 5cm}static String {\bf com.\-google.\-appengine.\-codelab.\-Util.\-get\-Error\-Message} (
+\begin{DoxyParamCaption}
+\item[{Exception}]{ex}
+\end{DoxyParamCaption}
+)  throws I\-O\-Exception\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a0d7e9492450f9aaaaf6b8b4e8a9d7890}
+Utility method to send the error back to U\-I 
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+{\em resp} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a0d7e9492450f9aaaaf6b8b4e8a9d7890_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a3aa977c9e242b761d98ef6bcd9b55793}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!list\-Child\-Keys@{list\-Child\-Keys}}
+\index{list\-Child\-Keys@{list\-Child\-Keys}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{list\-Child\-Keys}]{\setlength{\rightskip}{0pt plus 5cm}static Iterable$<$Entity$>$ {\bf com.\-google.\-appengine.\-codelab.\-Util.\-list\-Child\-Keys} (
+\begin{DoxyParamCaption}
+\item[{String}]{kind, }
+\item[{Key}]{ancestor}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a3aa977c9e242b761d98ef6bcd9b55793}
+
+\begin{DoxyParams}{Parameters}
+{\em kind} & \\
+\hline
+{\em ancestor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a7a9f221fa79d46f397b81e06820beb03}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!list\-Children@{list\-Children}}
+\index{list\-Children@{list\-Children}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{list\-Children}]{\setlength{\rightskip}{0pt plus 5cm}static Iterable$<$Entity$>$ {\bf com.\-google.\-appengine.\-codelab.\-Util.\-list\-Children} (
+\begin{DoxyParamCaption}
+\item[{String}]{kind, }
+\item[{Key}]{ancestor}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a7a9f221fa79d46f397b81e06820beb03}
+Search entities based on ancestor 
+\begin{DoxyParams}{Parameters}
+{\em kind} & \\
+\hline
+{\em ancestor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a7a9f221fa79d46f397b81e06820beb03_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a450bc0facf36bb5525b4f66a18be74cd}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!list\-Entities@{list\-Entities}}
+\index{list\-Entities@{list\-Entities}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{list\-Entities}]{\setlength{\rightskip}{0pt plus 5cm}static Iterable$<$Entity$>$ {\bf com.\-google.\-appengine.\-codelab.\-Util.\-list\-Entities} (
+\begin{DoxyParamCaption}
+\item[{String}]{kind, }
+\item[{String}]{search\-By, }
+\item[{String}]{search\-For}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a450bc0facf36bb5525b4f66a18be74cd}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a450bc0facf36bb5525b4f66a18be74cd_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a95f645b216766041423363dd06815dc7}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!persist\-Entity@{persist\-Entity}}
+\index{persist\-Entity@{persist\-Entity}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{persist\-Entity}]{\setlength{\rightskip}{0pt plus 5cm}static void {\bf com.\-google.\-appengine.\-codelab.\-Util.\-persist\-Entity} (
+\begin{DoxyParamCaption}
+\item[{Entity}]{entity}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a95f645b216766041423363dd06815dc7}
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & \-: entity to be persisted \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a95f645b216766041423363dd06815dc7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a87d0f3bedf24d631c476ca62d10fb8d9}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!write\-J\-S\-O\-N@{write\-J\-S\-O\-N}}
+\index{write\-J\-S\-O\-N@{write\-J\-S\-O\-N}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{write\-J\-S\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}static String {\bf com.\-google.\-appengine.\-codelab.\-Util.\-write\-J\-S\-O\-N} (
+\begin{DoxyParamCaption}
+\item[{Iterable$<$ Entity $>$}]{entities}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a87d0f3bedf24d631c476ca62d10fb8d9}
+List the entities in J\-S\-O\-N format
+
+
+\begin{DoxyParams}{Parameters}
+{\em entities} & entities to return as J\-S\-O\-N strings \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a87d0f3bedf24d631c476ca62d10fb8d9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a1166a7fd8ba0cbbd491a3aa68556bf1d}{\index{com\-::google\-::appengine\-::codelab\-::\-Util@{com\-::google\-::appengine\-::codelab\-::\-Util}!write\-J\-S\-O\-N@{write\-J\-S\-O\-N}}
+\index{write\-J\-S\-O\-N@{write\-J\-S\-O\-N}!com::google::appengine::codelab::Util@{com\-::google\-::appengine\-::codelab\-::\-Util}}
+\subsubsection[{write\-J\-S\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}static String {\bf com.\-google.\-appengine.\-codelab.\-Util.\-write\-J\-S\-O\-N} (
+\begin{DoxyParamCaption}
+\item[{Iterable$<$ Entity $>$}]{entities, }
+\item[{String}]{child\-Kind, }
+\item[{String}]{fk\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a1166a7fd8ba0cbbd491a3aa68556bf1d}
+Retrieves Parent and Child entities into J\-S\-O\-N String
+
+
+\begin{DoxyParams}{Parameters}
+{\em entities} & \-: List of parent entities \\
+\hline
+{\em child\-Kind} & \-: Entity type for Child \\
+\hline
+{\em fk\-Name} & \-: foreign-\/key to the parent in the child entity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N string 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_util_a1166a7fd8ba0cbbd491a3aa68556bf1d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/alex/\-Documents/\-C\-S\-C\-\_\-440/\-Project/\-S\-M\-I\-L/\-Not\-\_\-\-User\-\_\-\-Friendly/\-Documents/\-Code References/\-Code\-Lab\-Ex1/src/com/google/appengine/codelab/\hyperlink{_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java}{Util.\-java}\end{DoxyCompactItemize}

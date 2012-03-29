@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_view_message_activity" kind="class" prot="public">
+    <compoundname>csc440::nuf::ViewMessageActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnClickListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1a1b2328f99f4730a731953349e3ea6f41" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.ViewMessageActivity.REQ_CODE_PLAYER</definition>
+        <argsstring></argsstring>
+        <name>REQ_CODE_PLAYER</name>
+        <initializer> 1111</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="42" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1ab5ff225e9e72a14d07ac9c09db45f5ab" prot="private" static="no" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1_scroll_item_manager" kindref="compound">ScrollItemManager</ref></type>
+        <definition>ScrollItemManager csc440.nuf.ViewMessageActivity.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1a72635cec29e697b7d992f6c98b334764" prot="private" static="no" mutable="no">
+        <type>Bundle</type>
+        <definition>Bundle csc440.nuf.ViewMessageActivity.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <initializer> null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="45" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1abb652a7b243a4b49fd6f85fdd532ea51" prot="private" static="no" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1_action_bar" kindref="compound">ActionBar</ref></type>
+        <definition>ActionBar csc440.nuf.ViewMessageActivity._actionBar</definition>
+        <argsstring></argsstring>
+        <name>_actionBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="46" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1a127f4e439d6aa4d35997125fd2c1c560" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.ViewMessageActivity.playPressed</definition>
+        <argsstring></argsstring>
+        <name>playPressed</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="47" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1abefa81829e602dcc3a449e37ed1403d1" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.ViewMessageActivity.startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1aaa80007675b07612e07e521da21a2987" prot="private" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.ViewMessageActivity.autoPlay</definition>
+        <argsstring></argsstring>
+        <name>autoPlay</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="48" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_view_message_activity_1a29153e443a47e114205c936f59f9916a" prot="private" static="yes" mutable="no">
+        <type>AlertDialog</type>
+        <definition>AlertDialog csc440.nuf.ViewMessageActivity.alertAutoPlay</definition>
+        <argsstring></argsstring>
+        <name>alertAutoPlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ViewMessageActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="52" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="52" bodyend="126"/>
+        <references refid="classcsc440_1_1nuf_1_1_view_message_activity_1a8b4905772a4092ef3bc0e21ed23d7ae1" compoundref="_view_message_activity_8java" startline="164" endline="178">csc440.nuf.ViewMessageActivity.onClick</references>
+        <references refid="classcsc440_1_1nuf_1_1_view_message_activity_1af7da4ac74c5aeb46448c50fa8479e13a" compoundref="_view_message_activity_8java" startline="153" endline="161">csc440.nuf.ViewMessageActivity.playMessage</references>
+        <references refid="classcsc440_1_1nuf_1_1_action_bar_1aa8aa6584906e2aa28298c720006060db" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_action_bar_8java" startline="73" endline="75">csc440.nuf.ActionBar.setTitle</references>
+        <references refid="classcsc440_1_1nuf_1_1_action_bar_1a05076cbc2ed528aef5c06b37e8469b1d" compoundref="_s_m_i_l-_android_2src_2csc440_2nuf_2_action_bar_8java" startline="69" endline="71">csc440.nuf.ActionBar.setHomeListener</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab0e055a91a49439fa3a2ccca61a05657" compoundref="_scroll_item_manager_8java" startline="46" endline="48">csc440.nuf.ScrollItemManager.addItem</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a593cfa1b9eb3288297683b1a370015e1" compoundref="_scroll_item_manager_8java" startline="82" endline="84">csc440.nuf.ScrollItemManager.setTitle</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a1561fbe2466c1f47c901f3760ccbfa07" compoundref="_scroll_item_manager_8java" startline="73" endline="75">csc440.nuf.ScrollItemManager.setIcon</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1a29b56004e0c6b27c4cf37abbe702b0e2" compoundref="_scroll_item_manager_8java" startline="77" endline="80">csc440.nuf.ScrollItemManager.setListener</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ab04c896f513d8e83a03d34f26e8ebd65" compoundref="_scroll_item_manager_8java" startline="90" endline="92">csc440.nuf.ScrollItemManager.addToLinear</references>
+        <references refid="classcsc440_1_1nuf_1_1_scroll_item_manager_1ad2ce97de474a3760d071b6dea3e2daf2" compoundref="_scroll_item_manager_8java" startline="94" endline="96">csc440.nuf.ScrollItemManager.addLine</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_view_message_activity_1af7da4ac74c5aeb46448c50fa8479e13a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ViewMessageActivity.playMessage</definition>
+        <argsstring>(boolean playPressed)</argsstring>
+        <name>playMessage</name>
+        <param>
+          <type>boolean</type>
+          <declname>playPressed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="153" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="153" bodyend="161"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1ac15977b1ad20ed909ff3ce8ee4a85769" compoundref="_view_message_activity_8java" startline="128" endline="137">csc440.nuf.ViewMessageActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a8b4905772a4092ef3bc0e21ed23d7ae1" compoundref="_view_message_activity_8java" startline="164" endline="178">csc440.nuf.ViewMessageActivity.onClick</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_view_message_activity_1a8b4905772a4092ef3bc0e21ed23d7ae1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ViewMessageActivity.onClick</definition>
+        <argsstring>(View v)</argsstring>
+        <name>onClick</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="164" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="164" bodyend="178"/>
+        <references refid="classcsc440_1_1nuf_1_1_view_message_activity_1af7da4ac74c5aeb46448c50fa8479e13a" compoundref="_view_message_activity_8java" startline="153" endline="161">csc440.nuf.ViewMessageActivity.playMessage</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_view_message_activity_1ac15977b1ad20ed909ff3ce8ee4a85769" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ViewMessageActivity.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="128" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="128" bodyend="137"/>
+        <references refid="classcsc440_1_1nuf_1_1_view_message_activity_1af7da4ac74c5aeb46448c50fa8479e13a" compoundref="_view_message_activity_8java" startline="153" endline="161">csc440.nuf.ViewMessageActivity.playMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_view_message_activity_1a88e2195231d2097a71a9de8298532e23" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ViewMessageActivity.onActivityResult</definition>
+        <argsstring>(int requestCode, int resultCode, Intent data)</argsstring>
+        <name>onActivityResult</name>
+        <param>
+          <type>int</type>
+          <declname>requestCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Intent</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="140" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="140" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="524">
+        <label>Activity</label>
+      </node>
+      <node id="525">
+        <label>OnClickListener</label>
+      </node>
+      <node id="523">
+        <label>csc440.nuf.ViewMessageActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1_view_message_activity"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="525" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="527">
+        <label>Activity</label>
+      </node>
+      <node id="528">
+        <label>OnClickListener</label>
+      </node>
+      <node id="526">
+        <label>csc440.nuf.ViewMessageActivity</label>
+        <link refid="classcsc440_1_1nuf_1_1_view_message_activity"/>
+        <childnode refid="527" relation="public-inheritance">
+        </childnode>
+        <childnode refid="528" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ViewMessageActivity.java" bodystart="41" bodyend="179"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1abb652a7b243a4b49fd6f85fdd532ea51" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>_actionBar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a29153e443a47e114205c936f59f9916a" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>alertAutoPlay</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1aaa80007675b07612e07e521da21a2987" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>autoPlay</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1ab5ff225e9e72a14d07ac9c09db45f5ab" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>items</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a88e2195231d2097a71a9de8298532e23" prot="protected" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>onActivityResult</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a8b4905772a4092ef3bc0e21ed23d7ae1" prot="public" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>onClick</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" prot="public" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>onCreate</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1ac15977b1ad20ed909ff3ce8ee4a85769" prot="protected" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>onResume</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1af7da4ac74c5aeb46448c50fa8479e13a" prot="public" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>playMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a127f4e439d6aa4d35997125fd2c1c560" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>playPressed</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a1b2328f99f4730a731953349e3ea6f41" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>REQ_CODE_PLAYER</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1abefa81829e602dcc3a449e37ed1403d1" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>startTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_view_message_activity_1a72635cec29e697b7d992f6c98b334764" prot="private" virt="non-virtual"><scope>csc440::nuf::ViewMessageActivity</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

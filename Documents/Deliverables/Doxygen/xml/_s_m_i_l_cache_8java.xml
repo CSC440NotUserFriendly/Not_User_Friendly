@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="_s_m_i_l_cache_8java" kind="file">
+    <compoundname>SMILCache.java</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1cache_1_1_s_m_i_l_cache" prot="public">csc440::nuf::cache::SMILCache</innerclass>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1cache">csc440::nuf::cache</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecsc440_1_1nuf_1_1cache" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">csc440.nuf.cache;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Date;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.HashMap;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Iterator;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Map;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//import<sp/>com.google.appengine.api.datastore.Entity;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//import<sp/>com.google.appengine.api.datastore.Key;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//import<sp/>com.google.appengine.api.datastore.KeyFactory;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classcsc440_1_1nuf_1_1cache_1_1_s_m_i_l_cache" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcsc440_1_1nuf_1_1cache_1_1_s_m_i_l_cache" kindref="compound">SMILCache</ref><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/cache/SMILCache.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_62ef9811f9a030bce233485ee4f42621" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/</compoundname>
+    <innerfile refid="_base_servlet_8java">BaseServlet.java</innerfile>
+    <innerfile refid="_item_8java">Item.java</innerfile>
+    <innerfile refid="_item_servlet_8java">ItemServlet.java</innerfile>
+    <innerfile refid="_product_8java">Product.java</innerfile>
+    <innerfile refid="_product_servlet_8java">ProductServlet.java</innerfile>
+    <innerfile refid="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java">Util.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/"/>
+  </compounddef>
+</doxygen>

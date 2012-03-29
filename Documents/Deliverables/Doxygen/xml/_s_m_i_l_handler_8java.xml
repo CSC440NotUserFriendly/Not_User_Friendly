@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="_s_m_i_l_handler_8java" kind="file">
+    <compoundname>SMILHandler.java</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler" prot="public">csc440::nuf::parser::SMILHandler</innerclass>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1parser">csc440::nuf::parser</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecsc440_1_1nuf_1_1parser" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">csc440.nuf.parser;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.xml.sax.Attributes;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.xml.sax.helpers.DefaultHandler;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>csc440.nuf.complay.Waiting;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>csc440.nuf.components.*;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler" kindref="compound">SMILHandler</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>DefaultHandler<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SMILParallel<sp/>par;<sp/></highlight><highlight class="comment">//This<sp/>holds<sp/>the<sp/>current<sp/>parallel<sp/>tag<sp/>while<sp/>we<sp/>add<sp/>to<sp/>it;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SMILSequential<sp/>seq;<sp/></highlight><highlight class="comment">//Same<sp/>as<sp/>par</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>AbstractSMILObject<sp/>currentObject;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>is<sp/>called<sp/>on<sp/>every<sp/>opening<sp/>tag.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="30" refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a2b4d94d2fc3c31316eb1c44a1720902e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a2b4d94d2fc3c31316eb1c44a1720902e" kindref="member">startElement</ref>(String<sp/>uri,<sp/>String<sp/>localName,<sp/>String<sp/>qName,<sp/>Attributes<sp/>att)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(qName.equals(</highlight><highlight class="stringliteral">&quot;root-layout&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Not<sp/>sure<sp/>what<sp/>to<sp/>do<sp/>with<sp/>this<sp/>yet,<sp/>it<sp/>can&apos;t<sp/>go<sp/>in<sp/>the<sp/>queue.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting" kindref="compound">Waiting</ref>.<ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" kindref="member">Q</ref>().<ref refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a37ca528aeec4df81de99fe3cec490372" kindref="member">setLayout</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SMILLayout(att));</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(qName.equals(</highlight><highlight class="stringliteral">&quot;par&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Can&apos;t<sp/>add<sp/>this<sp/>until<sp/>all<sp/>the<sp/>objects<sp/>contained<sp/>within<sp/>it<sp/>are<sp/>added.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Not<sp/>quite<sp/>sure<sp/>how<sp/>to<sp/>do<sp/>it<sp/>yet.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>par<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SMILParallel(att);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(qName.equals(</highlight><highlight class="stringliteral">&quot;seq&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Same<sp/>problem<sp/>with<sp/>that<sp/>as<sp/>with<sp/>&lt;par&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>seq<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SMILSequential(att);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(qName.equals(</highlight><highlight class="stringliteral">&quot;smilText&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentObject<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SMILText(att);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(qName.equals(</highlight><highlight class="stringliteral">&quot;img&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentObject<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SMILImage(att);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(qName.equals(</highlight><highlight class="stringliteral">&quot;video&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentObject<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SMILVideo(att);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Kind<sp/>of<sp/>retarded<sp/>but<sp/>ch.length<sp/>and<sp/>length<sp/>are<sp/>NOT</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>same<sp/>thing.<sp/><sp/>length<sp/>is<sp/>exactly<sp/>the<sp/>length<sp/>of<sp/>the<sp/>visible</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>text<sp/>inside<sp/>the<sp/>XML<sp/>tags,<sp/>ch.length<sp/>includes<sp/>extra<sp/>garbage.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>method<sp/>is<sp/>for<sp/>text<sp/>contained<sp/>between<sp/>opening<sp/>and<sp/>ending<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>XML<sp/>tags.<sp/><sp/>Such<sp/>as:<sp/>&lt;smilText&gt;ch[]&lt;/smilText&gt;</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Maintains<sp/>formatting;<sp/>newlines,<sp/>spaces,<sp/>and<sp/>tabs<sp/>included</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="69" refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aee16f02b7d6c54d685a116ee2bbeff9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aee16f02b7d6c54d685a116ee2bbeff9a" kindref="member">characters</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">[]<sp/>ch,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length){</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(currentObject<sp/>instanceof<sp/>SMILText){</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Only<sp/>text<sp/>up<sp/>to<sp/>length<sp/>not<sp/>ch.length</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((SMILText)currentObject).setText(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>String(ch,<sp/>0,<sp/>length));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Called<sp/>at<sp/>every<sp/>ending<sp/>tag.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>We<sp/>have<sp/>to<sp/>wait<sp/>until<sp/>here<sp/>to<sp/>add<sp/>and<sp/>&quot;forget&quot;<sp/>about<sp/>out<sp/>objects</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>so<sp/>that<sp/>we<sp/>have<sp/>a<sp/>chance<sp/>to<sp/>pick<sp/>up<sp/>any<sp/>information<sp/>between<sp/>tags,</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>such<sp/>as<sp/>with<sp/>the<sp/>text<sp/>tag.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="84" refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a3e1b09860f1ed33f8de26294e34ef167" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a3e1b09860f1ed33f8de26294e34ef167" kindref="member">endElement</ref>(String<sp/>uri,<sp/>String<sp/>localName,<sp/>String<sp/>qName){</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(currentObject<sp/>!=<sp/>null){</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aa6eb041f2aed3eb2895323c762cd39de" kindref="member">add</ref>(currentObject);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentObject<sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//End<sp/>of<sp/>the<sp/>par<sp/>section</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(qName.equals(</highlight><highlight class="stringliteral">&quot;par&quot;</highlight><highlight class="normal">)){</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting" kindref="compound">Waiting</ref>.<ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" kindref="member">Q</ref>().<ref refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" kindref="member">push</ref>(par);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>par<sp/>=<sp/>null;<sp/></highlight><highlight class="comment">//Clear<sp/>it<sp/>for<sp/>the<sp/>next<sp/>section</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(qName.equals(</highlight><highlight class="stringliteral">&quot;seq&quot;</highlight><highlight class="normal">)){</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting" kindref="compound">Waiting</ref>.<ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" kindref="member">Q</ref>().<ref refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" kindref="member">push</ref>(seq);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>seq<sp/>=<sp/>null;<sp/></highlight><highlight class="comment">//Clear<sp/>it<sp/>for<sp/>the<sp/>next<sp/>section</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Simply<sp/>adds<sp/>to<sp/>the<sp/>Queue<sp/>but<sp/>makes<sp/>sure<sp/>we&apos;re<sp/>not<sp/>inside<sp/>a<sp/>par/seq<sp/>section</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aa6eb041f2aed3eb2895323c762cd39de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aa6eb041f2aed3eb2895323c762cd39de" kindref="member">add</ref>(AbstractSMILObject<sp/>o){</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(par<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>par.add(o);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(seq<sp/>!=<sp/>null)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>seq.add(o);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting" kindref="compound">Waiting</ref>.<ref refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" kindref="member">Q</ref>().<ref refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" kindref="member">push</ref>(o);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/parser/SMILHandler.java"/>
+  </compounddef>
+</doxygen>

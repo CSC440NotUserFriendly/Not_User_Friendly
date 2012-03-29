@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_r" kind="class" prot="public">
+    <compoundname>csc440::nuf::R</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1attr" prot="public">csc440::nuf::R::attr</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1color" prot="public">csc440::nuf::R::color</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1dimen" prot="public">csc440::nuf::R::dimen</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1drawable" prot="public">csc440::nuf::R::drawable</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1id" prot="public">csc440::nuf::R::id</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1layout" prot="public">csc440::nuf::R::layout</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1menu" prot="public">csc440::nuf::R::menu</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1string" prot="public">csc440::nuf::R::string</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r_1_1style" prot="public">csc440::nuf::R::style</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" line="10" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/R.java" bodystart="10" bodyend="186"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

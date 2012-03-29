@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy" kind="interface" prot="public">
+    <compoundname>csc440::nuf::shared::RegistrationInfoProxy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ValueProxy</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1a191f88f1a01a822e48621a18782899be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.shared.RegistrationInfoProxy.getDeviceId</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/RegistrationInfoProxy.java" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1ab7a087a6ff53a38fa068ced739959f4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.shared.RegistrationInfoProxy.getDeviceRegistrationId</definition>
+        <argsstring>()</argsstring>
+        <name>getDeviceRegistrationId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/RegistrationInfoProxy.java" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1a3d96be9a03c6aa4547a680419561baff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.shared.RegistrationInfoProxy.setDeviceId</definition>
+        <argsstring>(String deviceId)</argsstring>
+        <name>setDeviceId</name>
+        <param>
+          <type>String</type>
+          <declname>deviceId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/RegistrationInfoProxy.java" line="28"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1adfd37626741163e3b5b1e815af150e23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.shared.RegistrationInfoProxy.setDeviceRegistrationId</definition>
+        <argsstring>(String deviceRegistrationId)</argsstring>
+        <name>setDeviceRegistrationId</name>
+        <param>
+          <type>String</type>
+          <declname>deviceRegistrationId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/RegistrationInfoProxy.java" line="29"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A proxy object containing device registration information: email account name, device id, and device registration id. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="404">
+        <label>csc440.nuf.shared.RegistrationInfoProxy</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>ValueProxy</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="406">
+        <label>csc440.nuf.shared.RegistrationInfoProxy</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy"/>
+        <childnode refid="407" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>ValueProxy</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/RegistrationInfoProxy.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/RegistrationInfoProxy.java" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1a191f88f1a01a822e48621a18782899be" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::RegistrationInfoProxy</scope><name>getDeviceId</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1ab7a087a6ff53a38fa068ced739959f4b" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::RegistrationInfoProxy</scope><name>getDeviceRegistrationId</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1a3d96be9a03c6aa4547a680419561baff" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::RegistrationInfoProxy</scope><name>setDeviceId</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy_1adfd37626741163e3b5b1e815af150e23" prot="public" virt="non-virtual"><scope>csc440::nuf::shared::RegistrationInfoProxy</scope><name>setDeviceRegistrationId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

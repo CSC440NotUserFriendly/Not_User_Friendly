@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request" kind="interface" prot="public">
+    <compoundname>csc440::nuf::client::MyRequestFactory::HelloWorldRequest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RequestContext</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request_1ad2a116ea152e1420554619fbe67a056c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Request&lt; String &gt;</type>
+        <definition>Request&lt;String&gt; csc440.nuf.client.MyRequestFactory.HelloWorldRequest.getMessage</definition>
+        <argsstring>()</argsstring>
+        <name>getMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve a &quot;Hello, World&quot; message from the server. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="33"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1af3e77d56e898cc26b1c2bdef38415cf1" compoundref="_s_m_i_l_widget_8java" startline="94" endline="151">csc440.nuf.client.SMILWidget.SMILWidget</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="319">
+        <label>csc440.nuf.client.MyRequestFactory.HelloWorldRequest</label>
+        <link refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>RequestContext</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="321">
+        <label>csc440.nuf.client.MyRequestFactory.HelloWorldRequest</label>
+        <link refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request"/>
+        <childnode refid="322" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="322">
+        <label>RequestContext</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="29" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" bodystart="29" bodyend="34"/>
+    <listofallmembers>
+      <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request_1ad2a116ea152e1420554619fbe67a056c" prot="public" virt="non-virtual"><scope>csc440::nuf::client::MyRequestFactory::HelloWorldRequest</scope><name>getMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

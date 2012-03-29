@@ -1,0 +1,222 @@
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store}{\section{csc440.\-nuf.\-server.\-Data\-Store Class Reference}
+\label{classcsc440_1_1nuf_1_1server_1_1_data_store}\index{csc440.\-nuf.\-server.\-Data\-Store@{csc440.\-nuf.\-server.\-Data\-Store}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcsc440_1_1nuf_1_1server_1_1_data_store_a338414fad64469e2aeb74ffd4833f5d9}{delete} (Long id)
+\item 
+\hyperlink{classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message}{S\-M\-I\-L\-Message} \hyperlink{classcsc440_1_1nuf_1_1server_1_1_data_store_ae6c7e81006cca7f550337a8ac3c84a47}{find} (Long id)
+\item 
+List$<$ \hyperlink{classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message}{S\-M\-I\-L\-Message} $>$ \hyperlink{classcsc440_1_1nuf_1_1server_1_1_data_store_adeb95b19f2aef0eae3d55b5aabf63660}{find\-All} ()
+\item 
+\hyperlink{classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message}{S\-M\-I\-L\-Message} \hyperlink{classcsc440_1_1nuf_1_1server_1_1_data_store_ab66ed1adeb1a5ee0ce37bf5404909e11}{update} (\hyperlink{classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message}{S\-M\-I\-L\-Message} item)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \hyperlink{classcsc440_1_1nuf_1_1server_1_1_data_store_aec9033c4e9624646beb5276de28bfe59}{get\-User\-Id} ()
+\item 
+static String \hyperlink{classcsc440_1_1nuf_1_1server_1_1_data_store_a3749afd0edd374001b7a29ef14495ffc}{get\-User\-Email} ()
+\item 
+static void \hyperlink{classcsc440_1_1nuf_1_1server_1_1_data_store_ad7c4ecf86f1850c8ba359f20feec8797}{send\-C2\-D\-M\-Update} (String message)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store_a338414fad64469e2aeb74ffd4833f5d9}{\index{csc440\-::nuf\-::server\-::\-Data\-Store@{csc440\-::nuf\-::server\-::\-Data\-Store}!delete@{delete}}
+\index{delete@{delete}!csc440::nuf::server::DataStore@{csc440\-::nuf\-::server\-::\-Data\-Store}}
+\subsubsection[{delete}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf csc440.\-nuf.\-server.\-Data\-Store.\-delete} (
+\begin{DoxyParamCaption}
+\item[{Long}]{id}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1server_1_1_data_store_a338414fad64469e2aeb74ffd4833f5d9}
+Remove this object from the data store. 
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_a338414fad64469e2aeb74ffd4833f5d9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store_ae6c7e81006cca7f550337a8ac3c84a47}{\index{csc440\-::nuf\-::server\-::\-Data\-Store@{csc440\-::nuf\-::server\-::\-Data\-Store}!find@{find}}
+\index{find@{find}!csc440::nuf::server::DataStore@{csc440\-::nuf\-::server\-::\-Data\-Store}}
+\subsubsection[{find}]{\setlength{\rightskip}{0pt plus 5cm}{\bf S\-M\-I\-L\-Message} {\bf csc440.\-nuf.\-server.\-Data\-Store.\-find} (
+\begin{DoxyParamCaption}
+\item[{Long}]{id}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1server_1_1_data_store_ae6c7e81006cca7f550337a8ac3c84a47}
+Find a \hyperlink{}{Task} by id.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the \hyperlink{classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message}{S\-M\-I\-L\-Message} id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the associated \hyperlink{classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message}{S\-M\-I\-L\-Message}, or null if not found 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_ae6c7e81006cca7f550337a8ac3c84a47_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_ae6c7e81006cca7f550337a8ac3c84a47_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store_adeb95b19f2aef0eae3d55b5aabf63660}{\index{csc440\-::nuf\-::server\-::\-Data\-Store@{csc440\-::nuf\-::server\-::\-Data\-Store}!find\-All@{find\-All}}
+\index{find\-All@{find\-All}!csc440::nuf::server::DataStore@{csc440\-::nuf\-::server\-::\-Data\-Store}}
+\subsubsection[{find\-All}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf S\-M\-I\-L\-Message}$>$ {\bf csc440.\-nuf.\-server.\-Data\-Store.\-find\-All} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1server_1_1_data_store_adeb95b19f2aef0eae3d55b5aabf63660}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_adeb95b19f2aef0eae3d55b5aabf63660_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_adeb95b19f2aef0eae3d55b5aabf63660_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store_a3749afd0edd374001b7a29ef14495ffc}{\index{csc440\-::nuf\-::server\-::\-Data\-Store@{csc440\-::nuf\-::server\-::\-Data\-Store}!get\-User\-Email@{get\-User\-Email}}
+\index{get\-User\-Email@{get\-User\-Email}!csc440::nuf::server::DataStore@{csc440\-::nuf\-::server\-::\-Data\-Store}}
+\subsubsection[{get\-User\-Email}]{\setlength{\rightskip}{0pt plus 5cm}static String {\bf csc440.\-nuf.\-server.\-Data\-Store.\-get\-User\-Email} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcsc440_1_1nuf_1_1server_1_1_data_store_a3749afd0edd374001b7a29ef14495ffc}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_a3749afd0edd374001b7a29ef14495ffc_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store_aec9033c4e9624646beb5276de28bfe59}{\index{csc440\-::nuf\-::server\-::\-Data\-Store@{csc440\-::nuf\-::server\-::\-Data\-Store}!get\-User\-Id@{get\-User\-Id}}
+\index{get\-User\-Id@{get\-User\-Id}!csc440::nuf::server::DataStore@{csc440\-::nuf\-::server\-::\-Data\-Store}}
+\subsubsection[{get\-User\-Id}]{\setlength{\rightskip}{0pt plus 5cm}static String {\bf csc440.\-nuf.\-server.\-Data\-Store.\-get\-User\-Id} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcsc440_1_1nuf_1_1server_1_1_data_store_aec9033c4e9624646beb5276de28bfe59}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_aec9033c4e9624646beb5276de28bfe59_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store_ad7c4ecf86f1850c8ba359f20feec8797}{\index{csc440\-::nuf\-::server\-::\-Data\-Store@{csc440\-::nuf\-::server\-::\-Data\-Store}!send\-C2\-D\-M\-Update@{send\-C2\-D\-M\-Update}}
+\index{send\-C2\-D\-M\-Update@{send\-C2\-D\-M\-Update}!csc440::nuf::server::DataStore@{csc440\-::nuf\-::server\-::\-Data\-Store}}
+\subsubsection[{send\-C2\-D\-M\-Update}]{\setlength{\rightskip}{0pt plus 5cm}static void {\bf csc440.\-nuf.\-server.\-Data\-Store.\-send\-C2\-D\-M\-Update} (
+\begin{DoxyParamCaption}
+\item[{String}]{message}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcsc440_1_1nuf_1_1server_1_1_data_store_ad7c4ecf86f1850c8ba359f20feec8797}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_ad7c4ecf86f1850c8ba359f20feec8797_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_ad7c4ecf86f1850c8ba359f20feec8797_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1server_1_1_data_store_ab66ed1adeb1a5ee0ce37bf5404909e11}{\index{csc440\-::nuf\-::server\-::\-Data\-Store@{csc440\-::nuf\-::server\-::\-Data\-Store}!update@{update}}
+\index{update@{update}!csc440::nuf::server::DataStore@{csc440\-::nuf\-::server\-::\-Data\-Store}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}{\bf S\-M\-I\-L\-Message} {\bf csc440.\-nuf.\-server.\-Data\-Store.\-update} (
+\begin{DoxyParamCaption}
+\item[{{\bf S\-M\-I\-L\-Message}}]{item}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1server_1_1_data_store_ab66ed1adeb1a5ee0ce37bf5404909e11}
+Persist this object in the datastore. 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_ab66ed1adeb1a5ee0ce37bf5404909e11_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1server_1_1_data_store_ab66ed1adeb1a5ee0ce37bf5404909e11_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/alex/\-Documents/\-C\-S\-C\-\_\-440/\-Project/\-S\-M\-I\-L/\-Not\-\_\-\-User\-\_\-\-Friendly/\-S\-M\-I\-L-\/\-App\-Engine/src/csc440/nuf/server/\hyperlink{_data_store_8java}{Data\-Store.\-java}\end{DoxyCompactItemize}

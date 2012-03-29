@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecsc440" kind="namespace">
+    <compoundname>csc440</compoundname>
+    <innernamespace refid="namespacecsc440_1_1nuf">csc440::nuf</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

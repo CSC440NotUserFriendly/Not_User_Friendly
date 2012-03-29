@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet" kind="class" prot="public">
+    <compoundname>com::google::appengine::codelab::ItemServlet</compoundname>
+    <basecompoundref refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet" prot="public" virt="non-virtual">com.google.appengine.codelab.BaseServlet</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a629a76c8a5f545c6b73ebdb00250559c" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger com.google.appengine.codelab.ItemServlet.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <initializer> Logger.getLogger(ItemServlet.class.getCanonicalName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" line="35" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.google.appengine.codelab.ItemServlet.doGet</definition>
+        <argsstring>(HttpServletRequest req, HttpServletResponse resp)</argsstring>
+        <name>doGet</name>
+        <reimplements refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet_1abb34ecfcd902fafc62944237f49283b9">doGet</reimplements>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>req</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>resp</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Searches for the entity based on the search criteria and returns result in JSON format </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" line="42" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" bodystart="41" bodyend="59"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet_1abb34ecfcd902fafc62944237f49283b9" compoundref="_base_servlet_8java" startline="14" endline="18">com.google.appengine.codelab.BaseServlet.doGet</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1ac34c1a67f0b499b88f2ba10c9c57d9d5" compoundref="_item_8java" startline="58" endline="61">com.google.appengine.codelab.Item.getAllItems</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a87d0f3bedf24d631c476ca62d10fb8d9" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="147" endline="173">com.google.appengine.codelab.Util.writeJSON</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a03e5b5b5ebc360327091c946c6b7874d" compoundref="_item_8java" startline="70" endline="73">com.google.appengine.codelab.Item.getItem</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1c221deafdbd13c4133edf24cb6dcdb8" compoundref="_item_8java" startline="84" endline="87">com.google.appengine.codelab.Item.getItemsForProduct</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a5d5c9f0b60f447633023ec79cfa95ea1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.google.appengine.codelab.ItemServlet.doPut</definition>
+        <argsstring>(HttpServletRequest req, HttpServletResponse resp)</argsstring>
+        <name>doPut</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>req</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>resp</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates entity and persists the same </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" line="65" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" bodystart="64" bodyend="71"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a1f0cd1ed3e9e496f6cd40cde580dc045" compoundref="_item_8java" startline="33" endline="49">com.google.appengine.codelab.Item.createOrUpdateItem</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a977e84d117d1e9c9faf1be8e71f0e69e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.google.appengine.codelab.ItemServlet.doDelete</definition>
+        <argsstring>(HttpServletRequest req, HttpServletResponse resp)</argsstring>
+        <name>doDelete</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>req</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>resp</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete the entity from the datastore. Throws an exception if there are any orders associated with the item and ignores the delete action for it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" line="78" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" bodystart="77" bodyend="87"/>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_1a43b58e542f3362d9d1f3c35cc0d27d4d" compoundref="_item_8java" startline="104" endline="112">com.google.appengine.codelab.Item.deleteItem</references>
+        <references refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_util_1a0d7e9492450f9aaaaf6b8b4e8a9d7890" compoundref="_documents_2_code_01_references_2_code_lab_ex1_2src_2com_2google_2appengine_2codelab_2_util_8java" startline="226" endline="228">com.google.appengine.codelab.Util.getErrorMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a6233275e3c630dbb5ee2e33be6a813ba" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.google.appengine.codelab.ItemServlet.doPost</definition>
+        <argsstring>(HttpServletRequest req, HttpServletResponse resp)</argsstring>
+        <name>doPost</name>
+        <param>
+          <type>HttpServletRequest</type>
+          <declname>req</declname>
+        </param>
+        <param>
+          <type>HttpServletResponse</type>
+          <declname>resp</declname>
+        </param>
+        <exceptions> throws ServletException, IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Redirects to delete or insert entity based on the action in the HTTP request. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" line="94" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" bodystart="93" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This servlet responds to the request corresponding to items. The class creates and manages the ItemEntity </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="334">
+        <label>com.google.appengine.codelab.BaseServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>HttpServlet</label>
+      </node>
+      <node id="333">
+        <label>com.google.appengine.codelab.ItemServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet"/>
+        <childnode refid="334" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="337">
+        <label>com.google.appengine.codelab.BaseServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet"/>
+        <childnode refid="338" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>HttpServlet</label>
+      </node>
+      <node id="336">
+        <label>com.google.appengine.codelab.ItemServlet</label>
+        <link refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/ItemServlet.java" bodystart="33" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a977e84d117d1e9c9faf1be8e71f0e69e" prot="protected" virt="non-virtual"><scope>com::google::appengine::codelab::ItemServlet</scope><name>doDelete</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1ac3bcf595bb8d62c1ef0a44d24ce129c8" prot="protected" virt="non-virtual"><scope>com::google::appengine::codelab::ItemServlet</scope><name>doGet</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a6233275e3c630dbb5ee2e33be6a813ba" prot="protected" virt="non-virtual"><scope>com::google::appengine::codelab::ItemServlet</scope><name>doPost</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a5d5c9f0b60f447633023ec79cfa95ea1" prot="protected" virt="non-virtual"><scope>com::google::appengine::codelab::ItemServlet</scope><name>doPut</name></member>
+      <member refid="classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet_1a629a76c8a5f545c6b73ebdb00250559c" prot="private" virt="non-virtual"><scope>com::google::appengine::codelab::ItemServlet</scope><name>logger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

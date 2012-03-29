@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1complay_1_1_timer" kind="class" prot="public">
+    <compoundname>csc440::nuf::complay::Timer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_timer_1aad1dd757c8a4db3031f3898d0aca55b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.complay.Timer.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" line="15" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_timer_1ace51ddbb89a24187037eae2f8c212cbf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.complay.Timer.Timer</definition>
+        <argsstring>()</argsstring>
+        <name>Timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" line="18" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" bodystart="18" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_timer_1a8a082600290ab98e14d378e26a64c76f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.complay.Timer.getTime</definition>
+        <argsstring>()</argsstring>
+        <name>getTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" bodystart="27" bodyend="29"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" compoundref="_player_canvas_8java" startline="51" endline="101">csc440.nuf.complay.PlayerCanvas.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_timer_1aff1846d75c64aee648b2321f9ea62314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.Timer.timePlusPlus</definition>
+        <argsstring>()</argsstring>
+        <name>timePlusPlus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" line="34" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" bodystart="34" bodyend="36"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" compoundref="_player_canvas_8java" startline="51" endline="101">csc440.nuf.complay.PlayerCanvas.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.Timer.setTime</definition>
+        <argsstring>(int newTime)</argsstring>
+        <name>setTime</name>
+        <param>
+          <type>int</type>
+          <declname>newTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" bodystart="41" bodyend="82"/>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_on_screen_1a33feeb951e6558b0f50251e713a5a230" compoundref="_on_screen_8java" startline="5" endline="7">csc440.nuf.complay.OnScreen.Q</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a6c333b08908191e022f23b68989c263a" compoundref="_q_8java" startline="64" endline="66">csc440.nuf.complay.Q.isEmpty</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a1909fe89eabfc73398d99c7dc4c9b946" compoundref="_q_8java" startline="52" endline="54">csc440.nuf.complay.Q.peek</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ab94d06e82ef902255257e6ca5b635a56" compoundref="_off_screen_8java" startline="5" endline="7">csc440.nuf.complay.OffScreen.Q</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" compoundref="_q_8java" startline="48" endline="50">csc440.nuf.complay.Q.push</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" compoundref="_waiting_8java" startline="5" endline="7">csc440.nuf.complay.Waiting.Q</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1af768e2d386701d7d3ee1078e08a21422" compoundref="_q_8java" startline="56" endline="58">csc440.nuf.complay.Q.pop</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aa873b2a8f7d338e917b5db7af678a55d" compoundref="_q_8java" startline="96" endline="98">csc440.nuf.complay.Q.sortByEndTimeASC</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a935d3fbb201ad281bfc122c616335413" compoundref="_q_8java" startline="100" endline="102">csc440.nuf.complay.Q.sortByStartTimeDESC</references>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1a64eae2e9ed26456ab5b104436c97d78f" compoundref="_player_canvas_8java" startline="115" endline="118">csc440.nuf.complay.PlayerCanvas.setTime</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aff1846d75c64aee648b2321f9ea62314" compoundref="_timer_8java" startline="34" endline="36">csc440.nuf.complay.Timer.timePlusPlus</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 02-11-2012 <ref refid="_timer_8java" kindref="compound">Timer.java</ref> <simplesect kind="author"><para>Jacob Ensor </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" line="14" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Timer.java" bodystart="14" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1a8a082600290ab98e14d378e26a64c76f" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Timer</scope><name>getTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Timer</scope><name>setTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aad1dd757c8a4db3031f3898d0aca55b4" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::Timer</scope><name>time</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aff1846d75c64aee648b2321f9ea62314" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Timer</scope><name>timePlusPlus</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1ace51ddbb89a24187037eae2f8c212cbf" prot="package" virt="non-virtual"><scope>csc440::nuf::complay::Timer</scope><name>Timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

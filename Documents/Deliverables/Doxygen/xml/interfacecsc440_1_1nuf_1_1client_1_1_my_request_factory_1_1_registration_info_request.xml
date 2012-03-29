@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request" kind="interface" prot="public">
+    <compoundname>csc440::nuf::client::MyRequestFactory::RegistrationInfoRequest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RequestContext</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a675270c3171bd35749e7552fa4e93546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>InstanceRequest&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy" kindref="compound">RegistrationInfoProxy</ref>, Void &gt;</type>
+        <definition>InstanceRequest&lt;RegistrationInfoProxy, Void&gt; csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest.register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register a device for C2DM messages. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="41"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a2135c9d95519fc4923751338733456de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>InstanceRequest&lt; <ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_registration_info_proxy" kindref="compound">RegistrationInfoProxy</ref>, Void &gt;</type>
+        <definition>InstanceRequest&lt;RegistrationInfoProxy, Void&gt; csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest.unregister</definition>
+        <argsstring>()</argsstring>
+        <name>unregister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unregister a device for C2DM messages. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="46"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_device_registrar_1a588aba958edca877d7f3f995d8854dbd" compoundref="_device_registrar_8java" startline="48" endline="104">csc440.nuf.DeviceRegistrar.registerOrUnregister</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="409">
+        <label>RequestContext</label>
+      </node>
+      <node id="408">
+        <label>csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest</label>
+        <link refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request"/>
+        <childnode refid="409" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="411">
+        <label>RequestContext</label>
+      </node>
+      <node id="410">
+        <label>csc440.nuf.client.MyRequestFactory.RegistrationInfoRequest</label>
+        <link refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="37" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" bodystart="37" bodyend="47"/>
+    <listofallmembers>
+      <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a675270c3171bd35749e7552fa4e93546" prot="public" virt="non-virtual"><scope>csc440::nuf::client::MyRequestFactory::RegistrationInfoRequest</scope><name>register</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request_1a2135c9d95519fc4923751338733456de" prot="public" virt="non-virtual"><scope>csc440::nuf::client::MyRequestFactory::RegistrationInfoRequest</scope><name>unregister</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

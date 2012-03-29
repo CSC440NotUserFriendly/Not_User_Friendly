@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecom_1_1_display_exp" kind="namespace">
+    <compoundname>com::DisplayExp</compoundname>
+    <innerclass refid="classcom_1_1_display_exp_1_1_display" prot="public">com::DisplayExp::Display</innerclass>
+    <innerclass refid="classcom_1_1_display_exp_1_1_my_canvas" prot="public">com::DisplayExp::MyCanvas</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/Display.java" line="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1_action_bar" kind="class" prot="public">
+    <compoundname>csc440::nuf::ActionBar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RelativeLayout</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_action_bar_1a7f9f4d5e2ac41f08e0eb5d40f245b0e5" prot="private" static="no" mutable="no">
+        <type>LayoutInflater</type>
+        <definition>LayoutInflater csc440.nuf.ActionBar.mInflater</definition>
+        <argsstring></argsstring>
+        <name>mInflater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_action_bar_1a6cd3b25a929a52487c96627ff730379e" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView csc440.nuf.ActionBar.mLogoView</definition>
+        <argsstring></argsstring>
+        <name>mLogoView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_action_bar_1a95080ebccfb8a64f51a8e735a958cded" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView csc440.nuf.ActionBar.mTitleView</definition>
+        <argsstring></argsstring>
+        <name>mTitleView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="34" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_action_bar_1abb7ef428d7f8f83a361005659e36251a" prot="private" static="no" mutable="no">
+        <type>ProgressBar</type>
+        <definition>ProgressBar csc440.nuf.ActionBar.mProgress</definition>
+        <argsstring></argsstring>
+        <name>mProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="35" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1_action_bar_1a9e536dc0e97c0bae86bf6c65ac077916" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout csc440.nuf.ActionBar.mActionIconContainer</definition>
+        <argsstring></argsstring>
+        <name>mActionIconContainer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="36" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1ac5f0e9b866cc8148023171122b78b115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.ActionBar.ActionBar</definition>
+        <argsstring>(Context context, AttributeSet attrs)</argsstring>
+        <name>ActionBar</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>AttributeSet</type>
+          <declname>attrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="38" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="38" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1af2b4df26aa6a8e02bc668d49abd82835" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.setHomeLogo</definition>
+        <argsstring>(int resId)</argsstring>
+        <name>setHomeLogo</name>
+        <param>
+          <type>int</type>
+          <declname>resId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="55" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="55" bodyend="57"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1a05076cbc2ed528aef5c06b37e8469b1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.setHomeListener</definition>
+        <argsstring>(OnClickListener onClickListener)</argsstring>
+        <name>setHomeListener</name>
+        <param>
+          <type>OnClickListener</type>
+          <declname>onClickListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="69" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="69" bodyend="71"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1aa8aa6584906e2aa28298c720006060db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.setTitle</definition>
+        <argsstring>(CharSequence title)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>CharSequence</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="73" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="73" bodyend="75"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity_1a2940cb9bd30e02c726a99b9949f94472" compoundref="_s_m_i_l_activity_8java" startline="101" endline="151">csc440.nuf.SMILActivity.onResume</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1_view_message_activity_1a067f20ee5e75405a29b71d914d62a2fc" compoundref="_view_message_activity_8java" startline="52" endline="126">csc440.nuf.ViewMessageActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1ad9d45e296e85b875aedc05f7c546ba51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.setTitle</definition>
+        <argsstring>(int resid)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>int</type>
+          <declname>resid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="77" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="77" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1ad12b2cf4d53d3605cdac65a3ca830025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.showProgressBar</definition>
+        <argsstring>()</argsstring>
+        <name>showProgressBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="81" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1a4b96c2da4f336e1621c39c236b0e9881" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.hideProgressBar</definition>
+        <argsstring>()</argsstring>
+        <name>hideProgressBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="85" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1a4d83db21922864af30726bbb53a9e825" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.addActionIcon</definition>
+        <argsstring>(int iconResourceId, OnClickListener onClickListener)</argsstring>
+        <name>addActionIcon</name>
+        <param>
+          <type>int</type>
+          <declname>iconResourceId</declname>
+        </param>
+        <param>
+          <type>OnClickListener</type>
+          <declname>onClickListener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds ActionIcons to the <ref refid="classcsc440_1_1nuf_1_1_action_bar" kindref="compound">ActionBar</ref> (adds to the left-end)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iconResourceId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>onClickListener</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to handle click actions on the ActionIcon. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="95" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="95" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1ae7467a90e6fbab07cca8c6a59e4af711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.ActionBar.removeActionIconAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>removeActionIconAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove the action icon from the given index (0 based)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the item was removed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="111" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="111" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1a9588061b3c0a144ea971f3062a5b11e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.ActionBar.isProgressBarVisible</definition>
+        <argsstring>()</argsstring>
+        <name>isProgressBarVisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if the progressbar is visible </para></simplesect>
+<simplesect kind="see"><para>View::VISIBLE </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="124" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1_action_bar_1af8a9582fa3c051ea7d819d4eb8efb8f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.ActionBar.setProgressBarVisibility</definition>
+        <argsstring>(int visibility)</argsstring>
+        <name>setProgressBarVisibility</name>
+        <param>
+          <type>int</type>
+          <declname>visibility</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the enabled state of the progress bar.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>One</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of <ref refid="" kindref="compound">View#VISIBLE</ref>, <ref refid="" kindref="compound">View#INVISIBLE</ref>, or <ref refid="" kindref="compound">View#GONE</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="133" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="133" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="264">
+        <label>RelativeLayout</label>
+      </node>
+      <node id="263">
+        <label>csc440.nuf.ActionBar</label>
+        <link refid="classcsc440_1_1nuf_1_1_action_bar"/>
+        <childnode refid="264" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="266">
+        <label>RelativeLayout</label>
+      </node>
+      <node id="265">
+        <label>csc440.nuf.ActionBar</label>
+        <link refid="classcsc440_1_1nuf_1_1_action_bar"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/ActionBar.java" bodystart="31" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1ac5f0e9b866cc8148023171122b78b115" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>ActionBar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a4d83db21922864af30726bbb53a9e825" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>addActionIcon</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a4b96c2da4f336e1621c39c236b0e9881" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>hideProgressBar</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a9588061b3c0a144ea971f3062a5b11e0" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>isProgressBarVisible</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a9e536dc0e97c0bae86bf6c65ac077916" prot="private" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>mActionIconContainer</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a7f9f4d5e2ac41f08e0eb5d40f245b0e5" prot="private" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>mInflater</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a6cd3b25a929a52487c96627ff730379e" prot="private" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>mLogoView</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1abb7ef428d7f8f83a361005659e36251a" prot="private" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>mProgress</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a95080ebccfb8a64f51a8e735a958cded" prot="private" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>mTitleView</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1ae7467a90e6fbab07cca8c6a59e4af711" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>removeActionIconAt</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1a05076cbc2ed528aef5c06b37e8469b1d" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>setHomeListener</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1af2b4df26aa6a8e02bc668d49abd82835" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>setHomeLogo</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1af8a9582fa3c051ea7d819d4eb8efb8f4" prot="private" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>setProgressBarVisibility</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1aa8aa6584906e2aa28298c720006060db" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>setTitle</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1ad9d45e296e85b875aedc05f7c546ba51" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>setTitle</name></member>
+      <member refid="classcsc440_1_1nuf_1_1_action_bar_1ad12b2cf4d53d3605cdac65a3ca830025" prot="public" virt="non-virtual"><scope>csc440::nuf::ActionBar</scope><name>showProgressBar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

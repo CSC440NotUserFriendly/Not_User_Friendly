@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1complay_1_1_q" kind="class" prot="public">
+    <compoundname>csc440::nuf::complay::Q</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_q_1aea2fad200c5d75c18a293c0380f4a853" prot="private" static="no" mutable="no">
+        <type>LinkedList&lt; AbstractSMILObject &gt;</type>
+        <definition>LinkedList&lt;AbstractSMILObject&gt; csc440.nuf.complay.Q.objectQ</definition>
+        <argsstring></argsstring>
+        <name>objectQ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="29" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a6f1a378a2d72ee0a70758e46f706c82e" prot="private" static="no" mutable="no">
+        <type>SMILLayout</type>
+        <definition>SMILLayout csc440.nuf.complay.Q.layout</definition>
+        <argsstring></argsstring>
+        <name>layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="30" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a9f86403c30211de4c45ce64a864647bf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float csc440.nuf.complay.Q.density</definition>
+        <argsstring></argsstring>
+        <name>density</name>
+        <initializer> 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a1b40ea4bed45dd4c214ce69495f0f462" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.complay.Q.qType</definition>
+        <argsstring></argsstring>
+        <name>qType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1ad72dc784bb75e4e78b3b612e2d57d85c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.complay.Q.Q</definition>
+        <argsstring>(String qType)</argsstring>
+        <name>Q</name>
+        <param>
+          <type>String</type>
+          <declname>qType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="34" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a89a196928ffab3aa6d54f6029a6c22db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.setScreenDensity</definition>
+        <argsstring>(float newDensity)</argsstring>
+        <name>setScreenDensity</name>
+        <param>
+          <type>float</type>
+          <declname>newDensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="39" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="39" bodyend="41"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1ab4cfe319143b0b8147222d71b1a7e474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float csc440.nuf.complay.Q.getDensity</definition>
+        <argsstring>()</argsstring>
+        <name>getDensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="43" bodyend="46"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" compoundref="_s_m_i_l_text_8java" startline="44" endline="61">csc440.nuf.components.SMILText.draw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.push</definition>
+        <argsstring>(AbstractSMILObject smil)</argsstring>
+        <name>push</name>
+        <param>
+          <type>AbstractSMILObject</type>
+          <declname>smil</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="48" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="48" bodyend="50"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a3e1b09860f1ed33f8de26294e34ef167" compoundref="_s_m_i_l_handler_8java" startline="84" endline="102">csc440.nuf.parser.SMILHandler.endElement</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1aa6eb041f2aed3eb2895323c762cd39de" compoundref="_s_m_i_l_handler_8java" startline="104" endline="112">csc440.nuf.parser.SMILHandler.add</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a1909fe89eabfc73398d99c7dc4c9b946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbstractSMILObject</type>
+        <definition>AbstractSMILObject csc440.nuf.complay.Q.peek</definition>
+        <argsstring>()</argsstring>
+        <name>peek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="52" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="52" bodyend="54"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" compoundref="_player_canvas_8java" startline="51" endline="101">csc440.nuf.complay.PlayerCanvas.run</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1af768e2d386701d7d3ee1078e08a21422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbstractSMILObject</type>
+        <definition>AbstractSMILObject csc440.nuf.complay.Q.pop</definition>
+        <argsstring>()</argsstring>
+        <name>pop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="56" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="56" bodyend="58"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a819204376514251f5ca8edc5245b950b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.prepQ</definition>
+        <argsstring>()</argsstring>
+        <name>prepQ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="60" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="60" bodyend="62"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a6c333b08908191e022f23b68989c263a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean csc440.nuf.complay.Q.isEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="64" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="64" bodyend="66"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" compoundref="_player_canvas_8java" startline="51" endline="101">csc440.nuf.complay.PlayerCanvas.run</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a37b180778c7a88f92b1feee52d171a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SMILLayout</type>
+        <definition>SMILLayout csc440.nuf.complay.Q.getLayout</definition>
+        <argsstring>()</argsstring>
+        <name>getLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="68" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a37ca528aeec4df81de99fe3cec490372" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.setLayout</definition>
+        <argsstring>(SMILLayout layout)</argsstring>
+        <name>setLayout</name>
+        <param>
+          <type>SMILLayout</type>
+          <declname>layout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="72" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="72" bodyend="74"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1parser_1_1_s_m_i_l_handler_1a2b4d94d2fc3c31316eb1c44a1720902e" compoundref="_s_m_i_l_handler_8java" startline="30" endline="55">csc440.nuf.parser.SMILHandler.startElement</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a71e507602b30ba7ca249efedf6ddabad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.complay.Q.getMessageLength</definition>
+        <argsstring>()</argsstring>
+        <name>getMessageLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="76" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="76" bodyend="78"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_activity_1a592b9fe89b9076e65456181c0e389e3c" compoundref="_player_activity_8java" startline="50" endline="116">csc440.nuf.complay.PlayerActivity.onCreate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1ad07780ee275df50700092486b77010dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.complay.Q.getLength</definition>
+        <argsstring>()</argsstring>
+        <name>getLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="80" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1ad1a841654a2ffdf723916899f7cf434a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinkedList&lt; AbstractSMILObject &gt;</type>
+        <definition>LinkedList&lt;AbstractSMILObject&gt; csc440.nuf.complay.Q.getQ</definition>
+        <argsstring>()</argsstring>
+        <name>getQ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="84" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a75d1b0f2ee11e7051721631f7659fdab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.draw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>draw</name>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="88" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="88" bodyend="94"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_player_canvas_1aa0797d703af20d0ada15e590da003617" compoundref="_player_canvas_8java" startline="51" endline="101">csc440.nuf.complay.PlayerCanvas.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1aa873b2a8f7d338e917b5db7af678a55d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.sortByEndTimeASC</definition>
+        <argsstring>()</argsstring>
+        <name>sortByEndTimeASC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="96" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="96" bodyend="98"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a935d3fbb201ad281bfc122c616335413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.sortByStartTimeDESC</definition>
+        <argsstring>()</argsstring>
+        <name>sortByStartTimeDESC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="100" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="100" bodyend="102"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a7a50e7b8980cf5b55cd7ae6ce93c8348" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="104" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_q_1a45d3006d15d01f06878b7eb8e191ae29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.complay.Q.logQ</definition>
+        <argsstring>(String log)</argsstring>
+        <name>logQ</name>
+        <param>
+          <type>String</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="112" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="112" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" line="26" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/Q.java" bodystart="26" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a7a50e7b8980cf5b55cd7ae6ce93c8348" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>clear</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a9f86403c30211de4c45ce64a864647bf" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>density</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a75d1b0f2ee11e7051721631f7659fdab" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>draw</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ab4cfe319143b0b8147222d71b1a7e474" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>getDensity</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a37b180778c7a88f92b1feee52d171a18" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>getLayout</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ad07780ee275df50700092486b77010dd" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>getLength</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a71e507602b30ba7ca249efedf6ddabad" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>getMessageLength</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ad1a841654a2ffdf723916899f7cf434a" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>getQ</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a6c333b08908191e022f23b68989c263a" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>isEmpty</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a6f1a378a2d72ee0a70758e46f706c82e" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>layout</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a45d3006d15d01f06878b7eb8e191ae29" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>logQ</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aea2fad200c5d75c18a293c0380f4a853" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>objectQ</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a1909fe89eabfc73398d99c7dc4c9b946" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>peek</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1af768e2d386701d7d3ee1078e08a21422" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>pop</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a819204376514251f5ca8edc5245b950b" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>prepQ</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aaa9e1371272a3d71932a7b753155741b" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>push</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ad72dc784bb75e4e78b3b612e2d57d85c" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>Q</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a1b40ea4bed45dd4c214ce69495f0f462" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>qType</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a37ca528aeec4df81de99fe3cec490372" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>setLayout</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a89a196928ffab3aa6d54f6029a6c22db" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>setScreenDensity</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1aa873b2a8f7d338e917b5db7af678a55d" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>sortByEndTimeASC</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_q_1a935d3fbb201ad281bfc122c616335413" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::Q</scope><name>sortByStartTimeDESC</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

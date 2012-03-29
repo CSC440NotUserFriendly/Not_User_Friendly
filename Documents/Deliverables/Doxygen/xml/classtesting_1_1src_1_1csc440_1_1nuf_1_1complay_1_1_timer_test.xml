@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test" kind="class" prot="package">
+    <compoundname>testing::src::csc440::nuf::complay::TimerTest</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1ac7d16b7c9f095f8490f93cb77ee73211" prot="package" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer testing.src.csc440.nuf.complay.TimerTest.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" line="16" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1ab8ec466786294670f9b70dacf1c87de8" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int testing.src.csc440.nuf.complay.TimerTest.data[]</definition>
+        <argsstring>[]</argsstring>
+        <name>data</name>
+        <initializer> { 5 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" line="17" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1a754f5ec93ba1d9bc24d51c0638fb5bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing.src.csc440.nuf.complay.TimerTest.setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1a65fed0b056aa48a3f01419a29585ceee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testing.src.csc440.nuf.complay.TimerTest.testSetTime</definition>
+        <argsstring>()</argsstring>
+        <name>testSetTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="_timer_test_8java" kindref="compound">TimerTest.java</ref> <simplesect kind="author"><para>Alex Gilbert </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="517">
+        <label>testing.src.csc440.nuf.complay.TimerTest</label>
+        <childnode refid="518" relation="usage">
+          <edgelabel>timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="518">
+        <label>Timer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" line="14" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/testing/src/csc440/nuf/complay/TimerTest.java" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1ab8ec466786294670f9b70dacf1c87de8" prot="package" virt="non-virtual"><scope>testing::src::csc440::nuf::complay::TimerTest</scope><name>data</name></member>
+      <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1a754f5ec93ba1d9bc24d51c0638fb5bd7" prot="public" virt="non-virtual"><scope>testing::src::csc440::nuf::complay::TimerTest</scope><name>setup</name></member>
+      <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1a65fed0b056aa48a3f01419a29585ceee" prot="public" virt="non-virtual"><scope>testing::src::csc440::nuf::complay::TimerTest</scope><name>testSetTime</name></member>
+      <member refid="classtesting_1_1src_1_1csc440_1_1nuf_1_1complay_1_1_timer_test_1ac7d16b7c9f095f8490f93cb77ee73211" prot="package" virt="non-virtual"><scope>testing::src::csc440::nuf::complay::TimerTest</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

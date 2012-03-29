@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_item.xhtml#a1f0cd1ed3e9e496f6cd40cde580dc045" title="com.google.appengine.codelab.Item.createOrUpdateItem" alt="" coords="395,59,786,90"/>
+<area shape="rect" id="node5" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_product.xhtml#a8281f8c29702347f39fcb651db5e073f" title="com.google.appengine.codelab.Product.getProduct" alt="" coords="835,5,1187,35"/>
+<area shape="rect" id="node9" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_item.xhtml#addfefc24274a9ae1e62dc123e4bc2a68" title="com.google.appengine.codelab.Item.getSingleItem" alt="" coords="836,59,1185,90"/>
+<area shape="rect" id="node13" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_util.xhtml#a95f645b216766041423363dd06815dc7" title="com.google.appengine.codelab.Util.persistEntity" alt="" coords="844,114,1178,145"/>
+<area shape="rect" id="node7" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_util.xhtml#a14548b6d0d079225ae5f6596542a1c0f" title="com.google.appengine.codelab.Util.findEntity" alt="" coords="1295,5,1611,35"/>
+<area shape="rect" id="node11" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_util.xhtml#a097d93268afc438617bd7e13f0f0f5e7" title="com.google.appengine.codelab.Util.getDatastoreServiceInstance" alt="" coords="1235,59,1672,90"/>
+</map>

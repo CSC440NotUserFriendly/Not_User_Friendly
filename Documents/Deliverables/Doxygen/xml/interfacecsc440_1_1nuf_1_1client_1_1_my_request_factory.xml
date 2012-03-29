@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory" kind="interface" prot="public">
+    <compoundname>csc440::nuf::client::MyRequestFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RequestFactory</basecompoundref>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request" prot="public">csc440::nuf::client::MyRequestFactory::HelloWorldRequest</innerclass>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_message_request" prot="public">csc440::nuf::client::MyRequestFactory::MessageRequest</innerclass>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request" prot="public">csc440::nuf::client::MyRequestFactory::RegistrationInfoRequest</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1a4828401da626ac8389a9417580304595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request" kindref="compound">HelloWorldRequest</ref></type>
+        <definition>HelloWorldRequest csc440.nuf.client.MyRequestFactory.helloWorldRequest</definition>
+        <argsstring>()</argsstring>
+        <name>helloWorldRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="57"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1af3e77d56e898cc26b1c2bdef38415cf1" compoundref="_s_m_i_l_widget_8java" startline="94" endline="151">csc440.nuf.client.SMILWidget.SMILWidget</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1ac6639a72023708a6799b5d0b009dd07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_registration_info_request" kindref="compound">RegistrationInfoRequest</ref></type>
+        <definition>RegistrationInfoRequest csc440.nuf.client.MyRequestFactory.registrationInfoRequest</definition>
+        <argsstring>()</argsstring>
+        <name>registrationInfoRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1aec007852eb50441fe13e53e4fb86e3a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_message_request" kindref="compound">MessageRequest</ref></type>
+        <definition>MessageRequest csc440.nuf.client.MyRequestFactory.messageRequest</definition>
+        <argsstring>()</argsstring>
+        <name>messageRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="61"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1af3e77d56e898cc26b1c2bdef38415cf1" compoundref="_s_m_i_l_widget_8java" startline="94" endline="151">csc440.nuf.client.SMILWidget.SMILWidget</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="371">
+        <label>csc440.nuf.client.MyRequestFactory</label>
+        <link refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory"/>
+        <childnode refid="372" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>RequestFactory</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="373">
+        <label>csc440.nuf.client.MyRequestFactory</label>
+        <link refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory"/>
+        <childnode refid="374" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="374">
+        <label>RequestFactory</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" line="26" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/client/MyRequestFactory.java" bodystart="26" bodyend="62"/>
+    <listofallmembers>
+      <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1a4828401da626ac8389a9417580304595" prot="public" virt="non-virtual"><scope>csc440::nuf::client::MyRequestFactory</scope><name>helloWorldRequest</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1aec007852eb50441fe13e53e4fb86e3a6" prot="public" virt="non-virtual"><scope>csc440::nuf::client::MyRequestFactory</scope><name>messageRequest</name></member>
+      <member refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1ac6639a72023708a6799b5d0b009dd07c" prot="public" virt="non-virtual"><scope>csc440::nuf::client::MyRequestFactory</scope><name>registrationInfoRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

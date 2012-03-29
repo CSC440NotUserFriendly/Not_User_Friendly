@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_f1fc228e851cc337582b85e538a67cc5" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/</compoundname>
+    <innerdir refid="dir_e1102279bfb96baa2789661af8200972">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/"/>
+  </compounddef>
+</doxygen>

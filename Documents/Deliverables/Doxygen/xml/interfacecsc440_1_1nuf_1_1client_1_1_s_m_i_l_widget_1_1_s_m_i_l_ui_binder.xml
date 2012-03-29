@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1_1_s_m_i_l_ui_binder" kind="interface" prot="package">
+    <compoundname>csc440::nuf::client::SMILWidget::SMILUiBinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">com::google::gwt::uibinder::client::UiBinder&lt; Widget, SMILWidget &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="488">
+        <label>com::google::gwt::uibinder::client::UiBinder&lt; Widget, SMILWidget &gt;</label>
+      </node>
+      <node id="487">
+        <label>csc440.nuf.client.SMILWidget.SMILUiBinder</label>
+        <childnode refid="488" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="490">
+        <label>com::google::gwt::uibinder::client::UiBinder&lt; Widget, SMILWidget &gt;</label>
+      </node>
+      <node id="489">
+        <label>csc440.nuf.client.SMILWidget.SMILUiBinder</label>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="46" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="46" bodyend="47"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="_s_m_i_l_engine_request_8java" kind="file">
+    <compoundname>SMILEngineRequest.java</compoundname>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request" prot="public">csc440::nuf::shared::SMILEngineRequest</innerclass>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1shared">csc440::nuf::shared</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">csc440.nuf.shared;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.google.web.bindery.requestfactory.shared.Request;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.google.web.bindery.requestfactory.shared.RequestContext;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.google.web.bindery.requestfactory.shared.ServiceName;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">@ServiceName(value<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;csc440.nuf.server.SMILEngineService&quot;</highlight><highlight class="normal">,<sp/>locator<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;csc440.nuf.server.SMILEngineServiceLocator&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10" refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request" refkind="compound"><highlight class="normal">public<sp/>interface<sp/><ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_engine_request" kindref="compound">SMILEngineRequest</ref><sp/>extends<sp/>RequestContext<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Request&lt;SMILMessageProxy&gt;<sp/>createSMILMessage();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Request&lt;SMILMessageProxy&gt;<sp/>readSMILMessage(Long<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Request&lt;SMILMessageProxy&gt;<sp/>updateSMILMessage(<ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref><sp/>smilmessage);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Request&lt;Void&gt;<sp/>deleteSMILMessage(<ref refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kindref="compound">SMILMessageProxy</ref><sp/>smilmessage);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Request&lt;List&lt;SMILMessageProxy&gt;&gt;<sp/>querySMILMessages();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILEngineRequest.java"/>
+  </compounddef>
+</doxygen>

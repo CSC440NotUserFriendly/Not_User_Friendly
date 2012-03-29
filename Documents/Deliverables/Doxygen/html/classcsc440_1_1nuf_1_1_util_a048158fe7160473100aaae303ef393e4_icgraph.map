@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1_util.xhtml#adbbee48d176f30c61d5819634d17b73a" title="csc440.nuf.Util.generateNotification" alt="" coords="358,5,613,35"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1_util.xhtml#a5fbb65d6db8c6c778abe34f22b529513" title="csc440.nuf.Util.getRequestFactory" alt="" coords="364,59,607,90"/>
+<area shape="rect" id="node13" href="$classcsc440_1_1nuf_1_1_accounts_activity.xhtml#a4404f0bf65d48a9e30301527d1150c57" title="csc440.nuf.AccountsActivity.onCreate" alt="" coords="352,114,619,145"/>
+<area shape="rect" id="node15" href="$classcsc440_1_1nuf_1_1_c2_d_m_receiver.xhtml#a5703ea903b3efa7a0fc8b0dd94c93939" title="csc440.nuf.C2DMReceiver.onUnregistered" alt="" coords="737,166,1031,197"/>
+<area shape="rect" id="node17" href="$classcsc440_1_1nuf_1_1_device_registrar.xhtml#a588aba958edca877d7f3f995d8854dbd" title="csc440.nuf.DeviceRegistrar.registerOrUnregister" alt="" coords="318,221,653,251"/>
+<area shape="rect" id="node24" href="$classcsc440_1_1nuf_1_1_s_m_i_l_activity.xhtml#a2940cb9bd30e02c726a99b9949f94472" title="csc440.nuf.SMILActivity.onResume" alt="" coords="363,275,608,306"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1_message_display.xhtml#adf7092394387e6226d21bfa80c15b28d" title="csc440.nuf.MessageDisplay.displayMessage" alt="" coords="731,5,1037,35"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1_c2_d_m_receiver.xhtml#a4fd8cbc3e17b49225e052b12547af03a" title="csc440.nuf.C2DMReceiver.onMessage" alt="" coords="1115,5,1381,35"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message.xhtml#a19a50624286e3650df8cbe84e6cf4ada" title="csc440.nuf.AsyncFetchSMILMessage.doInBackground" alt="" coords="702,59,1066,90"/>
+<area shape="rect" id="node19" href="$classcsc440_1_1nuf_1_1_accounts_activity.xhtml#a172796bda215011c1ef3b983e9555cfb" title="csc440.nuf.AccountsActivity.onResume" alt="" coords="746,221,1022,251"/>
+<area shape="rect" id="node21" href="$classcsc440_1_1nuf_1_1_c2_d_m_receiver.xhtml#a55ec75d92b2ea18fc3bfb7354fc63571" title="csc440.nuf.C2DMReceiver.onRegistered" alt="" coords="744,275,1024,306"/>
+</map>

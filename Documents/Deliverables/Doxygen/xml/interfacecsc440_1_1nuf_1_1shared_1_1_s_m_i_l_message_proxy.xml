@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy" kind="interface" prot="public">
+    <compoundname>csc440::nuf::shared::SMILMessageProxy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ValueProxy</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="465">
+        <label>csc440.nuf.shared.SMILMessageProxy</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy"/>
+        <childnode refid="466" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="466">
+        <label>ValueProxy</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="467">
+        <label>csc440.nuf.shared.SMILMessageProxy</label>
+        <link refid="interfacecsc440_1_1nuf_1_1shared_1_1_s_m_i_l_message_proxy"/>
+        <childnode refid="468" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>ValueProxy</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILMessageProxy.java" line="7" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/SMILMessageProxy.java" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

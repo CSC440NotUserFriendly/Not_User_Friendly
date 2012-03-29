@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_694d3a19f40a81d0ede2c12b77cb4ca0" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/</compoundname>
+    <innerfile refid="_display_8java">Display.java</innerfile>
+    <innerfile refid="_my_canvas_8java">MyCanvas.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/"/>
+  </compounddef>
+</doxygen>

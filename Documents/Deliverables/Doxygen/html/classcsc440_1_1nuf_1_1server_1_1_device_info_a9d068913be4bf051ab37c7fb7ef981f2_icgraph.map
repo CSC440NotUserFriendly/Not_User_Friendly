@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1server_1_1_send_message.xhtml#a0c14fe20917e68f73dda5a275ba2a7f2" title="csc440.nuf.server.SendMessage.sendMessage" alt="" coords="406,33,724,63"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1server_1_1_data_store.xhtml#ad7c4ecf86f1850c8ba359f20feec8797" title="csc440.nuf.server.DataStore.sendC2DMUpdate" alt="" coords="774,5,1098,35"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1server_1_1_message.xhtml#a8fe8e1a3d08cf036c59a0fe09458754e" title="csc440.nuf.server.Message.send" alt="" coords="820,59,1052,90"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service.xhtml#a2c28cf08855cb6e77d5b774321f245d0" title="csc440.nuf.server.SMILEngineService.updateSMILMessage" alt="" coords="1147,5,1541,35"/>
+</map>

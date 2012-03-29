@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service" kind="class" prot="public">
+    <compoundname>csc440::nuf::server::SMILEngineService</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1abf331d257346f4d73c4678d6094a0b9f" prot="package" static="yes" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_data_store" kindref="compound">DataStore</ref></type>
+        <definition>DataStore csc440.nuf.server.SMILEngineService.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer> new <ref refid="classcsc440_1_1nuf_1_1server_1_1_data_store" kindref="compound">DataStore</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" line="18" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a3b83cad8892f2616c9107132e9335272" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kindref="compound">SMILMessage</ref></type>
+        <definition>SMILMessage csc440.nuf.server.SMILEngineService.createSMILMessage</definition>
+        <argsstring>()</argsstring>
+        <name>createSMILMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" bodystart="20" bodyend="23"/>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ab66ed1adeb1a5ee0ce37bf5404909e11" compoundref="_data_store_8java" startline="91" endline="103">csc440.nuf.server.DataStore.update</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1aec9033c4e9624646beb5276de28bfe59" compoundref="_data_store_8java" startline="105" endline="109">csc440.nuf.server.DataStore.getUserId</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1a3749afd0edd374001b7a29ef14495ffc" compoundref="_data_store_8java" startline="111" endline="115">csc440.nuf.server.DataStore.getUserEmail</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1afd3deee2a9ec22cfeb37095d0b118e13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kindref="compound">SMILMessage</ref></type>
+        <definition>SMILMessage csc440.nuf.server.SMILEngineService.readSMILMessage</definition>
+        <argsstring>(Long id)</argsstring>
+        <name>readSMILMessage</name>
+        <param>
+          <type>Long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" line="25" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" bodystart="25" bodyend="27"/>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ae6c7e81006cca7f550337a8ac3c84a47" compoundref="_data_store_8java" startline="47" endline="64">csc440.nuf.server.DataStore.find</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a2c28cf08855cb6e77d5b774321f245d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kindref="compound">SMILMessage</ref></type>
+        <definition>SMILMessage csc440.nuf.server.SMILEngineService.updateSMILMessage</definition>
+        <argsstring>(SMILMessage smilmessage)</argsstring>
+        <name>updateSMILMessage</name>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kindref="compound">SMILMessage</ref></type>
+          <declname>smilmessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" line="29" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" bodystart="29" bodyend="34"/>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a839f38b917f400f15cc39046b99d7ec6" compoundref="_s_m_i_l_message_8java" startline="45" endline="47">csc440.nuf.server.SMILMessage.setSenderEmail</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1a3749afd0edd374001b7a29ef14495ffc" compoundref="_data_store_8java" startline="111" endline="115">csc440.nuf.server.DataStore.getUserEmail</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ab66ed1adeb1a5ee0ce37bf5404909e11" compoundref="_data_store_8java" startline="91" endline="103">csc440.nuf.server.DataStore.update</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1ad7c4ecf86f1850c8ba359f20feec8797" compoundref="_data_store_8java" startline="119" endline="124">csc440.nuf.server.DataStore.sendC2DMUpdate</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a3244ff730fcc1e2935e268358d0c507d" compoundref="_s_m_i_l_message_8java" startline="65" endline="67">csc440.nuf.server.SMILMessage.getId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1ab19512b37c29e2b7a222a9a34b7e5077" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.server.SMILEngineService.deleteSMILMessage</definition>
+        <argsstring>(SMILMessage smilmessage)</argsstring>
+        <name>deleteSMILMessage</name>
+        <param>
+          <type><ref refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kindref="compound">SMILMessage</ref></type>
+          <declname>smilmessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" line="36" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" bodystart="36" bodyend="38"/>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1a338414fad64469e2aeb74ffd4833f5d9" compoundref="_data_store_8java" startline="30" endline="38">csc440.nuf.server.DataStore.delete</references>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message_1a3244ff730fcc1e2935e268358d0c507d" compoundref="_s_m_i_l_message_8java" startline="65" endline="67">csc440.nuf.server.SMILMessage.getId</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1aa5da8cd2b8d67fc8120eeb94f575b4c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_message" kindref="compound">SMILMessage</ref> &gt;</type>
+        <definition>List&lt;SMILMessage&gt; csc440.nuf.server.SMILEngineService.querySMILMessages</definition>
+        <argsstring>()</argsstring>
+        <name>querySMILMessages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" line="40" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" bodystart="40" bodyend="42"/>
+        <references refid="classcsc440_1_1nuf_1_1server_1_1_data_store_1adeb95b19f2aef0eae3d55b5aabf63660" compoundref="_data_store_8java" startline="67" endline="86">csc440.nuf.server.DataStore.findAll</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="443">
+        <label>csc440.nuf.server.SMILEngineService</label>
+        <link refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service"/>
+        <childnode refid="444" relation="usage">
+          <edgelabel>db</edgelabel>
+        </childnode>
+      </node>
+      <node id="444">
+        <label>csc440.nuf.server.DataStore</label>
+        <link refid="classcsc440_1_1nuf_1_1server_1_1_data_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" line="16" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineService.java" bodystart="16" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a3b83cad8892f2616c9107132e9335272" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILEngineService</scope><name>createSMILMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1abf331d257346f4d73c4678d6094a0b9f" prot="package" virt="non-virtual"><scope>csc440::nuf::server::SMILEngineService</scope><name>db</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1ab19512b37c29e2b7a222a9a34b7e5077" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILEngineService</scope><name>deleteSMILMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1aa5da8cd2b8d67fc8120eeb94f575b4c6" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILEngineService</scope><name>querySMILMessages</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1afd3deee2a9ec22cfeb37095d0b118e13" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILEngineService</scope><name>readSMILMessage</name></member>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_1a2c28cf08855cb6e77d5b774321f245d0" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILEngineService</scope><name>updateSMILMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

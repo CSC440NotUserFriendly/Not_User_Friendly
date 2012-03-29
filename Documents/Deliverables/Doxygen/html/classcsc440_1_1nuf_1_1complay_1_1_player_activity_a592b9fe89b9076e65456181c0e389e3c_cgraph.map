@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcsc440_1_1nuf_1_1complay_1_1_waiting.xhtml#aaa8d6d536f680a183de75424e4d95627" title="csc440.nuf.complay.Waiting.Q" alt="" coords="1156,27,1374,57"/>
+<area shape="rect" id="node5" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a89a196928ffab3aa6d54f6029a6c22db" title="csc440.nuf.complay.Q.setScreenDensity" alt="" coords="423,297,703,328"/>
+<area shape="rect" id="node7" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a6c333b08908191e022f23b68989c263a" title="csc440.nuf.complay.Q.isEmpty" alt="" coords="1155,81,1376,112"/>
+<area shape="rect" id="node9" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#af768e2d386701d7d3ee1078e08a21422" title="csc440.nuf.complay.Q.pop" alt="" coords="1168,136,1363,167"/>
+<area shape="rect" id="node11" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#aaa9e1371272a3d71932a7b753155741b" title="csc440.nuf.complay.Q.push" alt="" coords="1165,464,1366,495"/>
+<area shape="rect" id="node13" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a819204376514251f5ca8edc5245b950b" title="csc440.nuf.complay.Q.prepQ" alt="" coords="458,352,668,383"/>
+<area shape="rect" id="node15" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a71e507602b30ba7ca249efedf6ddabad" title="csc440.nuf.complay.Q.getMessageLength" alt="" coords="417,407,708,437"/>
+<area shape="rect" id="node17" href="$classcsc440_1_1nuf_1_1complay_1_1_player_canvas.xhtml#ab0dcca93b23d621e1d3d353ecd95a215" title="csc440.nuf.complay.PlayerCanvas.setSeekBar" alt="" coords="406,461,719,492"/>
+<area shape="rect" id="node19" href="$classcsc440_1_1nuf_1_1complay_1_1_player_activity.xhtml#a2c26eb31e540ba1a1c22a029d1669741" title="csc440.nuf.complay.PlayerActivity.formatSecondsToMinutes" alt="" coords="358,516,767,547"/>
+<area shape="rect" id="node21" href="$classcsc440_1_1nuf_1_1complay_1_1_player_canvas.xhtml#a64eae2e9ed26456ab5b104436c97d78f" title="csc440.nuf.complay.PlayerCanvas.setTime" alt="" coords="415,191,710,221"/>
+<area shape="rect" id="node23" href="$classcsc440_1_1nuf_1_1complay_1_1_timer.xhtml#aebbe2beb25856951b72d866d783ce897" title="csc440.nuf.complay.Timer.setTime" alt="" coords="816,191,1064,221"/>
+<area shape="rect" id="node25" href="$classcsc440_1_1nuf_1_1complay_1_1_on_screen.xhtml#a33feeb951e6558b0f50251e713a5a230" title="csc440.nuf.complay.OnScreen.Q" alt="" coords="1150,300,1381,331"/>
+<area shape="rect" id="node28" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a1909fe89eabfc73398d99c7dc4c9b946" title="csc440.nuf.complay.Q.peek" alt="" coords="1165,355,1366,385"/>
+<area shape="rect" id="node30" href="$classcsc440_1_1nuf_1_1complay_1_1_off_screen.xhtml#ab94d06e82ef902255257e6ca5b635a56" title="csc440.nuf.complay.OffScreen.Q" alt="" coords="1149,409,1381,440"/>
+<area shape="rect" id="node35" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#aa873b2a8f7d338e917b5db7af678a55d" title="csc440.nuf.complay.Q.sortByEndTimeASC" alt="" coords="1120,191,1411,221"/>
+<area shape="rect" id="node37" href="$classcsc440_1_1nuf_1_1complay_1_1_q.xhtml#a935d3fbb201ad281bfc122c616335413" title="csc440.nuf.complay.Q.sortByStartTimeDESC" alt="" coords="1113,245,1418,276"/>
+</map>

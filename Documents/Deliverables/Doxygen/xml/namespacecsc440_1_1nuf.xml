@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacecsc440_1_1nuf" kind="namespace">
+    <compoundname>csc440::nuf</compoundname>
+    <innerclass refid="classcsc440_1_1nuf_1_1_manifest" prot="public">csc440::nuf::Manifest</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_r" prot="public">csc440::nuf::R</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_accounts_activity" prot="public">csc440::nuf::AccountsActivity</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_action_bar" prot="public">csc440::nuf::ActionBar</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_android_request_transport" prot="public">csc440::nuf::AndroidRequestTransport</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_async_fetch_s_m_i_l_message" prot="public">csc440::nuf::AsyncFetchSMILMessage</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_c2_d_m_receiver" prot="public">csc440::nuf::C2DMReceiver</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_device_registrar" prot="public">csc440::nuf::DeviceRegistrar</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_message_display" prot="public">csc440::nuf::MessageDisplay</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_scroll_item" prot="public">csc440::nuf::ScrollItem</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_scroll_item_manager" prot="public">csc440::nuf::ScrollItemManager</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_setup" prot="public">csc440::nuf::Setup</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_s_m_i_l_activity" prot="public">csc440::nuf::SMILActivity</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_util" prot="public">csc440::nuf::Util</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_view_message_activity" prot="public">csc440::nuf::ViewMessageActivity</innerclass>
+    <innerclass refid="classcsc440_1_1nuf_1_1_waiting_queue" prot="public">csc440::nuf::WaitingQueue</innerclass>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1cache">csc440::nuf::cache</innernamespace>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1client">csc440::nuf::client</innernamespace>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1complay">csc440::nuf::complay</innernamespace>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1components">csc440::nuf::components</innernamespace>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1parser">csc440::nuf::parser</innernamespace>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1server">csc440::nuf::server</innernamespace>
+    <innernamespace refid="namespacecsc440_1_1nuf_1_1shared">csc440::nuf::shared</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/gen/csc440/nuf/Manifest.java" line="8"/>
+  </compounddef>
+</doxygen>

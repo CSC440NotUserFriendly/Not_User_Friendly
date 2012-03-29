@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_base_servlet.xhtml" title="com.google.appengine.codelab.BaseServlet" alt="" coords="6,33,306,63"/>
+<area shape="rect" id="node3" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet.xhtml" title="com.google.appengine.codelab.ItemServlet" alt="" coords="366,5,666,35"/>
+<area shape="rect" id="node5" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet.xhtml" title="com.google.appengine.codelab.ProductServlet" alt="" coords="356,59,676,90"/>
+</map>

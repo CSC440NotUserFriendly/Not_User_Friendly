@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_9ce2c557358f9da7e596a7de456d9d66" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/</compoundname>
+    <innerfile refid="_composer_activity_8java">ComposerActivity.java</innerfile>
+    <innerfile refid="_hide_controls_listener_8java">HideControlsListener.java</innerfile>
+    <innerfile refid="_off_screen_8java">OffScreen.java</innerfile>
+    <innerfile refid="_on_screen_8java">OnScreen.java</innerfile>
+    <innerfile refid="_player_activity_8java">PlayerActivity.java</innerfile>
+    <innerfile refid="_player_canvas_8java">PlayerCanvas.java</innerfile>
+    <innerfile refid="_q_8java">Q.java</innerfile>
+    <innerfile refid="_timer_8java">Timer.java</innerfile>
+    <innerfile refid="_waiting_8java">Waiting.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/"/>
+  </compounddef>
+</doxygen>

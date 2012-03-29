@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget" kind="class" prot="public">
+    <compoundname>csc440::nuf::client::SMILWidget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Composite</basecompoundref>
+    <innerclass refid="interfacecsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1_1_s_m_i_l_ui_binder" prot="package">csc440::nuf::client::SMILWidget::SMILUiBinder</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a8e76661a1156eb81e61206acd6e12cb0" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int csc440.nuf.client.SMILWidget.STATUS_DELAY</definition>
+        <argsstring></argsstring>
+        <name>STATUS_DELAY</name>
+        <initializer> 4000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="41" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1aca099a64b7fc0527357897ca85017b91" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.client.SMILWidget.STATUS_ERROR</definition>
+        <argsstring></argsstring>
+        <name>STATUS_ERROR</name>
+        <initializer>&quot;status error&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="42" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a006c3dd70d7bdc96bc923734582ccbac" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.client.SMILWidget.STATUS_NONE</definition>
+        <argsstring></argsstring>
+        <name>STATUS_NONE</name>
+        <initializer>&quot;status none&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="43" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a3747da591e7aee6e7bf7c4f707622f23" prot="private" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String csc440.nuf.client.SMILWidget.STATUS_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>STATUS_SUCCESS</name>
+        <initializer>&quot;status success&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a903130b2b4a7943980114f4002d5e99a" prot="private" static="yes" mutable="no">
+        <type>SMILUiBinder</type>
+        <definition>SMILUiBinder csc440.nuf.client.SMILWidget.uiBinder</definition>
+        <argsstring></argsstring>
+        <name>uiBinder</name>
+        <initializer> GWT.create(SMILUiBinder.class)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="49" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1adb2f85fe1bb79e6d4bbc333f42eb07a3" prot="package" static="no" mutable="no">
+        <type>TextAreaElement</type>
+        <definition>TextAreaElement csc440.nuf.client.SMILWidget.messageArea</definition>
+        <argsstring></argsstring>
+        <name>messageArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="52" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a93ab4737fa6a3e069241706bc47d1495" prot="package" static="no" mutable="no">
+        <type>InputElement</type>
+        <definition>InputElement csc440.nuf.client.SMILWidget.recipientArea</definition>
+        <argsstring></argsstring>
+        <name>recipientArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="55" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a8895b57cef5da71b606465a6ef614ccc" prot="package" static="no" mutable="no">
+        <type>DivElement</type>
+        <definition>DivElement csc440.nuf.client.SMILWidget.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="58" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a09f34b17893ba39ab47d513158ba1c09" prot="package" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button csc440.nuf.client.SMILWidget.sayHelloButton</definition>
+        <argsstring></argsstring>
+        <name>sayHelloButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="61" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1ae297f24f7537225bf3be3d27d7db92d5" prot="package" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button csc440.nuf.client.SMILWidget.sendMessageButton</definition>
+        <argsstring></argsstring>
+        <name>sendMessageButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="64" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a66fdd6ad58e25390b049060aee92c136" prot="package" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer csc440.nuf.client.SMILWidget.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <initializer> new Timer() {
+    @Override
+    public void run() {
+      status.setInnerText(&quot;&quot;);
+      status.setClassName(STATUS_NONE);
+      recipientArea.setValue(&quot;&quot;);
+      messageArea.setValue(&quot;&quot;);
+    }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Timer to clear the UI. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="77" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a12d9686653186477faabb5827640eb47" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.client.SMILWidget.setStatus</definition>
+        <argsstring>(String message, boolean error)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="79" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="79" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1af3e77d56e898cc26b1c2bdef38415cf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.client.SMILWidget.SMILWidget</definition>
+        <argsstring>()</argsstring>
+        <name>SMILWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="94" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="94" bodyend="151"/>
+        <references refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1aec007852eb50441fe13e53e4fb86e3a6">csc440.nuf.client.MyRequestFactory.messageRequest</references>
+        <references refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy_1ae5db6a14c1cd21b25d90e77d56a85ddd">csc440.nuf.shared.MessageProxy.setRecipient</references>
+        <references refid="interfacecsc440_1_1nuf_1_1shared_1_1_message_proxy_1a05843b2b7eb495a2b217f37a0f25db3b">csc440.nuf.shared.MessageProxy.setMessage</references>
+        <references refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_message_request_1af97b69aaf2d4d1af0581210de50b5c28">csc440.nuf.client.MyRequestFactory.MessageRequest.send</references>
+        <references refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1a4828401da626ac8389a9417580304595">csc440.nuf.client.MyRequestFactory.helloWorldRequest</references>
+        <references refid="interfacecsc440_1_1nuf_1_1client_1_1_my_request_factory_1_1_hello_world_request_1ad2a116ea152e1420554619fbe67a056c">csc440.nuf.client.MyRequestFactory.HelloWorldRequest.getMessage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="496">
+        <label>Composite</label>
+      </node>
+      <node id="495">
+        <label>csc440.nuf.client.SMILWidget</label>
+        <link refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget"/>
+        <childnode refid="496" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="498">
+        <label>Composite</label>
+      </node>
+      <node id="503">
+        <label>Button</label>
+      </node>
+      <node id="500">
+        <label>DivElement</label>
+      </node>
+      <node id="499">
+        <label>Timer</label>
+      </node>
+      <node id="497">
+        <label>csc440.nuf.client.SMILWidget</label>
+        <link refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget"/>
+        <childnode refid="498" relation="public-inheritance">
+        </childnode>
+        <childnode refid="499" relation="usage">
+          <edgelabel>timer</edgelabel>
+        </childnode>
+        <childnode refid="500" relation="usage">
+          <edgelabel>status</edgelabel>
+        </childnode>
+        <childnode refid="501" relation="usage">
+          <edgelabel>recipientArea</edgelabel>
+        </childnode>
+        <childnode refid="502" relation="usage">
+          <edgelabel>messageArea</edgelabel>
+        </childnode>
+        <childnode refid="503" relation="usage">
+          <edgelabel>sayHelloButton</edgelabel>
+          <edgelabel>sendMessageButton</edgelabel>
+        </childnode>
+      </node>
+      <node id="502">
+        <label>TextAreaElement</label>
+      </node>
+      <node id="501">
+        <label>InputElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" line="39" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/client/SMILWidget.java" bodystart="39" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1adb2f85fe1bb79e6d4bbc333f42eb07a3" prot="package" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>messageArea</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a93ab4737fa6a3e069241706bc47d1495" prot="package" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>recipientArea</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a09f34b17893ba39ab47d513158ba1c09" prot="package" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>sayHelloButton</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1ae297f24f7537225bf3be3d27d7db92d5" prot="package" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>sendMessageButton</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a12d9686653186477faabb5827640eb47" prot="private" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>setStatus</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1af3e77d56e898cc26b1c2bdef38415cf1" prot="public" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>SMILWidget</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a8895b57cef5da71b606465a6ef614ccc" prot="package" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>status</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a8e76661a1156eb81e61206acd6e12cb0" prot="private" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>STATUS_DELAY</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1aca099a64b7fc0527357897ca85017b91" prot="private" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>STATUS_ERROR</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a006c3dd70d7bdc96bc923734582ccbac" prot="private" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>STATUS_NONE</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a3747da591e7aee6e7bf7c4f707622f23" prot="private" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>STATUS_SUCCESS</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a66fdd6ad58e25390b049060aee92c136" prot="package" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>timer</name></member>
+      <member refid="classcsc440_1_1nuf_1_1client_1_1_s_m_i_l_widget_1a903130b2b4a7943980114f4002d5e99a" prot="private" virt="non-virtual"><scope>csc440::nuf::client::SMILWidget</scope><name>uiBinder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

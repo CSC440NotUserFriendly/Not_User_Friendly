@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity" kind="class" prot="public">
+    <compoundname>com::thira::examples::actionbar::MainActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ad30426a35f2cb89fa4a362fc760b37ee" prot="private" static="no" mutable="no">
+        <type><ref refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar" kindref="compound">ActionBar</ref></type>
+        <definition>ActionBar com.thira.examples.actionbar.MainActivity.mActionBar</definition>
+        <argsstring></argsstring>
+        <name>mActionBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" line="19" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1a80a54a45ea3fcc4bce5790197a6cb46a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.thira.examples.actionbar.MainActivity.mActionIconCount</definition>
+        <argsstring></argsstring>
+        <name>mActionIconCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" line="20" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.thira.examples.actionbar.MainActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when the activity is first created. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" line="24" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" bodystart="24" bodyend="95"/>
+        <references refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a9940796cc1b0e1a6169da32cf75593e9" compoundref="_documents_2_code_01_references_2android-actionbar-lib-v1_2src_2com_2thira_2examples_2actionbar_2widget_2_action_bar_8java" startline="64" endline="66">com.thira.examples.actionbar.widget.ActionBar.setTitle</references>
+        <references refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a3fae9dd666ad12891b9d9a96918652de" compoundref="_documents_2_code_01_references_2android-actionbar-lib-v1_2src_2com_2thira_2examples_2actionbar_2widget_2_action_bar_8java" startline="52" endline="54">com.thira.examples.actionbar.widget.ActionBar.setHomeLogo</references>
+        <references refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a1483342c600fcea3fe48953f8773ac18" compoundref="_documents_2_code_01_references_2android-actionbar-lib-v1_2src_2com_2thira_2examples_2actionbar_2widget_2_action_bar_8java" startline="72" endline="74">com.thira.examples.actionbar.widget.ActionBar.showProgressBar</references>
+        <references refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a29a2b3a12e2ad549fc16eeef9e81714f" compoundref="_documents_2_code_01_references_2android-actionbar-lib-v1_2src_2com_2thira_2examples_2actionbar_2widget_2_action_bar_8java" startline="76" endline="78">com.thira.examples.actionbar.widget.ActionBar.hideProgressBar</references>
+        <references refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1a0e3a9b81ca94496856105e3390f34266" compoundref="_documents_2_code_01_references_2android-actionbar-lib-v1_2src_2com_2thira_2examples_2actionbar_2widget_2_action_bar_8java" startline="86" endline="94">com.thira.examples.actionbar.widget.ActionBar.addActionIcon</references>
+        <references refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1widget_1_1_action_bar_1ad83d48f27fc9972e22c0b3605f4a45ea" compoundref="_documents_2_code_01_references_2android-actionbar-lib-v1_2src_2com_2thira_2examples_2actionbar_2widget_2_action_bar_8java" startline="102" endline="109">com.thira.examples.actionbar.widget.ActionBar.removeActionIconAt</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="342">
+        <label>Activity</label>
+      </node>
+      <node id="341">
+        <label>com.thira.examples.actionbar.MainActivity</label>
+        <link refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity"/>
+        <childnode refid="342" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="344">
+        <label>Activity</label>
+      </node>
+      <node id="343">
+        <label>com.thira.examples.actionbar.MainActivity</label>
+        <link refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" line="17" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/android-actionbar-example-v1/src/com/thira/examples/actionbar/MainActivity.java" bodystart="17" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ad30426a35f2cb89fa4a362fc760b37ee" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::MainActivity</scope><name>mActionBar</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1a80a54a45ea3fcc4bce5790197a6cb46a" prot="private" virt="non-virtual"><scope>com::thira::examples::actionbar::MainActivity</scope><name>mActionIconCount</name></member>
+      <member refid="classcom_1_1thira_1_1examples_1_1actionbar_1_1_main_activity_1ae12c4aa98ff986fa533899384b521987" prot="public" virt="non-virtual"><scope>com::thira::examples::actionbar::MainActivity</scope><name>onCreate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

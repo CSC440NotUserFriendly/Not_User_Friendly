@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespacetesting_1_1src_1_1csc440_1_1nuf" kind="namespace">
+    <compoundname>testing::src::csc440::nuf</compoundname>
+    <innernamespace refid="namespacetesting_1_1src_1_1csc440_1_1nuf_1_1complay">testing::src::csc440::nuf::complay</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

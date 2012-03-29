@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_cb0195190176c0e69eef7b84f9827170" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/</compoundname>
+    <innerfile refid="_message_proxy_8java">MessageProxy.java</innerfile>
+    <innerfile refid="_registration_info_proxy_8java">RegistrationInfoProxy.java</innerfile>
+    <innerfile refid="_s_m_i_l_engine_request_8java">SMILEngineRequest.java</innerfile>
+    <innerfile refid="_s_m_i_l_message_proxy_8java">SMILMessageProxy.java</innerfile>
+    <innerfile refid="_s_m_i_l_message_request_factory_8java">SMILMessageRequestFactory.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/shared/csc440/nuf/shared/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet.xhtml" title="{com.google.appengine.codelab.ItemServlet\n||# doGet()\l# doPut()\l# doDelete()\l# doPost()\l}" alt="" coords="5,283,304,429"/>
+<area shape="rect" id="node7" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet.xhtml" title="{com.google.appengine.codelab.ProductServlet\n||# doGet()\l# doPut()\l# doDelete()\l# doPost()\l}" alt="" coords="329,283,649,429"/>
+</map>

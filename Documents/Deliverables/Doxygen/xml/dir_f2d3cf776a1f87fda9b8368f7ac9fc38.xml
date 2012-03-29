@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_f2d3cf776a1f87fda9b8368f7ac9fc38" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/</compoundname>
+    <innerdir refid="dir_d790839254e0638e832a2b0eb2400628">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/"/>
+  </compounddef>
+</doxygen>

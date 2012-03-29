@@ -1,0 +1,272 @@
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item}{\section{com.\-google.\-appengine.\-codelab.\-Item Class Reference}
+\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item}\index{com.\-google.\-appengine.\-codelab.\-Item@{com.\-google.\-appengine.\-codelab.\-Item}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Entity \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1f0cd1ed3e9e496f6cd40cde580dc045}{create\-Or\-Update\-Item} (String product\-Name, String item\-Name, String price)
+\item 
+static Iterable$<$ Entity $>$ \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_ac34c1a67f0b499b88f2ba10c9c57d9d5}{get\-All\-Items} ()
+\item 
+static Iterable$<$ Entity $>$ \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a03e5b5b5ebc360327091c946c6b7874d}{get\-Item} (String item\-Name)
+\item 
+static Iterable$<$ Entity $>$ \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1c221deafdbd13c4133edf24cb6dcdb8}{get\-Items\-For\-Product} (String kind, String product\-Name)
+\item 
+static Entity \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_addfefc24274a9ae1e62dc123e4bc2a68}{get\-Single\-Item} (String item\-Name)
+\item 
+static String \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a43b58e542f3362d9d1f3c35cc0d27d4d}{delete\-Item} (String item\-Key)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class handles C\-R\-U\-D operations related to \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item}{Item} entity. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1f0cd1ed3e9e496f6cd40cde580dc045}{\index{com\-::google\-::appengine\-::codelab\-::\-Item@{com\-::google\-::appengine\-::codelab\-::\-Item}!create\-Or\-Update\-Item@{create\-Or\-Update\-Item}}
+\index{create\-Or\-Update\-Item@{create\-Or\-Update\-Item}!com::google::appengine::codelab::Item@{com\-::google\-::appengine\-::codelab\-::\-Item}}
+\subsubsection[{create\-Or\-Update\-Item}]{\setlength{\rightskip}{0pt plus 5cm}static Entity {\bf com.\-google.\-appengine.\-codelab.\-Item.\-create\-Or\-Update\-Item} (
+\begin{DoxyParamCaption}
+\item[{String}]{product\-Name, }
+\item[{String}]{item\-Name, }
+\item[{String}]{price}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1f0cd1ed3e9e496f6cd40cde580dc045}
+Create or update \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item}{Item} for a particular product. \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_product}{Product} entity has one to many relation-\/ship with \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item}{Item} entity
+
+
+\begin{DoxyParams}{Parameters}
+{\em product\-Name} & \-: product name for which the item is created. \\
+\hline
+{\em item\-Name} & \-: item name \\
+\hline
+{\em price} & \-: price of the item \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1f0cd1ed3e9e496f6cd40cde580dc045_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1f0cd1ed3e9e496f6cd40cde580dc045_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a43b58e542f3362d9d1f3c35cc0d27d4d}{\index{com\-::google\-::appengine\-::codelab\-::\-Item@{com\-::google\-::appengine\-::codelab\-::\-Item}!delete\-Item@{delete\-Item}}
+\index{delete\-Item@{delete\-Item}!com::google::appengine::codelab::Item@{com\-::google\-::appengine\-::codelab\-::\-Item}}
+\subsubsection[{delete\-Item}]{\setlength{\rightskip}{0pt plus 5cm}static String {\bf com.\-google.\-appengine.\-codelab.\-Item.\-delete\-Item} (
+\begin{DoxyParamCaption}
+\item[{String}]{item\-Key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a43b58e542f3362d9d1f3c35cc0d27d4d}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a43b58e542f3362d9d1f3c35cc0d27d4d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a43b58e542f3362d9d1f3c35cc0d27d4d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_ac34c1a67f0b499b88f2ba10c9c57d9d5}{\index{com\-::google\-::appengine\-::codelab\-::\-Item@{com\-::google\-::appengine\-::codelab\-::\-Item}!get\-All\-Items@{get\-All\-Items}}
+\index{get\-All\-Items@{get\-All\-Items}!com::google::appengine::codelab::Item@{com\-::google\-::appengine\-::codelab\-::\-Item}}
+\subsubsection[{get\-All\-Items}]{\setlength{\rightskip}{0pt plus 5cm}static Iterable$<$Entity$>$ {\bf com.\-google.\-appengine.\-codelab.\-Item.\-get\-All\-Items} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_ac34c1a67f0b499b88f2ba10c9c57d9d5}
+get All the items in the list
+
+
+\begin{DoxyParams}{Parameters}
+{\em kind} & \-: item kind \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all the items 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_ac34c1a67f0b499b88f2ba10c9c57d9d5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_ac34c1a67f0b499b88f2ba10c9c57d9d5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a03e5b5b5ebc360327091c946c6b7874d}{\index{com\-::google\-::appengine\-::codelab\-::\-Item@{com\-::google\-::appengine\-::codelab\-::\-Item}!get\-Item@{get\-Item}}
+\index{get\-Item@{get\-Item}!com::google::appengine::codelab::Item@{com\-::google\-::appengine\-::codelab\-::\-Item}}
+\subsubsection[{get\-Item}]{\setlength{\rightskip}{0pt plus 5cm}static Iterable$<$Entity$>$ {\bf com.\-google.\-appengine.\-codelab.\-Item.\-get\-Item} (
+\begin{DoxyParamCaption}
+\item[{String}]{item\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a03e5b5b5ebc360327091c946c6b7874d}
+Get the item by name, return an Iterable
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\-Name} & \-: item name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item}{Item} Entity 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a03e5b5b5ebc360327091c946c6b7874d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a03e5b5b5ebc360327091c946c6b7874d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1c221deafdbd13c4133edf24cb6dcdb8}{\index{com\-::google\-::appengine\-::codelab\-::\-Item@{com\-::google\-::appengine\-::codelab\-::\-Item}!get\-Items\-For\-Product@{get\-Items\-For\-Product}}
+\index{get\-Items\-For\-Product@{get\-Items\-For\-Product}!com::google::appengine::codelab::Item@{com\-::google\-::appengine\-::codelab\-::\-Item}}
+\subsubsection[{get\-Items\-For\-Product}]{\setlength{\rightskip}{0pt plus 5cm}static Iterable$<$Entity$>$ {\bf com.\-google.\-appengine.\-codelab.\-Item.\-get\-Items\-For\-Product} (
+\begin{DoxyParamCaption}
+\item[{String}]{kind, }
+\item[{String}]{product\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1c221deafdbd13c4133edf24cb6dcdb8}
+Get all the items for a product
+
+
+\begin{DoxyParams}{Parameters}
+{\em kind} & \-: item kind \\
+\hline
+{\em product\-Name} & \-: product name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\-: all items of type product 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1c221deafdbd13c4133edf24cb6dcdb8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_a1c221deafdbd13c4133edf24cb6dcdb8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_addfefc24274a9ae1e62dc123e4bc2a68}{\index{com\-::google\-::appengine\-::codelab\-::\-Item@{com\-::google\-::appengine\-::codelab\-::\-Item}!get\-Single\-Item@{get\-Single\-Item}}
+\index{get\-Single\-Item@{get\-Single\-Item}!com::google::appengine::codelab::Item@{com\-::google\-::appengine\-::codelab\-::\-Item}}
+\subsubsection[{get\-Single\-Item}]{\setlength{\rightskip}{0pt plus 5cm}static Entity {\bf com.\-google.\-appengine.\-codelab.\-Item.\-get\-Single\-Item} (
+\begin{DoxyParamCaption}
+\item[{String}]{item\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_addfefc24274a9ae1e62dc123e4bc2a68}
+get \hyperlink{classcom_1_1google_1_1appengine_1_1codelab_1_1_item}{Item} with item name 
+\begin{DoxyParams}{Parameters}
+{\em item\-Name,\-:} & get item\-Name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+item entity 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_addfefc24274a9ae1e62dc123e4bc2a68_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1google_1_1appengine_1_1codelab_1_1_item_addfefc24274a9ae1e62dc123e4bc2a68_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/alex/\-Documents/\-C\-S\-C\-\_\-440/\-Project/\-S\-M\-I\-L/\-Not\-\_\-\-User\-\_\-\-Friendly/\-Documents/\-Code References/\-Code\-Lab\-Ex1/src/com/google/appengine/codelab/\hyperlink{_item_8java}{Item.\-java}\end{DoxyCompactItemize}

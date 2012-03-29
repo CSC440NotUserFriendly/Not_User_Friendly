@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_item.xhtml#a1f0cd1ed3e9e496f6cd40cde580dc045" title="com.google.appengine.codelab.Item.createOrUpdateItem" alt="" coords="410,5,801,35"/>
+<area shape="rect" id="node7" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_product.xhtml#a0ad4aec15554c898684fcd6ea8d9ef10" title="com.google.appengine.codelab.Product.createOrUpdateProduct" alt="" coords="389,59,822,90"/>
+<area shape="rect" id="node5" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_item_servlet.xhtml#a5d5c9f0b60f447633023ec79cfa95ea1" title="com.google.appengine.codelab.ItemServlet.doPut" alt="" coords="880,5,1221,35"/>
+<area shape="rect" id="node9" href="$classcom_1_1google_1_1appengine_1_1codelab_1_1_product_servlet.xhtml#a3cbc6cfe522686a474dade9a58b3d1a3" title="com.google.appengine.codelab.ProductServlet.doPut" alt="" coords="870,59,1232,90"/>
+</map>

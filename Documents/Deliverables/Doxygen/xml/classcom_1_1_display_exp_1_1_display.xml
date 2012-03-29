@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcom_1_1_display_exp_1_1_display" kind="class" prot="public">
+    <compoundname>com::DisplayExp::Display</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcom_1_1_display_exp_1_1_display_1abb30ee2f0961b6158a47013e26345553" prot="package" static="no" mutable="no">
+        <type><ref refid="classcom_1_1_display_exp_1_1_my_canvas" kindref="compound">MyCanvas</ref></type>
+        <definition>MyCanvas com.DisplayExp.Display.myCav</definition>
+        <argsstring></argsstring>
+        <name>myCav</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/Display.java" line="8" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/Display.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1_display_exp_1_1_display_1a0d4ddf6db49a34c171c0d0e0a7fd1259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.DisplayExp.Display.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when the activity is first created. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/Display.java" line="13" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/Display.java" bodystart="12" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="306">
+        <label>Activity</label>
+      </node>
+      <node id="305">
+        <label>com.DisplayExp.Display</label>
+        <link refid="classcom_1_1_display_exp_1_1_display"/>
+        <childnode refid="306" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="308">
+        <label>Activity</label>
+      </node>
+      <node id="307">
+        <label>com.DisplayExp.Display</label>
+        <link refid="classcom_1_1_display_exp_1_1_display"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+        <childnode refid="309" relation="usage">
+          <edgelabel>myCav</edgelabel>
+        </childnode>
+      </node>
+      <node id="312">
+        <label>Paint</label>
+      </node>
+      <node id="310">
+        <label>View</label>
+      </node>
+      <node id="311">
+        <label>Bitmap</label>
+      </node>
+      <node id="309">
+        <label>com.DisplayExp.MyCanvas</label>
+        <link refid="classcom_1_1_display_exp_1_1_my_canvas"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="311" relation="usage">
+          <edgelabel>myImg</edgelabel>
+          <edgelabel>original</edgelabel>
+        </childnode>
+        <childnode refid="312" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/Display.java" line="7" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/Drag and Resize/Display.java" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classcom_1_1_display_exp_1_1_display_1abb30ee2f0961b6158a47013e26345553" prot="package" virt="non-virtual"><scope>com::DisplayExp::Display</scope><name>myCav</name></member>
+      <member refid="classcom_1_1_display_exp_1_1_display_1a0d4ddf6db49a34c171c0d0e0a7fd1259" prot="public" virt="non-virtual"><scope>com::DisplayExp::Display</scope><name>onCreate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text" kind="class" prot="public">
+    <compoundname>csc440::nuf::components::SMILText</compoundname>
+    <basecompoundref refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object" prot="public" virt="non-virtual">csc440.nuf.components.AbstractSMILObject</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a78a68077966f0348c75d1d504db42828" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.xmlid</definition>
+        <argsstring></argsstring>
+        <name>xmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="26" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" compoundref="_s_m_i_l_text_8java" startline="63" endline="97">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a0a1cb04aafb6b08141bb4c9084ccfe40" compoundref="_s_m_i_l_text_8java" startline="117" endline="119">csc440.nuf.components.SMILText.getXmlid</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a67d1b03d069b99855cf5ed4ad347ba02" compoundref="_s_m_i_l_text_8java" startline="121" endline="123">csc440.nuf.components.SMILText.setXmlid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a74e840fdb88a2db5fc40abcd973e9550" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.textAlign</definition>
+        <argsstring></argsstring>
+        <name>textAlign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="27" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" compoundref="_s_m_i_l_text_8java" startline="63" endline="97">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af5b7b6f8d8094f98923c8320d013d0d9" compoundref="_s_m_i_l_text_8java" startline="125" endline="127">csc440.nuf.components.SMILText.getTextAlign</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1a1fe776dd7496edc16b6673872f592a" compoundref="_s_m_i_l_text_8java" startline="129" endline="131">csc440.nuf.components.SMILText.setTextAlign</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="28" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a138b548477e92aaf86cb307966139c36" compoundref="_s_m_i_l_text_8java" startline="35" endline="42">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" compoundref="_s_m_i_l_text_8java" startline="44" endline="61">csc440.nuf.components.SMILText.draw</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a20f89595c7bacd6e061f602fc9db5edc" compoundref="_s_m_i_l_text_8java" startline="133" endline="135">csc440.nuf.components.SMILText.getTopMargin</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a582d8d19208f7aea1fc8f84ad77a1e" compoundref="_s_m_i_l_text_8java" startline="137" endline="139">csc440.nuf.components.SMILText.setTopMargin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="29" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a138b548477e92aaf86cb307966139c36" compoundref="_s_m_i_l_text_8java" startline="35" endline="42">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" compoundref="_s_m_i_l_text_8java" startline="44" endline="61">csc440.nuf.components.SMILText.draw</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1ad500916845dafbe824c0e7ac9bd6e003" compoundref="_s_m_i_l_text_8java" startline="141" endline="143">csc440.nuf.components.SMILText.getLeftMargin</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aee872383f64d2243499713423d5c08cf" compoundref="_s_m_i_l_text_8java" startline="145" endline="147">csc440.nuf.components.SMILText.setLeftMargin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="30" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a138b548477e92aaf86cb307966139c36" compoundref="_s_m_i_l_text_8java" startline="35" endline="42">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" compoundref="_s_m_i_l_text_8java" startline="44" endline="61">csc440.nuf.components.SMILText.draw</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aac8ad56e2ff100ec29c791e2a10b3719" compoundref="_s_m_i_l_text_8java" startline="149" endline="151">csc440.nuf.components.SMILText.getTextColor</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1f2ce43203e773ea841760d283281c7f" compoundref="_s_m_i_l_text_8java" startline="153" endline="155">csc440.nuf.components.SMILText.setTextColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.textFontSize</definition>
+        <argsstring></argsstring>
+        <name>textFontSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="31" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a138b548477e92aaf86cb307966139c36" compoundref="_s_m_i_l_text_8java" startline="35" endline="42">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" compoundref="_s_m_i_l_text_8java" startline="44" endline="61">csc440.nuf.components.SMILText.draw</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a2805645b88e4538cfddc5b10ce47fc" compoundref="_s_m_i_l_text_8java" startline="157" endline="159">csc440.nuf.components.SMILText.getTextFontSize</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aea22a19c305c13d5fa10e3ab642f5792" compoundref="_s_m_i_l_text_8java" startline="161" endline="163">csc440.nuf.components.SMILText.setTextFontSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a4fbd664e16a4127c890a35f416f96e18" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.zIndex</definition>
+        <argsstring></argsstring>
+        <name>zIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="32" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" compoundref="_s_m_i_l_text_8java" startline="63" endline="97">csc440.nuf.components.SMILText.SMILText</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a968b19e7f2dfbe2bee49ef94e0c1407b" compoundref="_s_m_i_l_text_8java" startline="165" endline="167">csc440.nuf.components.SMILText.getzIndex</referencedby>
+        <referencedby refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af77b4951b6198482fedc7a6b1c9efddd" compoundref="_s_m_i_l_text_8java" startline="169" endline="171">csc440.nuf.components.SMILText.setzIndex</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a491d3fb99b7f44f3eac10568ad3f194d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="33" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a138b548477e92aaf86cb307966139c36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.components.SMILText.SMILText</definition>
+        <argsstring>(int begin, int dur, int top, int left, String text, int textFontSize, String textColor)</argsstring>
+        <name>SMILText</name>
+        <param>
+          <type>int</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>textFontSize</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>textColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="35" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="35" bodyend="42"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" compoundref="_s_m_i_l_text_8java" startline="28">csc440.nuf.components.SMILText.top</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" compoundref="_s_m_i_l_text_8java" startline="29">csc440.nuf.components.SMILText.left</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" compoundref="_s_m_i_l_text_8java" startline="31">csc440.nuf.components.SMILText.textFontSize</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" compoundref="_s_m_i_l_text_8java" startline="30">csc440.nuf.components.SMILText.textColor</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.draw</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>draw</name>
+        <reimplements refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3bacb759032970e83ba2ffc4ed5179b9">draw</reimplements>
+        <param>
+          <type>Canvas</type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="44" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="44" bodyend="61"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" compoundref="_s_m_i_l_text_8java" startline="30">csc440.nuf.components.SMILText.textColor</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" compoundref="_s_m_i_l_text_8java" startline="31">csc440.nuf.components.SMILText.textFontSize</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_waiting_1aaa8d6d536f680a183de75424e4d95627" compoundref="_waiting_8java" startline="5" endline="7">csc440.nuf.complay.Waiting.Q</references>
+        <references refid="classcsc440_1_1nuf_1_1complay_1_1_q_1ab4cfe319143b0b8147222d71b1a7e474" compoundref="_q_8java" startline="43" endline="46">csc440.nuf.complay.Q.getDensity</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" compoundref="_s_m_i_l_text_8java" startline="28">csc440.nuf.components.SMILText.top</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" compoundref="_s_m_i_l_text_8java" startline="29">csc440.nuf.components.SMILText.left</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csc440.nuf.components.SMILText.SMILText</definition>
+        <argsstring>(Attributes att)</argsstring>
+        <name>SMILText</name>
+        <param>
+          <type>Attributes</type>
+          <declname>att</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="63" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="63" bodyend="97"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" compoundref="_abstract_s_m_i_l_object_8java" startline="22">csc440.nuf.components.AbstractSMILObject.qName</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a78a68077966f0348c75d1d504db42828" compoundref="_s_m_i_l_text_8java" startline="26">csc440.nuf.components.SMILText.xmlid</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a74e840fdb88a2db5fc40abcd973e9550" compoundref="_s_m_i_l_text_8java" startline="27">csc440.nuf.components.SMILText.textAlign</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" compoundref="_s_m_i_l_text_8java" startline="28">csc440.nuf.components.SMILText.top</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" compoundref="_abstract_s_m_i_l_object_8java" startline="82" endline="91">csc440.nuf.components.AbstractSMILObject.getIntValue</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" compoundref="_s_m_i_l_text_8java" startline="29">csc440.nuf.components.SMILText.left</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" compoundref="_s_m_i_l_text_8java" startline="30">csc440.nuf.components.SMILText.textColor</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" compoundref="_s_m_i_l_text_8java" startline="31">csc440.nuf.components.SMILText.textFontSize</references>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a4fbd664e16a4127c890a35f416f96e18" compoundref="_s_m_i_l_text_8java" startline="32">csc440.nuf.components.SMILText.zIndex</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1ad6895c2e7b6cd50f3e0152e5a5c7158a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.getText</definition>
+        <argsstring>()</argsstring>
+        <name>getText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="99" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1abe863bf12d1e4e0c949b2903c601f34a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setText</definition>
+        <argsstring>(String text)</argsstring>
+        <name>setText</name>
+        <param>
+          <type>String</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="104" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a08a8a1dff18366c7a4bf62c8af16cb48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.printTag</definition>
+        <argsstring>()</argsstring>
+        <name>printTag</name>
+        <reimplements refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6b7e0dec2a36758ce801132d7c040974">printTag</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="110" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a0a1cb04aafb6b08141bb4c9084ccfe40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.getXmlid</definition>
+        <argsstring>()</argsstring>
+        <name>getXmlid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="117" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="117" bodyend="119"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a78a68077966f0348c75d1d504db42828" compoundref="_s_m_i_l_text_8java" startline="26">csc440.nuf.components.SMILText.xmlid</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a67d1b03d069b99855cf5ed4ad347ba02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setXmlid</definition>
+        <argsstring>(String xmlid)</argsstring>
+        <name>setXmlid</name>
+        <param>
+          <type>String</type>
+          <declname>xmlid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="121" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="121" bodyend="123"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a78a68077966f0348c75d1d504db42828" compoundref="_s_m_i_l_text_8java" startline="26">csc440.nuf.components.SMILText.xmlid</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af5b7b6f8d8094f98923c8320d013d0d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.getTextAlign</definition>
+        <argsstring>()</argsstring>
+        <name>getTextAlign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="125" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="125" bodyend="127"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a74e840fdb88a2db5fc40abcd973e9550" compoundref="_s_m_i_l_text_8java" startline="27">csc440.nuf.components.SMILText.textAlign</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1a1fe776dd7496edc16b6673872f592a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setTextAlign</definition>
+        <argsstring>(String textAlign)</argsstring>
+        <name>setTextAlign</name>
+        <param>
+          <type>String</type>
+          <declname>textAlign</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="129" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="129" bodyend="131"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a74e840fdb88a2db5fc40abcd973e9550" compoundref="_s_m_i_l_text_8java" startline="27">csc440.nuf.components.SMILText.textAlign</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a20f89595c7bacd6e061f602fc9db5edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.getTopMargin</definition>
+        <argsstring>()</argsstring>
+        <name>getTopMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="133" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="133" bodyend="135"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" compoundref="_s_m_i_l_text_8java" startline="28">csc440.nuf.components.SMILText.top</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a582d8d19208f7aea1fc8f84ad77a1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setTopMargin</definition>
+        <argsstring>(int topMargin)</argsstring>
+        <name>setTopMargin</name>
+        <param>
+          <type>int</type>
+          <declname>topMargin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="137" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="137" bodyend="139"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" compoundref="_s_m_i_l_text_8java" startline="28">csc440.nuf.components.SMILText.top</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1ad500916845dafbe824c0e7ac9bd6e003" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.getLeftMargin</definition>
+        <argsstring>()</argsstring>
+        <name>getLeftMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="141" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="141" bodyend="143"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" compoundref="_s_m_i_l_text_8java" startline="29">csc440.nuf.components.SMILText.left</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aee872383f64d2243499713423d5c08cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setLeftMargin</definition>
+        <argsstring>(int leftMargin)</argsstring>
+        <name>setLeftMargin</name>
+        <param>
+          <type>int</type>
+          <declname>leftMargin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="145" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="145" bodyend="147"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" compoundref="_s_m_i_l_text_8java" startline="29">csc440.nuf.components.SMILText.left</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aac8ad56e2ff100ec29c791e2a10b3719" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String csc440.nuf.components.SMILText.getTextColor</definition>
+        <argsstring>()</argsstring>
+        <name>getTextColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="149" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="149" bodyend="151"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" compoundref="_s_m_i_l_text_8java" startline="30">csc440.nuf.components.SMILText.textColor</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1f2ce43203e773ea841760d283281c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setTextColor</definition>
+        <argsstring>(String textColor)</argsstring>
+        <name>setTextColor</name>
+        <param>
+          <type>String</type>
+          <declname>textColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="153" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="153" bodyend="155"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" compoundref="_s_m_i_l_text_8java" startline="30">csc440.nuf.components.SMILText.textColor</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a2805645b88e4538cfddc5b10ce47fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.getTextFontSize</definition>
+        <argsstring>()</argsstring>
+        <name>getTextFontSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="157" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="157" bodyend="159"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" compoundref="_s_m_i_l_text_8java" startline="31">csc440.nuf.components.SMILText.textFontSize</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aea22a19c305c13d5fa10e3ab642f5792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setTextFontSize</definition>
+        <argsstring>(int textFontSize)</argsstring>
+        <name>setTextFontSize</name>
+        <param>
+          <type>int</type>
+          <declname>textFontSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="161" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="161" bodyend="163"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" compoundref="_s_m_i_l_text_8java" startline="31">csc440.nuf.components.SMILText.textFontSize</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a968b19e7f2dfbe2bee49ef94e0c1407b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int csc440.nuf.components.SMILText.getzIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getzIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="165" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="165" bodyend="167"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a4fbd664e16a4127c890a35f416f96e18" compoundref="_s_m_i_l_text_8java" startline="32">csc440.nuf.components.SMILText.zIndex</references>
+      </memberdef>
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af77b4951b6198482fedc7a6b1c9efddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csc440.nuf.components.SMILText.setzIndex</definition>
+        <argsstring>(int zIndex)</argsstring>
+        <name>setzIndex</name>
+        <param>
+          <type>int</type>
+          <declname>zIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="169" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="169" bodyend="171"/>
+        <references refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a4fbd664e16a4127c890a35f416f96e18" compoundref="_s_m_i_l_text_8java" startline="32">csc440.nuf.components.SMILText.zIndex</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CSC-440 SMIL Project 01-26-2011 <ref refid="_s_m_i_l_text_8java" kindref="compound">SMILText.java</ref> <simplesect kind="author"><para>Brad Barker </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="483">
+        <label>csc440.nuf.components.SMILText</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text"/>
+        <childnode refid="484" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>csc440.nuf.components.AbstractSMILObject</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="485">
+        <label>csc440.nuf.components.SMILText</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text"/>
+        <childnode refid="486" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="486">
+        <label>csc440.nuf.components.AbstractSMILObject</label>
+        <link refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" line="23" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/components/SMILText.java" bodystart="23" bodyend="174"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a7d4ffbcec68b7a75bfb1a69b9ead2734" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a30ec13c486b3b2ddd7c1911d69ebd8d3" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>AbstractSMILObject</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3279cee1dba4afdcc793a276d05bb7a1" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>begin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a85eb33753bf3769bc240cee7b632e8fd" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>compareTo</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a03f6fe93c172a493c65862d99e877e05" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>draw</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a8e4a82668aeae5fb178466d5579cd1e9" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>dur</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a5c7bbcdd66246002bc2c6de93cbef802" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>end</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1abd5dd2e6eef92f800197b160936d9f35" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1acb56c0543fc58acf2929479598647bcb" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae06070ab4e7007117abd32b189afde97" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getIntValue</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1ad500916845dafbe824c0e7ac9bd6e003" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getLeftMargin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a243ba9744414f121ea34960bc4a15c26" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1ad6895c2e7b6cd50f3e0152e5a5c7158a" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getText</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af5b7b6f8d8094f98923c8320d013d0d9" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getTextAlign</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aac8ad56e2ff100ec29c791e2a10b3719" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getTextColor</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a2805645b88e4538cfddc5b10ce47fc" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getTextFontSize</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a20f89595c7bacd6e061f602fc9db5edc" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getTopMargin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a0a1cb04aafb6b08141bb4c9084ccfe40" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a968b19e7f2dfbe2bee49ef94e0c1407b" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>getzIndex</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a8d51549a85efeaf18a85837154449da9" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>left</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a08a8a1dff18366c7a4bf62c8af16cb48" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>printTag</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a6f53b3bd6f031aea98d92c84ddd8c8db" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>qName</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ab56e7a3d66c7dba0e005482e200792a2" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setDuration</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a3b153d8b1c68f8278a9565cc254e1a9e" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setEndTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aee872383f64d2243499713423d5c08cf" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setLeftMargin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1a63fa1f8e7b3d8e110fba9b9914137350" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setStartTime</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1abe863bf12d1e4e0c949b2903c601f34a" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setText</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1a1fe776dd7496edc16b6673872f592a" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setTextAlign</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1f2ce43203e773ea841760d283281c7f" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setTextColor</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aea22a19c305c13d5fa10e3ab642f5792" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setTextFontSize</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a3a582d8d19208f7aea1fc8f84ad77a1e" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setTopMargin</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a67d1b03d069b99855cf5ed4ad347ba02" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setXmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1af77b4951b6198482fedc7a6b1c9efddd" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>setzIndex</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a138b548477e92aaf86cb307966139c36" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>SMILText</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1aedc70b1dd23a53237160fede4b0e4c2d" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>SMILText</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a491d3fb99b7f44f3eac10568ad3f194d" prot="private" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>text</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a74e840fdb88a2db5fc40abcd973e9550" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>textAlign</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a014665b36e792464e32589735dc9d25b" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>textColor</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a1cc323cc7543c674087e2b600a04000d" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>textFontSize</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a66c25a146ade90fb42a6f63a6198ddd7" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>top</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_abstract_s_m_i_l_object_1ae615c694ad1f4377089ef15e41c77006" prot="public" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>toString</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a78a68077966f0348c75d1d504db42828" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>xmlid</name></member>
+      <member refid="classcsc440_1_1nuf_1_1components_1_1_s_m_i_l_text_1a4fbd664e16a4127c890a35f416f96e18" prot="protected" virt="non-virtual"><scope>csc440::nuf::components::SMILText</scope><name>zIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

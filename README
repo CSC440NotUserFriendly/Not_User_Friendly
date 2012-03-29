@@ -1,3 +1,45 @@
+Phase 2 Delivery:
+
+The delivery items can be found at the following locations below.  They are mostly in order as per the checklist you provided.  
+Also some items have more than one document. 
+
+Documents->Deliverables:
+	SMILSchedule.mpp (MS Project schedule)
+	SRS.docx (Use Cases, Functional, and non-functional req)
+	UseCaseDiagram.pdf
+	GUI Drawings (ScreenShots.pdf, GUIPrototype.pdf, and )
+	DeploymentDiagram.pdf
+	DataDictionary.pdf
+	Cloud-Sequence.jpg / SequenceDiagram.pdf (High / Low Level diagrams)
+	Class Diagrams (Client-UML.pdf and Server-UML.pdf also Doxygen)
+
+	*For Doxygen navigate Documents->Deliverables->Doxygen->html->index.html to view web based class information.
+	
+
+Document->Test Plan
+	NUF-TP2.0.docx (Test Plan)
+
+
+Project Install Instructions -
+	To install the project you need to create your own app engine connected android application and then manually add various source files to it in order to compile correctly.  
+	This is not a trivial task and may require some additional steps based on your Eclipse version and plugins.  Upon request we can build and upload a demo to a device in lieu of these steps.
+	Steps:
+		1. In Eclipse->File->New->Other->App Engine Connected Android App
+			a. Name "SMIL
+			b. Package "csc440.nuf"
+		2. Clone the repo
+			a. ssh clone git@github.com:CSC440NotUserFriendly/Not_User_Friendly.git
+		3. You will have two separate projects (SMIL-Android and SMIL-App Engine)
+			a. On both projects copy the "src" folders from the repo to your Eclipse projects
+			b. In SMIL-App Engine also copy the "shared" folder
+			c. In SMIL-Android also copy the "res" folder and AndroidManifest.xml
+		4. Once you clean the build you should have a working project.
+			a. to run the project right click on the android project
+			b. Select debug as->Local App Engine Connected Android Application
+				i. This will create a local web server instance
+
+
+
 Phase 1 deliverables:
 
 All our documentation is contained in the Documents folder.

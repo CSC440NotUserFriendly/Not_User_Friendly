@@ -1,0 +1,157 @@
+\hypertarget{classcsc440_1_1nuf_1_1_c2_d_m_receiver}{\section{csc440.\-nuf.\-C2\-D\-M\-Receiver Class Reference}
+\label{classcsc440_1_1nuf_1_1_c2_d_m_receiver}\index{csc440.\-nuf.\-C2\-D\-M\-Receiver@{csc440.\-nuf.\-C2\-D\-M\-Receiver}}
+}
+
+
+Inheritance diagram for csc440.\-nuf.\-C2\-D\-M\-Receiver\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classcsc440_1_1nuf_1_1_c2_d_m_receiver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for csc440.\-nuf.\-C2\-D\-M\-Receiver\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classcsc440_1_1nuf_1_1_c2_d_m_receiver__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a6026d84758d7ab3090f035236d58fd87}{C2\-D\-M\-Receiver} ()
+\item 
+void \hyperlink{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a55ec75d92b2ea18fc3bfb7354fc63571}{on\-Registered} (Context context, String registration)
+\item 
+void \hyperlink{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a5703ea903b3efa7a0fc8b0dd94c93939}{on\-Unregistered} (Context context)
+\item 
+void \hyperlink{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a4772899d4fb8e0ce9dbe2b4a04fed1cf}{on\-Error} (Context context, String error\-Id)
+\item 
+void \hyperlink{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a4fd8cbc3e17b49225e052b12547af03a}{on\-Message} (Context context, Intent intent)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Receive a push message from the Cloud to Device Messaging (C2\-D\-M) service. This class should be modified to include functionality specific to your application. This class must have a no-\/arg constructor and pass the sender id to the superclass constructor. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a6026d84758d7ab3090f035236d58fd87}{\index{csc440\-::nuf\-::\-C2\-D\-M\-Receiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}!C2\-D\-M\-Receiver@{C2\-D\-M\-Receiver}}
+\index{C2\-D\-M\-Receiver@{C2\-D\-M\-Receiver}!csc440::nuf::C2DMReceiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}}
+\subsubsection[{C2\-D\-M\-Receiver}]{\setlength{\rightskip}{0pt plus 5cm}{\bf csc440.\-nuf.\-C2\-D\-M\-Receiver.\-C2\-D\-M\-Receiver} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a6026d84758d7ab3090f035236d58fd87}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a4772899d4fb8e0ce9dbe2b4a04fed1cf}{\index{csc440\-::nuf\-::\-C2\-D\-M\-Receiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}!on\-Error@{on\-Error}}
+\index{on\-Error@{on\-Error}!csc440::nuf::C2DMReceiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}}
+\subsubsection[{on\-Error}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf csc440.\-nuf.\-C2\-D\-M\-Receiver.\-on\-Error} (
+\begin{DoxyParamCaption}
+\item[{Context}]{context, }
+\item[{String}]{error\-Id}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a4772899d4fb8e0ce9dbe2b4a04fed1cf}
+Called on registration error. This is called in the context of a Service
+\begin{DoxyItemize}
+\item no dialog or U\-I.
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & the Context \\
+\hline
+{\em error\-Id} & an error message, defined in \hyperlink{}{C2\-D\-M\-Base\-Receiver} \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a4fd8cbc3e17b49225e052b12547af03a}{\index{csc440\-::nuf\-::\-C2\-D\-M\-Receiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}!on\-Message@{on\-Message}}
+\index{on\-Message@{on\-Message}!csc440::nuf::C2DMReceiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}}
+\subsubsection[{on\-Message}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf csc440.\-nuf.\-C2\-D\-M\-Receiver.\-on\-Message} (
+\begin{DoxyParamCaption}
+\item[{Context}]{context, }
+\item[{Intent}]{intent}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a4fd8cbc3e17b49225e052b12547af03a}
+Called when a cloud message has been received. 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a4fd8cbc3e17b49225e052b12547af03a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a55ec75d92b2ea18fc3bfb7354fc63571}{\index{csc440\-::nuf\-::\-C2\-D\-M\-Receiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}!on\-Registered@{on\-Registered}}
+\index{on\-Registered@{on\-Registered}!csc440::nuf::C2DMReceiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}}
+\subsubsection[{on\-Registered}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf csc440.\-nuf.\-C2\-D\-M\-Receiver.\-on\-Registered} (
+\begin{DoxyParamCaption}
+\item[{Context}]{context, }
+\item[{String}]{registration}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a55ec75d92b2ea18fc3bfb7354fc63571}
+Called when a registration token has been received.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & the Context \\
+\hline
+{\em registration\-Id} & the registration id as a String \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\-O\-Exception} & if registration cannot be performed \\
+\hline
+\end{DoxyExceptions}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a55ec75d92b2ea18fc3bfb7354fc63571_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a5703ea903b3efa7a0fc8b0dd94c93939}{\index{csc440\-::nuf\-::\-C2\-D\-M\-Receiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}!on\-Unregistered@{on\-Unregistered}}
+\index{on\-Unregistered@{on\-Unregistered}!csc440::nuf::C2DMReceiver@{csc440\-::nuf\-::\-C2\-D\-M\-Receiver}}
+\subsubsection[{on\-Unregistered}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf csc440.\-nuf.\-C2\-D\-M\-Receiver.\-on\-Unregistered} (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)}}\label{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a5703ea903b3efa7a0fc8b0dd94c93939}
+Called when the device has been unregistered.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & the Context \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcsc440_1_1nuf_1_1_c2_d_m_receiver_a5703ea903b3efa7a0fc8b0dd94c93939_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/\-Users/alex/\-Documents/\-C\-S\-C\-\_\-440/\-Project/\-S\-M\-I\-L/\-Not\-\_\-\-User\-\_\-\-Friendly/\-S\-M\-I\-L-\/\-Android/src/csc440/nuf/\hyperlink{_c2_d_m_receiver_8java}{C2\-D\-M\-Receiver.\-java}\end{DoxyCompactItemize}

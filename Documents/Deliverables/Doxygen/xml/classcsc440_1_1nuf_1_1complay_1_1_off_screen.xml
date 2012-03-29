@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1complay_1_1_off_screen" kind="class" prot="public">
+    <compoundname>csc440::nuf::complay::OffScreen</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ae7b2468975932c98c85621f84383fa8c" prot="private" static="yes" mutable="no">
+        <type><ref refid="classcsc440_1_1nuf_1_1complay_1_1_q" kindref="compound">Q</ref></type>
+        <definition>Q csc440.nuf.complay.OffScreen.q</definition>
+        <argsstring></argsstring>
+        <name>q</name>
+        <initializer> new <ref refid="classcsc440_1_1nuf_1_1complay_1_1_q" kindref="compound">Q</ref>(&quot;OffScreenQ&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/OffScreen.java" line="4" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/OffScreen.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ab94d06e82ef902255257e6ca5b635a56" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classcsc440_1_1nuf_1_1complay_1_1_q" kindref="compound">Q</ref></type>
+        <definition>static Q csc440.nuf.complay.OffScreen.Q</definition>
+        <argsstring>()</argsstring>
+        <name>Q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/OffScreen.java" line="5" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/OffScreen.java" bodystart="5" bodyend="7"/>
+        <referencedby refid="classcsc440_1_1nuf_1_1complay_1_1_timer_1aebbe2beb25856951b72d866d783ce897" compoundref="_timer_8java" startline="41" endline="82">csc440.nuf.complay.Timer.setTime</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/OffScreen.java" line="3" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-Android/src/csc440/nuf/complay/OffScreen.java" bodystart="3" bodyend="8"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ae7b2468975932c98c85621f84383fa8c" prot="private" virt="non-virtual"><scope>csc440::nuf::complay::OffScreen</scope><name>q</name></member>
+      <member refid="classcsc440_1_1nuf_1_1complay_1_1_off_screen_1ab94d06e82ef902255257e6ca5b635a56" prot="public" virt="non-virtual"><scope>csc440::nuf::complay::OffScreen</scope><name>Q</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

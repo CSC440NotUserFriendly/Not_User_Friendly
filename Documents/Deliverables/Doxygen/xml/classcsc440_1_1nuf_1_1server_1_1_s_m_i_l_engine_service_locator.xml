@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator" kind="class" prot="public">
+    <compoundname>csc440::nuf::server::SMILEngineServiceLocator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ServiceLocator</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator_1a8975ab32a83011d88840baa2989ef0d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>Object csc440.nuf.server.SMILEngineServiceLocator.getInstance</definition>
+        <argsstring>(Class&lt;?&gt; clazz)</argsstring>
+        <name>getInstance</name>
+        <param>
+          <type>Class&lt;?&gt;</type>
+          <declname>clazz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineServiceLocator.java" line="9" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineServiceLocator.java" bodystart="9" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="446">
+        <label>ServiceLocator</label>
+      </node>
+      <node id="445">
+        <label>csc440.nuf.server.SMILEngineServiceLocator</label>
+        <link refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator"/>
+        <childnode refid="446" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="448">
+        <label>ServiceLocator</label>
+      </node>
+      <node id="447">
+        <label>csc440.nuf.server.SMILEngineServiceLocator</label>
+        <link refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator"/>
+        <childnode refid="448" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineServiceLocator.java" line="6" bodyfile="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/SMIL-AppEngine/src/csc440/nuf/server/SMILEngineServiceLocator.java" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classcsc440_1_1nuf_1_1server_1_1_s_m_i_l_engine_service_locator_1a8975ab32a83011d88840baa2989ef0d0" prot="public" virt="non-virtual"><scope>csc440::nuf::server::SMILEngineServiceLocator</scope><name>getInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

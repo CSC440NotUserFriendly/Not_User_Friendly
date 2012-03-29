@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_8f5dbfc2c16749345c2ceae4769e292c" kind="dir">
+    <compoundname>/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/</compoundname>
+    <innerdir refid="dir_62ef9811f9a030bce233485ee4f42621">/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/codelab/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/alex/Documents/CSC_440/Project/SMIL/Not_User_Friendly/Documents/Code References/CodeLabEx1/src/com/google/appengine/"/>
+  </compounddef>
+</doxygen>
