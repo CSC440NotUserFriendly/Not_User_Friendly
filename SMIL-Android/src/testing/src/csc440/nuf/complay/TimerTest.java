@@ -1,7 +1,10 @@
 package testing.src.csc440.nuf.complay;
 
-import junit.framework.*;
-import Users.alex.Documents.CSC_440.Project.SMIL.Not_User_Friendly.SMIL-Android/src/csc440.nuf.complay.*;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import csc440.nuf.complay.Timer;
 
 /**
  * TimerTest.java
@@ -9,23 +12,31 @@ import Users.alex.Documents.CSC_440.Project.SMIL.Not_User_Friendly.SMIL-Android/
  */
 
 
-class TimerTest 
-	extends TestCase
-{
+public class TimerTest{
 	
 	Timer timer;
-	int data[] = { 5 };
+	String data[] = { "5", "6" };
 	
-	public void setup()
+	public TimerTest()
 	{
 		this.timer = new Timer();
 	}
 	
+	@Test
 	public void testSetTime()
 	{
-		timer.setTime( data[0] );
-		this.assertEquals( data[0], timer.getTime() );
+		timer.setTime(Integer.parseInt( data[0] ));
+		assertEquals( Integer.parseInt( data[0] ), timer.getTime() );
 	}
+	
+	@Test
+	public void testTimePlusPlus()
+	{
+		timer.setTime(Integer.parseInt( data[0] ));
+		timer.timePlusPlus();
+		assertEquals(Integer.parseInt( data[1] ), timer.getTime() );
+	}
+	
 	
 	
 	
