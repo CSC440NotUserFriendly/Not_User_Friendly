@@ -31,16 +31,14 @@
 		android:paddingTop="3dp" android:paddingBottom="3dp" android:paddingLeft="6dp" android:paddingRight="6dp">
 	    
 		<ImageView android:id="@+id/playPause" android:onClick="playPause"
-			android:layout_alignParentRight="true" android:layout_width="44dp"
+			android:layout_toLeftOf="@+id/stop" android:layout_width="44dp"
 			android:layout_height="44dp" android:background="@drawable/actionbar_btn"
 			android:layout_marginLeft="3dip" android:src="@drawable/play" />
 		
-		<!-- 
 		<ImageView android:id="@+id/stop" android:onClick="stop"
 			android:layout_alignParentRight="true" android:layout_width="44dp"
 			android:layout_height="44dp" android:background="@drawable/actionbar_btn"
-			android:layout_marginLeft="3dip" android:src="@drawable/stop" />
-		 -->
+			android:layout_marginLeft="3dip" android:src="@drawable/stop" android:visibility="invisible" />
 		 
 	    <SeekBar
 			android:layout_width="wrap_content"

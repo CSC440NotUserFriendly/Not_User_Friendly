@@ -67,16 +67,6 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         // when this activity is created we need to save the screen density for use in drawing
         Waiting.Q().setScreenDensity(getResources().getDisplayMetrics().density);
         
-        // for now we're manually making a WaitingQueue
-        while (!Waiting.Q().isEmpty()) Waiting.Q().pop();
-        SMILText[] t = new SMILText[4];
-        t[0] = new SMILText(0, 5, 70, 70, "Hey", 40, "yellow");
-        t[1] = new SMILText(2, 3, 150, 130, "this is a", 60, "white");
-        t[2] = new SMILText(3, 7, 230, 210, "(: SMIL :)", 90, "red");
-        t[3] = new SMILText(5, 5, 300, 300, "PRESENTATION!", 40, "blue");
-        for (int i = 0; i < 4; i++) Waiting.Q().push(t[i]);
-        Waiting.Q().prepQ();
-        
         // save the message length
         messageLength = Waiting.Q().getMessageLength();
         //Log.w("PlayerActivity", "getMessageLength is: " + messageLength);

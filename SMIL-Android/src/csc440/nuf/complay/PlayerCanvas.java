@@ -77,12 +77,7 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
         		
                 canvas.drawColor(Color.BLACK);
                 OnScreen.Q().draw(canvas);
-	    		if (!Waiting.Q().isEmpty()) Log.w("PlayerCanvas", "Waiting Queue Start Time " + Waiting.Q().peek().getStartTime());
-
-	    		/* Enough with this testing bullshit
-	    		canvas.drawText("time = " + timer.getTime() + " | deltaTime = " + deltaTime + " | startTime = " + startTime, 10, 10, red);
-	            canvas.drawLine((5*timer.getTime()), 10, 10, (5*timer.getTime()), white);
-				*/
+	    		//if (!Waiting.Q().isEmpty()) Log.w("PlayerCanvas", "Waiting Queue Start Time " + Waiting.Q().peek().getStartTime());
     		
 	            holder.unlockCanvasAndPost(canvas);
     		}
@@ -115,14 +110,5 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
     public void setTime(int time) {
     	timer.setTime(time-1);
     	deltaTime = 1;
-    }
-    
-    @Override
-    protected void onDraw(Canvas canvas) {
-    	super.onDraw(canvas);
-        canvas.drawColor(Color.BLACK);
-        Paint white = new Paint();
-        white.setColor(Color.WHITE);
-        canvas.drawLine(0, 0, 20, 20, white);
     }
 }

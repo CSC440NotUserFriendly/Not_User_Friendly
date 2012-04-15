@@ -45,7 +45,7 @@ public class Timer {
 			// first check to see if any of your items OnScreen are ready to go off.
 			while (!OnScreen.Q().isEmpty() && OnScreen.Q().peek().getEndTime() <= newTime) {
 				changed = true;
-				OffScreen.Q().push(OnScreen.Q().peek());
+				OffScreen.Q().push(OnScreen.Q().pop());
 			}
 			
 			// then check if any of the items in the Waiting.Q() are ready to go on.

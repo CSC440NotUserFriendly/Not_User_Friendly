@@ -20,6 +20,7 @@ import com.google.web.bindery.requestfactory.shared.ServerFailure;
 import csc440.nuf.client.MyRequestFactory;
 import csc440.nuf.client.MyRequestFactory.HelloWorldRequest;
 import csc440.nuf.complay.*;
+import csc440.nuf.components.SMILText;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -27,6 +28,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -93,9 +95,21 @@ public class SMILActivity extends Activity implements OnClickListener {
         Log.i(TAG, "onCreate");
         super.onCreate(savedInstanceState);
 
+        // for now we're manually making a WaitingQueue
+        Waiting.Q().clear();
+        OnScreen.Q().clear();
+        OffScreen.Q().clear();
+        SMILText[] t = new SMILText[4];
+        t[0] = new SMILText(0, 5, 70, 70, "Hey", 40, "yellow");
+        t[1] = new SMILText(2, 3, 150, 130, "this is a", 60, "white");
+        t[2] = new SMILText(3, 7, 230, 210, "(: SMIL :)", 90, "red");
+        t[3] = new SMILText(5, 5, 300, 300, "PRESENTATION!", 40, "blue");
+        for (int i = 0; i < 4; i++) Waiting.Q().push(t[i]);
+        Waiting.Q().prepQ();
+        
         // Register a receiver to provide register/unregister notifications
         registerReceiver(mUpdateUIReceiver, new IntentFilter(Util.UPDATE_UI_INTENT));
-    }
+    }     
 
     @Override
     public void onResume() {
@@ -134,6 +148,24 @@ public class SMILActivity extends Activity implements OnClickListener {
         items.setTitle("View Inbox");
         items.setIcon(R.drawable.inbox);
         items.setListener(this, 3);
+
+        items.addItem(getApplicationContext(), true);
+        TextView item2Text1 = new TextView(this);
+        item2Text1.setText("NEW! From: magicjj    Subject: Hey man!   Length: 0:20");
+        item2Text1.setTextColor(Color.BLACK);
+        TextView item2Text2 = new TextView(this);
+        item2Text2.setText("From: magicjj    Subject: Test 2   Length: 0:15");
+        item2Text2.setTextColor(Color.BLACK);
+        TextView item2Text3 = new TextView(this);
+        item2Text3.setText("From: magicjj    Subject: Test     Length: 0:17");
+        item2Text3.setTextColor(Color.BLACK);
+        items.addLine(getApplicationContext());
+        items.addToLinear(item2Text1);
+        items.addLine(getApplicationContext());
+        items.addToLinear(item2Text2);
+        items.addLine(getApplicationContext());
+        items.addToLinear(item2Text3);
+        items.addLine(getApplicationContext());
         
         /*
         _actionBar.setHomeListener(new OnClickListener() {
@@ -156,7 +188,7 @@ public class SMILActivity extends Activity implements OnClickListener {
 		
 		switch (v.getId()) {
 		case 1:	// Compose Message
-			i = new Intent(this, ComposerActivity.class);
+			i = new Intent(this, ComposerList.class);
 			this.startActivity(i);
 			break;
 		case 2:	// Compose From Template

@@ -90,6 +90,13 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 		return	Integer.parseInt(temp[0]);
 	}
 	
+	public void setName(String qName) {
+		this.qName = qName;
+	}
+	public String getName() {
+		return qName;
+	}
+	
 	//Setters for fields
 	public void setStartTime(int startTime){
 		this.begin = startTime;
