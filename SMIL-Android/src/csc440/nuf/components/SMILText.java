@@ -7,6 +7,7 @@ import org.xml.sax.Attributes;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.util.Log;
 
 import csc440.nuf.complay.Waiting;
@@ -20,17 +21,14 @@ import csc440.nuf.complay.Waiting;
  * 
  */
 
-public class SMILText extends AbstractSMILObject {
+public class SMILText extends AbstractSMILDrawable {
 	
 	//If we want to modify text here then we can make this a StringBuilder.
 	protected String xmlid; //xml:id
 	protected String textAlign; //textAlign
-	protected int top; //topMargin
-	protected int left; //leftMargin
 	protected String textColor; //textColor
 	protected int textFontSize; //textFontSize
-	protected int zIndex; //z-index
-	private String text; 
+	protected String text; 
 	
 	public SMILText(int begin, int dur, int top, int left, String text, int textFontSize, String textColor) {
 		super(text, begin, dur);
@@ -42,22 +40,23 @@ public class SMILText extends AbstractSMILObject {
 	}
 	
 	public void draw(Canvas canvas) {
-		// implement this later
-		int color;
-		if (textColor == "red") color = Color.RED;
-		else if (textColor == "green") color = Color.GREEN;
-		else if (textColor == "blue") color = Color.BLUE;
-		else if (textColor == "yellow") color = Color.YELLOW;
-		else if (textColor == "cyan") color = Color.CYAN;
-		else color = Color.WHITE;
-		
-        Paint paint = new Paint();
-        paint.setColor(color);
-        paint.setTextSize(textFontSize * Waiting.Q().getDensity());
-        
-		canvas.drawText(text, top * Waiting.Q().getDensity(), left * Waiting.Q().getDensity(), paint);
-		//Log.w("SMILText", "text was drawn: " + text);
-		
+		super.draw(canvas);
+		if (text != null) {
+			int color;
+			if (textColor.equals("red")) color = Color.RED;
+			else if (textColor.equals("green")) color = Color.GREEN;
+			else if (textColor.equals("blue")) color = Color.BLUE;
+			else if (textColor.equals("yellow")) color = Color.YELLOW;
+			else if (textColor.equals("cyan")) color = Color.CYAN;
+			else if (textColor.equals("white")) color = Color.WHITE;
+			else color = Color.WHITE;
+			
+	        Paint paint = new Paint();
+	        paint.setColor(color);
+	        paint.setTextSize(textFontSize * Waiting.getDensity());
+	       // canvas.drawText
+			canvas.drawText(text, left * Waiting.getDensity(), top * Waiting.getDensity(), paint);
+		}
 	}
 	
 	public SMILText(Attributes att) {
@@ -96,6 +95,13 @@ public class SMILText extends AbstractSMILObject {
         }
 	}
 	
+	public SMILText() {
+		textColor = "white";
+		textFontSize = 40;
+		top = 30;
+		left = 30;
+	}
+
 	public String getText() {
 		return text;
 	}
@@ -103,6 +109,7 @@ public class SMILText extends AbstractSMILObject {
 	//Important, the text is obtained through the characters() method not startElement()
 	public void setText(String text) {
 		this.text = text;
+		this.qName = text;
 	}
 
 	//For XML format
@@ -112,7 +119,6 @@ public class SMILText extends AbstractSMILObject {
 		return super.printTag() + ">\n" + text + "\n</smilText>\n";
 
 	}
-
 
 	public String getXmlid() {
 		return xmlid;
@@ -128,22 +134,6 @@ public class SMILText extends AbstractSMILObject {
 
 	public void setTextAlign(String textAlign) {
 		this.textAlign = textAlign;
-	}
-
-	public int getTopMargin() {
-		return top;
-	}
-
-	public void setTopMargin(int topMargin) {
-		this.top = topMargin;
-	}
-
-	public int getLeftMargin() {
-		return left;
-	}
-
-	public void setLeftMargin(int leftMargin) {
-		this.left = leftMargin;
 	}
 
 	public String getTextColor() {
@@ -162,13 +152,28 @@ public class SMILText extends AbstractSMILObject {
 		this.textFontSize = textFontSize;
 	}
 
-	public int getzIndex() {
-		return zIndex;
+	@Override
+	public int getWidth() {
+        Paint paint = new Paint();
+        paint.setTextSize(textFontSize);
+        return (int) paint.measureText(text);
 	}
 
-	public void setzIndex(int zIndex) {
-		this.zIndex = zIndex;
+	@Override
+	public int getHeight() {
+        Paint paint = new Paint();
+        paint.setTextSize(textFontSize);
+        return (int) (Math.abs(paint.ascent()));
 	}
 
-
+	
+	public void moveSize(int x, int y) {
+		Rect d = getRectDimensions();
+		//Log.w("moveSize", "size x=" + x + ", y=" + y + ", left=" + d.left + ", right=" + d.right);
+		
+		// may need to tweak this, esp pay attention to where you multiply in the density and where you don't
+		float temp = textFontSize * (float)((x-left)/(getWidth() * Waiting.getDensity()));
+		//Log.w("moveSize", "newWidth=" + (x-left) + ", oldWidth=" + (getWidth() * Waiting.getDensity()) + ", textFontSize = " + textFontSize + " * (" + (float)((x-d.left)/(getWidth() * Waiting.getDensity())) + ") = " + temp);
+		textFontSize = (int) (temp > 0 ? temp : 1);
+	}
 }

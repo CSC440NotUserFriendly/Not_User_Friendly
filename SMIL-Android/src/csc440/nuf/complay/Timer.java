@@ -1,11 +1,12 @@
 package csc440.nuf.complay;
 
+import android.util.Log;
+
 /**
  * CSC-440 SMIL Project
  * 02-11-2012
  * Timer.java
  * @author Jacob Ensor
- * 
  * 
  */
 
@@ -13,15 +14,11 @@ package csc440.nuf.complay;
 
 public class Timer {
 	private int time;
-	//private LinkedList <AbstractSMILObject> OnScreenQ, OffScreenQ;
 	
-	Timer() {
-		//OffScreenQ = new LinkedList<AbstractSMILObject>();
-		//onScreenQ = new LinkedList<AbstractSMILObject>();
+	public Timer() {
 		time = -1;
-		Waiting.Q().prepQ();
-		OnScreen.Q().clear();
-		OffScreen.Q().clear();
+		if (!OnScreen.Q().isEmpty() || !OffScreen.Q().isEmpty())
+			Waiting.gatherInWaiting();
 	}
 	
 	public int getTime() {
@@ -62,7 +59,7 @@ public class Timer {
 			// used to sort the OffScreenQ by end time here, but don't think it's necessary
 		} else {	// if the newTime is less than the old time
 			// first see if anything OffScreen needs to go back OnScreen
-			while (!OffScreen.Q().isEmpty() && OffScreen.Q().peek().getEndTime() > newTime && OffScreen.Q().peek().getStartTime() >= newTime) {
+			while (!OffScreen.Q().isEmpty() && OffScreen.Q().peek().getEndTime() > newTime) {
 				changed = true;
 				OnScreen.Q().push(OffScreen.Q().pop());
 			}
@@ -78,6 +75,7 @@ public class Timer {
 		}
 		
 		time = newTime;
+		Waiting.setTime(newTime);
 		return changed;
 	}
 }

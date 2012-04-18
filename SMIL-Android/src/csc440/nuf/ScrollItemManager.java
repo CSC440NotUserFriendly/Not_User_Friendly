@@ -19,16 +19,9 @@ package csc440.nuf;
 import java.util.LinkedList;
 
 import android.content.Context;
-import android.content.DialogInterface.OnClickListener;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.LinearLayout.LayoutParams;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 public class ScrollItemManager {
 	private LinearLayout _linear;

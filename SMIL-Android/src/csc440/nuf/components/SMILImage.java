@@ -46,6 +46,10 @@ public class SMILImage extends AbstractSMILObject {
 			}
         }
 	}
+	
+	public SMILImage() {
+	}
+	
 	@Override
 	public String printTag(){
 		return super.printTag() + " />";

@@ -28,21 +28,11 @@ public class Q {
 	//Remember instanceof when trying to determine what kind of objects these are!
 	private LinkedList <AbstractSMILObject> objectQ;
 	private SMILLayout layout;
-	private float density = 1;
 	private String qType;
 	
 	public Q(String qType) {
 		objectQ = new LinkedList<AbstractSMILObject>();
 		this.qType = qType;
-	}
-	
-	public void setScreenDensity(float newDensity) {
-		density = newDensity;
-	}
-	
-	public float getDensity() {
-		// we can have this look at other things to scale the presentation as well, can talk about this later
-		return density;
 	}
 	
 	public void push(AbstractSMILObject smil){
@@ -80,21 +70,32 @@ public class Q {
 	public int getLength() {
 		return objectQ.size();
 	}
-	
+
 	public LinkedList<AbstractSMILObject> getQ() {
 		return objectQ;
+	}
+	
+	public LinkedList<AbstractSMILObject> getQCopy() {
+		LinkedList<AbstractSMILObject> Qcopy = new LinkedList<AbstractSMILObject>(objectQ);
+		return Qcopy;
 	}
 	
 	public void draw(Canvas canvas) {
 		LinkedList <AbstractSMILObject> Qcopy = new LinkedList <AbstractSMILObject>(objectQ);
 		while (!Qcopy.isEmpty())  {
 			//Log.w("Timer", "OnScreenQ size: " + OnScreenQ.size());
-			Qcopy.poll().draw(canvas);
+			if (Qcopy.peek() instanceof AbstractSMILDrawable)
+				((AbstractSMILDrawable)Qcopy.poll()).draw(canvas);
+			else Qcopy.poll();
 		}
 	}
-	
+
 	public void sortByEndTimeASC() {
 		Collections.sort(objectQ, new EndTimeASC());
+	}
+
+	public void sortByEndTimeDESC() {
+		Collections.sort(objectQ, new EndTimeDESC());
 	}
 	
 	public void sortByStartTimeDESC() {
@@ -124,6 +125,11 @@ public class Q {
 class EndTimeASC implements Comparator< AbstractSMILObject> {
 	public int compare(AbstractSMILObject lhs, AbstractSMILObject rhs) {
 		return lhs.getEndTime() - rhs.getEndTime();
+	}
+}
+class EndTimeDESC implements Comparator< AbstractSMILObject> {
+	public int compare(AbstractSMILObject lhs, AbstractSMILObject rhs) {
+		return rhs.getEndTime() - lhs.getEndTime();
 	}
 }
 class StartTimeDESC implements Comparator< AbstractSMILObject> {

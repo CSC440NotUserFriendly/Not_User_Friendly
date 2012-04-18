@@ -9,9 +9,9 @@
         android:layout_alignParentLeft="true" 
         android:layout_alignParentRight="true" />
     
-	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollHolder"
 	 style="@style/scroll" android:layout_below="@+id/actionBar">    
-		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollLinear"
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 		 android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
 		    <TableLayout android:id="@+id/tableLayout1" android:layout_width="270dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
 		        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
@@ -34,21 +34,13 @@
 			        	<TextView android:text="Match another element." android:textColor="#000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 		        	</LinearLayout>
 		        </TableRow>
-		        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
-		        	<TextView android:text="Position: " android:textColor="#000"></TextView>
-		        	<Button android:id="@+id/selectAColor" android:layout_width="wrap_content" android:layout_height="wrap_content"
-			        	android:text="Reposition" />
-		        </TableRow>
 		    </TableLayout>
-		    <ViewFlipper android:id="@+id/viewFlipper" android:layout_width="match_parent" android:layout_height="wrap_content">
+		    <ViewFlipper android:id="@+id/flipProperties" android:layout_width="match_parent" android:layout_height="wrap_content">
 			    <TableLayout android:layout_width="270dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
 			        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
 			        	<TextView android:text="Color: " android:textColor="#000"></TextView>
-			        	<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-			        		<TextView android:text="None Selected" android:textColor="#000" android:id="@+id/selectedColor" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
-			        		<Button android:id="@+id/selectAColor" android:layout_width="wrap_content" android:layout_height="wrap_content"
-			        		    android:text="Select" />
-			        	</LinearLayout>
+		        		<Spinner android:id="@+id/color" android:layout_width="wrap_content"
+		        		    android:layout_height="wrap_content" android:layout_weight="1" />
 			        </TableRow>
 			    </TableLayout>
 			    <TableLayout android:layout_width="270dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
@@ -62,7 +54,8 @@
 			        </TableRow>
 			    </TableLayout>
 			</ViewFlipper>
-		        
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollLinear"
+			 android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" />
 		</LinearLayout>
 	</ScrollView>
       

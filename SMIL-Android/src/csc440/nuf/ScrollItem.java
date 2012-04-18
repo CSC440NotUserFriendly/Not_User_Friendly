@@ -17,14 +17,9 @@ package csc440.nuf;
  */
 
 import android.content.Context;
-import android.content.DialogInterface.OnClickListener;
-import android.graphics.Color;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.LinearLayout.LayoutParams;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -41,7 +36,7 @@ public class ScrollItem {
 	public ScrollItem(View v, boolean useLinear) {
 		_relative = (RelativeLayout) v;
 		_iconView = (ImageView) v.findViewById(R.id.icon);
-		_titleView = (TextView) v.findViewById(R.id.text);
+		_titleView = (TextView) v.findViewById(R.id.scrollitemtext);
 		_linear = (LinearLayout) v.findViewById(R.id.linear);
 		
 		if (!useLinear) {
@@ -80,7 +75,7 @@ public class ScrollItem {
 		float density = c.getResources().getDisplayMetrics().density;
 		View line = new View(c);
 		LinearLayout.LayoutParams l = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, (int)(1 * density));
-		l.setMargins(0, (int)(3* density), 0, (int)(3 * density));
+		l.setMargins(0, (int)(3 * density), 0, (int)(3 * density));
 		line.setLayoutParams(l);
 		line.setBackgroundColor(R.color.scrollitem_stroke);
 		addToLinear(line);

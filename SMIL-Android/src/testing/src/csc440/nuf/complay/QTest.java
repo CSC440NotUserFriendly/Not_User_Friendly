@@ -29,7 +29,7 @@ public class QTest{
 		SMILTextObject2 = new SMILText(1, 2, 10, 10, "Test2", 12, "Red");
 		q.push(SMILTextObject1);
 	}
-	
+	/*
 	@SuppressWarnings("deprecation")
 	@Test
 	public void testSetScreenDensity()
@@ -37,7 +37,7 @@ public class QTest{
 		q.setScreenDensity(density[0]);
 		assertEquals(density[0], q.getDensity());
 	}
-	
+	*/
 	@Test
 	public void testPush()
 	{

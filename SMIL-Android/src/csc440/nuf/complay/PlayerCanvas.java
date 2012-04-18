@@ -24,7 +24,7 @@ import android.widget.SeekBar;
 
 public class PlayerCanvas extends SurfaceView implements Runnable {
 	private Timer timer;
-	private boolean playing;
+	private boolean playing, pauseAfterDraw = false, forceDraw = false, runTime = true;
 	private SurfaceHolder holder;
 	private Thread renderThread = null;
 	private SeekBar _seekBar;
@@ -43,27 +43,35 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
     }
     
     public void play() {
+    	play(true);
+    }
+    
+    public void play(boolean runTime) {
     	playing = true;
+    	this.runTime = runTime;
     	renderThread = new Thread(this);
     	renderThread.start();
     }
     
     public void run() {
     	long startTime = System.nanoTime();
-    	    	
-        Paint white = new Paint();
-        white.setColor(Color.WHITE);
-        Paint red = new Paint();
-        red.setColor(Color.RED);
-        
+        boolean firstIteration = true;
     	while (playing) {
-    		
     		if (!holder.getSurface().isValid()) continue;
     		
-    		// this gives us deltaTime in seconds
-    		deltaTime = (System.nanoTime()-startTime) / 1000000000.0f;
-    		// this will make our loop only execute once a second
-    		if (deltaTime < 1) continue;
+    		if (!firstIteration && !forceDraw && runTime) {
+	    		// this gives us deltaTime in seconds
+	    		deltaTime = (System.nanoTime()-startTime) / 1000000000.0f;
+	    		// this will make our loop only execute once a second
+	    		if (deltaTime < 1) continue;
+    		} else if (firstIteration) {
+    			firstIteration = false;
+    			if (!runTime) {
+                	timer.timePlusPlus();
+                	_seekBar.setProgress(timer.getTime());
+                	forceDraw = true;
+    			}
+    		}
     		// I think this will be a much more elegant solution than sleeping the thread
     		
     		/* 
@@ -71,15 +79,22 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
     		 * onScreenQ and drawing all of the objects. For now I just have it drawing this
     		 * random stuff. Used this output to test the timing and seekbar interaction.
     		 */
+    		boolean Qchanged = false;
+            if (runTime) {
+            	Qchanged = timer.timePlusPlus();
+            	_seekBar.setProgress(timer.getTime());
+            }
             
-    		if (timer.timePlusPlus()) {
+    		if (Qchanged || forceDraw) {
         		Canvas canvas = holder.lockCanvas();
         		
                 canvas.drawColor(Color.BLACK);
                 OnScreen.Q().draw(canvas);
+                Log.w("drawn", "on screen");
 	    		//if (!Waiting.Q().isEmpty()) Log.w("PlayerCanvas", "Waiting Queue Start Time " + Waiting.Q().peek().getStartTime());
     		
 	            holder.unlockCanvasAndPost(canvas);
+	            forceDraw = false;
     		}
             /* this was Brad's initial suggestion for controlling time, I've nixed it for now
         	try {
@@ -91,7 +106,11 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
 			*/
 
     		startTime = System.nanoTime();
-    		_seekBar.setProgress(timer.getTime());
+    		/*
+    		if (pauseAfterDraw) {
+    			pauseAfterDraw = false;
+    			pause();
+    		}*/
         }
     }
 
@@ -110,5 +129,13 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
     public void setTime(int time) {
     	timer.setTime(time-1);
     	deltaTime = 1;
+    }
+
+    public void forceDraw() {
+    	forceDraw = true;
+    }
+    
+    public void setRunTime(boolean runTime) {
+    	this.runTime = runTime;
     }
 }

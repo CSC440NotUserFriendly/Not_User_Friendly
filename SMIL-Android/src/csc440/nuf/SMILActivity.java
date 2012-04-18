@@ -95,6 +95,9 @@ public class SMILActivity extends Activity implements OnClickListener {
         Log.i(TAG, "onCreate");
         super.onCreate(savedInstanceState);
 
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.main);
+
         // for now we're manually making a WaitingQueue
         Waiting.Q().clear();
         OnScreen.Q().clear();
@@ -106,6 +109,8 @@ public class SMILActivity extends Activity implements OnClickListener {
         t[3] = new SMILText(5, 5, 300, 300, "PRESENTATION!", 40, "blue");
         for (int i = 0; i < 4; i++) Waiting.Q().push(t[i]);
         Waiting.Q().prepQ();
+        
+        Waiting.setScreenDensity(getResources().getDisplayMetrics().density);
         
         // Register a receiver to provide register/unregister notifications
         registerReceiver(mUpdateUIReceiver, new IntentFilter(Util.UPDATE_UI_INTENT));
@@ -123,10 +128,6 @@ public class SMILActivity extends Activity implements OnClickListener {
         
      // Our stuff from our original main activity   
      // since we're using ActionBar, first take off the title bar
-        
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.main);
-
         
         _actionBar = (ActionBar) findViewById(R.id.actionBar);
         _actionBar.setTitle(R.string.app_name);

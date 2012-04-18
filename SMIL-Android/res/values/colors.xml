@@ -12,4 +12,12 @@
     <color name="scrollitem_pressed_bg_start">#eaeaea</color>
     <color name="scrollitem_pressed_bg_end">#bfbfbf</color>
     <color name="scrollitem_stroke">#919191</color>
+    <string-array name="supported_colors">
+        <item>white</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>yellow</item>
+        <item>cyan</item>
+    </string-array>
 </resources>

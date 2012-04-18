@@ -4,7 +4,10 @@ import java.lang.reflect.Field;
 
 import org.xml.sax.Attributes;
 
+import csc440.nuf.complay.Waiting;
+
 import android.graphics.Canvas;
+import android.util.Log;
 
 /**
  * CSC-440 SMIL Project
@@ -28,6 +31,9 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 		this.qName = qName;
 		this.begin = begin;
 		setDuration(dur);
+	}
+	
+	public AbstractSMILObject() {
 	}
 	
 	public AbstractSMILObject(Attributes att){
@@ -164,9 +170,4 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 			end = begin + duration;
 		}
 	}
-	
-	public void draw(Canvas canvas) {
-		// implement this later
-	}
-
 }

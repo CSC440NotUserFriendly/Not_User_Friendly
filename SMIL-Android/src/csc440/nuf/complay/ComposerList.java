@@ -79,12 +79,11 @@ public class ComposerList extends Activity implements OnClickListener {
 		list.setClickable(true);
 		list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+			public void onItemClick(AdapterView<?> arg0, View arg1, int selectedIndex,
 					long arg3) {
         		Intent i = new Intent(ComposerList.this, ComposerItem.class);
-        		i.putExtra("editItem", arg2);
+        		i.putExtra("editItem", selectedIndex);
         		ComposerList.this.startActivity(i);
-				
 			}
 		});
 		
@@ -108,6 +107,7 @@ public class ComposerList extends Activity implements OnClickListener {
 		      } 
 		});
 		*/
+		
 		alertAddItem = new AlertDialog.Builder(this);
 		alertAddItem.setTitle("Add Item");
 		final CharSequence[] addItemOptions = {"Text", "Image"};
@@ -145,22 +145,11 @@ public class ComposerList extends Activity implements OnClickListener {
 				return;
 			}
         });
-
-        /*
-        items = new ScrollItemManager(findViewById(R.id.scrollHolder));
-
-        items.addItem(getApplicationContext());
-        items.setTitle("Text Item 1");
-        items.setListener(this, 1);
-        */
-
     }
 	
 	protected void onResume() {
 		super.onResume();
 		refreshList();
-		// we're really going to need a user preference to override this, and have the PlayerActivity just request Landscape
-		// otherwise people without accelerometers won't be able to get to the player
 		/*
 		if (autoPlay && !playPressed && 
 			this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
@@ -185,15 +174,8 @@ public class ComposerList extends Activity implements OnClickListener {
 	}
 
 	public void refreshList() {
-		ArrayList<AbstractSMILObject> array = new ArrayList<AbstractSMILObject>();
-		LinkedList<AbstractSMILObject> w = new LinkedList<AbstractSMILObject>(Waiting.Q().getQ()),
-			off = new LinkedList<AbstractSMILObject>(OffScreen.Q().getQ());
-		LinkedList<AbstractSMILObject> on = new LinkedList<AbstractSMILObject>(OnScreen.Q().getQ());
-		while (!w.isEmpty()) array.add(w.poll());
-		while (!on.isEmpty()) array.add(on.poll());
-		while (!off.isEmpty()) array.add(off.poll());
 		//Log.w("refreshList", "list size: " + array.size() + ", wQ size: " + Waiting.Q().getQ().size() + ", w size: " + w.size());
-		list.setAdapter(new ComposerListAdapter(this, R.layout.composer_row, array));
+		list.setAdapter(new ComposerListAdapter(this, R.layout.composer_row, Waiting.allQArrayList()));
 	}
 	
 	public void playMessage(boolean playPressed) {
