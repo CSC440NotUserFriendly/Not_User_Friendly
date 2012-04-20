@@ -14,7 +14,6 @@ package csc440.nuf.complay;
 //import com.csc440.nuf.ActionBar;
 
 import csc440.nuf.R;
-import csc440.nuf.components.SMILText;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -22,9 +21,7 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnTouchListener;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -32,17 +29,15 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import java.util.jar.Attributes;
-
 public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeListener {
     // private ActionBar _actionBar;
     private ImageView _playPause;
-    private SeekBar _seekBar;
+    protected SeekBar _seekBar;
     protected PlayerCanvas _playerCanvas;
     private TextView timeView;
     private RelativeLayout controls, mainView;
     private boolean playing, playingCopy, fromMessage = false, playPressed = true;
-    private int messageLength;
+    protected int messageLength;
     protected HideControlsListener controlHider;
 	
 	/**The "main" method of an android activity*/
@@ -67,7 +62,7 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         // when this activity is created we need to save the screen density for use in drawing
         
         // save the message length
-        messageLength = Waiting.Q().getMessageLength();
+        messageLength = Waiting.getMessageLength();
         //Log.w("PlayerActivity", "getMessageLength is: " + messageLength);
         
         // initialize our variables
@@ -87,8 +82,9 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         
         timeView.setText(formatSecondsToMinutes(messageLength));
         
-        if (fromMessage) 
+        if (fromMessage) {
         	_playerCanvas.setTime(intent.getIntExtra("startTime", 0));
+        }
         
         
         /*
@@ -116,16 +112,18 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
     	    }
 	    	this.finish();
 		}
-		
+
+        _playerCanvas.play();
+        
 		if (!(this instanceof ComposerActivity)) {
 			playPause(null, true);
 		}
-			
     }
     
     protected void onPause() {
     	super.onPause();
         playPause(null, false);
+        _playerCanvas.pause();
 		Log.w("playeract", "onpause DID IT!!");
         if (playPressed) getIntent().putExtra("playPressed", playPressed);
     }
@@ -149,28 +147,26 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
 		_playerCanvas.setTime(seekBar.getProgress());
 	}
 	
-	public void playPause(View v, boolean newPlaying) {
-		playPause(v, newPlaying, true);
-	}
-	
     public void playPause(View v) {
-    	playPause(v, (playing ? false : true), true);
+    	playPause(v, (playing ? false : true));
     }
     
-    public void playPause(View v, boolean newPlaying, boolean runTime) {
-    	Log.w("PlayPause", "playing = " + (newPlaying ? "true" : "false") + ", runtime=" + (runTime ? "true" : "false") + ", and v is " + (v == null ? "null" : "not null"));
+    public void playPause(View v, boolean newPlaying) {
+    	Log.w("PlayPause", "playing = " + (newPlaying ? "true" : "false") + ", and v is " + (v == null ? "null" : "not null"));
     	if (newPlaying != playing) {
 	    	if (newPlaying) {
 	    		// if they're pressing play when the time is at the end restart the video
 	    		if (_seekBar.getProgress() == messageLength) _playerCanvas.setTime(0);
 	    		_playPause.setImageResource(R.drawable.pause);
-	    		_playerCanvas.play(runTime);
+	    		//_playerCanvas.play(runTime);
+	    		//_playerCanvas.setRunTime(runTime);
 	    	} else {
 	    		_playPause.setImageResource(R.drawable.play);
 	        	//_playerCanvas.pause();
 	    		// need to handle play/pause and runtime properly. play/pause is starting and killing the thread, runtime doesn't
-	    		_playerCanvas.setRunTime(false);
+	    		//_playerCanvas.setRunTime(false);
 	    	}
+    		_playerCanvas.setRunTime(newPlaying);
 	    	playing = newPlaying;
 	    	/*if (_playerCanvas.getPauseAfterDraw()) {
 	    		playing = false;
@@ -178,11 +174,6 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
 	    	}*/
 	    	controlHider.setOverride(!newPlaying); // when the movie is done playing we want the controls shown by default
     	}
-    }
-    
-    public void playerCanvasPlay() {
-    	Log.w("playercanvas", "called true");
-    	_playerCanvas.play();
     }
     
     /* To get the stop button to work with the message view activity would be a pain in the ass that I'm not bothering with.

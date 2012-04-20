@@ -4,60 +4,42 @@ package csc440.nuf.complay;
  * CSC-440 SMIL Project
  * 01-22-2011
  * SMILProjectActivity.java
- * @author Brad Barker
+ * @author Jacob Ensor
  * 
- * Follow this format for all java files created. The header
- * should look exactly as above. Also include a detailed description
- * of the class here and finally anyone who makes changes to the code edit
- * as seen below.
- * 
- * 01-22-2011 
- * Edited by: Brad Barker
- * Added this comment.
+ * This activity shows a listview of the elements in your SMIL message. Pressing it spawns the element info activity.
+ * Long pressing it spawns the composer in the mode to reposition that element.
+ * There are also action bar buttons for adding items, playing, and sending the message.
  * 
  */
 
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 import csc440.nuf.ActionBar;
 import csc440.nuf.R;
-import csc440.nuf.ScrollItemManager;
-import csc440.nuf.complay.PlayerActivity;
 import csc440.nuf.components.AbstractSMILObject;
-import csc440.nuf.components.SMILText;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.ActivityInfo;
-import android.content.res.Configuration;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class ComposerList extends Activity implements OnClickListener {
+public class ComposerList extends Activity {
 	private final int REQ_CODE_PLAYER = 1111;
 	private static int startTime = 0;
-	private ScrollItemManager items;
 	private Bundle state = null;
 	private ActionBar _actionBar;
-	private boolean playPressed = false;
 	private static boolean autoPlay = false;
 	private static AlertDialog.Builder alertAddItem;
 	private ListView list;
@@ -83,7 +65,20 @@ public class ComposerList extends Activity implements OnClickListener {
 					long arg3) {
         		Intent i = new Intent(ComposerList.this, ComposerItem.class);
         		i.putExtra("editItem", selectedIndex);
+        		i.putExtra("showReposition", true);
         		ComposerList.this.startActivity(i);
+			}
+		});
+		list.setLongClickable(true);
+		list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+			@Override
+			public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int selectedIndex,
+					long arg3) {
+        		Intent i = new Intent(ComposerList.this, ComposerActivity.class);
+        		i.putExtra("itemId", selectedIndex);
+        		i.putExtra("reposition", true);
+        		ComposerList.this.startActivityForResult(i, REQ_CODE_PLAYER);
+        		return true;
 			}
 		});
 		
@@ -115,6 +110,7 @@ public class ComposerList extends Activity implements OnClickListener {
             public void onClick(DialogInterface dialogInterface, int item) {
         		Intent i = new Intent(ComposerList.this, ComposerItem.class);
         		i.putExtra("newItem", addItemOptions[item]);
+        		i.putExtra("showReposition", true);
         		ComposerList.this.startActivity(i);
         		//this.startActivityForResult(i, REQ_CODE_PLAYER);
             }
@@ -156,7 +152,6 @@ public class ComposerList extends Activity implements OnClickListener {
 			playMessage(false);
 		}
 		*/
-		
 	}
 	
 	@Override
@@ -167,7 +162,7 @@ public class ComposerList extends Activity implements OnClickListener {
 			startTime = data.getIntExtra("startTime", 0);	// save what second the player was stopped at
 			// at first I was just passing playPressed into the player so it knew not to kill the activity if the screen was in portrait.
 			// needed it here to so I wouldn't keep relauching the player if the phone was in landscape. so I just pass the same value back in.
-			playPressed = data.getBooleanExtra("playPressed", false);
+			//playPressed = data.getBooleanExtra("playPressed", false);
 			// Log.w("messageActivity", "start time saved: " + startTime);
 		}
 		
@@ -188,12 +183,14 @@ public class ComposerList extends Activity implements OnClickListener {
 		this.startActivityForResult(i, REQ_CODE_PLAYER);
 	}
 
+	/*
 	@Override
 	public void onClick(View v) {
 		Intent i = new Intent(this, ComposerItem.class);
 		i.putExtra("editItem", v.getId());
 		this.startActivity(i);
 	}
+	*/
 	
 	private class ComposerListAdapter extends ArrayAdapter<AbstractSMILObject> {
 	        private ArrayList<AbstractSMILObject> items;
@@ -211,7 +208,7 @@ public class ComposerList extends Activity implements OnClickListener {
 	                    v = vi.inflate(R.layout.composer_row, null);
 	                }
 	                AbstractSMILObject o = items.get(position);
-	                Log.w("getView", "o name: " + o.getName());
+	                //Log.w("getView", "o name: " + o.getName());
 	                if (o != null) {
 	                        TextView tt = (TextView) v.findViewById(R.id.toptext),
 	                        	btl = (TextView) v.findViewById(R.id.bottomtextleft);

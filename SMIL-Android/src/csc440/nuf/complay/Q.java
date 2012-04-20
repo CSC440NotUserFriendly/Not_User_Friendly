@@ -62,10 +62,6 @@ public class Q {
 	public void setLayout(SMILLayout layout) {
 		this.layout = layout;
 	}
-
-	public int getMessageLength() {
-		return objectQ.getLast().getEndTime();
-	}
 	
 	public int getLength() {
 		return objectQ.size();

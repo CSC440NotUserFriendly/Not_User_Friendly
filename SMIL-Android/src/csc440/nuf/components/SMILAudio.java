@@ -14,8 +14,7 @@ import org.xml.sax.Attributes;
 
 
 public class SMILAudio extends AbstractSMILObject {
-	
-	private final String qName = "audio";
+	//private final String qName = "audio";
 	protected String xmlid; //xml:id
 	protected String src; //source
 	

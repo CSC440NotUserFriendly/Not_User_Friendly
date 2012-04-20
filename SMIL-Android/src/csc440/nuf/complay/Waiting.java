@@ -15,6 +15,22 @@ public class Waiting {
 	public static Q Q() {
 		return q;
 	}
+
+	public static int getMessageLength() {
+		ArrayList<AbstractSMILObject> a = allQArrayList();
+		Collections.sort(a, new EndTimeDESC());
+		return a.get(0).getEndTime();
+	}
+
+	public static int getElementId(AbstractSMILObject o) {
+		ArrayList<AbstractSMILObject> a = allQArrayList();
+		return a.indexOf(o);
+	}
+	
+	public static AbstractSMILObject getElementAtId(int i) {
+		ArrayList<AbstractSMILObject> a = allQArrayList();
+		return a.get(i);
+	}
 	
 	public static ArrayList<AbstractSMILObject> allQArrayList() {
 		ArrayList<AbstractSMILObject> array = new ArrayList<AbstractSMILObject>();
@@ -66,12 +82,20 @@ public class Waiting {
 		if (index >= activeElements.size()) return null;
 		return activeElements.get(index);
 	}
-	
+
 	public static boolean isActive(AbstractSMILObject o) {
 		if (activeElements.size() == 0) return false;
 		return activeElements.contains(o);
 	}
 	
+	public static boolean isActiveEmpty() {
+		if (activeElements.size() == 0) return true;
+		return false;
+	}
+	
+	public static ArrayList<AbstractSMILObject> getActiveElements() {
+		return new ArrayList<AbstractSMILObject>(activeElements);
+	}
 
 	public static void setScreenDensity(float newDensity) {
 		density = newDensity;

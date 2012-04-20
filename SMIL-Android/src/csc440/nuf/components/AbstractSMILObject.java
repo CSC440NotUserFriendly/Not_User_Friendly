@@ -1,13 +1,8 @@
 package csc440.nuf.components;
 
 import java.lang.reflect.Field;
-
 import org.xml.sax.Attributes;
 
-import csc440.nuf.complay.Waiting;
-
-import android.graphics.Canvas;
-import android.util.Log;
 
 /**
  * CSC-440 SMIL Project
@@ -34,6 +29,9 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 	}
 	
 	public AbstractSMILObject() {
+		begin = -1;
+		end = -1;
+		dur = 0;
 	}
 	
 	public AbstractSMILObject(Attributes att){

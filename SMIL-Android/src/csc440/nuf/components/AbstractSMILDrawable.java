@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.DashPathEffect;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.util.Log;
 import csc440.nuf.complay.Waiting;
 
 
@@ -14,7 +15,7 @@ public abstract class AbstractSMILDrawable extends AbstractSMILObject {
 		left, //leftMargin
 		zIndex; //z-index
 	private final int FATFINGER = 10;
-	private final int CORNERSIZE = 20;
+	private final int CORNERSIZE = 30;
 	
 	public AbstractSMILDrawable(String name, int begin, int dur) {
 		super(name, begin, dur);
@@ -88,6 +89,7 @@ public abstract class AbstractSMILDrawable extends AbstractSMILObject {
 		d.top = (int) ((top - getHeight()) * Waiting.getDensity());
 		d.right = (int) ((left + getWidth()) * Waiting.getDensity());
 		d.bottom = (int) (top * Waiting.getDensity());
+		Log.w("rect", "left=" + d.left + ", top=" + d.top + ", right=" + d.right + ", bottom=" + d.bottom);
 		return d;
 	}
 	

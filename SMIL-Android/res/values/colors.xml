@@ -19,5 +19,9 @@
         <item>green</item>
         <item>yellow</item>
         <item>cyan</item>
+        <item>light gray</item>
+        <item>gray</item>
+        <item>dark gray</item>
+        <item>magenta</item>
     </string-array>
 </resources>

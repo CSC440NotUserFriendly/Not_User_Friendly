@@ -1,14 +1,10 @@
 package csc440.nuf.components;
 
-import java.lang.reflect.Field;
-
 import org.xml.sax.Attributes;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Rect;
-import android.util.Log;
 
 import csc440.nuf.complay.Waiting;
 
@@ -40,22 +36,11 @@ public class SMILText extends AbstractSMILDrawable {
 	}
 	
 	public void draw(Canvas canvas) {
-		super.draw(canvas);
-		if (text != null) {
-			int color;
-			if (textColor.equals("red")) color = Color.RED;
-			else if (textColor.equals("green")) color = Color.GREEN;
-			else if (textColor.equals("blue")) color = Color.BLUE;
-			else if (textColor.equals("yellow")) color = Color.YELLOW;
-			else if (textColor.equals("cyan")) color = Color.CYAN;
-			else if (textColor.equals("white")) color = Color.WHITE;
-			else color = Color.WHITE;
-			
-	        Paint paint = new Paint();
-	        paint.setColor(color);
-	        paint.setTextSize(textFontSize * Waiting.getDensity());
-	       // canvas.drawText
-			canvas.drawText(text, left * Waiting.getDensity(), top * Waiting.getDensity(), paint);
+		if (begin != -1 &&
+		  end != -1 &&
+		  text != null) {
+			super.draw(canvas);
+			canvas.drawText(text, left * Waiting.getDensity(), top * Waiting.getDensity(), getPaint());
 		}
 	}
 	
@@ -98,8 +83,8 @@ public class SMILText extends AbstractSMILDrawable {
 	public SMILText() {
 		textColor = "white";
 		textFontSize = 40;
-		top = 30;
-		left = 30;
+		top = 40;
+		left = 10;
 	}
 
 	public String getText() {
@@ -154,21 +139,17 @@ public class SMILText extends AbstractSMILDrawable {
 
 	@Override
 	public int getWidth() {
-        Paint paint = new Paint();
-        paint.setTextSize(textFontSize);
-        return (int) paint.measureText(text);
+        return (int) getPaint(false).measureText(text);
 	}
 
 	@Override
 	public int getHeight() {
-        Paint paint = new Paint();
-        paint.setTextSize(textFontSize);
-        return (int) (Math.abs(paint.ascent()));
+        return (int) (Math.abs(getPaint(false).ascent()));
 	}
 
 	
 	public void moveSize(int x, int y) {
-		Rect d = getRectDimensions();
+		//Rect d = getRectDimensions();
 		//Log.w("moveSize", "size x=" + x + ", y=" + y + ", left=" + d.left + ", right=" + d.right);
 		
 		// may need to tweak this, esp pay attention to where you multiply in the density and where you don't
@@ -176,4 +157,31 @@ public class SMILText extends AbstractSMILDrawable {
 		//Log.w("moveSize", "newWidth=" + (x-left) + ", oldWidth=" + (getWidth() * Waiting.getDensity()) + ", textFontSize = " + textFontSize + " * (" + (float)((x-d.left)/(getWidth() * Waiting.getDensity())) + ") = " + temp);
 		textFontSize = (int) (temp > 0 ? temp : 1);
 	}
+	
+	private Paint getPaint() { return getPaint(true); }
+	
+	private Paint getPaint(boolean setColor) {
+		Paint paint = new Paint();
+		if (setColor) {
+			int color;
+			if (textColor.equals("red")) color = Color.RED;
+			else if (textColor.equals("green")) color = Color.GREEN;
+			else if (textColor.equals("blue")) color = Color.BLUE;
+			else if (textColor.equals("yellow")) color = Color.YELLOW;
+			else if (textColor.equals("cyan")) color = Color.CYAN;
+			else if (textColor.equals("white")) color = Color.WHITE;
+			else if (textColor.equals("light gray")) color = Color.LTGRAY;
+			else if (textColor.equals("gray")) color = Color.GRAY;
+			else if (textColor.equals("dark gray")) color = Color.DKGRAY;
+			else if (textColor.equals("magenta")) color = Color.MAGENTA;
+			else color = Color.WHITE;
+	        paint.setColor(color);
+		}
+		
+        paint.setTextSize(textFontSize * Waiting.getDensity());
+        paint.setAntiAlias(true);
+        return paint;
+	}
+	
+	
 }

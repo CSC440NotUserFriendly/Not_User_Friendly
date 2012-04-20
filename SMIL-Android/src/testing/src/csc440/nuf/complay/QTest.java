@@ -82,7 +82,7 @@ public class QTest{
 		assertTrue(q.isEmpty());
 		
 	}
-	
+	/*
 	@Test
 	public void testGetMessageLength()
 	{
@@ -95,7 +95,7 @@ public class QTest{
 		assertEquals(messageLength[2], q.getMessageLength());
 		
 	}
-	
+	*/
 	@Test
 	public void testGetLength()
 	{

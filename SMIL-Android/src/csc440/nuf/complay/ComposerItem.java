@@ -18,20 +18,16 @@ package csc440.nuf.complay;
  */
 
 
-import java.util.LinkedList;
 
 import csc440.nuf.ActionBar;
 import csc440.nuf.R;
 import csc440.nuf.ScrollItemManager;
-import csc440.nuf.complay.PlayerActivity;
 import csc440.nuf.components.*;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
@@ -64,27 +60,26 @@ public class ComposerItem extends Activity implements OnClickListener {
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.composer_item);
 		
+        startTime = (EditText) findViewById(R.id.startTime);
 		Bundle extras = getIntent().getExtras();
 		if (extras != null) {
 			// an action of -1 indicates a new item. A different action indicates the ID of the item being edited
 			itemType = extras.getString("newItem");
 			action = extras.getInt("editItem", -1);
 			if (action >= 0) {
-				Waiting.deactivateAll();
-				Waiting.activateElement(action);
-				o = Waiting.getActiveElementAt(0);
+				o = Waiting.getElementAtId(action);
 				itemType = o.getName();
 			} else {
+				
 				// if it's a new item, create it, add it to the Q and re-sort
 				if (itemType.equals("Text"))
 					o = new SMILText();
 				else if (itemType.equals("Image"))
-					o = new SMILImage();
-				
+					o = new SMILImage(getResources());
+				startTime.setText(String.valueOf(extras.getInt("startTime", 0)));
 				Timer timer = new Timer();
 				Waiting.Q().push(o);
 				Waiting.Q().prepQ();
-				Waiting.activateElement(o);
 				timer.setTime(Waiting.getTime());
 			}
 		}
@@ -107,9 +102,16 @@ public class ComposerItem extends Activity implements OnClickListener {
         });
 
         items = new ScrollItemManager(findViewById(R.id.scrollHolder));
-        items.addItem(getApplicationContext());
-        items.setTitle("Reposition");
-        items.setListener(this, 1);
+        if (extras.getBoolean("showReposition", false)) {
+	        items.addItem(getApplicationContext());
+	        items.setTitle("Reposition");
+	        items.setListener(this, 1);
+        }
+        if (extras.getBoolean("showOtherReposition", false)) {
+	        items.addItem(getApplicationContext());
+	        items.setTitle("Back to Reposition");
+	        items.setListener(this, 3);
+        }
         
         items.addItem(getApplicationContext());
         items.setTitle("Delete");
@@ -117,12 +119,11 @@ public class ComposerItem extends Activity implements OnClickListener {
 
         ViewFlipper flippy = (ViewFlipper) findViewById(R.id.flipProperties);
         name = (EditText) findViewById(R.id.name);
-        startTime = (EditText) findViewById(R.id.startTime);
         duration = (EditText) findViewById(R.id.duration);
         
         if (action >= 0) {	// if we're editing an item
 	        name.setText(o.getName());
-	        startTime.setText(String.valueOf(o.getStartTime()));
+	        startTime.setText(o.getStartTime() != -1 ? String.valueOf(o.getStartTime()) : "");
 	        duration.setText(String.valueOf(o.getDuration()));
         }
 
@@ -161,8 +162,16 @@ public class ComposerItem extends Activity implements OnClickListener {
 		super.onPause();
 
 		o.setName(name.getText().toString());
-		o.setStartTime(Integer.parseInt(startTime.getText().toString()));
-		o.setDuration(Integer.parseInt(duration.getText().toString()));
+		try {
+			o.setStartTime(Integer.parseInt(startTime.getText().toString()));
+		} catch (NumberFormatException e) {
+			o.setStartTime(-1);
+		}
+		try {
+			o.setDuration(Integer.parseInt(duration.getText().toString()));
+		} catch (NumberFormatException e) {
+			o.setDuration(0);
+		}
 
         if (o instanceof SMILText) {
     		((SMILText)o).setText(name.getText().toString());
@@ -173,8 +182,14 @@ public class ComposerItem extends Activity implements OnClickListener {
 	}
 	
 	public void reposition() {
+		Waiting.deactivateAll();
+		Waiting.activateElement(o);
 		Intent i = new Intent(this, ComposerActivity.class);
-		i.putExtra("startTime", Integer.parseInt(startTime.getText().toString()));
+		try {
+			i.putExtra("startTime", Integer.parseInt(startTime.getText().toString()));
+		} catch (NumberFormatException e) {
+			i.putExtra("startTime", 0);
+		}
 		i.putExtra("reposition", true);
 		this.startActivityForResult(i, REQ_CODE_PLAYER);
 	}
@@ -187,6 +202,9 @@ public class ComposerItem extends Activity implements OnClickListener {
 				alertAutoPlay.show();
 			else */
 			reposition();
+			break;
+		case 3: // reposition by back
+			finish();
 			break;
 		case 2: // delete button
 			// should add in an alert here

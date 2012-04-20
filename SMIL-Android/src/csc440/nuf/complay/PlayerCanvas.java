@@ -14,9 +14,7 @@ package csc440.nuf.complay;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
-import android.graphics.Paint;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.widget.SeekBar;
@@ -24,12 +22,11 @@ import android.widget.SeekBar;
 
 public class PlayerCanvas extends SurfaceView implements Runnable {
 	private Timer timer;
-	private boolean playing, pauseAfterDraw = false, forceDraw = false, runTime = true;
+	private boolean playing, forceDraw = false, runTime = false;
 	private SurfaceHolder holder;
 	private Thread renderThread = null;
 	private SeekBar _seekBar;
 	private float deltaTime;
-	private int messageLength;
 	
     public PlayerCanvas(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -39,18 +36,14 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
 
     public void setSeekBar(SeekBar seekBar) {
     	_seekBar = seekBar;
-    	messageLength = _seekBar.getMax();
     }
     
     public void play() {
-    	play(true);
-    }
-    
-    public void play(boolean runTime) {
+    	if (playing != true) {
+	    	renderThread = new Thread(this);
+	    	renderThread.start();
+    	}
     	playing = true;
-    	this.runTime = runTime;
-    	renderThread = new Thread(this);
-    	renderThread.start();
     }
     
     public void run() {
@@ -90,27 +83,11 @@ public class PlayerCanvas extends SurfaceView implements Runnable {
         		
                 canvas.drawColor(Color.BLACK);
                 OnScreen.Q().draw(canvas);
-                Log.w("drawn", "on screen");
-	    		//if (!Waiting.Q().isEmpty()) Log.w("PlayerCanvas", "Waiting Queue Start Time " + Waiting.Q().peek().getStartTime());
-    		
 	            holder.unlockCanvasAndPost(canvas);
 	            forceDraw = false;
     		}
-            /* this was Brad's initial suggestion for controlling time, I've nixed it for now
-        	try {
-				renderThread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			*/
 
     		startTime = System.nanoTime();
-    		/*
-    		if (pauseAfterDraw) {
-    			pauseAfterDraw = false;
-    			pause();
-    		}*/
         }
     }
 

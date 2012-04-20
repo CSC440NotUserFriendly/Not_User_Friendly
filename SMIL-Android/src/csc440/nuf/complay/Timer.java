@@ -1,7 +1,5 @@
 package csc440.nuf.complay;
 
-import android.util.Log;
-
 /**
  * CSC-440 SMIL Project
  * 02-11-2012
