@@ -183,7 +183,6 @@ public class SMILActivity extends Activity implements OnClickListener {
         
     }
 
-	@Override
 	public void onClick(View v) {
 		Intent i;
 		

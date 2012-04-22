@@ -57,6 +57,7 @@ public class Timer {
 			// used to sort the OffScreenQ by end time here, but don't think it's necessary
 		} else {	// if the newTime is less than the old time
 			// first see if anything OffScreen needs to go back OnScreen
+			OffScreen.Q().sortByEndTimeDESC();
 			while (!OffScreen.Q().isEmpty() && OffScreen.Q().peek().getEndTime() > newTime) {
 				changed = true;
 				OnScreen.Q().push(OffScreen.Q().pop());

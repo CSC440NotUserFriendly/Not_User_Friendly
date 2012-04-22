@@ -60,7 +60,6 @@ public class ComposerList extends Activity {
 		list = (ListView) findViewById(R.id.list);
 		list.setClickable(true);
 		list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int selectedIndex,
 					long arg3) {
         		Intent i = new Intent(ComposerList.this, ComposerItem.class);
@@ -71,7 +70,6 @@ public class ComposerList extends Activity {
 		});
 		list.setLongClickable(true);
 		list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-			@Override
 			public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int selectedIndex,
 					long arg3) {
         		Intent i = new Intent(ComposerList.this, ComposerActivity.class);

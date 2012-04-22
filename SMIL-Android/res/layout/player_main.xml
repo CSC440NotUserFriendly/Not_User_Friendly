@@ -67,7 +67,7 @@
 	    <TextView
 	        android:id="@+id/time"
 	        android:layout_below="@+id/seekBar"
-	        android:layout_toLeftOf="@+id/playPause"
+	        android:layout_toLeftOf="@+id/buttonLinear"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="0:00" android:textSize="12dp" android:textColor="#FFFFFF" />

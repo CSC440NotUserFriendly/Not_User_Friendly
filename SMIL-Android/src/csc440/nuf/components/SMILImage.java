@@ -24,11 +24,9 @@ import csc440.nuf.complay.Waiting;
 
 public class SMILImage extends AbstractSMILDrawable {
     private Bitmap original;
-    private Bitmap myImg;
+    private Bitmap scaled;
 	//private final String QNAME = "img";
 	protected String xmlid; //xml:id
-	protected int top; //topMargin
-	protected int left; //leftMargin
 	protected int zIndex; //z-index
 	protected String src; //source
 
@@ -59,11 +57,10 @@ public class SMILImage extends AbstractSMILDrawable {
         }
 	}
 	
-	public SMILImage(Resources res) {
-		original = BitmapFactory.decodeResource(res, R.drawable.ic_launcher);
-		top = 100;
-		left = 150;
-		src = "launcher";
+	public SMILImage() {
+		top = 10;
+		left = 10;
+		src = null;
 	}
 	
 	@Override
@@ -109,6 +106,8 @@ public class SMILImage extends AbstractSMILDrawable {
 
 	public void setSrc(String src) {
 		this.src = src;
+		original = BitmapFactory.decodeFile(src);
+		scaled = original;
 	}
 	
 	public void draw(Canvas canvas) {
@@ -116,36 +115,29 @@ public class SMILImage extends AbstractSMILDrawable {
 		  end != -1 &&
 		  src != null) {
 			super.draw(canvas);
-			canvas.drawBitmap(original, left * Waiting.getDensity(), top * Waiting.getDensity(), null);
+			canvas.drawBitmap(scaled, left * Waiting.getDensity(), top * Waiting.getDensity(), null);
 		}
 	}
 	
 	@Override
 	public int getWidth() {
-		// TODO Auto-generated method stub
-		return original.getWidth();
+		if (scaled == null) return 0;
+		return scaled.getWidth();
 	}
 
 	@Override
 	public int getHeight() {
-		// TODO Auto-generated method stub
-		return original.getHeight();
+		if (scaled == null) return 0;
+		return scaled.getHeight();
 	}
 
 	@Override
 	public void moveSize(int x, int y) {
-		// TODO Auto-generated method stub
-		
+		Rect d = getRectDimensions();
+        int width = x - d.left + 10;
+        int height = y - d.top + 10;
+
+        scaled = Bitmap.createScaledBitmap(original, width, height, true);
 	}
 
-	@Override
-	public Rect getRectDimensions() {
-		Rect d = new Rect();
-		d.left = (int) (left * Waiting.getDensity());
-		d.top = (int) ((top) * Waiting.getDensity());
-		d.right = (int) ((left + getWidth()) * Waiting.getDensity());
-		d.bottom = (int) ((top + getHeight()) * Waiting.getDensity());
-		Log.w("rect", "left=" + d.left + ", top=" + d.top + ", right=" + d.right + ", bottom=" + d.bottom);
-		return d;
-	}
 }

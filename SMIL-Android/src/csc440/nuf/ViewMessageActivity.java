@@ -155,7 +155,6 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 		this.startActivityForResult(i, REQ_CODE_PLAYER);
 	}
 
-	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case 1:	// Play Button

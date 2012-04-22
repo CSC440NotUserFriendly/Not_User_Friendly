@@ -4,20 +4,17 @@ package csc440.nuf.complay;
  * CSC-440 SMIL Project
  * 01-22-2011
  * SMILProjectActivity.java
- * @author Brad Barker
+ * @author Jacob Ensor
  * 
- * Follow this format for all java files created. The header
- * should look exactly as above. Also include a detailed description
- * of the class here and finally anyone who makes changes to the code edit
- * as seen below.
- * 
- * 01-22-2011 
- * Edited by: Brad Barker
- * Added this comment.
+ * Shows a form to allow people to edit whatever item they selected
+ * Most of the image picker code came from:
+ * http://www.londatiga.net/it/how-to-create-android-image-picker/
  * 
  */
 
 
+
+import java.io.File;
 
 import csc440.nuf.ActionBar;
 import csc440.nuf.R;
@@ -25,8 +22,14 @@ import csc440.nuf.ScrollItemManager;
 import csc440.nuf.components.*;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -39,6 +42,10 @@ import android.widget.Spinner;
 
 public class ComposerItem extends Activity implements OnClickListener {
 	private final int REQ_CODE_PLAYER = 1111;
+    private final int PICK_FROM_CAMERA = 1;
+    private final int PICK_FROM_FILE = 2;
+    private Uri mImageCaptureUri;
+ 
 	private ScrollItemManager items;
 	//private Bundle state = null;
 	private ActionBar _actionBar;
@@ -51,6 +58,7 @@ public class ComposerItem extends Activity implements OnClickListener {
 	private EditText name, startTime, duration;
 	private TextView selectedFile;
 	private Spinner color;
+	private AlertDialog selectImageDialog;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -61,6 +69,8 @@ public class ComposerItem extends Activity implements OnClickListener {
 		setContentView(R.layout.composer_item);
 		
         startTime = (EditText) findViewById(R.id.startTime);
+        duration = (EditText) findViewById(R.id.duration);
+        
 		Bundle extras = getIntent().getExtras();
 		if (extras != null) {
 			// an action of -1 indicates a new item. A different action indicates the ID of the item being edited
@@ -70,13 +80,13 @@ public class ComposerItem extends Activity implements OnClickListener {
 				o = Waiting.getElementAtId(action);
 				itemType = o.getName();
 			} else {
-				
 				// if it's a new item, create it, add it to the Q and re-sort
 				if (itemType.equals("Text"))
 					o = new SMILText();
 				else if (itemType.equals("Image"))
-					o = new SMILImage(getResources());
+					o = new SMILImage();
 				startTime.setText(String.valueOf(extras.getInt("startTime", 0)));
+				duration.setText("3");
 				Timer timer = new Timer();
 				Waiting.Q().push(o);
 				Waiting.Q().prepQ();
@@ -119,7 +129,6 @@ public class ComposerItem extends Activity implements OnClickListener {
 
         ViewFlipper flippy = (ViewFlipper) findViewById(R.id.flipProperties);
         name = (EditText) findViewById(R.id.name);
-        duration = (EditText) findViewById(R.id.duration);
         
         if (action >= 0) {	// if we're editing an item
 	        name.setText(o.getName());
@@ -142,6 +151,40 @@ public class ComposerItem extends Activity implements OnClickListener {
         	// if we're editing, set selectedFile
         	if (action >= 0) selectedFile.setText(((SMILImage)o).getSrc());
         	flippy.setDisplayedChild(1);
+        	final String [] items           = new String [] {"From Camera", "From SD Card"};
+            ArrayAdapter<String> adapter  = new ArrayAdapter<String> (this, android.R.layout.select_dialog_item,items);
+            AlertDialog.Builder builder     = new AlertDialog.Builder(this);
+     
+            builder.setTitle("Select Image");
+            builder.setAdapter( adapter, new DialogInterface.OnClickListener() {
+                public void onClick( DialogInterface dialog, int item ) {
+                    if (item == 0) {
+                        Intent intent    = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        File file        = new File(Environment.getExternalStorageDirectory(),
+                                            "tmp_avatar_" + String.valueOf(System.currentTimeMillis()) + ".jpg");
+                        mImageCaptureUri = Uri.fromFile(file);
+     
+                        try {
+                            intent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, mImageCaptureUri);
+                            intent.putExtra("return-data", true);
+                            startActivityForResult(intent, PICK_FROM_CAMERA);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+     
+                        dialog.cancel();
+                    } else {
+                        Intent intent = new Intent();
+     
+                        intent.setType("image/*");
+                        intent.setAction(Intent.ACTION_GET_CONTENT);
+     
+                        startActivityForResult(Intent.createChooser(intent, "Complete action using"), PICK_FROM_FILE);
+                    }
+                }
+            } );
+     
+            selectImageDialog = builder.create();
         }
     }
 	
@@ -176,8 +219,8 @@ public class ComposerItem extends Activity implements OnClickListener {
         if (o instanceof SMILText) {
     		((SMILText)o).setText(name.getText().toString());
     		((SMILText)o).setTextColor((String)color.getSelectedItem());
-        } else {
-    		((SMILImage)o).setSrc(selectedFile.getText().toString());
+        //} else {
+    		//((SMILImage)o).setSrc(selectedFile.getText().toString());
         }
 	}
 	
@@ -194,7 +237,6 @@ public class ComposerItem extends Activity implements OnClickListener {
 		this.startActivityForResult(i, REQ_CODE_PLAYER);
 	}
 
-	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case 1:	// reposition button
@@ -204,6 +246,7 @@ public class ComposerItem extends Activity implements OnClickListener {
 			reposition();
 			break;
 		case 3: // reposition by back
+			Waiting.activateElement(o);
 			finish();
 			break;
 		case 2: // delete button
@@ -224,5 +267,71 @@ public class ComposerItem extends Activity implements OnClickListener {
 		} 
 	}
 	
+	public void selectImage(View v) {
+		selectImageDialog.show();
+	}
+	
 
+	@Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode != RESULT_OK) return;
+ 
+        //Bitmap bitmap   = null;
+        String path     = "";
+ 
+        if (requestCode == PICK_FROM_FILE) {
+            mImageCaptureUri = data.getData();
+            path = getRealPathFromURI(mImageCaptureUri); //from Gallery
+ 
+            if (path == null)
+                path = mImageCaptureUri.getPath(); //from File Manager
+        } else {
+            path    = mImageCaptureUri.getPath();
+           // bitmap  = BitmapFactory.decodeFile(path);
+        }
+ 
+        //mImageView.setImageBitmap(bitmap);
+        ((SMILImage)o).setSrc(path);
+        selectedFile.setText(path);
+    }
+ 
+    public String getRealPathFromURI(Uri contentUri) {
+        String [] proj      = {MediaStore.Images.Media.DATA};
+        Cursor cursor       = managedQuery( contentUri, proj, null, null,null);
+ 
+        if (cursor == null) return null;
+ 
+        int column_index    = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+ 
+        cursor.moveToFirst();
+ 
+        return cursor.getString(column_index);
+    }
+
+    public void incStartTime(View v) {
+    	setTextInt(startTime, 1);
+    }
+    
+    public void decStartTime(View v) {
+    	setTextInt(startTime, -1);
+    }
+
+    public void incDuration(View v) {
+    	setTextInt(duration, 1);
+    }
+    
+    public void decDuration(View v) {
+    	setTextInt(duration, -1);
+    }
+
+    public void setTextInt(EditText t, int step) {
+    	int i;
+		try {
+			i = Integer.parseInt(t.getText().toString());
+		} catch (NumberFormatException e) {
+			i = 0;
+		}
+		if (i + step < 0) step = 0;
+		t.setText(String.valueOf(i + step));
+    }
 }

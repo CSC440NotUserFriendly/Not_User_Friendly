@@ -68,5 +68,14 @@
         <activity android:name=".complay.ComposerActivity">
         </activity>
         
+        <activity android:name=".complay.ComposerList">
+        </activity>
+        
+        <activity android:name=".complay.ComposerItem">
+        </activity>
+        
+        <activity android:name=".complay.ComposerSend">
+        </activity>
+        
     </application>
 </manifest>

@@ -32,7 +32,7 @@ public class ComposerActivity extends PlayerActivity implements OnTouchListener 
 	private final int ITEM_LONG_PRESSED_MILLIS = 750;
 	private int oldx, oldy, origx, origy;
 	private float time;
-	private boolean inDrag, inCornerDrag, itemPressed, itemLongPressed;
+	private boolean inDrag, inCornerDrag, itemPressed, itemLongPressed, inSafeZone;
 	private static AlertDialog.Builder alertAddItem;
 	
 	// LEFT TO DO:
@@ -40,7 +40,6 @@ public class ComposerActivity extends PlayerActivity implements OnTouchListener 
 	//	fix the threading issue with runTime and play/pause
 	//	handle the ontouch events for selecting and deselecting objects
 	//	figure out why Waiting is going empty sometimes
-	@Override
 	public boolean onTouch(View v, MotionEvent event) {
         boolean processedTouch = false;
 		int x = (int) event.getX();
@@ -51,7 +50,7 @@ public class ComposerActivity extends PlayerActivity implements OnTouchListener 
 
     	if ((event.getAction() == MotionEvent.ACTION_DOWN || event.getAction() == MotionEvent.ACTION_MOVE) &&
     		inDrag && deltaTime > ITEM_LONG_PRESSED_MILLIS &&
-    		Math.abs(origx-x) + Math.abs(origy-y) < 10)
+    		inSafeZone)
     		itemLongPressed = true;
     	
         if (event.getAction() == MotionEvent.ACTION_UP || event.getAction() == MotionEvent.ACTION_CANCEL) {
@@ -71,71 +70,77 @@ public class ComposerActivity extends PlayerActivity implements OnTouchListener 
         	if (o instanceof AbstractSMILDrawable) {
         		// for every drawable object we have
         		d = (AbstractSMILDrawable) o;
-        		if (d.checkCollision(x, y)) {
+        		
+        		if (Waiting.isActive(d) && (inCornerDrag || d.checkCornerCollision(x, y))) {	// if we're on the corner, process resize
         			noCollision = false;
         			processedTouch = true;
-            		if (Waiting.isActive(d)) {
-            			if (inCornerDrag || d.checkCornerCollision(x, y)) {	// if we're on the corner, process resize
-	            			if (event.getAction() == MotionEvent.ACTION_DOWN && !inCornerDrag) {
-	            				inCornerDrag = true;
-	            				// currently resizing with multiple items selected isn't supported. deactivate other elements
-	            				Waiting.deactivateAll();
-	            				Waiting.activateElement(d);
-	            				_playerCanvas.forceDraw();
-	            			} else if (inCornerDrag) {
-	            				d.moveSize(x, y);
-	            				_playerCanvas.forceDraw();
-	            			}
-            			} else {	// if we're in the box, not on the corner, process drag
-            				if (itemPressed) {
-	            				Log.w("touchEvent", "active itemPressed");
-	            				Waiting.deactivateElement(d);
-	            				_playerCanvas.forceDraw();
-	            				itemPressed = false;
-	            				inDrag = false;
-            				} else if (itemLongPressed) {
-            					itemLongPressed = false;
-            					inDrag = false;
-            					// on a long press launch the item info
-            					Intent i = new Intent(this, ComposerItem.class);
-            	        		i.putExtra("editItem", Waiting.getElementId(d));
-            	        		this.startActivity(i);
-            				} else if (event.getAction() == MotionEvent.ACTION_DOWN && !inDrag) {
-            					origx = x;
-            					origy = y;
-	            				oldx = x;
-	            				oldy = y;
-	            				time = System.nanoTime();
-	            				inDrag = true;
-	            	        } else if (inDrag) {
+        			if (event.getAction() == MotionEvent.ACTION_DOWN && !inCornerDrag) {
+        				inCornerDrag = true;
+        				// currently resizing with multiple items selected isn't supported. deactivate other elements
+        				Waiting.deactivateAll();
+        				Waiting.activateElement(d);
+        				_playerCanvas.forceDraw();
+        			} else if (inCornerDrag) {
+        				d.moveSize(x, y);
+        				_playerCanvas.forceDraw();
+        			}
+        		} else if (d.checkCollision(x, y)) {	// if we're inside
+        			noCollision = false;
+        			processedTouch = true;
+            		if (Waiting.isActive(d)) {	// and it's active
+        				if (itemPressed) {
+            				Log.w("touchEvent", "active itemPressed");
+            				Waiting.deactivateElement(d);
+            				_playerCanvas.forceDraw();
+            				itemPressed = false;
+            				inDrag = false;
+        				} else if (itemLongPressed) {
+        					itemLongPressed = false;
+        					inDrag = false;
+        					// on a long press launch the item info
+        					Intent i = new Intent(this, ComposerItem.class);
+        	        		i.putExtra("editItem", Waiting.getElementId(d));
+        	        		this.startActivity(i);
+        				} else if (event.getAction() == MotionEvent.ACTION_DOWN && !inDrag) {
+        					origx = x;
+        					origy = y;
+            				oldx = x;
+            				oldy = y;
+            				time = System.nanoTime();
+            				inDrag = true;
+            				inSafeZone = true;
+            	        } else if (inDrag) {
+            	        	if (inSafeZone && Math.abs(origx-x) + Math.abs(origy-y) > 10) inSafeZone = false;
+            	        	else if (!inSafeZone) {
 	            	        	ArrayList<AbstractSMILObject> activeElements = Waiting.getActiveElements();
 	            	        	AbstractSMILDrawable activeDrawable;
-        	        			Log.w("touch", "moveLeft " + (x-oldx) + ", moveTop " + (y-oldy) + ", active is drawable =" + (activeElements.get(0) instanceof AbstractSMILDrawable));
+        	        			//Log.w("touch", "moveLeft " + (x-oldx) + ", moveTop " + (y-oldy) + ", active is drawable =" + (activeElements.get(0) instanceof AbstractSMILDrawable));
 	            	        	while (!activeElements.isEmpty()) {
 	            	        		if (activeElements.get(0) instanceof AbstractSMILDrawable) {
 	            	        			activeDrawable = (AbstractSMILDrawable) activeElements.remove(0);
-	            	        			Log.w("touch", "moved");
+	            	        			//Log.w("touch", "moved");
 	            	        			activeDrawable.moveLeftMargin(x-oldx);
 	            	        			activeDrawable.moveTopMargin(y-oldy);
 	            	        		} else activeElements.remove(0);
 	            	        	}
-	            				//d.moveLeftMargin(x-oldx);
+	            				//d.moveLeftMargin(x-oldx);s
 	            				//d.moveTopMargin(y-oldy);
 	            				oldx = x;
 	            				oldy = y;
 	            				_playerCanvas.forceDraw();
-	            			}
-            			}
+            	        	}
+            	        }
+        			// if it isn't active...
             		} else if (event.getAction() == MotionEvent.ACTION_DOWN && !itemPressed) {	// need if for when touched element is inactive
             			itemPressed = true;
             		} else if (event.getAction() == MotionEvent.ACTION_UP && itemPressed) {
             			Waiting.activateElement(d);
         				_playerCanvas.forceDraw();
         				itemPressed = false;
-            		}
-        		}
-        	}
-        }
+            		}	// if it's active end
+        		}	// if we're on the corner/inside end
+        	}	// if instance of end
+        }	// while end
         
         //Log.w("touchEvent", "noCollision is " + noCollision);
         if (noCollision) {
@@ -186,14 +191,12 @@ public class ComposerActivity extends PlayerActivity implements OnTouchListener 
         
         findViewById(R.id.stop).setVisibility(View.VISIBLE);
         findViewById(R.id.stop).setOnClickListener(new OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				ComposerActivity.this.finish();
 			}
         });
         findViewById(R.id.addItem).setVisibility(View.VISIBLE);
         findViewById(R.id.addItem).setOnClickListener(new OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				alertAddItem.show();
 			}

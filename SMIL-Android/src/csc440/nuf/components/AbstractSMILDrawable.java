@@ -86,9 +86,9 @@ public abstract class AbstractSMILDrawable extends AbstractSMILObject {
 	public Rect getRectDimensions() {
 		Rect d = new Rect();
 		d.left = (int) (left * Waiting.getDensity());
-		d.top = (int) ((top - getHeight()) * Waiting.getDensity());
-		d.right = (int) ((left + getWidth()) * Waiting.getDensity());
-		d.bottom = (int) (top * Waiting.getDensity());
+		d.top = (int) (top * Waiting.getDensity());
+		d.right = (int) (d.left + getWidth());
+		d.bottom = (int) (d.top + getHeight());
 		Log.w("rect", "left=" + d.left + ", top=" + d.top + ", right=" + d.right + ", bottom=" + d.bottom);
 		return d;
 	}

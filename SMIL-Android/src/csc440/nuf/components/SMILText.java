@@ -5,6 +5,8 @@ import org.xml.sax.Attributes;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
+import android.util.Log;
 
 import csc440.nuf.complay.Waiting;
 
@@ -139,28 +141,29 @@ public class SMILText extends AbstractSMILDrawable {
 
 	@Override
 	public int getWidth() {
-        return (int) getPaint(false).measureText(text);
+        return (int) getPaint(false, false).measureText(text);
 	}
 
 	@Override
 	public int getHeight() {
-        return (int) (Math.abs(getPaint(false).ascent()));
+        return (int) (Math.abs(getPaint(false, false).ascent()));
 	}
 
 	
 	public void moveSize(int x, int y) {
-		//Rect d = getRectDimensions();
+		Rect d = getRectDimensions();
 		//Log.w("moveSize", "size x=" + x + ", y=" + y + ", left=" + d.left + ", right=" + d.right);
 		
 		// may need to tweak this, esp pay attention to where you multiply in the density and where you don't
-		float temp = textFontSize * (float)((x-left)/(getWidth() * Waiting.getDensity()));
+		float temp = textFontSize * (float)((x-d.left)/(getWidth() * Waiting.getDensity()));
 		//Log.w("moveSize", "newWidth=" + (x-left) + ", oldWidth=" + (getWidth() * Waiting.getDensity()) + ", textFontSize = " + textFontSize + " * (" + (float)((x-d.left)/(getWidth() * Waiting.getDensity())) + ") = " + temp);
 		textFontSize = (int) (temp > 0 ? temp : 1);
 	}
-	
+
 	private Paint getPaint() { return getPaint(true); }
+	private Paint getPaint(boolean setColor) { return getPaint(setColor, true); }
 	
-	private Paint getPaint(boolean setColor) {
+	private Paint getPaint(boolean setColor, boolean useDensity) {
 		Paint paint = new Paint();
 		if (setColor) {
 			int color;
@@ -178,10 +181,20 @@ public class SMILText extends AbstractSMILDrawable {
 	        paint.setColor(color);
 		}
 		
-        paint.setTextSize(textFontSize * Waiting.getDensity());
+        if (useDensity) paint.setTextSize(textFontSize * Waiting.getDensity());
+        else paint.setTextSize(textFontSize);
         paint.setAntiAlias(true);
         return paint;
 	}
 	
-	
+	@Override
+	public Rect getRectDimensions() {
+		Rect d = new Rect();
+		d.left = (int) (left * Waiting.getDensity());
+		d.top = (int) ((top - getHeight()) * Waiting.getDensity());
+		d.right = (int) ((left + getWidth()) * Waiting.getDensity());
+		d.bottom = (int) (top * Waiting.getDensity());
+		//Log.w("rect", "left=" + d.left + ", top=" + d.top + ", right=" + d.right + ", bottom=" + d.bottom);
+		return d;
+	}
 }
