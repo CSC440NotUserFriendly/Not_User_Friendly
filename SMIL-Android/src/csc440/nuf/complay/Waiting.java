@@ -19,6 +19,7 @@ public class Waiting {
 	public static int getMessageLength() {
 		ArrayList<AbstractSMILObject> a = allQArrayList();
 		Collections.sort(a, new EndTimeDESC());
+		System.out.println("getMessageLength-" + a.get(0).getEndTime());
 		return a.get(0).getEndTime();
 	}
 

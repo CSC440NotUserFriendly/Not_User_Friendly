@@ -15,6 +15,7 @@ import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 import com.google.web.bindery.requestfactory.server.RequestFactoryServlet;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.jdo.PersistenceManager;
@@ -52,7 +53,7 @@ public class DataStore {
       PersistenceManager pm = PMF.get().getPersistenceManager();
       try {
         Query query = pm.newQuery("select from " + SMILMessage.class.getName()
-            + " where id==" + id.toString() + " && senderEmail=='" + getUserEmail() + "'");
+            + " where id==" + id.toString() + " && sender=='" + getUserEmail() + "'");
         List<SMILMessage> list = (List<SMILMessage>) query.execute();
         return list.size() == 0 ? null : list.get(0);
       } catch (RuntimeException e) {
@@ -68,14 +69,15 @@ public List<SMILMessage> findAll() {
   PersistenceManager pm = PMF.get().getPersistenceManager();
   try {
       Query query = pm.newQuery("select from " + SMILMessage.class.getName()
-          + " where senderEmail=='" + getUserEmail() + "'");
+          + " where sender=='" + getUserEmail() + "'");
       List<SMILMessage> list = (List<SMILMessage>) query.execute();
+      
       if (list.size() == 0) {
            //Workaround for this issue:
            //http://code.google.com/p/datanucleus-appengine/issues/detail?id=24
           list.size();
         }
-
+      
     return list;
   } catch (RuntimeException e) {
     System.out.println(e);
@@ -89,17 +91,17 @@ public List<SMILMessage> findAll() {
    * Persist this object in the datastore.
    */
   public SMILMessage update(SMILMessage item) {
-	  
-    item.setId(Long.parseLong(getUserId()));
-    item.setSenderEmail(getUserEmail());
+	
+    item.setSender(getUserId());
 
     PersistenceManager pm = PMF.get().getPersistenceManager();
     try {
       pm.makePersistent(item);
-      return item;
+      
     } finally {
       pm.close();
     }
+    return item;
   }
 
   public static String getUserId() {

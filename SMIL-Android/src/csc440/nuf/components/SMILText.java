@@ -26,7 +26,7 @@ public class SMILText extends AbstractSMILDrawable {
 	protected String textAlign; //textAlign
 	protected String textColor; //textColor
 	protected int textFontSize; //textFontSize
-	protected String text; 
+	private String text; 
 	
 	public SMILText(int begin, int dur, int top, int left, String text, int textFontSize, String textColor) {
 		super(text, begin, dur);
@@ -57,9 +57,6 @@ public class SMILText extends AbstractSMILDrawable {
 			
 			if(localName.equals("xml:id"))
 				xmlid = value;
-			
-			else if(localName.equals("text"))
-                text = value;
 			
 			else if(localName.equals("textAlign"))
                 textAlign = value;
@@ -96,7 +93,6 @@ public class SMILText extends AbstractSMILDrawable {
 	//Important, the text is obtained through the characters() method not startElement()
 	public void setText(String text) {
 		this.text = text;
-		this.qName = text;
 	}
 
 	//For XML format

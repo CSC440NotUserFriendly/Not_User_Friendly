@@ -29,7 +29,6 @@ public class SMILHandler extends DefaultHandler {
     @Override
     public void startElement(String uri, String localName, String qName, Attributes att) {
     	
-
         if (qName.equals("root-layout")) {
         	//Not sure what to do with this yet, it can't go in the queue.
             Waiting.Q().setLayout(new SMILLayout(att));
@@ -68,7 +67,9 @@ public class SMILHandler extends DefaultHandler {
     @Override
     public void characters(char[] ch, int start, int length){
     	
-    	if(currentObject instanceof SMILText){
+    	//No clue why this is being called 3 times in android
+    	//In normal java it is only called once between the beginning and end tags
+    	if(currentObject instanceof SMILText && length > 1){
     		//Only text up to length not ch.length
     		((SMILText)currentObject).setText(new String(ch, 0, length));
     	}
@@ -102,6 +103,7 @@ public class SMILHandler extends DefaultHandler {
     }
     //Simply adds to the Queue but makes sure we're not inside a par/seq section
     public void add(AbstractSMILObject o){
+    	System.out.println(o);
     	if(par != null)
     		par.add(o);
     	else if(seq != null)

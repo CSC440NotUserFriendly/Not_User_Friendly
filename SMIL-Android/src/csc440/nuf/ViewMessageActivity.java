@@ -18,19 +18,28 @@ package csc440.nuf;
  */
 
 
+import csc440.nuf.cache.SMILCache;
 import csc440.nuf.complay.PlayerActivity;
+import csc440.nuf.complay.Waiting;
+import csc440.nuf.shared.SMILMessageProxy;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class ViewMessageActivity extends Activity implements OnClickListener {
@@ -38,10 +47,12 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 	private static int startTime = 0;
 	private ScrollItemManager items;
 	private Bundle state = null;
+	private Bundle data;
 	private ActionBar _actionBar;
 	private boolean playPressed = false;
 	private static boolean autoPlay = true;
 	private static AlertDialog alertAutoPlay;
+	private static String workingDir = Environment.getExternalStorageDirectory().getAbsolutePath() + "/SMIL";
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,29 +91,30 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 				ViewMessageActivity.this.finish();
 			}
         });
+        
+        data = getIntent().getExtras();
+        workingDir += "/" + data.getString("title");
 
         items = new ScrollItemManager(findViewById(R.id.scrollHolder));
         items.addItem(getApplicationContext(), true);
-        items.setTitle("Message Title");
+        items.setTitle(data.getString("title"));
         items.setIcon(R.drawable.ic_home);
         items.setListener(this, 1);
         TextView item1Text1 = new TextView(this);
-        item1Text1.setText("From: magicjj                   on 2/16/2012");
+        item1Text1.setText("From: " + data.getString("Sender") + "                   on " + data.getString("date"));
         item1Text1.setTextColor(Color.BLACK);
         items.addToLinear(item1Text1);
         
         items.addItem(getApplicationContext(), true);
         TextView item2Text1 = new TextView(this);
-        item2Text1.setText("Subject: Hey!");
+        item2Text1.setText("Subject:");
         item2Text1.setTextColor(Color.BLACK);
         TextView item2Text2 = new TextView(this);
-        item2Text2.setText("This is like the most l33test SM1L message 3v4r!!!");
+        item2Text2.setText(data.getString("message"));
         item2Text2.setTextColor(Color.BLACK);
-        items.addLine(getApplicationContext());
         items.addToLinear(item2Text1);
         items.addLine(getApplicationContext());
         items.addToLinear(item2Text2);
-        items.addLine(getApplicationContext());
 
         items.addItem(getApplicationContext());
         items.setTitle("Play Message");
@@ -114,10 +126,11 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 
         items.addItem(getApplicationContext());
         items.setTitle("Forward");
+        items.setListener(this, 2);
 
         items.addItem(getApplicationContext());
         items.setTitle("Reset Preference");
-        items.setListener(this, 2);
+        items.setListener(this, 3);
     }
 	
 	protected void onResume() {
@@ -148,6 +161,10 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 	public void playMessage(boolean playPressed) {
 		if (!autoPlay) playPressed = true;
 		
+		SMILMessageProxy sm = SMILActivity.inbox.get(data.getInt("index"));
+		SMILCache.getFile(sm);
+		Waiting.Q().prepQ();
+		
 		Intent i = new Intent(this, PlayerActivity.class);
 		i.putExtra("bundle", state);
 		i.putExtra("startTime", startTime);		// tells the player what second to start at
@@ -155,6 +172,7 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 		this.startActivityForResult(i, REQ_CODE_PLAYER);
 	}
 
+	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case 1:	// Play Button
@@ -162,12 +180,19 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 				alertAutoPlay.show();
 			else playMessage(true);
 			break;
-		case 2:	// Reset Preference Button
+			
+		case 2:
+			break;
+			
+		case 3:	// Reset Preference Button
 			SharedPreferences.Editor myPrefEdit = this.getSharedPreferences("username", MODE_WORLD_READABLE).edit();
   			myPrefEdit.putBoolean("autoPlay", true);
   			myPrefEdit.commit();
   			autoPlay = true;
 			break;
 		} 
+	}
+	public static String getDir(){
+		return workingDir;
 	}
 }

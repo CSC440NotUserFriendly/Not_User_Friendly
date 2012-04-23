@@ -11,6 +11,8 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.Log;
 import csc440.nuf.R;
+import csc440.nuf.ViewMessageActivity;
+import csc440.nuf.cache.SMILCache;
 import csc440.nuf.complay.Waiting;
 
 /**
@@ -29,6 +31,8 @@ public class SMILImage extends AbstractSMILDrawable {
 	protected String xmlid; //xml:id
 	protected int zIndex; //z-index
 	protected String src; //source
+	protected int width;
+	protected int height;
 
 	public SMILImage(Attributes att) {
 		super(att);
@@ -52,8 +56,15 @@ public class SMILImage extends AbstractSMILDrawable {
 				zIndex = getIntValue(value);
 			}
 			else if(localName.equals("src")){
-				src = value;
+				src = ViewMessageActivity.getDir() + "/" + value;
 			}
+			else if(localName.equals("width")){
+				width = getIntValue(value);
+			}
+			else if(localName.equals("height")){
+				height = getIntValue(value);
+			}
+			
         }
 	}
 	
@@ -106,14 +117,18 @@ public class SMILImage extends AbstractSMILDrawable {
 
 	public void setSrc(String src) {
 		this.src = src;
+		System.out.println("SRC: " + src);
 		original = BitmapFactory.decodeFile(src);
-		scaled = original;
+		scaled = Bitmap.createScaledBitmap(original, width, height, true);
 	}
 	
 	public void draw(Canvas canvas) {
 		if (begin != -1 &&
 		  end != -1 &&
 		  src != null) {
+			System.out.println("Scaled" + scaled);
+			setSrc(src); //Fixs reuse error
+			System.out.println("Scaled" + scaled);
 			super.draw(canvas);
 			canvas.drawBitmap(scaled, left * Waiting.getDensity(), top * Waiting.getDensity(), null);
 		}
@@ -134,8 +149,8 @@ public class SMILImage extends AbstractSMILDrawable {
 	@Override
 	public void moveSize(int x, int y) {
 		Rect d = getRectDimensions();
-        int width = x - d.left + 10;
-        int height = y - d.top + 10;
+        width = x - d.left + 10;
+        height = y - d.top + 10;
 
         scaled = Bitmap.createScaledBitmap(original, width, height, true);
 	}

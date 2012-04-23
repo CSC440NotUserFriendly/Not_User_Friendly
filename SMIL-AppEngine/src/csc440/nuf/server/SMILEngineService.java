@@ -10,7 +10,6 @@ package csc440.nuf.server;
  */
 
 
-import java.io.File;
 import java.util.List;
 
 public class SMILEngineService {
@@ -18,8 +17,8 @@ public class SMILEngineService {
 	static DataStore db = new DataStore();
 	
 	public SMILMessage createSMILMessage() {
-		return db.update(new SMILMessage(new File("SMILBlank"), DataStore.getUserId(), null,
-				DataStore.getUserEmail(), null));
+		System.err.println("CreateMessage!");
+		return db.update(new SMILMessage());
 	}
 
 	public SMILMessage readSMILMessage(Long id) {
@@ -27,7 +26,8 @@ public class SMILEngineService {
 	}
 
 	public SMILMessage updateSMILMessage(SMILMessage smilmessage) {
-		smilmessage.setSenderEmail(DataStore.getUserEmail());
+		System.err.println("UpdateMessage!");
+		smilmessage.setSender(DataStore.getUserEmail());
 		smilmessage = db.update(smilmessage);
 		DataStore.sendC2DMUpdate("update:" + smilmessage.getId());
 		return smilmessage;

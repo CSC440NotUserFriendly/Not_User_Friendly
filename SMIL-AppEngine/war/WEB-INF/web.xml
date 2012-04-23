@@ -55,6 +55,44 @@
     <servlet-name>dataMessagingServlet</servlet-name>
       <url-pattern>/tasks/c2dm</url-pattern>
   </servlet-mapping>
+  
+  
+  <!-- Blob store -->
+  <servlet>
+    <servlet-name>BlobServe</servlet-name>
+    <servlet-class>
+      csc440.nuf.server.BlobServe
+    </servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>BlobServe</servlet-name>
+      <url-pattern>/blobserve</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BlobUpload</servlet-name>
+    <servlet-class>
+      csc440.nuf.server.BlobUpload
+    </servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>BlobUpload</servlet-name>
+      <url-pattern>/blobupload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>
+      csc440.nuf.server.Upload
+    </servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+      <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
 
   <!-- Security -->
 

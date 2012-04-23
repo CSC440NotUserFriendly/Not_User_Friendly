@@ -27,6 +27,8 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 
+import csc440.nuf.complay.Waiting;
+
 public class SMILParser {
 
     private InputStream is;
@@ -47,6 +49,7 @@ public class SMILParser {
         try {
             is = new FileInputStream(SMILFile);
             parse();
+            System.out.println("Open: " + Waiting.Q() + " Size: " + Waiting.Q());
 
         } catch (FileNotFoundException ex) {
             Logger.getLogger(SMILParser.class.getName()).log(Level.SEVERE, null, ex);
@@ -64,15 +67,24 @@ public class SMILParser {
             SMILHandler sHandler = new SMILHandler();
 
             xReader.setContentHandler(sHandler);
-            xReader.parse(new InputSource(is));
+            InputSource in = new InputSource(is);
+            in.setEncoding("UTF-8");
+            xReader.parse(in);
 
 
         } catch (ParserConfigurationException e) {
             //Bad ParserFactory
+        	System.err.println("ParserFactory: " + e);
         } catch (SAXException e) {
             //Bad SAXParser
+        	System.err.println("SAXParser: " + e);
+        	e.printStackTrace();
         } catch (IOException e) {
             //Bad XMLReader
+        	System.err.println("XMLReader: " + e);
+        } catch (Exception e){
+        	e.printStackTrace();
+        	System.err.println("Parser: " + e);
         }
 
 

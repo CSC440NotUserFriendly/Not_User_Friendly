@@ -62,6 +62,9 @@
             </intent-filter>
         </receiver>
         
+        <activity android:name=".ViewMessageActivity">
+        </activity>
+        
         <activity android:name=".complay.PlayerActivity">
         </activity>
         
@@ -75,6 +78,12 @@
         </activity>
         
         <activity android:name=".complay.ComposerSend">
+        </activity>
+        
+        <activity android:name=".InboxList">
+        </activity>
+        
+        <activity android:name=".InboxItem">
         </activity>
         
     </application>

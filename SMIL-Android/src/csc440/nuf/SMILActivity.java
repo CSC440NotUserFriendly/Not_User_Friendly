@@ -14,6 +14,9 @@
  *******************************************************************************/
 package csc440.nuf;
 
+import java.util.Date;
+import java.util.List;
+
 import com.google.web.bindery.requestfactory.shared.Receiver;
 import com.google.web.bindery.requestfactory.shared.ServerFailure;
 
@@ -21,8 +24,10 @@ import csc440.nuf.client.MyRequestFactory;
 import csc440.nuf.client.MyRequestFactory.HelloWorldRequest;
 import csc440.nuf.complay.*;
 import csc440.nuf.components.SMILText;
+import csc440.nuf.shared.SMILMessageProxy;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -31,6 +36,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -39,6 +45,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Main activity - requests "Hello, World" messages from the server and provides
@@ -51,6 +58,9 @@ public class SMILActivity extends Activity implements OnClickListener {
     private static final String TAG = "SMILActivity";
     private ActionBar _actionBar;
     private ScrollItemManager items;
+    public static boolean wait; //Wait for download
+    public static List<SMILMessageProxy> inbox;
+    private ProgressDialog prog;
 
     /**
      * The current context.
@@ -95,9 +105,10 @@ public class SMILActivity extends Activity implements OnClickListener {
         Log.i(TAG, "onCreate");
         super.onCreate(savedInstanceState);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.main);
+        //Get the inbox
+        wait = true; //Block until inbox is received
 
+        /*
         // for now we're manually making a WaitingQueue
         Waiting.Q().clear();
         OnScreen.Q().clear();
@@ -109,25 +120,15 @@ public class SMILActivity extends Activity implements OnClickListener {
         t[3] = new SMILText(5, 5, 300, 300, "PRESENTATION!", 40, "blue");
         for (int i = 0; i < 4; i++) Waiting.Q().push(t[i]);
         Waiting.Q().prepQ();
-        
-        Waiting.setScreenDensity(getResources().getDisplayMetrics().density);
+        */
         
         // Register a receiver to provide register/unregister notifications
         registerReceiver(mUpdateUIReceiver, new IntentFilter(Util.UPDATE_UI_INTENT));
-    }     
-
-    @Override
-    public void onResume() {
-        super.onResume();
-
-        SharedPreferences prefs = Util.getSharedPreferences(mContext);
-        String connectionStatus = prefs.getString(Util.CONNECTION_STATUS, Util.DISCONNECTED);
-        if (Util.DISCONNECTED.equals(connectionStatus)) {
-            startActivity(new Intent(this, AccountsActivity.class));
-        }
         
-     // Our stuff from our original main activity   
-     // since we're using ActionBar, first take off the title bar
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+        setContentView(R.layout.main);
+
         
         _actionBar = (ActionBar) findViewById(R.id.actionBar);
         _actionBar.setTitle(R.string.app_name);
@@ -167,6 +168,25 @@ public class SMILActivity extends Activity implements OnClickListener {
         items.addLine(getApplicationContext());
         items.addToLinear(item2Text3);
         items.addLine(getApplicationContext());
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        SharedPreferences prefs = Util.getSharedPreferences(mContext);
+        String connectionStatus = prefs.getString(Util.CONNECTION_STATUS, Util.DISCONNECTED);
+        if (Util.DISCONNECTED.equals(connectionStatus)) {
+            startActivity(new Intent(this, AccountsActivity.class));
+        }
+        AsyncFetchSMILMessage async = new AsyncFetchSMILMessage(this);
+        wait = true;
+        async.execute();
+        
+     // Our stuff from our original main activity   
+     // since we're using ActionBar, first take off the title bar
+        
+        
         
         /*
         _actionBar.setHomeListener(new OnClickListener() {
@@ -183,6 +203,7 @@ public class SMILActivity extends Activity implements OnClickListener {
         
     }
 
+	@Override
 	public void onClick(View v) {
 		Intent i;
 		
@@ -196,9 +217,15 @@ public class SMILActivity extends Activity implements OnClickListener {
 			this.startActivity(i);
 			break;
 		case 3:	// View Inbox
-			i = new Intent(this, ViewMessageActivity.class);
-			this.startActivity(i);
-			break;
+			if(!wait){
+				i = new Intent(this, InboxList.class);
+				this.startActivity(i);
+			}
+			else{
+				prog = ProgressDialog.show(this, "Communicating with the cloud.",
+			            "Please wait until the inbox is retrieved.", true);
+
+			}
 		} 
 	}
 	
@@ -276,4 +303,24 @@ public class SMILActivity extends Activity implements OnClickListener {
                 break;
         }
     }
+
+	public void addMessages(List<SMILMessageProxy> result) {
+
+		setInbox(result);
+		//wait = false;
+		
+	}
+
+	public List<SMILMessageProxy> getInbox() {
+		return inbox;
+	}
+
+	public void setInbox(List<SMILMessageProxy> inbox) {
+		SMILActivity.inbox = inbox;
+		wait = false;
+		if(prog != null && prog.isShowing()){
+			prog.dismiss();
+			onClick(findViewById(3));
+		}
+	}
 }

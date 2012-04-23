@@ -1,13 +1,20 @@
 package csc440.nuf.cache;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-//import com.google.appengine.api.datastore.Entity;
-//import com.google.appengine.api.datastore.Key;
-//import com.google.appengine.api.datastore.KeyFactory;
+import csc440.nuf.AsyncFetchSMILMessage;
+import csc440.nuf.SMILActivity;
+import csc440.nuf.parser.SMILParser;
+import csc440.nuf.parser.SMILWriter;
+import csc440.nuf.shared.SMILMessageProxy;
+
+import android.content.Context;
+import android.os.Environment;
 
 /**
  * CSC-440 SMIL Project
@@ -15,116 +22,112 @@ import java.util.Map;
  * SMILCache.java
  * @author Alex Gilbert
  * 
- * I've edited this out because it's going to need some changes.
+ * For time constraints I've simplified this to just keep the most recent, Brad.
  * 
  */
 
 public class SMILCache {
-/**
-	private static HashMap<Key,Object[]> cache;
-	private static int limit;
 	
-	public SMILCache()
-	{
-		cache = new HashMap<Key,Object[]>();
-		SMILCache.limit = 10;
+	private static Context activity;
+	public static final String workingDir = Environment.getExternalStorageDirectory().getAbsolutePath() + "/SMIL";
+	
+	public SMILCache(Context activity){
+		SMILCache.activity = activity;
 	}
 	
-	public synchronized void setLimit(int limit)
-	{
-		SMILCache.limit = limit;
-	}
-	
-	public int getLimit()
-	{
-		return SMILCache.limit;
-	}
-	
-	public static synchronized Entity get(String file)
-	{
-		try{
-			Key smilKey = KeyFactory.stringToKey(file);
-			if( cache.containsKey( smilKey ) )
-			{
-				SMILCacheObject temp = (SMILCacheObject)cache.get(smilKey)[0];
-				Date now = new Date();
-				temp.setLast(now);
-				temp.increment();
-				return temp.getEntity();
-			}
-			else
-			{
-				return null;
-			}
-		}catch(Exception e){
-			return null;
+	public static void newFile(SMILMessageProxy smilMessage){
+		try {
+		String filename = smilMessage.getFilename();
+		String path = workingDir + "/" + filename;
+		File baseDir = new File(path);
+		if(!baseDir.exists()){
+			baseDir.mkdirs();
 		}
-	}
-	
-	public static synchronized boolean put(Entity entity)
-	{
-		try{
-			Object values[] = new Object[2];
-			SMILCacheObject temp = new SMILCacheObject(entity);
-			if( cache.size()==limit)
-			{
-				cache.remove(_getLeastUsed());
-				values[0]=temp;
-				values[1]=_getWeightedUsage(temp);
-				cache.put(entity.getKey(), values);
-			}
-			else
-			{
-				values[0]=temp;
-				values[1]=_getWeightedUsage(temp);
-				cache.put(entity.getKey(), values);
-			}
-			return true;
-		}catch(Exception e){
-			return false;
+		else{
+			//throw new Exception("A file with this name already exists!");
 		}
-	}
-	
-	*
-	 * heuristic function to rank the SMILCacheObjects
-	 * in the hashMap according to how often they are 
-	 * used
-	 *
-	private static int _getWeightedUsage(SMILCacheObject co)
-	{
-		Date temp = co.getStart();
-		int s = temp.getDate();
-		temp = co.getLast();
-		int l = temp.getDate();
-		int count = co.getCount();
-		temp = new Date();
-		int n = temp.getDate();
-		int ns = n-s;
-		int nl = n-l;
-		int timesPer = (ns-nl)/count;
-		timesPer*=nl;
-		timesPer%=100;
+		//new smil message file
+		File baseMessage = new File(path + "/" + filename + ".smil");
+		baseMessage.createNewFile();
 		
-		return timesPer;
+		//media folder
+		File media = new File(path + "/" + "media");
+		media.mkdirs();
+		
+		Blob b = new Blob(activity);
+		
+		AsyncFetchSMILMessage async = new AsyncFetchSMILMessage((SMILActivity)activity);
+		smilMessage = async.editMessage(smilMessage);
+		smilMessage.setKey(b.sendBlob(filename, smilMessage.getKey()));
+		
+		async.updateMessage(smilMessage);
+		}
+		catch (Exception e) {
+			System.err.println("Unable to create new file: " + e);
+		}
+	}
+
+	public static void getFile(SMILMessageProxy smilMessage){
+		try {
+			String filename = smilMessage.getFilename();
+			String path = workingDir + "/" + filename;
+			File baseDir = new File(path);
+			if(!baseDir.exists()){
+				Blob b = new Blob(activity);
+				b.getBlob(smilMessage.getKey(), smilMessage.getFilename());
+			}
+			baseDir = new File(path);
+			if(!baseDir.exists())
+				throw new Exception("No message found in the cloud!");
+			else{
+				String [] filenames = baseDir.list();
+				File smilFile = null;
+				for(int i=0; i<filenames.length; i++){
+					if(filenames[i].contains(".smil")){
+						smilFile = new File(workingDir + "/" + filename + "/" + filenames[i]);
+						break;
+					}
+				}
+				//After this has executed the queue should be populated.
+				new SMILParser(smilFile); 
+				
+			}
+			deleteOldFiles();
+			
+		}
+		catch (Exception e) {
+			System.err.println("Unable to open file: " + e);
+		}
 	}
 	
-	private static Key _getLeastUsed()
-	{
-		int least = 999999999;
-		Key deleteMe = null;
-		Iterator it = cache.entrySet().iterator();
-	    while (it.hasNext()) {
-	        Map.Entry pairs = (Map.Entry)it.next();
-	        Object value[] = (Object[])pairs.getValue();
-	        int weight = Integer.parseInt(value[1].toString());
-	        if (weight<least)
-	        {
-	        	least=weight;
-	        	deleteMe = (Key)pairs.getKey();
-	        }
-	    }
-	    
-		return deleteMe;
+	public static void updateFile(SMILMessageProxy smilMessage){
+		
+		String filename = smilMessage.getFilename();
+		SMILWriter.saveSMIL(new File(workingDir + "/" + filename + "/" + filename + ".smil"));
+		
+		Blob b = new Blob(activity);
+		AsyncFetchSMILMessage async = new AsyncFetchSMILMessage((SMILActivity)activity);
+		
+		smilMessage = async.editMessage(smilMessage);
+		smilMessage.setKey(b.sendBlob(filename, smilMessage.getKey()));
+		
+		async.updateMessage(smilMessage);
 	}
-	*/
+	
+	private static void deleteOldFiles(){
+		File base = new File(workingDir);
+		File [] files = base.listFiles();
+		Long currentTime = System.currentTimeMillis();
+		final Long MAX_TIME = new Long("2592000000");
+		
+		//Just keeping last 30 days
+		for(int i=0; i<files.length; i++){
+			Long time = currentTime - files[i].lastModified();
+			if(time > MAX_TIME){
+				files[i].delete();
+			}
+		}
+	}
 }
+
+

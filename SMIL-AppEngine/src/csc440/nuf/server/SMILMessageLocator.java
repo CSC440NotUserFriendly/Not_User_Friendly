@@ -1,16 +1,12 @@
 package csc440.nuf.server;
 
-import java.io.File;
-
 import com.google.web.bindery.requestfactory.shared.Locator;
-
 
 public class SMILMessageLocator extends Locator<SMILMessage, Void> {
 
 	@Override
 	public SMILMessage create(Class<? extends SMILMessage> clazz) {
-		return new SMILMessage(new File("SMILBlank"), DataStore.getUserId(), null,
-				DataStore.getUserEmail(), null);
+		return new SMILMessage();
 	}
 
 	@Override
