@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <csc440.nuf.ActionBar android:id="@+id/actionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentRight="true" />
+    
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollHolder"
+	 style="@style/scroll" android:layout_below="@+id/actionBar">    
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		 android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+		    <TableLayout android:id="@+id/tableLayout1" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+		        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+		        	<TextView android:text="Title: " android:layout_width="80dp" android:textColor="#000"></TextView>
+		        	<EditText android:layout_width="200dp" android:inputType="text" android:id="@+id/title">
+		       			<requestFocus></requestFocus>
+		       		</EditText>
+		        </TableRow>
+		        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+		        	<TextView android:text="Recipient: " android:textColor="#000"></TextView>
+		        	<LinearLayout
+		        	    android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		        	    <EditText
+		        	        android:id="@+id/recipient" android:layout_width="0dip" android:layout_height="wrap_content"
+		        	        android:layout_weight="0.8" android:gravity="right" android:inputType="text" />
+		    
+		        	</LinearLayout>
+		        </TableRow>
+		        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+		        	<TextView android:text="Message: " android:textColor="#000"></TextView>
+		        	<LinearLayout
+		        	    android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+
+		        	    <EditText
+		        	        android:id="@+id/message"
+		        	        android:layout_width="0dip"
+		        	        android:layout_height="134dp"
+		        	        android:layout_weight="0.80"
+		        	        android:gravity="right"
+		        	        android:inputType="text" />
+		        	   
+		        	</LinearLayout>
+		        </TableRow>
+
+		    </TableLayout>
+			
+
+			    <ViewFlipper android:id="@+id/flipedit" android:layout_width="match_parent" android:layout_height="wrap_content">
+			    <TableLayout android:layout_width="280dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+			        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+			        	<Button
+				    android:id="@+id/edit"
+				    android:layout_width="100dp"
+				    android:layout_gravity="center"
+				    android:layout_height="wrap_content"
+				    android:text="Edit" 
+				    android:onClick="onClick"/>
+				
+					<Button
+				    android:id="@+id/send"
+				    android:layout_width="100dp"
+				    android:layout_gravity="center"
+				    android:layout_height="wrap_content"
+				    android:text="Send" 
+				    android:onClick="onClick"/>
+			        </TableRow>
+			    </TableLayout>
+			    <TableLayout android:layout_width="280dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+			        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+			        	<Button
+				    android:id="@+id/create"
+				    android:layout_width="100dp"
+				    android:layout_gravity="center"
+				    android:layout_height="wrap_content"
+				    android:text="Create" 
+				    android:onClick="onClick"/>
+			        </TableRow>
+			    </TableLayout>
+			</ViewFlipper>
+			    
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollLinear"
+			 android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" >
+			</LinearLayout>
+			
+		</LinearLayout>
+	</ScrollView>
+      
+</RelativeLayout>

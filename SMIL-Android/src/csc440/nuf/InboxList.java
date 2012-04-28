@@ -24,7 +24,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import csc440.nuf.ActionBar;
-import csc440.nuf.R;
 import csc440.nuf.ScrollItemManager;
 import csc440.nuf.complay.ComposerSend;
 import csc440.nuf.complay.OffScreen;
@@ -70,6 +69,7 @@ public class InboxList extends Activity implements OnClickListener {
 	private static AlertDialog.Builder alertAddItem;
 	private ListView list;
 	private List<SMILMessageProxy> inbox;
+	private boolean isInbox;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -78,6 +78,8 @@ public class InboxList extends Activity implements OnClickListener {
 		
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.composer_list);
+		
+		isInbox = getIntent().getExtras().getBoolean("isInbox");
 		
 		/*
 		SharedPreferences myPrefs = this.getSharedPreferences("username", MODE_WORLD_READABLE);
@@ -90,10 +92,14 @@ public class InboxList extends Activity implements OnClickListener {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
-				System.out.println("Item: " + arg2 + " " + arg3);
 				SMILMessageProxy sm = inbox.get(arg2);
 				System.err.println(sm.getFilename());
-        		Intent i = new Intent(InboxList.this, ViewMessageActivity.class);
+				Intent i;
+				if(isInbox)
+					i = new Intent(InboxList.this, ViewMessageActivity.class);
+				else
+					i = new Intent(InboxList.this, NewMessageActivity.class);
+				
         		i.putExtra("title", sm.getFilename());
         		i.putExtra("message", sm.getMessage());
         		i.putExtra("sender", sm.getSender());
@@ -141,7 +147,11 @@ public class InboxList extends Activity implements OnClickListener {
         });
 		
 		_actionBar = (ActionBar) findViewById(R.id.actionBar);
-        _actionBar.setTitle("Inbox");
+		if(isInbox)
+			_actionBar.setTitle("Inbox");
+		else
+			_actionBar.setTitle("Outbox");
+		
         _actionBar.setHomeListener(new OnClickListener() {
 			public void onClick(View v) {
 				InboxList.this.finish();
@@ -178,7 +188,18 @@ public class InboxList extends Activity implements OnClickListener {
 	
 	protected void onResume() {
 		super.onResume();
-		inbox = SMILActivity.inbox;
+		
+		isInbox = getIntent().getExtras().getBoolean("isInbox");
+		inbox = null;
+		System.out.println("isInbox: " + isInbox);
+		if(isInbox){
+			System.err.println("inbox");
+			inbox = SMILActivity.inbox;
+		}
+		else{
+			System.err.println("outbox");
+			inbox = SMILActivity.outbox;
+		}
 		refreshList();
 		System.out.println("Get Messages!");
 		
@@ -208,6 +229,7 @@ public class InboxList extends Activity implements OnClickListener {
 	}
 
 	public void refreshList() {
+		
 		
 		//Log.w("refreshList", "list size: " + array.size() + ", wQ size: " + Waiting.Q().getQ().size() + ", w size: " + w.size());
 		list.setAdapter(new InboxListAdapter(this, R.layout.composer_row, inbox));
@@ -274,15 +296,12 @@ public class InboxList extends Activity implements OnClickListener {
 		                        	ttr.setText("Date: ##/##");
 		                        }
 	                        }
-
-	                        /*
-	                        if (btr != null) {
-	                              btr.setText("Start: "+ o.getStartTime());
-	                        }
-	                        */
 	                        
 	                        if (middle != null) {
-	                        	middle.setText("Sender: " + o.getSender());
+	                        	if(isInbox)
+	                        		middle.setText("Sender: " + o.getSender());
+	                        	else
+	                        		middle.setText("Recipient: " + o.getRecipient());
 	                        }
 	                        if (bottom != null) {
 	                        	bottom.setText("Subject: " + o.getMessage());

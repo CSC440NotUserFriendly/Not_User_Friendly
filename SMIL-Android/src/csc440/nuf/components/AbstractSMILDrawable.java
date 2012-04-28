@@ -114,6 +114,13 @@ public abstract class AbstractSMILDrawable extends AbstractSMILObject {
 		else
 			return false;
 	}
+	
+
+public String printTag() {
+	//Can't seem to get these fields in the top level printTag()
+	return super.printTag();
+	
+}
 
 	public abstract int getWidth();
 	public abstract int getHeight();

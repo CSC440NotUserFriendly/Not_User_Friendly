@@ -29,7 +29,8 @@ public class SMILText extends AbstractSMILDrawable {
 	private String text; 
 	
 	public SMILText(int begin, int dur, int top, int left, String text, int textFontSize, String textColor) {
-		super(text, begin, dur);
+		super("smilText", begin, dur);
+		qName = "smilText";
 		this.top = top;
 		this.left = left;
 		this.text = text;
@@ -80,6 +81,7 @@ public class SMILText extends AbstractSMILDrawable {
 	}
 	
 	public SMILText() {
+		qName = "smilText";
 		textColor = "white";
 		textFontSize = 40;
 		top = 40;

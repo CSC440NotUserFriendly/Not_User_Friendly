@@ -8,6 +8,9 @@
 package csc440.nuf;
 
 public final class R {
+    public static final class array {
+        public static final int supported_colors=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class color {
@@ -26,12 +29,12 @@ public final class R {
         public static final int scrollitem_stroke=0x7f04000c;
     }
     public static final class dimen {
-        public static final int actionbar_corner_radius=0x7f050001;
-        public static final int actionbar_height=0x7f050000;
-        public static final int padding_small=0x7f050005;
-        public static final int scroll_padding=0x7f050004;
-        public static final int scrollitem_padding=0x7f050003;
-        public static final int scrollitem_radius=0x7f050002;
+        public static final int actionbar_corner_radius=0x7f060001;
+        public static final int actionbar_height=0x7f060000;
+        public static final int padding_small=0x7f060005;
+        public static final int scroll_padding=0x7f060004;
+        public static final int scrollitem_padding=0x7f060003;
+        public static final int scrollitem_radius=0x7f060002;
     }
     public static final class drawable {
         public static final int actionbar_bg=0x7f020000;
@@ -42,145 +45,181 @@ public final class R {
         public static final int gradient=0x7f020005;
         public static final int ic_home=0x7f020006;
         public static final int ic_launcher=0x7f020007;
-        public static final int ic_mailboxes_accounts=0x7f020008;
-        public static final int inbox=0x7f020009;
-        public static final int pause=0x7f02000a;
-        public static final int play=0x7f02000b;
-        public static final int scroll_bg=0x7f02000c;
-        public static final int scrollitem_bg_normal=0x7f02000d;
-        public static final int scrollitem_bg_pressed=0x7f02000e;
-        public static final int scrollitem_btn=0x7f02000f;
-        public static final int seek_thumb=0x7f020010;
-        public static final int seekbar_bg=0x7f020011;
-        public static final int seekbar_progress=0x7f020012;
-        public static final int seekbar_progress_bg=0x7f020013;
-        public static final int seekbar_thumb_normal=0x7f020014;
-        public static final int seekbar_thumb_pressed=0x7f020015;
-        public static final int status_icon=0x7f020016;
-        public static final int stop=0x7f020017;
-        public static final int stripe_bg=0x7f020018;
+        public static final int ic_list=0x7f020008;
+        public static final int ic_mailboxes_accounts=0x7f020009;
+        public static final int ic_movie=0x7f02000a;
+        public static final int ic_send=0x7f02000b;
+        public static final int inbox=0x7f02000c;
+        public static final int pause=0x7f02000d;
+        public static final int play=0x7f02000e;
+        public static final int scroll_bg=0x7f02000f;
+        public static final int scrollitem_bg_normal=0x7f020010;
+        public static final int scrollitem_bg_pressed=0x7f020011;
+        public static final int scrollitem_btn=0x7f020012;
+        public static final int seek_thumb=0x7f020013;
+        public static final int seekbar_bg=0x7f020014;
+        public static final int seekbar_progress=0x7f020015;
+        public static final int seekbar_progress_bg=0x7f020016;
+        public static final int seekbar_thumb_normal=0x7f020017;
+        public static final int seekbar_thumb_pressed=0x7f020018;
+        public static final int status_icon=0x7f020019;
+        public static final int stop=0x7f02001a;
+        public static final int stripe_bg=0x7f02001b;
     }
     public static final class id {
-        public static final int actionBar=0x7f090012;
-        public static final int actionbar_actionIcons=0x7f090001;
-        public static final int actionbar_home_logo=0x7f090000;
-        public static final int actionbar_item=0x7f090004;
-        public static final int actionbar_progress=0x7f090002;
-        public static final int actionbar_title=0x7f090003;
-        public static final int canvas=0x7f09001c;
-        public static final int connect=0x7f09000b;
-        public static final int connect_footer=0x7f09000a;
-        public static final int connect_text=0x7f090006;
-        public static final int controls=0x7f090016;
-        public static final int disconnect=0x7f09000e;
-        public static final int disconnect_footer=0x7f09000d;
-        public static final int disconnect_text=0x7f09000c;
-        public static final int divider=0x7f090008;
-        public static final int header=0x7f090005;
-        public static final int hello_world=0x7f090011;
-        public static final int hello_world_info=0x7f09000f;
-        public static final int icon=0x7f09001e;
-        public static final int item=0x7f09001d;
-        public static final int item1=0x7f090013;
-        public static final int item2=0x7f090014;
-        public static final int item3=0x7f090015;
-        public static final int linear=0x7f090020;
-        public static final int playPause=0x7f090017;
-        public static final int say_hello=0x7f090010;
-        public static final int seekBar=0x7f090019;
-        public static final int select_account=0x7f090009;
-        public static final int select_text=0x7f090007;
-        public static final int stop=0x7f090018;
-        public static final int text=0x7f09001f;
-        public static final int time=0x7f09001a;
-        public static final int title=0x7f09001b;
+        public static final int actionBar=0x7f0a0005;
+        public static final int actionbar_actionIcons=0x7f0a0001;
+        public static final int actionbar_home_logo=0x7f0a0000;
+        public static final int actionbar_item=0x7f0a0004;
+        public static final int actionbar_progress=0x7f0a0002;
+        public static final int actionbar_title=0x7f0a0003;
+        public static final int addItem=0x7f0a0034;
+        public static final int bottominboxtext=0x7f0a0027;
+        public static final int bottomtextleft=0x7f0a0013;
+        public static final int buttonLinear=0x7f0a0032;
+        public static final int color=0x7f0a000c;
+        public static final int connect=0x7f0a001a;
+        public static final int connect_footer=0x7f0a0019;
+        public static final int connect_text=0x7f0a0015;
+        public static final int controls=0x7f0a0031;
+        public static final int create=0x7f0a002e;
+        public static final int disconnect=0x7f0a001d;
+        public static final int disconnect_footer=0x7f0a001c;
+        public static final int disconnect_text=0x7f0a001b;
+        public static final int divider=0x7f0a0017;
+        public static final int duration=0x7f0a000a;
+        public static final int edit=0x7f0a002c;
+        public static final int flipProperties=0x7f0a000b;
+        public static final int flipedit=0x7f0a002b;
+        public static final int header=0x7f0a0014;
+        public static final int hello_world=0x7f0a0020;
+        public static final int hello_world_info=0x7f0a001e;
+        public static final int icon=0x7f0a0011;
+        public static final int item=0x7f0a0038;
+        public static final int linear=0x7f0a003a;
+        public static final int list=0x7f0a0010;
+        public static final int mainView=0x7f0a002f;
+        public static final int message=0x7f0a002a;
+        public static final int middleinboxtext=0x7f0a0025;
+        public static final int name=0x7f0a0008;
+        public static final int playPause=0x7f0a0033;
+        public static final int playerCanvas=0x7f0a0030;
+        public static final int recipient=0x7f0a0029;
+        public static final int say_hello=0x7f0a001f;
+        public static final int scrollHolder=0x7f0a0006;
+        public static final int scrollLinear=0x7f0a000f;
+        public static final int scrollitemtext=0x7f0a0039;
+        public static final int seekBar=0x7f0a0036;
+        public static final int selectAFile=0x7f0a000e;
+        public static final int select_account=0x7f0a0018;
+        public static final int select_text=0x7f0a0016;
+        public static final int selectedFile=0x7f0a000d;
+        public static final int send=0x7f0a002d;
+        public static final int startTime=0x7f0a0009;
+        public static final int stop=0x7f0a0035;
+        public static final int tableLayout1=0x7f0a0007;
+        public static final int tableRow1=0x7f0a0021;
+        public static final int tableRow2=0x7f0a0024;
+        public static final int tableRow3=0x7f0a0026;
+        public static final int time=0x7f0a0037;
+        public static final int title=0x7f0a0028;
+        public static final int topinboxtextL=0x7f0a0022;
+        public static final int topinboxtextR=0x7f0a0023;
+        public static final int toptext=0x7f0a0012;
     }
     public static final class layout {
         public static final int account=0x7f030000;
         public static final int actionbar=0x7f030001;
         public static final int actionbar_icon=0x7f030002;
-        public static final int composer_main=0x7f030003;
-        public static final int connect=0x7f030004;
-        public static final int disconnect=0x7f030005;
-        public static final int hello_world=0x7f030006;
-        public static final int main=0x7f030007;
-        public static final int player_main=0x7f030008;
-        public static final int scroll_item=0x7f030009;
+        public static final int composer_item=0x7f030003;
+        public static final int composer_list=0x7f030004;
+        public static final int composer_main=0x7f030005;
+        public static final int composer_row=0x7f030006;
+        public static final int connect=0x7f030007;
+        public static final int disconnect=0x7f030008;
+        public static final int hello_world=0x7f030009;
+        public static final int inbox_row=0x7f03000a;
+        public static final int main=0x7f03000b;
+        public static final int message_view=0x7f03000c;
+        public static final int new_message=0x7f03000d;
+        public static final int player_main=0x7f03000e;
+        public static final int scroll_item=0x7f03000f;
+        public static final int scroll_item_holder=0x7f030010;
     }
     public static final class menu {
-        public static final int main_menu=0x7f080000;
+        public static final int main_menu=0x7f090000;
     }
     public static final class string {
         /**  This all the precompiled strings some will need to be deleted 
  Menu item text [CHAR LIMIT=NONE] 
          */
-        public static final int accounts=0x7f060000;
+        public static final int accounts=0x7f070000;
         /**  Dialog button [CHAR LIMIT=NONE] 
          */
-        public static final int add_account=0x7f060001;
+        public static final int add_account=0x7f070001;
         /**   Name of the application in the launcher [CHAR LIMIT=NONE] 
          */
-        public static final int app_name=0x7f060002;
+        public static final int app_name=0x7f070002;
         /**  Dialog title text [CHAR LIMIT=NONE] 
          */
-        public static final int attention=0x7f060003;
+        public static final int attention=0x7f070003;
         /**  Button text [CHAR LIMIT=NONE] 
          */
-        public static final int connect=0x7f060004;
+        public static final int connect=0x7f070004;
         /**  Message text for "Connect" screen [CHAR LIMIT=NONE] 
          */
-        public static final int connect_text=0x7f060005;
+        public static final int connect_text=0x7f070005;
         /**  Header text for "Connect" screen [CHAR LIMIT=NONE] 
          */
-        public static final int connect_to_the_cloud=0x7f060006;
+        public static final int connect_to_the_cloud=0x7f070006;
         /**  Header text for "Connected" screen [CHAR LIMIT=NONE] 
          */
-        public static final int connected_to_the_cloud=0x7f060007;
+        public static final int connected_to_the_cloud=0x7f070007;
         /**  Message text [CHAR LIMIT=NONE] 
          */
-        public static final int contacting_server=0x7f060008;
+        public static final int contacting_server=0x7f070008;
         /**  Button text [CHAR LIMIT=NONE] 
          */
-        public static final int disconnect=0x7f060009;
+        public static final int disconnect=0x7f070009;
         /**  Informational text for "Connected" screen with placeholder for account name [CHAR LIMIT=NONE] 
          */
-        public static final int disconnect_text=0x7f06000a;
+        public static final int disconnect_text=0x7f07000a;
         /**  Footer text for "Connect" screen [CHAR LIMIT=NONE] 
          */
-        public static final int do_you_want_to_connect=0x7f06000b;
+        public static final int do_you_want_to_connect=0x7f07000b;
         /**  Footer text for "Disconnect" screen [CHAR LIMIT=NONE] 
          */
-        public static final int do_you_want_to_disconnect=0x7f06000c;
+        public static final int do_you_want_to_disconnect=0x7f07000c;
         /**  Initial "hello, world" informational message [CHAR LIMIT=NONE] 
          */
-        public static final int hello_world_info_text=0x7f06000d;
+        public static final int hello_world_info_text=0x7f07000d;
         /**  Initial "hello, world" response message [CHAR LIMIT=NONE] 
          */
-        public static final int hello_world_text=0x7f06000e;
+        public static final int hello_world_text=0x7f07000e;
         /**  Dialog message text [CHAR LIMIT=NONE] 
          */
-        public static final int needs_account=0x7f06000f;
+        public static final int needs_account=0x7f07000f;
         /**  Notification message [CHAR LIMIT=NONE] 
          */
-        public static final int registration_error=0x7f060010;
+        public static final int registration_error=0x7f070010;
         /**  Notification message [CHAR LIMIT=NONE] 
          */
-        public static final int registration_succeeded=0x7f060011;
+        public static final int registration_succeeded=0x7f070011;
         /**  Button text [CHAR LIMIT=NONE] 
          */
-        public static final int say_hello=0x7f060012;
+        public static final int say_hello=0x7f070012;
         /**  List view header text [CHAR LIMIT=NONE] 
          */
-        public static final int select_account=0x7f060013;
+        public static final int select_account=0x7f070013;
         /**  Dialog button text [CHAR LIMIT=NONE] 
          */
-        public static final int skip=0x7f060014;
+        public static final int skip=0x7f070014;
         /**  Notification message [CHAR LIMIT=NONE] 
          */
-        public static final int unregistration_succeeded=0x7f060015;
+        public static final int unregistration_succeeded=0x7f070015;
     }
     public static final class style {
-        public static final int scroll=0x7f070000;
-        public static final int scrollitem=0x7f070001;
+        public static final int scroll=0x7f080000;
+        public static final int scrollitem=0x7f080001;
     }
 }

@@ -1,6 +1,10 @@
 package csc440.nuf.components;
 
 import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.xml.sax.Attributes;
 
 
@@ -18,6 +22,7 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 	
 	//Fields common to all SMIL Objects;
 	protected String qName;
+	private String someOtherName;//For something Jake is doing 
 	protected int begin;
 	protected int end;
 	protected int dur;
@@ -41,9 +46,10 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 			String value = att.getValue(localName);
 			
 			if(localName.equals("begin"))
-                begin = (int)(Double.parseDouble(value)*100);
+                begin = (int)(Double.parseDouble(value));
 			else if(localName.equals("dur"))
 				setDuration(getIntValue(value));
+				
 		}
 		
 	}
@@ -53,23 +59,42 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 		StringBuilder output = new StringBuilder();
 		String openTag = "<%s";
 		
-		Field [] f = this.getClass().getDeclaredFields();
-	
+		//I probably need three of these, one for the concrete class
+		//and one for each of the two super classes, too late to do it right
+		Class<?> subClass = this.getClass();
+		Class<?> superClass = subClass.getSuperclass();
+		
+		//Bull, guessing these lists are un-editable, I'm just winging it.
+		Field [] f = subClass.getDeclaredFields();
+		Field [] f2 = superClass.getDeclaredFields();
+		List<Field> l1 = Arrays.asList(f);
+		List<Field> l2 = Arrays.asList(f2);
+		ArrayList <Field> l = new ArrayList<Field>();
+		l.addAll(l1);
+		l.addAll(l2);
+		
 		output.append(String.format(openTag, this.qName));
 		
-		for(int i=0; i<f.length; i++){
+		output.append(" begin=\"" + begin + "\"");
+		output.append(" end=\"" + end + "\"");
+		output.append(" dur=\"" + dur + "\"");
+		
+		
+		for(int i=0; i<l.size(); i++){
 			try {
-				f[i].setAccessible(false); //We don't want private fields
+				l.get(i).setAccessible(false); //We don't want private fields
 				
-				String temp = f[i].getName();
+				System.out.println("Fieldsub: " + l.get(i).getName());
+				System.out.println("Fieldsup: " + l.get(i).getName());
+				String temp = l.get(i).getName();
 				
-				if(f[i].get(this) != null){
+				if(l.get(i).get(this) != null && !l.get(i).getName().equals("qname")){
 					if(temp == "xmlid")
-						output.append(" " + "xml:id" + "=" + f[i].get(this));
+						output.append(" " + "xml:id" + "=\"" + l.get(i).get(this) + "\"");
 					else if(temp == "zIndex")
-						output.append(" " + "z-index" + "=" + f[i].get(this));
+						;//output.append(" " + "z-index" + "=\"" + l.get(i).get(this) + "\"");
 					else
-						output.append(" " + temp + "=" + f[i].get(this));
+						output.append(" " + temp + "=\"" + l.get(i).get(this) + "\" ");
 				}
 			} 
 			catch (IllegalAccessException e) {
@@ -93,12 +118,16 @@ public abstract class AbstractSMILObject implements Comparable< AbstractSMILObje
 		
 		return	Integer.parseInt(temp[0]);
 	}
-	
-	public void setName(String qName) {
-		this.qName = qName;
+	/*
+	 * This should be qName as well but for some
+	 * reason Jake is doing some crap that's breaking
+	 * the parser
+	 */
+	public void setName(String someOtherName) {
+		this.someOtherName = someOtherName;
 	}
 	public String getName() {
-		return qName;
+		return someOtherName;
 	}
 	
 	//Setters for fields

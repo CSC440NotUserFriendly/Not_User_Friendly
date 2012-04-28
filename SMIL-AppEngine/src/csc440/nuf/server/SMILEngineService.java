@@ -27,9 +27,8 @@ public class SMILEngineService {
 
 	public SMILMessage updateSMILMessage(SMILMessage smilmessage) {
 		System.err.println("UpdateMessage!");
-		smilmessage.setSender(DataStore.getUserEmail());
 		smilmessage = db.update(smilmessage);
-		DataStore.sendC2DMUpdate("update:" + smilmessage.getId());
+		DataStore.sendC2DMUpdate(smilmessage);
 		return smilmessage;
 	}
 

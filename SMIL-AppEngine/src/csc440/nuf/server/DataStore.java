@@ -15,6 +15,7 @@ import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 import com.google.web.bindery.requestfactory.server.RequestFactoryServlet;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -54,6 +55,7 @@ public class DataStore {
       try {
         Query query = pm.newQuery("select from " + SMILMessage.class.getName()
             + " where id==" + id.toString() + " && sender=='" + getUserEmail() + "'");
+        System.out.println(query.toString());
         List<SMILMessage> list = (List<SMILMessage>) query.execute();
         return list.size() == 0 ? null : list.get(0);
       } catch (RuntimeException e) {
@@ -72,13 +74,23 @@ public List<SMILMessage> findAll() {
           + " where sender=='" + getUserEmail() + "'");
       List<SMILMessage> list = (List<SMILMessage>) query.execute();
       
-      if (list.size() == 0) {
+      //Stupid workaround, datastore queries won't accept an 'or' operation
+      Query query2 = pm.newQuery("select from " + SMILMessage.class.getName()
+              + " where recipient=='" + getUserEmail() + "'");
+      List<SMILMessage> list2 = (List<SMILMessage>) query2.execute();
+      
+      if (list.size() == 0 || list2.size() == 0) {
            //Workaround for this issue:
            //http://code.google.com/p/datanucleus-appengine/issues/detail?id=24
           list.size();
+          list2.size();
         }
+      //Also a stupid work around, lists 1&2 are read only
+      List <SMILMessage> list3 = new ArrayList<SMILMessage>();
+      list3.addAll(list);
+      list3.addAll(list2);
       
-    return list;
+    return list3;
   } catch (RuntimeException e) {
     System.out.println(e);
     throw e;
@@ -118,11 +130,11 @@ public List<SMILMessage> findAll() {
 	  
   
 	
-  public static void sendC2DMUpdate(String message) {
+  public static void sendC2DMUpdate(SMILMessage message) {
 	    UserService userService = UserServiceFactory.getUserService();
 	    User user = userService.getCurrentUser();
 		ServletContext context = RequestFactoryServlet.getThreadLocalRequest().getSession().getServletContext();
-		SendMessage.sendMessage(context, user.getEmail(), message);
+		SendMessage.sendMessage(context, message.getRecipient(), "Message from: " + user.getEmail() + message.getFilename());
 }
 
 

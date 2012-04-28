@@ -1,6 +1,9 @@
 package csc440.nuf.parser;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 import csc440.nuf.complay.Q;
 import csc440.nuf.complay.Waiting;
@@ -20,9 +23,8 @@ public class SMILWriter {
 
 	public static void saveSMIL(File SMILFile) {
 		try {
-			Q queue = Waiting.Q();
-			queue.prepQ();
-			System.out.println("Save: " + queue + " Size: " + queue.getLength());
+			LinkedList<AbstractSMILObject> queue = new LinkedList<AbstractSMILObject>(Waiting.allQArrayList());
+			System.out.println("Save: " + queue + " Size: " + queue.size());
 			PrintWriter pw = new PrintWriter(SMILFile);
 			pw.println("<smil>");
 			while (!queue.isEmpty()) {
@@ -34,6 +36,7 @@ public class SMILWriter {
 			pw.close();
 			
 		} catch (Exception e) {
+			e.printStackTrace();
 			System.err.println("Unable to write file: " + e);
 		}
 

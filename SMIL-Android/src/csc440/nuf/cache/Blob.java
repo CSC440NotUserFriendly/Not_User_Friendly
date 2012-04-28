@@ -48,8 +48,9 @@ public class Blob {
 			System.err.println(first);
 
 			// Delete this before deploying
+			//This is because my dev machine has a dns running, shouldn't be needed otherwise
 			System.out.println("Address Pre:" + first);
-			String temp3 = first.replace("NKUVETS.org", "192.168.200.17");
+			String temp3 = first.replace("NKUVETS.org", "10.206.2.56");
 			System.out.println("Address: " + temp3);
 			
 			

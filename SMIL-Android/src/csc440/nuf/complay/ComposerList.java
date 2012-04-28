@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,6 +44,7 @@ public class ComposerList extends Activity {
 	private static boolean autoPlay = false;
 	private static AlertDialog.Builder alertAddItem;
 	private ListView list;
+	protected static String filename; //need this for the image folder
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,6 +53,7 @@ public class ComposerList extends Activity {
 		
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.composer_list);
+		filename = getIntent().getExtras().getString("filename");
 		
 		/*
 		SharedPreferences myPrefs = this.getSharedPreferences("username", MODE_WORLD_READABLE);
@@ -134,8 +137,10 @@ public class ComposerList extends Activity {
         });
         _actionBar.addActionIcon(R.drawable.ic_send, new OnClickListener() {
 			public void onClick(View v) {
-        		Intent i = new Intent(ComposerList.this, ComposerSend.class);
-        		ComposerList.this.startActivity(i);
+        		//Intent i = new Intent(ComposerList.this, ComposerSend.class);
+        		//ComposerList.this.startActivity(i);
+				setResult(RESULT_OK, null);
+				finish();
 				return;
 			}
         });
@@ -190,6 +195,16 @@ public class ComposerList extends Activity {
 	}
 	*/
 	
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event)  {
+	    if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
+	        
+	    }
+
+	    return true;
+	}
+
+	
 	private class ComposerListAdapter extends ArrayAdapter<AbstractSMILObject> {
 	        private ArrayList<AbstractSMILObject> items;
 	
@@ -226,4 +241,5 @@ public class ComposerList extends Activity {
 	                return v;
 	        }
 	}
+	
 }

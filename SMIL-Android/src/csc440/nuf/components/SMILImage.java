@@ -28,15 +28,14 @@ public class SMILImage extends AbstractSMILDrawable {
     private Bitmap original;
     private Bitmap scaled;
 	//private final String QNAME = "img";
-	protected String xmlid; //xml:id
-	protected int zIndex; //z-index
+	protected String xmlid; //xml:id //z-index
 	protected String src; //source
 	protected int width;
 	protected int height;
 
 	public SMILImage(Attributes att) {
 		super(att);
-		qName = "img";
+		super.qName = "img";
 		
 		for(int i=0; i<att.getLength(); i++){
 			
@@ -56,7 +55,7 @@ public class SMILImage extends AbstractSMILDrawable {
 				zIndex = getIntValue(value);
 			}
 			else if(localName.equals("src")){
-				src = ViewMessageActivity.getDir() + "/" + value;
+				src = value;
 			}
 			else if(localName.equals("width")){
 				width = getIntValue(value);
@@ -69,6 +68,7 @@ public class SMILImage extends AbstractSMILDrawable {
 	}
 	
 	public SMILImage() {
+		super.qName = "img";
 		top = 10;
 		left = 10;
 		src = null;
@@ -76,7 +76,7 @@ public class SMILImage extends AbstractSMILDrawable {
 	
 	@Override
 	public String printTag(){
-		return super.printTag() + " />";
+		return super.printTag() + " />\n";
 	}
 
 	public String getXmlid() {
@@ -144,6 +144,12 @@ public class SMILImage extends AbstractSMILDrawable {
 	public int getHeight() {
 		if (scaled == null) return 0;
 		return scaled.getHeight();
+	}
+	public void setWidth(int width){
+		this.width = width;
+	}
+	public void setHeight(int height){
+		this.height = height;
 	}
 
 	@Override

@@ -15,6 +15,9 @@ package csc440.nuf.complay;
 
 
 import java.io.File;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
 
 import csc440.nuf.ActionBar;
 import csc440.nuf.R;
@@ -83,8 +86,12 @@ public class ComposerItem extends Activity implements OnClickListener {
 				// if it's a new item, create it, add it to the Q and re-sort
 				if (itemType.equals("Text"))
 					o = new SMILText();
-				else if (itemType.equals("Image"))
+				else if (itemType.equals("Image")){
 					o = new SMILImage();
+					((SMILImage)o).setWidth(100);
+					((SMILImage)o).setHeight(100);
+					
+				}
 				startTime.setText(String.valueOf(extras.getInt("startTime", 0)));
 				duration.setText("3");
 				Timer timer = new Timer();
@@ -274,6 +281,7 @@ public class ComposerItem extends Activity implements OnClickListener {
 
 	@Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		try{
         if (resultCode != RESULT_OK) return;
  
         //Bitmap bitmap   = null;
@@ -282,17 +290,38 @@ public class ComposerItem extends Activity implements OnClickListener {
         if (requestCode == PICK_FROM_FILE) {
             mImageCaptureUri = data.getData();
             path = getRealPathFromURI(mImageCaptureUri); //from Gallery
- 
             if (path == null)
                 path = mImageCaptureUri.getPath(); //from File Manager
         } else {
             path    = mImageCaptureUri.getPath();
+            
            // bitmap  = BitmapFactory.decodeFile(path);
         }
- 
-        //mImageView.setImageBitmap(bitmap);
-        ((SMILImage)o).setSrc(path);
-        selectedFile.setText(path);
+       
+        File f = new File(path);
+        String s = f.getName();
+        if(ComposerList.filename != null){
+        	System.out.println(ComposerList.filename);
+        	String newPath = "/mnt/sdcard/SMIL/" + ComposerList.filename 
+        			+ "/media/" + s;
+        	File fnew = new File(newPath);
+        	if(!fnew.exists())
+        		fnew.createNewFile();
+        	FileUtils.copyFile(f, fnew);
+        	
+        	//mImageView.setImageBitmap(bitmap);
+            ((SMILImage)o).setSrc(newPath);
+            selectedFile.setText(newPath);
+        }
+        else{
+        	//mImageView.setImageBitmap(bitmap);
+        	((SMILImage)o).setSrc(path);
+        	selectedFile.setText(path);
+        }
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
     }
  
     public String getRealPathFromURI(Uri contentUri) {

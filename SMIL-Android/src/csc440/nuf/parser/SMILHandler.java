@@ -72,6 +72,7 @@ public class SMILHandler extends DefaultHandler {
     	if(currentObject instanceof SMILText && length > 1){
     		//Only text up to length not ch.length
     		((SMILText)currentObject).setText(new String(ch, 0, length));
+    		((SMILText)currentObject).setName(new String(ch, 0, length));
     	}
     }
     

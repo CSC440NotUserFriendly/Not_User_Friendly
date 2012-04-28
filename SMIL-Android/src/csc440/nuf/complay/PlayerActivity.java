@@ -69,6 +69,7 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
         _playPause = (ImageView) findViewById(R.id.playPause);
         _seekBar = (SeekBar) findViewById(R.id.seekBar);
         _seekBar.setOnSeekBarChangeListener(this);
+        System.out.println("MessageLength: " + messageLength);
         _seekBar.setMax(messageLength);
         _playerCanvas = (PlayerCanvas) findViewById(R.id.playerCanvas);
         _playerCanvas.setSeekBar(_seekBar);
@@ -152,7 +153,7 @@ public class PlayerActivity extends Activity implements SeekBar.OnSeekBarChangeL
     }
     
     public void playPause(View v, boolean newPlaying) {
-    	Log.w("PlayPause", "playing = " + (newPlaying ? "true" : "false") + ", and v is " + (v == null ? "null" : "not null"));
+    	//Log.w("PlayPause", "playing = " + (newPlaying ? "true" : "false") + ", and v is " + (v == null ? "null" : "not null"));
     	if (newPlaying != playing) {
 	    	if (newPlaying) {
 	    		// if they're pressing play when the time is at the end restart the video

@@ -58,6 +58,14 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		state = savedInstanceState;
+		data = getIntent().getExtras();
+		
+		//Mark as read
+		SMILMessageProxy sm = SMILActivity.inbox.get(data.getInt("index"));
+		AsyncFetchSMILMessage async = new AsyncFetchSMILMessage(this);
+		sm = async.editMessage(sm);
+		sm.setRead(true);
+		async.updateMessage(sm);
 		
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.message_view);
@@ -92,7 +100,7 @@ public class ViewMessageActivity extends Activity implements OnClickListener {
 			}
         });
         
-        data = getIntent().getExtras();
+        
         workingDir += "/" + data.getString("title");
 
         items = new ScrollItemManager(findViewById(R.id.scrollHolder));

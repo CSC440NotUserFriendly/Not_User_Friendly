@@ -14,12 +14,14 @@
  *******************************************************************************/
 package csc440.nuf;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 import com.google.web.bindery.requestfactory.shared.Receiver;
 import com.google.web.bindery.requestfactory.shared.ServerFailure;
 
+import csc440.nuf.cache.SMILCache;
 import csc440.nuf.client.MyRequestFactory;
 import csc440.nuf.client.MyRequestFactory.HelloWorldRequest;
 import csc440.nuf.complay.*;
@@ -60,7 +62,9 @@ public class SMILActivity extends Activity implements OnClickListener {
     private ScrollItemManager items;
     public static boolean wait; //Wait for download
     public static List<SMILMessageProxy> inbox;
-    private ProgressDialog prog;
+    public static List<SMILMessageProxy> outbox;
+    private ProgressDialog prog, prog2;
+    private static String account; //registered gmail account
 
     /**
      * The current context.
@@ -107,20 +111,10 @@ public class SMILActivity extends Activity implements OnClickListener {
 
         //Get the inbox
         wait = true; //Block until inbox is received
-
-        /*
-        // for now we're manually making a WaitingQueue
-        Waiting.Q().clear();
-        OnScreen.Q().clear();
-        OffScreen.Q().clear();
-        SMILText[] t = new SMILText[4];
-        t[0] = new SMILText(0, 5, 70, 70, "Hey", 40, "yellow");
-        t[1] = new SMILText(2, 3, 150, 130, "this is a", 60, "white");
-        t[2] = new SMILText(3, 7, 230, 210, "(: SMIL :)", 90, "red");
-        t[3] = new SMILText(5, 5, 300, 300, "PRESENTATION!", 40, "blue");
-        for (int i = 0; i < 4; i++) Waiting.Q().push(t[i]);
-        Waiting.Q().prepQ();
-        */
+        new SMILCache(this); //Give smilcache a reference to this
+        
+        final SharedPreferences prefs = Util.getSharedPreferences(mContext);
+        account = prefs.getString(Util.ACCOUNT_NAME, "Unknown");
         
         // Register a receiver to provide register/unregister notifications
         registerReceiver(mUpdateUIReceiver, new IntentFilter(Util.UPDATE_UI_INTENT));
@@ -151,37 +145,30 @@ public class SMILActivity extends Activity implements OnClickListener {
         items.setIcon(R.drawable.inbox);
         items.setListener(this, 3);
 
-        items.addItem(getApplicationContext(), true);
-        TextView item2Text1 = new TextView(this);
-        item2Text1.setText("NEW! From: magicjj    Subject: Hey man!   Length: 0:20");
-        item2Text1.setTextColor(Color.BLACK);
-        TextView item2Text2 = new TextView(this);
-        item2Text2.setText("From: magicjj    Subject: Test 2   Length: 0:15");
-        item2Text2.setTextColor(Color.BLACK);
-        TextView item2Text3 = new TextView(this);
-        item2Text3.setText("From: magicjj    Subject: Test     Length: 0:17");
-        item2Text3.setTextColor(Color.BLACK);
-        items.addLine(getApplicationContext());
-        items.addToLinear(item2Text1);
-        items.addLine(getApplicationContext());
-        items.addToLinear(item2Text2);
-        items.addLine(getApplicationContext());
-        items.addToLinear(item2Text3);
-        items.addLine(getApplicationContext());
+        items.addItem(getApplicationContext());
+        items.setTitle("View Outbox");
+        items.setIcon(R.drawable.inbox);
+        items.setListener(this, 4);
     }
 
     @Override
     public void onResume() {
         super.onResume();
-
+        wait = true;
+        Waiting.Q().clear();
+        OnScreen.Q().clear();
+        OffScreen.Q().clear();
+        
         SharedPreferences prefs = Util.getSharedPreferences(mContext);
         String connectionStatus = prefs.getString(Util.CONNECTION_STATUS, Util.DISCONNECTED);
         if (Util.DISCONNECTED.equals(connectionStatus)) {
             startActivity(new Intent(this, AccountsActivity.class));
         }
-        AsyncFetchSMILMessage async = new AsyncFetchSMILMessage(this);
-        wait = true;
-        async.execute();
+        else{
+        	AsyncFetchSMILMessage async = new AsyncFetchSMILMessage(this);
+        	
+        	async.execute();
+        }
         
      // Our stuff from our original main activity   
      // since we're using ActionBar, first take off the title bar
@@ -209,7 +196,8 @@ public class SMILActivity extends Activity implements OnClickListener {
 		
 		switch (v.getId()) {
 		case 1:	// Compose Message
-			i = new Intent(this, ComposerList.class);
+			i = new Intent(this, NewMessageActivity.class);
+			i.putExtra("isNew", true);
 			this.startActivity(i);
 			break;
 		case 2:	// Compose From Template
@@ -219,12 +207,23 @@ public class SMILActivity extends Activity implements OnClickListener {
 		case 3:	// View Inbox
 			if(!wait){
 				i = new Intent(this, InboxList.class);
+				i.putExtra("isInbox", true);
 				this.startActivity(i);
 			}
 			else{
 				prog = ProgressDialog.show(this, "Communicating with the cloud.",
 			            "Please wait until the inbox is retrieved.", true);
-
+			}
+			break;
+		case 4:
+			if(!wait){ //Outbox
+				i = new Intent(this, InboxList.class);
+				i.putExtra("isInbox", false);
+				this.startActivity(i);
+			}
+			else{
+				prog2 = ProgressDialog.show(this, "Communicating with the cloud.",
+			            "Please wait until the outbox is retrieved.", true);
 			}
 		} 
 	}
@@ -315,12 +314,29 @@ public class SMILActivity extends Activity implements OnClickListener {
 		return inbox;
 	}
 
-	public void setInbox(List<SMILMessageProxy> inbox) {
-		SMILActivity.inbox = inbox;
+	public void setInbox(List<SMILMessageProxy> in) {
+		SMILActivity.inbox = new ArrayList<SMILMessageProxy>();
+		SMILActivity.outbox = new ArrayList<SMILMessageProxy>();
+		for(int i=0; i<in.size(); i++){ //inbox recipient==
+			if(in.get(i).getRecipient().equals(account)) 
+				inbox.add(in.get(i)); //Recipient = you
+			if(in.get(i).getSender().equals(account))
+				outbox.add(in.get(i)); //Sender = you
+		}
+		
+		
 		wait = false;
 		if(prog != null && prog.isShowing()){
 			prog.dismiss();
 			onClick(findViewById(3));
 		}
+		if(prog2 != null && prog2.isShowing()){
+			prog2.dismiss();
+			onClick(findViewById(4));
+		}
+	}
+	public static String getAccount()
+	{
+		return account;
 	}
 }

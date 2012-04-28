@@ -58,7 +58,7 @@ public class ComposerActivity extends PlayerActivity implements OnTouchListener 
     		//Log.w("touchEvent", "deltaTime = " + deltaTime + ", itemPressed=" + itemPressed);
         }
 
-		Log.w("touchEvent", "onDrag=" + inDrag + ", onCornerDrag=" + inCornerDrag + ", itemPressed=" + itemPressed);
+		//Log.w("touchEvent", "onDrag=" + inDrag + ", onCornerDrag=" + inCornerDrag + ", itemPressed=" + itemPressed);
 		
         LinkedList<AbstractSMILObject> q = OnScreen.Q().getQCopy();
         AbstractSMILObject o;
@@ -89,7 +89,7 @@ public class ComposerActivity extends PlayerActivity implements OnTouchListener 
         			processedTouch = true;
             		if (Waiting.isActive(d)) {	// and it's active
         				if (itemPressed) {
-            				Log.w("touchEvent", "active itemPressed");
+            				//Log.w("touchEvent", "active itemPressed");
             				Waiting.deactivateElement(d);
             				_playerCanvas.forceDraw();
             				itemPressed = false;

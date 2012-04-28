@@ -1,7 +1,9 @@
 package csc440.nuf.cache;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -33,6 +35,9 @@ public class SMILCache {
 	
 	public SMILCache(Context activity){
 		SMILCache.activity = activity;
+		File dir = new File(workingDir);
+		if(!dir.exists())
+			dir.mkdirs();
 	}
 	
 	public static void newFile(SMILMessageProxy smilMessage){
@@ -41,13 +46,19 @@ public class SMILCache {
 		String path = workingDir + "/" + filename;
 		File baseDir = new File(path);
 		if(!baseDir.exists()){
+			System.out.println("Make base dir: " + path);
 			baseDir.mkdirs();
 		}
 		else{
-			//throw new Exception("A file with this name already exists!");
+			System.err.println(path);
+			throw new Exception("A file with this name already exists!");
 		}
 		//new smil message file
 		File baseMessage = new File(path + "/" + filename + ".smil");
+		FileWriter fw = new FileWriter(baseMessage);
+		fw.append("<smil> <smilText begin=\"0.00\" dur=\"1s\" top=\"100\" left=\"100\" textFontSize=\"48px\" textColor=\"white\">" +
+				"Enter Text</smilText> </smil>");
+		fw.close();
 		baseMessage.createNewFile();
 		
 		//media folder
@@ -63,6 +74,7 @@ public class SMILCache {
 		async.updateMessage(smilMessage);
 		}
 		catch (Exception e) {
+			e.printStackTrace();
 			System.err.println("Unable to create new file: " + e);
 		}
 	}
